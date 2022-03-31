@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" 
+	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<link rel ="stylesheet" type="text/css" href="../stylesheet.css" title="Style">
+	<head>
+		<title>Boolean</title>
+	</head>
+	<body>
+		 	<h2>PrimitiveType Boolean</h2>
+		<!-- implements Interfaces -->
+
+		<!-- Implemented by -->
+				<p>Boolean Type (true, false) OR $-notated parameter OR $-notated expression.</p>
+		<dl>
+			<dt><B>Used in:</B></dt><dd>
+				<a href="ActivateControllerAction.html">ActivateControllerAction</a> ,
+				<a href="Actors.html">Actors</a> ,
+				<a href="AssignControllerAction.html">AssignControllerAction</a> ,
+				<a href="DistanceCondition.html">DistanceCondition</a> ,
+				<a href="LaneOffsetAction.html">LaneOffsetAction</a> ,
+				<a href="LateralDistanceAction.html">LateralDistanceAction</a> ,
+				<a href="LongitudinalDistanceAction.html">LongitudinalDistanceAction</a> ,
+				<a href="OverrideBrakeAction.html">OverrideBrakeAction</a> ,
+				<a href="OverrideClutchAction.html">OverrideClutchAction</a> ,
+				<a href="OverrideGearAction.html">OverrideGearAction</a> ,
+				<a href="OverrideParkingBrakeAction.html">OverrideParkingBrakeAction</a> ,
+				<a href="OverrideSteeringWheelAction.html">OverrideSteeringWheelAction</a> ,
+				<a href="OverrideThrottleAction.html">OverrideThrottleAction</a> ,
+				<a href="RelativeDistanceCondition.html">RelativeDistanceCondition</a> ,
+				<a href="RelativeTargetSpeed.html">RelativeTargetSpeed</a> ,
+				<a href="Route.html">Route</a> ,
+				<a href="TimeHeadwayCondition.html">TimeHeadwayCondition</a> ,
+				<a href="TimeOfDay.html">TimeOfDay</a> ,
+				<a href="TimeToCollisionCondition.html">TimeToCollisionCondition</a> ,
+				<a href="Trajectory.html">Trajectory</a> ,
+				<a href="VisibilityAction.html">VisibilityAction</a>
+		</dd></dl>
+		<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+				<thead>
+				<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+				<TH ALIGN="left" ><span class="makeInvisible"/><FONT SIZE="+1">XSD 1.1 Representation</FONT></TH></TR>
+				</thead>
+				<tbody class="visibleTable">
+				<TR><TD>
+				<table>
+				<tbody>
+				<tr>
+				  	<td><p class='code'>
+  <br /><span class='markup indent0'>&lt;xsd:simpleType <span class='attribute'>name</span>=<span class='literal'>"Boolean"</span>&gt;</span>
+  <br /><span class='markup indent2'>&lt;xsd:union <span class='attribute'>memberTypes</span>=<span class='literal'>"expression parameter xsd:boolean"</span>/&gt;</span>
+  <br /><span class='markup indent0'>&lt;/xsd:simpleType&gt;</span>
+</p></td>
+				</tr>
+				</tbody>
+				</table>
+				</TD></TR>
+				</tbody>
+		</TABLE>
+		</p>
+			<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+				<thead>
+				<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+				<TH ALIGN="left" ><span class="makeInvisible"/><FONT SIZE="+1">Change log from version 1.0</FONT></TH>
+				</TR>
+				</thead>
+				<tbody class="visibleTable">
+				<TR><TD style="padding-left : 10px;">
+				<ul class="tree">
+				<li><span class="treeCaret">Annotation changed</span>
+					<ul class="nested"><li class="noChildren">
+						<dl>
+						<dt class="ListPrefixFont">New Value</dt>
+						<dd>Boolean Type (true, false) OR $-notated parameter OR $-notated expression.</dd>
+						</dl>
+						<dl>
+						<dt class="ListPrefixFont">From 1.0.0</dt>
+						<dd>Boolean Type (true, false) OR $-notated Parameter.</dd>
+						</dl>
+					</li></ul>
+				</li>
+				</ul>
+				</TD></TR>
+				</tbody>
+			 </TABLE>
+			 </p>	
+		
+		
+		<p class="PropertyColor"><a href="../RenderedXsdOutput.html#Boolean">To XSD</a></p>
+		<script>
+		var toggler = document.getElementsByClassName("treeCaret");
+		var i;
+		
+		for (i = 0; i < toggler.length; i++) {
+		  toggler[i].addEventListener("click", function() {
+		    this.parentElement.querySelector(".nested").classList.toggle("active");
+		    this.classList.toggle("treeCaret-down");
+		  });
+		}
+		function addTableVisibilityToggle(toggler)
+		{
+			for (i = 0; i < toggler.length; i++) {
+			  toggler[i].addEventListener("click", function() {
+			    var invisibleTable = this.parentElement.parentElement.parentElement.parentElement.querySelector(".invisibleTable");
+			    if (invisibleTable != null)
+			    {
+			    	this.parentElement.parentElement.parentElement.parentElement.querySelector(".invisibleTable").className = "visibleTable";
+			    	this.className= "makeInvisible";
+			    	
+			    }else
+			    {
+			   		this.parentElement.parentElement.parentElement.parentElement.querySelector(".visibleTable").className = "invisibleTable";
+			   		this.className = "makeVisible";
+			    }
+			    
+			  });
+			}
+		}
+		togglerUnvisible = document.getElementsByClassName("makeVisible");
+		togglerVisible = document.getElementsByClassName("makeInvisible");
+		addTableVisibilityToggle(togglerUnvisible);
+		addTableVisibilityToggle(togglerVisible);
+		
+		</script>
+	</body>
+</html>
+

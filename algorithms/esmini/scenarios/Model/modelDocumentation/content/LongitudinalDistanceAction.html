@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" 
+	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<link rel ="stylesheet" type="text/css" href="../stylesheet.css" title="Style">
+	<head>
+		<title>LongitudinalDistanceAction</title>
+	</head>
+	<body>
+		 	<h2>Class LongitudinalDistanceAction</h2>
+		<dl>
+			<dt CLASS="ListPrefixFont">Applied Stereotypes:</dt><dd>
+			
+			XSDcomplexType
+		</dd>
+		</dl>
+		<!-- implements Interfaces -->
+				<dl>
+				<dt CLASS="ListPrefixFont">Implements Interfaces:</dt><dd CLASS="ListPrefixFont">
+					<a href="MotionControlAction.html">MotionControlAction</a>
+				</dd></dl>
+			
+		
+		<!-- Implemented by -->
+				<p>This action activates a controller for the longitudinal behavior of an entity in a way that a given distance or time gap to the reference entity is maintained.</p>
+		<dl>
+			<dt><B>Used in:</B></dt><dd>
+				<a href="LongitudinalAction.html">LongitudinalAction</a>
+		</dd></dl>
+			<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+				<thead>
+					<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+					<TH ALIGN="left" ><span class="makeInvisible"/><FONT SIZE="+1">Properties</FONT></TH></TR>
+				<thead>
+				<tbody class="visibleTable">
+				<TR><TD>
+				<table>
+				<thead>
+				<tr class="PropertyColor">
+					<th align="left">Name</th>
+					<th align="left">Type</th>
+					<th align="left">Cardinality</th>
+					<th align="left">AppliedStereotypes</th>
+					<th align="left">Description</th>
+				</tr>
+				</thead>
+				<tbody>				
+				<tr>
+				  	<td>continuous</td>
+				  		<td>boolean</td>
+					<td>1..1</td>
+					<td>			
+
+					XSDattribute
+					</td>
+					<td>If false, the action ends when the target distance is reached. If true it does not end and can only be stopped.</td>
+				</tr>
+				<tr>
+				  	<td>coordinateSystem</td>
+				  		<td><a href="CoordinateSystem.html">CoordinateSystem</a></td>
+					<td>0..1</td>
+					<td>			
+
+					XSDattribute
+					</td>
+					<td>Definition of the coordinate system to be used for calculations. If not provided the value is interpreted as "entity". If "entity", the coordinate system is interpreted as the actor's local coordinate system.
+</td>
+				</tr>
+				<tr>
+				  	<td>displacement</td>
+				  		<td><a href="LongitudinalDisplacement.html">LongitudinalDisplacement</a></td>
+					<td>0..1</td>
+					<td>			
+
+					XSDattribute
+					</td>
+					<td>The displacement in which the distance or time gap applies. Where omitted, 'trailingReferencedEntity' is assumed.</td>
+				</tr>
+				<tr>
+				  	<td>distance</td>
+				  		<td>double</td>
+					<td>0..1</td>
+					<td>			
+
+					XSDattribute
+					</td>
+					<td>Distance value, not to be used together with timeGap attribute. Unit: m; Range: [0..inf[.</td>
+				</tr>
+				<tr>
+				  	<td>entityRef</td>
+				  		<td><a href="Entity.html">Entity</a></td>
+					<td>1..1</td>
+					<td>			
+
+					nameRef, 
+
+					XSDattribute
+					</td>
+					<td>Reference entity the distance shall be kept to.</td>
+				</tr>
+				<tr>
+				  	<td>freespace</td>
+				  		<td>boolean</td>
+					<td>1..1</td>
+					<td>			
+
+					XSDattribute
+					</td>
+					<td>True: Distance is measured using the distance between closest bounding box points False: Reference point distance is used.</td>
+				</tr>
+				<tr>
+				  	<td>timeGap</td>
+				  		<td>double</td>
+					<td>0..1</td>
+					<td>			
+
+					XSDattribute
+					</td>
+					<td>Time gap value, not to be used together with distance attribute. Unit: s; Range: [0..inf[.</td>
+				</tr>
+				<tr>
+				  	<td>dynamicConstraints</td>
+				  		<td><a href="DynamicConstraints.html">DynamicConstraints</a></td>
+					<td>0..1</td>
+					<td>			
+
+					XSDelement
+					</td>
+					<td>Parameter that assigns either unlimited dynamics (if ommitted) or limited maxAcceleration/maxDeceleration/maxSpeed to the action.</td>
+				</tr>
+				</tbody>
+				</table>
+				</TD><TR>
+				</tbody>
+				</TABLE>
+				</p>
+		<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+				<thead>
+				<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+				<TH ALIGN="left" ><span class="makeInvisible"/><FONT SIZE="+1">XSD 1.1 Representation</FONT></TH></TR>
+				</thead>
+				<tbody class="visibleTable">
+				<TR><TD>
+				<table>
+				<tbody>
+				<tr>
+				  	<td><p class='code'>
+  <br /><span class='markup indent0'>&lt;xsd:complexType <span class='attribute'>name</span>=<span class='literal'>"LongitudinalDistanceAction"</span>&gt;</span>
+  <br /><span class='markup indent2'>&lt;xsd:all&gt;</span>
+  <br /><span class='markup indent4'>&lt;xsd:element <span class='attribute'>name</span>=<span class='literal'>"DynamicConstraints"</span> <span class='attribute'>type</span>=<span class='literal'>"</span><a href='./DynamicConstraints.html'><span>DynamicConstraints</span></a><span class='literal'>"</span> <span class='attribute'>minOccurs</span>=<span class='literal'>"0"</span>/&gt;</span>
+  <br /><span class='markup indent2'>&lt;/xsd:all&gt;</span>
+  <br /><span class='markup indent2'>&lt;xsd:attribute <span class='attribute'>name</span>=<span class='literal'>"entityRef"</span> <span class='attribute'>type</span>=<span class='literal'>"</span><a href='./String.html'><span>String</span></a><span class='literal'>"</span> <span class='attribute'>use</span>=<span class='literal'>"required"</span>/&gt;</span>
+  <br /><span class='markup indent2'>&lt;xsd:attribute <span class='attribute'>name</span>=<span class='literal'>"continuous"</span> <span class='attribute'>type</span>=<span class='literal'>"</span><a href='./Boolean.html'><span>Boolean</span></a><span class='literal'>"</span> <span class='attribute'>use</span>=<span class='literal'>"required"</span>/&gt;</span>
+  <br /><span class='markup indent2'>&lt;xsd:attribute <span class='attribute'>name</span>=<span class='literal'>"distance"</span> <span class='attribute'>type</span>=<span class='literal'>"</span><a href='./Double.html'><span>Double</span></a><span class='literal'>"</span>/&gt;</span>
+  <br /><span class='markup indent2'>&lt;xsd:attribute <span class='attribute'>name</span>=<span class='literal'>"freespace"</span> <span class='attribute'>type</span>=<span class='literal'>"</span><a href='./Boolean.html'><span>Boolean</span></a><span class='literal'>"</span> <span class='attribute'>use</span>=<span class='literal'>"required"</span>/&gt;</span>
+  <br /><span class='markup indent2'>&lt;xsd:attribute <span class='attribute'>name</span>=<span class='literal'>"timeGap"</span> <span class='attribute'>type</span>=<span class='literal'>"</span><a href='./Double.html'><span>Double</span></a><span class='literal'>"</span>/&gt;</span>
+  <br /><span class='markup indent2'>&lt;xsd:attribute <span class='attribute'>name</span>=<span class='literal'>"displacement"</span> <span class='attribute'>type</span>=<span class='literal'>"</span><a href='./LongitudinalDisplacement.html'><span>LongitudinalDisplacement</span></a><span class='literal'>"</span>/&gt;</span>
+  <br /><span class='markup indent2'>&lt;xsd:attribute <span class='attribute'>name</span>=<span class='literal'>"coordinateSystem"</span> <span class='attribute'>type</span>=<span class='literal'>"</span><a href='./CoordinateSystem.html'><span>CoordinateSystem</span></a><span class='literal'>"</span>/&gt;</span>
+  <br /><span class='markup indent0'>&lt;/xsd:complexType&gt;</span>
+</p></td>
+				</tr>
+				</tbody>
+				</table>
+				</TD></TR>
+				</tbody>
+		</TABLE>
+		</p>
+			<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+				<thead>
+				<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+				<TH ALIGN="left" ><span class="makeInvisible"/><FONT SIZE="+1">Change log from version 1.0</FONT></TH>
+				</TR>
+				</thead>
+				<tbody class="visibleTable">
+				<TR><TD style="padding-left : 10px;">
+				<ul class="tree">
+				<li><span class="treeCaret">Annotation changed</span>
+					<ul class="nested"><li class="noChildren">
+						<dl>
+						<dt class="ListPrefixFont">New Value</dt>
+						<dd>This action activates a controller for the longitudinal behavior of an entity in a way that a given distance or time gap to the reference entity is maintained.</dd>
+						</dl>
+						<dl>
+						<dt class="ListPrefixFont">From 1.0.0</dt>
+						<dd>This action activates a controller for the longitudinal behavior of an entity in a way that a given distance or time gap to the reference entity is maintained. The dynamic behavior of the controller may be limited by parameters. Choosing a non-limited dynamic behavior represents a rigid time or distance connection between actor and object.</dd>
+						</dl>
+					</li></ul>
+				</li>
+				</ul>
+				<ul class="tree">
+				<li class="noChildren">Property &apos;coordinateSystem&apos; created.</li>
+				</ul>
+				<ul class="tree">
+				<li class="noChildren">Property &apos;displacement&apos; created.</li>
+				</ul>
+				</TD></TR>
+				</tbody>
+			 </TABLE>
+			 </p>	
+			<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+				<thead>
+				<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+				<TH ALIGN="left">
+				<span class="makeVisible"><FONT SIZE="+1">Stereotype Details Information</FONT></span></TH>
+				</TR>
+				</thead>
+				<tbody class="invisibleTable">
+				<TR><TD style="padding-left : 10px;">
+				<ul class="tree">
+				<li><span class="ListPrefixFont">Class</span>
+					<ul class="active">
+						<li class="noChildren">XSDcomplexType [modelGroup: "all"; mixed: "false"]</li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>continuous</i></span>
+					<ul class="active">
+						<li class="noChildren">XSDattribute </li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>coordinateSystem</i></span>
+					<ul class="active">
+						<li class="noChildren">XSDattribute </li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>displacement</i></span>
+					<ul class="active">
+						<li class="noChildren">XSDattribute </li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>distance</i></span>
+					<ul class="active">
+						<li class="noChildren">XSDattribute </li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>entityRef</i></span>
+					<ul class="active">
+						<li class="noChildren">nameRef [xsdType: "string"]</li>
+					</ul>
+					<ul class="active">
+						<li class="noChildren">XSDattribute </li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>freespace</i></span>
+					<ul class="active">
+						<li class="noChildren">XSDattribute </li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>timeGap</i></span>
+					<ul class="active">
+						<li class="noChildren">XSDattribute </li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>dynamicConstraints</i></span>
+					<ul class="active">
+						<li class="noChildren">XSDelement [position: "2"]</li>
+					</ul>
+				</li>
+				</ul>
+				</TD></TR>
+				<tbody>
+			 </TABLE>
+			 </p>	
+		
+		
+		<p class="PropertyColor"><a href="../RenderedXsdOutput.html#LongitudinalDistanceAction">To XSD</a> <a href="LongitudinalDistanceActionTreeView.html">To XSD Tree</a></p>
+		<script>
+		var toggler = document.getElementsByClassName("treeCaret");
+		var i;
+		
+		for (i = 0; i < toggler.length; i++) {
+		  toggler[i].addEventListener("click", function() {
+		    this.parentElement.querySelector(".nested").classList.toggle("active");
+		    this.classList.toggle("treeCaret-down");
+		  });
+		}
+		function addTableVisibilityToggle(toggler)
+		{
+			for (i = 0; i < toggler.length; i++) {
+			  toggler[i].addEventListener("click", function() {
+			    var invisibleTable = this.parentElement.parentElement.parentElement.parentElement.querySelector(".invisibleTable");
+			    if (invisibleTable != null)
+			    {
+			    	this.parentElement.parentElement.parentElement.parentElement.querySelector(".invisibleTable").className = "visibleTable";
+			    	this.className= "makeInvisible";
+			    	
+			    }else
+			    {
+			   		this.parentElement.parentElement.parentElement.parentElement.querySelector(".visibleTable").className = "invisibleTable";
+			   		this.className = "makeVisible";
+			    }
+			    
+			  });
+			}
+		}
+		togglerUnvisible = document.getElementsByClassName("makeVisible");
+		togglerVisible = document.getElementsByClassName("makeInvisible");
+		addTableVisibilityToggle(togglerUnvisible);
+		addTableVisibilityToggle(togglerVisible);
+		
+		</script>
+	</body>
+</html>
+

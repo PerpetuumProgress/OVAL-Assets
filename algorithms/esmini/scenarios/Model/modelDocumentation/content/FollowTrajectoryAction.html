@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" 
+	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<link rel ="stylesheet" type="text/css" href="../stylesheet.css" title="Style">
+	<head>
+		<title>FollowTrajectoryAction</title>
+	</head>
+	<body>
+		 	<h2>Class FollowTrajectoryAction</h2>
+		<dl>
+			<dt CLASS="ListPrefixFont">Applied Stereotypes:</dt><dd>
+			
+			XSDcomplexType
+		</dd>
+		</dl>
+		<!-- implements Interfaces -->
+				<dl>
+				<dt CLASS="ListPrefixFont">Implements Interfaces:</dt><dd CLASS="ListPrefixFont">
+					<a href="MotionControlAction.html">MotionControlAction</a>
+				</dd></dl>
+			
+		
+		<!-- Implemented by -->
+				<p>Controls an entity to follow a trajectory using vertices, timings (optionally) and a corresponding interpolation strategy. The trajectory can be instantiated from a catalog type, or defined within this declaration. Use trajectoryRef to define a trajectory.</p>
+		<dl>
+			<dt><B>Used in:</B></dt><dd>
+				<a href="RoutingAction.html">RoutingAction</a>
+		</dd></dl>
+			<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+				<thead>
+					<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+					<TH ALIGN="left" ><span class="makeInvisible"/><FONT SIZE="+1">Properties</FONT></TH></TR>
+				<thead>
+				<tbody class="visibleTable">
+				<TR><TD>
+				<table>
+				<thead>
+				<tr class="PropertyColor">
+					<th align="left">Name</th>
+					<th align="left">Type</th>
+					<th align="left">Cardinality</th>
+					<th align="left">AppliedStereotypes</th>
+					<th align="left">Description</th>
+				</tr>
+				</thead>
+				<tbody>				
+				<tr>
+				  	<td>initialDistanceOffset</td>
+				  		<td>double</td>
+					<td>0..1</td>
+					<td>			
+
+					XSDattribute
+					</td>
+					<td>An offset into the trajectory.  This has the effect of logically truncating the trajectory, so the resulting new trajectory starts at that distance offset.  Where a timing TimeReference fields is provided, the time that would be taken to reach this point is deducted from all calculated waypoint time values.  Unit: m; Range [0..arclength of the trajectory].</td>
+				</tr>
+				<tr>
+				  	<td>trajectory</td>
+				  		<td><a href="Trajectory.html">Trajectory</a></td>
+					<td>0..1</td>
+					<td>			
+
+					<span class ='DeprecatedFont'>deprecated</span>, 
+
+					XSDelement
+					</td>
+					<td>Trajectory definition. Must not be used when catalogReference or trajectoryRef is set.</td>
+				</tr>
+				<tr>
+				  	<td>catalogReference</td>
+				  		<td><a href="CatalogReference.html">CatalogReference</a></td>
+					<td>0..1</td>
+					<td>			
+
+					<span class ='DeprecatedFont'>deprecated</span>, 
+
+					XSDelement
+					</td>
+					<td>A reference to the trajectory type in a catalog. Must not be used when trajectory or trajectoryRef is set.</td>
+				</tr>
+				<tr>
+				  	<td>timeReference</td>
+				  		<td><a href="TimeReference.html">TimeReference</a></td>
+					<td>1..1</td>
+					<td>			
+
+					XSDelement
+					</td>
+					<td>Defines if time information provided within the trajectory should be considered. If so, it may be used as either absolute or relative time along the trajectory in order to define longitudinal velocity of the actor. Moreover, a time offset or time scaling may be applied.</td>
+				</tr>
+				<tr>
+				  	<td>trajectoryFollowingMode</td>
+				  		<td><a href="TrajectoryFollowingMode.html">TrajectoryFollowingMode</a></td>
+					<td>1..1</td>
+					<td>			
+
+					XSDelement
+					</td>
+					<td>The mode how to follow the given trajectory.</td>
+				</tr>
+				<tr>
+				  	<td>trajectoryRef</td>
+				  		<td><a href="TrajectoryRef.html">TrajectoryRef</a></td>
+					<td>0..1</td>
+					<td>			
+
+					XSDelement
+					</td>
+					<td>Either a trajectory definition or a catalog reference to the trajectory to be followed.</td>
+				</tr>
+				</tbody>
+				</table>
+				</TD><TR>
+				</tbody>
+				</TABLE>
+				</p>
+			<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+				<thead>
+				<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+				<TH ALIGN="left">
+				<span class="makeInvisible"><FONT SIZE="+1">Deprecation</FONT></span></TH>
+				</TR>
+				</thead>
+				<tbody class="visibleTable">
+				<TR><TD style="padding-left : 10px;">
+				<ul class="tree">
+				<li><span class="DeprecatedFont">Property <i>trajectory</i> deprecated. With version 1.1. Use trajectoryRef instead..</span></li>
+				<li><span class="DeprecatedFont">Property <i>catalogReference</i> deprecated. With version 1.1. Use trajectoryRef instead..</span></li>
+				</ul>
+				</TD></TR>
+				<tbody>
+			 </TABLE>
+			 </p>	
+		<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+				<thead>
+				<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+				<TH ALIGN="left" ><span class="makeInvisible"/><FONT SIZE="+1">XSD 1.1 Representation</FONT></TH></TR>
+				</thead>
+				<tbody class="visibleTable">
+				<TR><TD>
+				<table>
+				<tbody>
+				<tr>
+				  	<td><p class='code'>
+  <br /><span class='markup indent0'>&lt;xsd:complexType <span class='attribute'>name</span>=<span class='literal'>"FollowTrajectoryAction"</span>&gt;</span>
+  <br /><span class='markup indent2'>&lt;xsd:all&gt;</span>
+  <br /><span class='markup indent4'>&lt;xsd:element <span class='attribute'>name</span>=<span class='literal'>"Trajectory"</span> <span class='attribute'>type</span>=<span class='literal'>"</span><a href='./Trajectory.html'><span>Trajectory</span></a><span class='literal'>"</span> <span class='attribute'>minOccurs</span>=<span class='literal'>"0"</span>&gt;</span>
+  <br /><span class='markup indent6'>&lt;xsd:annotation&gt;</span>
+  <br /><span class='markup indent8'>&lt;xsd:appinfo&gt;</span>
+  <br /><span class='markup indent10'>deprecated</span>
+  <br /><span class='markup indent8'>&lt;/xsd:appinfo&gt;</span>
+  <br /><span class='markup indent6'>&lt;/xsd:annotation&gt;</span>
+  <br /><span class='markup indent4'>&lt;/xsd:element&gt;</span>
+  <br /><span class='markup indent4'>&lt;xsd:element <span class='attribute'>name</span>=<span class='literal'>"CatalogReference"</span> <span class='attribute'>type</span>=<span class='literal'>"</span><a href='./CatalogReference.html'><span>CatalogReference</span></a><span class='literal'>"</span> <span class='attribute'>minOccurs</span>=<span class='literal'>"0"</span>&gt;</span>
+  <br /><span class='markup indent6'>&lt;xsd:annotation&gt;</span>
+  <br /><span class='markup indent8'>&lt;xsd:appinfo&gt;</span>
+  <br /><span class='markup indent10'>deprecated</span>
+  <br /><span class='markup indent8'>&lt;/xsd:appinfo&gt;</span>
+  <br /><span class='markup indent6'>&lt;/xsd:annotation&gt;</span>
+  <br /><span class='markup indent4'>&lt;/xsd:element&gt;</span>
+  <br /><span class='markup indent4'>&lt;xsd:element <span class='attribute'>name</span>=<span class='literal'>"TimeReference"</span> <span class='attribute'>type</span>=<span class='literal'>"</span><a href='./TimeReference.html'><span>TimeReference</span></a><span class='literal'>"</span>/&gt;</span>
+  <br /><span class='markup indent4'>&lt;xsd:element <span class='attribute'>name</span>=<span class='literal'>"TrajectoryFollowingMode"</span> <span class='attribute'>type</span>=<span class='literal'>"</span><a href='./TrajectoryFollowingMode.html'><span>TrajectoryFollowingMode</span></a><span class='literal'>"</span>/&gt;</span>
+  <br /><span class='markup indent4'>&lt;xsd:element <span class='attribute'>name</span>=<span class='literal'>"TrajectoryRef"</span> <span class='attribute'>type</span>=<span class='literal'>"</span><a href='./TrajectoryRef.html'><span>TrajectoryRef</span></a><span class='literal'>"</span> <span class='attribute'>minOccurs</span>=<span class='literal'>"0"</span>/&gt;</span>
+  <br /><span class='markup indent2'>&lt;/xsd:all&gt;</span>
+  <br /><span class='markup indent2'>&lt;xsd:attribute <span class='attribute'>name</span>=<span class='literal'>"initialDistanceOffset"</span> <span class='attribute'>type</span>=<span class='literal'>"</span><a href='./Double.html'><span>Double</span></a><span class='literal'>"</span>/&gt;</span>
+  <br /><span class='markup indent0'>&lt;/xsd:complexType&gt;</span>
+</p></td>
+				</tr>
+				</tbody>
+				</table>
+				</TD></TR>
+				</tbody>
+		</TABLE>
+		</p>
+			<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+				<thead>
+				<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+				<TH ALIGN="left" ><span class="makeInvisible"/><FONT SIZE="+1">Change log from version 1.0</FONT></TH>
+				</TR>
+				</thead>
+				<tbody class="visibleTable">
+				<TR><TD style="padding-left : 10px;">
+				<ul class="tree">
+				<li><span class="treeCaret">Annotation changed</span>
+					<ul class="nested"><li class="noChildren">
+						<dl>
+						<dt class="ListPrefixFont">New Value</dt>
+						<dd>Controls an entity to follow a trajectory using vertices, timings (optionally) and a corresponding interpolation strategy. The trajectory can be instantiated from a catalog type, or defined within this declaration. Use trajectoryRef to define a trajectory.</dd>
+						</dl>
+						<dl>
+						<dt class="ListPrefixFont">From 1.0.0</dt>
+						<dd>Controls an entity to follow a trajectory using vertices, timings (optionally) and a corresponding interpolation strategy. The trajectory can be instantiated from a catalog type, or defined within this declaration.</dd>
+						</dl>
+					</li></ul>
+				</li>
+				</ul>
+				<ul class="tree">
+				<li class="noChildren">Property &apos;initialDistanceOffset&apos; created.</li>
+				</ul>
+				<ul class="tree">
+				<li class="noChildren">Property &apos;trajectoryRef&apos; created.</li>
+				</ul>
+				<ul class="tree">
+				<li><span class="treeCaret">Property &apos;trajectory&apos;. Annotation changed.</span>
+					<ul class="nested"><li class="noChildren">
+						<dl>
+						<dt class="ListPrefixFont">New Value</dt>
+						<dd>Trajectory definition. Must not be used when catalogReference or trajectoryRef is set.</dd>
+						</dl>
+						<dl>
+						<dt class="ListPrefixFont">From 1.0.0</dt>
+						<dd>Trajectory definition.</dd>
+						</dl>
+					</li></ul>
+				</li>
+				</ul>
+				<ul class="tree">
+				<li class="noChildren">Property &apos;trajectory&apos;. Stereotype &lt;&lt;deprecated&gt;&gt; applied.</li>
+				</ul>
+				<ul class="tree">
+				<li><span class="treeCaret">Property &apos;catalogReference&apos;. Annotation changed.</span>
+					<ul class="nested"><li class="noChildren">
+						<dl>
+						<dt class="ListPrefixFont">New Value</dt>
+						<dd>A reference to the trajectory type in a catalog. Must not be used when trajectory or trajectoryRef is set.</dd>
+						</dl>
+						<dl>
+						<dt class="ListPrefixFont">From 1.0.0</dt>
+						<dd>A reference to the trajectory type in a catalog.</dd>
+						</dl>
+					</li></ul>
+				</li>
+				</ul>
+				<ul class="tree">
+				<li class="noChildren">Property &apos;catalogReference&apos;. Stereotype &lt;&lt;deprecated&gt;&gt; applied.</li>
+				</ul>
+				</TD></TR>
+				</tbody>
+			 </TABLE>
+			 </p>	
+			<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+				<thead>
+				<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+				<TH ALIGN="left">
+				<span class="makeVisible"><FONT SIZE="+1">Stereotype Details Information</FONT></span></TH>
+				</TR>
+				</thead>
+				<tbody class="invisibleTable">
+				<TR><TD style="padding-left : 10px;">
+				<ul class="tree">
+				<li><span class="ListPrefixFont">Class</span>
+					<ul class="active">
+						<li class="noChildren">XSDcomplexType [modelGroup: "all"; mixed: "false"]</li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>initialDistanceOffset</i></span>
+					<ul class="active">
+						<li class="noChildren">XSDattribute </li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>trajectory</i></span>
+					<ul class="active">
+						<li class="noChildren">deprecated [withVersion: "1.1"; comment: "Use trajectoryRef instead."]</li>
+					</ul>
+					<ul class="active">
+						<li class="noChildren">XSDelement [position: "1"]</li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>catalogReference</i></span>
+					<ul class="active">
+						<li class="noChildren">deprecated [withVersion: "1.1"; comment: "Use trajectoryRef instead."]</li>
+					</ul>
+					<ul class="active">
+						<li class="noChildren">XSDelement [position: "2"]</li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>timeReference</i></span>
+					<ul class="active">
+						<li class="noChildren">XSDelement [position: "3"]</li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>trajectoryFollowingMode</i></span>
+					<ul class="active">
+						<li class="noChildren">XSDelement [position: "4"]</li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>trajectoryRef</i></span>
+					<ul class="active">
+						<li class="noChildren">XSDelement [position: "5"]</li>
+					</ul>
+				</li>
+				</ul>
+				</TD></TR>
+				<tbody>
+			 </TABLE>
+			 </p>	
+		
+		
+		<p class="PropertyColor"><a href="../RenderedXsdOutput.html#FollowTrajectoryAction">To XSD</a> <a href="FollowTrajectoryActionTreeView.html">To XSD Tree</a></p>
+		<script>
+		var toggler = document.getElementsByClassName("treeCaret");
+		var i;
+		
+		for (i = 0; i < toggler.length; i++) {
+		  toggler[i].addEventListener("click", function() {
+		    this.parentElement.querySelector(".nested").classList.toggle("active");
+		    this.classList.toggle("treeCaret-down");
+		  });
+		}
+		function addTableVisibilityToggle(toggler)
+		{
+			for (i = 0; i < toggler.length; i++) {
+			  toggler[i].addEventListener("click", function() {
+			    var invisibleTable = this.parentElement.parentElement.parentElement.parentElement.querySelector(".invisibleTable");
+			    if (invisibleTable != null)
+			    {
+			    	this.parentElement.parentElement.parentElement.parentElement.querySelector(".invisibleTable").className = "visibleTable";
+			    	this.className= "makeInvisible";
+			    	
+			    }else
+			    {
+			   		this.parentElement.parentElement.parentElement.parentElement.querySelector(".visibleTable").className = "invisibleTable";
+			   		this.className = "makeVisible";
+			    }
+			    
+			  });
+			}
+		}
+		togglerUnvisible = document.getElementsByClassName("makeVisible");
+		togglerVisible = document.getElementsByClassName("makeInvisible");
+		addTableVisibilityToggle(togglerUnvisible);
+		addTableVisibilityToggle(togglerVisible);
+		
+		</script>
+	</body>
+</html>
+

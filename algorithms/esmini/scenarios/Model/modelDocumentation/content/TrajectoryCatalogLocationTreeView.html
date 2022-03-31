@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" 
+	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<link rel ="stylesheet" type="text/css" href="../stylesheet.css" title="Style">
+	
+  <head>
+  <title>TrajectoryCatalogLocation Tree View</title>
+  </head>
+<body>
+
+<!-- load the d3.js library -->	
+<script src="d3/d3.v3.min.js"></script>
+<script src="data.js"></script>
+<script src="TreeHelper.js"></script>
+	
+<script>
+// ************** Generate the tree diagram	 *****************
+initSvg(d3);
+setTypes(typedata["types"]);
+
+
+var typeNode = getTypeNode(getTypes(), "TrajectoryCatalogLocation");
+
+setRoot({
+    "name": typeNode.name,
+	"modelType":typeNode.modelType,
+	"typeNode": typeNode
+});
+
+getRoot().x0 = height / 2;
+getRoot().y0 = 0;
+
+update(getRoot());
+//d3.select(self.frameElement).style("height", "500px");
+</script>
+	
+  </body>
+</html>

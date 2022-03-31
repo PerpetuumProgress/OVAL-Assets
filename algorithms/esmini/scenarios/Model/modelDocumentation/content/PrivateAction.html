@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" 
+	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<link rel ="stylesheet" type="text/css" href="../stylesheet.css" title="Style">
+	<head>
+		<title>PrivateAction</title>
+	</head>
+	<body>
+		 	<h2>Class PrivateAction</h2>
+		<dl>
+			<dt CLASS="ListPrefixFont">Applied Stereotypes:</dt><dd>
+			
+			XSDcomplexType, 
+
+			union
+		</dd>
+		</dl>
+		<!-- implements Interfaces -->
+
+		
+		<!-- Implemented by -->
+				<p>Actions applied to one or multiple entities. Either the entities are referenced in the actors of the enclosing maneuver group or the single entity is referenced in the enclosing Private instance.</p>
+		<dl>
+			<dt><B>Used in:</B></dt><dd>
+				<a href="Action.html">Action</a> ,
+				<a href="Private.html">Private</a>
+		</dd></dl>
+			<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+				<thead>
+					<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+					<TH ALIGN="left" ><span class="makeInvisible"/><FONT SIZE="+1">Properties</FONT></TH></TR>
+				<thead>
+				<tbody class="visibleTable">
+				<TR><TD>
+				<table>
+				<thead>
+				<tr class="PropertyColor">
+					<th align="left">Name</th>
+					<th align="left">Type</th>
+					<th align="left">Cardinality</th>
+					<th align="left">AppliedStereotypes</th>
+					<th align="left">Description</th>
+				</tr>
+				</thead>
+				<tbody>				
+				<tr>
+				  	<td>longitudinalAction</td>
+				  		<td><a href="LongitudinalAction.html">LongitudinalAction</a></td>
+					<td>0..1</td>
+					<td>			
+
+					xor, 
+
+					XSDelement
+					</td>
+					<td>Applies longitudinal control behavior on the reference entity/entities. Either a SpeedAction or a LongitudinalDistanceAction.</td>
+				</tr>
+				<tr>
+				  	<td>lateralAction</td>
+				  		<td><a href="LateralAction.html">LateralAction</a></td>
+					<td>0..1</td>
+					<td>			
+
+					xor, 
+
+					XSDelement
+					</td>
+					<td>Applies lateral control behavior on the reference entity/entities. Either a LaneChangeAction, LaneOffsetAction or a LateralDistanceAction.</td>
+				</tr>
+				<tr>
+				  	<td>visibilityAction</td>
+				  		<td><a href="VisibilityAction.html">VisibilityAction</a></td>
+					<td>0..1</td>
+					<td>			
+
+					xor, 
+
+					XSDelement
+					</td>
+					<td>Sets visibility attributes on the reference entity/entities.</td>
+				</tr>
+				<tr>
+				  	<td>synchronizeAction</td>
+				  		<td><a href="SynchronizeAction.html">SynchronizeAction</a></td>
+					<td>0..1</td>
+					<td>			
+
+					xor, 
+
+					XSDelement
+					</td>
+					<td>Synchronizes the reference entity/entities with a master entity. A target position is provided for the entity and for the master entity to be reached at the same time.</td>
+				</tr>
+				<tr>
+				  	<td>activateControllerAction</td>
+				  		<td><a href="ActivateControllerAction.html">ActivateControllerAction</a></td>
+					<td>0..1</td>
+					<td>			
+
+					<span class ='DeprecatedFont'>deprecated</span>, 
+
+					xor, 
+
+					XSDelement
+					</td>
+					<td>Activates/ deactivates a controller on the reference entity/entities.</td>
+				</tr>
+				<tr>
+				  	<td>controllerAction</td>
+				  		<td><a href="ControllerAction.html">ControllerAction</a></td>
+					<td>0..1</td>
+					<td>			
+
+					xor, 
+
+					XSDelement
+					</td>
+					<td>Assigns a controller to the reference entity/entities.</td>
+				</tr>
+				<tr>
+				  	<td>teleportAction</td>
+				  		<td><a href="TeleportAction.html">TeleportAction</a></td>
+					<td>0..1</td>
+					<td>			
+
+					xor, 
+
+					XSDelement
+					</td>
+					<td>Assigns a position to the reference entity/entities.</td>
+				</tr>
+				<tr>
+				  	<td>routingAction</td>
+				  		<td><a href="RoutingAction.html">RoutingAction</a></td>
+					<td>0..1</td>
+					<td>			
+
+					xor, 
+
+					XSDelement
+					</td>
+					<td>Applies an AssignRouteAction, a FollowTrajectoryAction or an AcquirePositionAction to the reference entity/entities.</td>
+				</tr>
+				</tbody>
+				</table>
+				</TD><TR>
+				</tbody>
+				</TABLE>
+				</p>
+			<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+				<thead>
+				<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+				<TH ALIGN="left">
+				<span class="makeInvisible"><FONT SIZE="+1">Deprecation</FONT></span></TH>
+				</TR>
+				</thead>
+				<tbody class="visibleTable">
+				<TR><TD style="padding-left : 10px;">
+				<ul class="tree">
+				<li><span class="DeprecatedFont">Property <i>activateControllerAction</i> deprecated. With version 1.1. Moved to ControllerAction.</span></li>
+				</ul>
+				</TD></TR>
+				<tbody>
+			 </TABLE>
+			 </p>	
+		<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+				<thead>
+				<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+				<TH ALIGN="left" ><span class="makeInvisible"/><FONT SIZE="+1">XSD 1.1 Representation</FONT></TH></TR>
+				</thead>
+				<tbody class="visibleTable">
+				<TR><TD>
+				<table>
+				<tbody>
+				<tr>
+				  	<td><p class='code'>
+  <br /><span class='markup indent0'>&lt;xsd:complexType <span class='attribute'>name</span>=<span class='literal'>"PrivateAction"</span>&gt;</span>
+  <br /><span class='markup indent2'>&lt;xsd:choice&gt;</span>
+  <br /><span class='markup indent4'>&lt;xsd:element <span class='attribute'>name</span>=<span class='literal'>"LongitudinalAction"</span> <span class='attribute'>type</span>=<span class='literal'>"</span><a href='./LongitudinalAction.html'><span>LongitudinalAction</span></a><span class='literal'>"</span> <span class='attribute'>minOccurs</span>=<span class='literal'>"0"</span>/&gt;</span>
+  <br /><span class='markup indent4'>&lt;xsd:element <span class='attribute'>name</span>=<span class='literal'>"LateralAction"</span> <span class='attribute'>type</span>=<span class='literal'>"</span><a href='./LateralAction.html'><span>LateralAction</span></a><span class='literal'>"</span> <span class='attribute'>minOccurs</span>=<span class='literal'>"0"</span>/&gt;</span>
+  <br /><span class='markup indent4'>&lt;xsd:element <span class='attribute'>name</span>=<span class='literal'>"VisibilityAction"</span> <span class='attribute'>type</span>=<span class='literal'>"</span><a href='./VisibilityAction.html'><span>VisibilityAction</span></a><span class='literal'>"</span> <span class='attribute'>minOccurs</span>=<span class='literal'>"0"</span>/&gt;</span>
+  <br /><span class='markup indent4'>&lt;xsd:element <span class='attribute'>name</span>=<span class='literal'>"SynchronizeAction"</span> <span class='attribute'>type</span>=<span class='literal'>"</span><a href='./SynchronizeAction.html'><span>SynchronizeAction</span></a><span class='literal'>"</span> <span class='attribute'>minOccurs</span>=<span class='literal'>"0"</span>/&gt;</span>
+  <br /><span class='markup indent4'>&lt;xsd:element <span class='attribute'>name</span>=<span class='literal'>"ActivateControllerAction"</span> <span class='attribute'>type</span>=<span class='literal'>"</span><a href='./ActivateControllerAction.html'><span>ActivateControllerAction</span></a><span class='literal'>"</span> <span class='attribute'>minOccurs</span>=<span class='literal'>"0"</span>&gt;</span>
+  <br /><span class='markup indent6'>&lt;xsd:annotation&gt;</span>
+  <br /><span class='markup indent8'>&lt;xsd:appinfo&gt;</span>
+  <br /><span class='markup indent10'>deprecated</span>
+  <br /><span class='markup indent8'>&lt;/xsd:appinfo&gt;</span>
+  <br /><span class='markup indent6'>&lt;/xsd:annotation&gt;</span>
+  <br /><span class='markup indent4'>&lt;/xsd:element&gt;</span>
+  <br /><span class='markup indent4'>&lt;xsd:element <span class='attribute'>name</span>=<span class='literal'>"ControllerAction"</span> <span class='attribute'>type</span>=<span class='literal'>"</span><a href='./ControllerAction.html'><span>ControllerAction</span></a><span class='literal'>"</span> <span class='attribute'>minOccurs</span>=<span class='literal'>"0"</span>/&gt;</span>
+  <br /><span class='markup indent4'>&lt;xsd:element <span class='attribute'>name</span>=<span class='literal'>"TeleportAction"</span> <span class='attribute'>type</span>=<span class='literal'>"</span><a href='./TeleportAction.html'><span>TeleportAction</span></a><span class='literal'>"</span> <span class='attribute'>minOccurs</span>=<span class='literal'>"0"</span>/&gt;</span>
+  <br /><span class='markup indent4'>&lt;xsd:element <span class='attribute'>name</span>=<span class='literal'>"RoutingAction"</span> <span class='attribute'>type</span>=<span class='literal'>"</span><a href='./RoutingAction.html'><span>RoutingAction</span></a><span class='literal'>"</span> <span class='attribute'>minOccurs</span>=<span class='literal'>"0"</span>/&gt;</span>
+  <br /><span class='markup indent2'>&lt;/xsd:choice&gt;</span>
+  <br /><span class='markup indent0'>&lt;/xsd:complexType&gt;</span>
+</p></td>
+				</tr>
+				</tbody>
+				</table>
+				</TD></TR>
+				</tbody>
+		</TABLE>
+		</p>
+			<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+				<thead>
+				<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+				<TH ALIGN="left" ><span class="makeInvisible"/><FONT SIZE="+1">Change log from version 1.0</FONT></TH>
+				</TR>
+				</thead>
+				<tbody class="visibleTable">
+				<TR><TD style="padding-left : 10px;">
+				<ul class="tree">
+				<li class="noChildren">Property &apos;activateControllerAction&apos;. Stereotype &lt;&lt;deprecated&gt;&gt; applied.</li>
+				</ul>
+				</TD></TR>
+				</tbody>
+			 </TABLE>
+			 </p>	
+			<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+				<thead>
+				<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+				<TH ALIGN="left">
+				<span class="makeVisible"><FONT SIZE="+1">Stereotype Details Information</FONT></span></TH>
+				</TR>
+				</thead>
+				<tbody class="invisibleTable">
+				<TR><TD style="padding-left : 10px;">
+				<ul class="tree">
+				<li><span class="ListPrefixFont">Class</span>
+					<ul class="active">
+						<li class="noChildren">XSDcomplexType [modelGroup: "choice"; mixed: "false"]</li>
+					</ul>
+					<ul class="active">
+						<li class="noChildren">union </li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>longitudinalAction</i></span>
+					<ul class="active">
+						<li class="noChildren">xor </li>
+					</ul>
+					<ul class="active">
+						<li class="noChildren">XSDelement [position: "1"]</li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>lateralAction</i></span>
+					<ul class="active">
+						<li class="noChildren">xor </li>
+					</ul>
+					<ul class="active">
+						<li class="noChildren">XSDelement [position: "2"]</li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>visibilityAction</i></span>
+					<ul class="active">
+						<li class="noChildren">xor </li>
+					</ul>
+					<ul class="active">
+						<li class="noChildren">XSDelement [position: "3"]</li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>synchronizeAction</i></span>
+					<ul class="active">
+						<li class="noChildren">xor </li>
+					</ul>
+					<ul class="active">
+						<li class="noChildren">XSDelement [position: "4"]</li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>activateControllerAction</i></span>
+					<ul class="active">
+						<li class="noChildren">deprecated [withVersion: "1.1"; comment: "Moved to ControllerAction"]</li>
+					</ul>
+					<ul class="active">
+						<li class="noChildren">xor </li>
+					</ul>
+					<ul class="active">
+						<li class="noChildren">XSDelement [position: "5"]</li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>controllerAction</i></span>
+					<ul class="active">
+						<li class="noChildren">xor </li>
+					</ul>
+					<ul class="active">
+						<li class="noChildren">XSDelement [position: "6"]</li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>teleportAction</i></span>
+					<ul class="active">
+						<li class="noChildren">xor </li>
+					</ul>
+					<ul class="active">
+						<li class="noChildren">XSDelement [position: "7"]</li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>routingAction</i></span>
+					<ul class="active">
+						<li class="noChildren">xor </li>
+					</ul>
+					<ul class="active">
+						<li class="noChildren">XSDelement [position: "8"]</li>
+					</ul>
+				</li>
+				</ul>
+				</TD></TR>
+				<tbody>
+			 </TABLE>
+			 </p>	
+		
+		
+		<p class="PropertyColor"><a href="../RenderedXsdOutput.html#PrivateAction">To XSD</a> <a href="PrivateActionTreeView.html">To XSD Tree</a></p>
+		<script>
+		var toggler = document.getElementsByClassName("treeCaret");
+		var i;
+		
+		for (i = 0; i < toggler.length; i++) {
+		  toggler[i].addEventListener("click", function() {
+		    this.parentElement.querySelector(".nested").classList.toggle("active");
+		    this.classList.toggle("treeCaret-down");
+		  });
+		}
+		function addTableVisibilityToggle(toggler)
+		{
+			for (i = 0; i < toggler.length; i++) {
+			  toggler[i].addEventListener("click", function() {
+			    var invisibleTable = this.parentElement.parentElement.parentElement.parentElement.querySelector(".invisibleTable");
+			    if (invisibleTable != null)
+			    {
+			    	this.parentElement.parentElement.parentElement.parentElement.querySelector(".invisibleTable").className = "visibleTable";
+			    	this.className= "makeInvisible";
+			    	
+			    }else
+			    {
+			   		this.parentElement.parentElement.parentElement.parentElement.querySelector(".visibleTable").className = "invisibleTable";
+			   		this.className = "makeVisible";
+			    }
+			    
+			  });
+			}
+		}
+		togglerUnvisible = document.getElementsByClassName("makeVisible");
+		togglerVisible = document.getElementsByClassName("makeInvisible");
+		addTableVisibilityToggle(togglerUnvisible);
+		addTableVisibilityToggle(togglerVisible);
+		
+		</script>
+	</body>
+</html>
+

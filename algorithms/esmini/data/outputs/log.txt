@@ -1,0 +1,79 @@
+esmini GIT REV: 275600c
+esmini GIT TAG: v2.21.1
+esmini GIT BRANCH: tags/v2.21.1^0
+esmini BUILD VERSION: 2.21.1.build.2347
+Generated seed 1101330321
+Loading scenario.xosc (v1.1)
+OpenDRIVE: ../xodr/e6mini.xodr
+Scenegraph: ../models/e6mini.osgb
+Unsupported geo reference attr: +no_defs
+Unsupported object type: rail-pole - interpret as NONE
+Unsupported object type: rail-pole - interpret as NONE
+Unsupported object type: guide-post - interpret as NONE
+Unsupported object type: guide-post - interpret as NONE
+Expr ${250/3.6} = 250/3.6 = 69.4444444444
+Expr ${$EgoSpeed / 3.6} = 108 / 3.6 = 30.0000000000
+0.000: Starting teleport Action
+0.000: Ego New position:
+0.000: Pos(8.17, 49.97, -0.04) Rot(1.57, 0.00, 0.00) roadId 0 laneId -3 offset 0.00 t -8.00
+0.000: Init Ego TeleportAction standbyState -> startTransition -> runningState
+0.000: Init Ego LongitudinalAction standbyState -> startTransition -> runningState
+0.000: Starting teleport Action
+0.000: OverTaker New position:
+0.000: Pos(4.51, 24.98, -0.01) Rot(1.57, 0.00, 0.00) roadId 0 laneId -2 offset 0.00 t -4.42
+0.000: Init OverTaker TeleportAction standbyState -> startTransition -> runningState
+0.000: Init Ego TeleportAction runningState -> endTransition -> completeState
+0.000: Init Ego LongitudinalAction runningState -> endTransition -> completeState
+0.000: Init OverTaker TeleportAction runningState -> endTransition -> completeState
+0.000: Object ../models/railing-pole.osgb missing length, set to bounding box length 0.10
+0.000: Object ../models/railing-pole.osgb missing width, set to bounding box width 0.10
+0.000: Object ../models/railing-pole.osgb missing height, set to bounding box height 1.00
+0.000: Object ../models/railing-pole.osgb missing length, set to bounding box length 0.10
+0.000: Object ../models/railing-pole.osgb missing width, set to bounding box width 0.10
+0.000: Object ../models/railing-pole.osgb missing height, set to bounding box height 1.00
+0.000: Object ../models/railing.osgb missing length, set to bounding box length 4.00
+0.000: Object ../models/railing.osgb missing width, set to bounding box width 0.10
+0.000: Object ../models/railing.osgb missing height, set to bounding box height 0.20
+0.000: Object ../models/railing.osgb missing length, set to bounding box length 4.00
+0.000: Object ../models/railing.osgb missing width, set to bounding box width 0.10
+0.000: Object ../models/railing.osgb missing height, set to bounding box height 0.20
+0.000: Object ../models/guide-post.osgb missing length, set to bounding box length 0.08
+0.000: Object ../models/guide-post.osgb missing width, set to bounding box width 0.13
+0.000: Object ../models/guide-post.osgb missing height, set to bounding box height 1.25
+0.000: Object ../models/guide-post.osgb missing length, set to bounding box length 0.08
+0.000: Object ../models/guide-post.osgb missing width, set to bounding box width 0.13
+0.000: Object ../models/guide-post.osgb missing height, set to bounding box height 1.25
+0.000: Missing wheel node wheel_fr in vehicle model OverTaker - ignoring
+0.010: Trigger /------------------------------------------------
+0.010: CutInActStart == true, 0.0100 > 0.00 edge: none
+0.010: Trigger  ------------------------------------------------/
+0.010: CutInAndBrakeAct standbyState -> startTransition -> runningState
+0.010: Trigger /------------------------------------------------
+0.010: OverTakerStartSpeedCondition == true, element: CutInAndBrakeAct state: START_TRANSITION, edge: none
+0.010: Trigger  ------------------------------------------------/
+0.064: OverTakerStartSpeedAction standbyState -> startTransition -> runningState
+0.064: OverTakerStartSpeedEvent standbyState -> startTransition -> runningState
+6.236: Trigger /------------------------------------------------
+6.236: CutInStartCondition == true, HWT: 0.40 > 0.40, edge rising
+6.236: Triggering entity 0: Ego
+6.236: Trigger  ------------------------------------------------/
+6.236: OverTakerStartSpeedEvent complete after 1 execution
+6.236: Event OverTakerStartSpeedEvent ended, overwritten by event CutInEvent
+6.254: OverTakerStartSpeedAction runningState -> endTransition -> completeState
+6.254: OverTakerStartSpeedEvent runningState -> endTransition -> completeState
+6.254: CutInAction standbyState -> startTransition -> runningState
+6.254: CutInEvent standbyState -> startTransition -> runningState
+7.748: Trigger /------------------------------------------------
+7.748: BrakeCondition == true, HWT: 0.70 > 0.70, edge rising
+7.748: Triggering entity 0: Ego
+7.748: Trigger  ------------------------------------------------/
+7.748: Event(s) ongoing, OvertakerBrakeEvent will run in parallel
+7.767: OvertakerBrakeAction standbyState -> startTransition -> runningState
+7.767: OvertakerBrakeEvent standbyState -> startTransition -> runningState
+9.243: CutInEvent complete after 1 execution
+9.260: CutInAction runningState -> endTransition -> completeState
+9.260: CutInEvent runningState -> endTransition -> completeState
+16.744: OvertakerBrakeEvent complete after 1 execution
+16.760: ActStopCondition timer 5.00s started
+16.760: OvertakerBrakeAction runningState -> endTransition -> completeState
+16.760: OvertakerBrakeEvent runningState -> endTransition -> completeState
