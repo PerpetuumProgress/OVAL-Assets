@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" 
+	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<link rel ="stylesheet" type="text/css" href="../stylesheet.css" title="Style">
+	<head>
+		<title>InitActions</title>
+	</head>
+	<body>
+		 	<h2>Class InitActions</h2>
+		<dl>
+			<dt CLASS="ListPrefixFont">Applied Stereotypes:</dt><dd>
+			
+			XSDcomplexType
+		</dd>
+		</dl>
+		<!-- implements Interfaces -->
+
+		
+		<!-- Implemented by -->
+				<p>A list of action instances (GlobalAction, UserDefinedAction, PrivateAction instances) which are executed during the initialization phase of a scenario.</p>
+		<dl>
+			<dt><B>Used in:</B></dt><dd>
+				<a href="Init.html">Init</a>
+		</dd></dl>
+			<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+				<thead>
+					<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+					<TH ALIGN="left" ><span class="makeInvisible"/><FONT SIZE="+1">Properties</FONT></TH></TR>
+				<thead>
+				<tbody class="visibleTable">
+				<TR><TD>
+				<table>
+				<thead>
+				<tr class="PropertyColor">
+					<th align="left">Name</th>
+					<th align="left">Type</th>
+					<th align="left">Cardinality</th>
+					<th align="left">AppliedStereotypes</th>
+					<th align="left">Description</th>
+				</tr>
+				</thead>
+				<tbody>				
+				<tr>
+				  	<td>globalActions</td>
+				  		<td><a href="GlobalAction.html">GlobalAction</a></td>
+					<td>0..*</td>
+					<td>			
+
+					XSDunwrapped, 
+
+					XSDelement
+					</td>
+					<td>An optional list of global actions.</td>
+				</tr>
+				<tr>
+				  	<td>userDefinedActions</td>
+				  		<td><a href="UserDefinedAction.html">UserDefinedAction</a></td>
+					<td>0..*</td>
+					<td>			
+
+					XSDunwrapped, 
+
+					XSDelement
+					</td>
+					<td>An optional list of user defined actions.</td>
+				</tr>
+				<tr>
+				  	<td>privates</td>
+				  		<td><a href="Private.html">Private</a></td>
+					<td>0..*</td>
+					<td>			
+
+					XSDunwrapped, 
+
+					XSDelement
+					</td>
+					<td>An optional list of private actions.</td>
+				</tr>
+				</tbody>
+				</table>
+				</TD><TR>
+				</tbody>
+				</TABLE>
+				</p>
+		<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+				<thead>
+				<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+				<TH ALIGN="left" ><span class="makeInvisible"/><FONT SIZE="+1">XSD 1.1 Representation</FONT></TH></TR>
+				</thead>
+				<tbody class="visibleTable">
+				<TR><TD>
+				<table>
+				<tbody>
+				<tr>
+				  	<td><p class='code'>
+  <br /><span class='markup indent0'>&lt;xsd:complexType <span class='attribute'>name</span>=<span class='literal'>"InitActions"</span>&gt;</span>
+  <br /><span class='markup indent2'>&lt;xsd:sequence&gt;</span>
+  <br /><span class='markup indent4'>&lt;xsd:element <span class='attribute'>name</span>=<span class='literal'>"GlobalAction"</span> <span class='attribute'>type</span>=<span class='literal'>"</span><a href='./GlobalAction.html'><span>GlobalAction</span></a><span class='literal'>"</span> <span class='attribute'>minOccurs</span>=<span class='literal'>"0"</span> <span class='attribute'>maxOccurs</span>=<span class='literal'>"unbounded"</span>/&gt;</span>
+  <br /><span class='markup indent4'>&lt;xsd:element <span class='attribute'>name</span>=<span class='literal'>"UserDefinedAction"</span> <span class='attribute'>type</span>=<span class='literal'>"</span><a href='./UserDefinedAction.html'><span>UserDefinedAction</span></a><span class='literal'>"</span> <span class='attribute'>minOccurs</span>=<span class='literal'>"0"</span> <span class='attribute'>maxOccurs</span>=<span class='literal'>"unbounded"</span>/&gt;</span>
+  <br /><span class='markup indent4'>&lt;xsd:element <span class='attribute'>name</span>=<span class='literal'>"Private"</span> <span class='attribute'>type</span>=<span class='literal'>"</span><a href='./Private.html'><span>Private</span></a><span class='literal'>"</span> <span class='attribute'>minOccurs</span>=<span class='literal'>"0"</span> <span class='attribute'>maxOccurs</span>=<span class='literal'>"unbounded"</span>/&gt;</span>
+  <br /><span class='markup indent2'>&lt;/xsd:sequence&gt;</span>
+  <br /><span class='markup indent0'>&lt;/xsd:complexType&gt;</span>
+</p></td>
+				</tr>
+				</tbody>
+				</table>
+				</TD></TR>
+				</tbody>
+		</TABLE>
+		</p>
+		<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+				<thead>
+				<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+				<TH ALIGN="left" ><span class="makeInvisible"/><FONT SIZE="+1">XSD Transformation</FONT></TH></TR>
+				</thead>
+				<tbody class="visibleTable">
+				<TR><TD>
+				<table>
+				<thead>
+				<tr class="PropertyColor">
+					<th align="left">UML Element</th>
+					<th align="left">Stereotype</th>
+					<th align="left">Description</th>
+				</tr>
+				</thead>
+				<tbody>
+								<tr>
+				  	<td>globalActions</td>
+				  	<td>XSDunwrapped</td>
+				  	<td>This property represents an unwrapped list in XSD. The element name 'GlobalAction' is used for the list elements.</td>
+				</tr>
+								<tr>
+				  	<td>userDefinedActions</td>
+				  	<td>XSDunwrapped</td>
+				  	<td>This property represents an unwrapped list in XSD. The element name 'UserDefinedAction' is used for the list elements.</td>
+				</tr>
+								<tr>
+				  	<td>privates</td>
+				  	<td>XSDunwrapped</td>
+				  	<td>This property represents an unwrapped list in XSD. The element name 'Private' is used for the list elements.</td>
+				</tr>
+				</tbody>
+				</table>
+				</TD></TR>
+				</tbody>
+			 </TABLE>
+			 </p>
+			<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+				<thead>
+				<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+				<TH ALIGN="left">
+				<span class="makeVisible"><FONT SIZE="+1">Stereotype Details Information</FONT></span></TH>
+				</TR>
+				</thead>
+				<tbody class="invisibleTable">
+				<TR><TD style="padding-left : 10px;">
+				<ul class="tree">
+				<li><span class="ListPrefixFont">Class</span>
+					<ul class="active">
+						<li class="noChildren">XSDcomplexType [modelGroup: "sequence"; mixed: "false"]</li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>globalActions</i></span>
+					<ul class="active">
+						<li class="noChildren">XSDunwrapped [xsdElementName: "GlobalAction"]</li>
+					</ul>
+					<ul class="active">
+						<li class="noChildren">XSDelement [position: "1"]</li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>userDefinedActions</i></span>
+					<ul class="active">
+						<li class="noChildren">XSDunwrapped [xsdElementName: "UserDefinedAction"]</li>
+					</ul>
+					<ul class="active">
+						<li class="noChildren">XSDelement [position: "2"]</li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>privates</i></span>
+					<ul class="active">
+						<li class="noChildren">XSDunwrapped [xsdElementName: "Private"]</li>
+					</ul>
+					<ul class="active">
+						<li class="noChildren">XSDelement [position: "3"]</li>
+					</ul>
+				</li>
+				</ul>
+				</TD></TR>
+				<tbody>
+			 </TABLE>
+			 </p>	
+		
+		
+		<p class="PropertyColor"><a href="../RenderedXsdOutput.html#InitActions">To XSD</a> <a href="InitActionsTreeView.html">To XSD Tree</a></p>
+		<script>
+		var toggler = document.getElementsByClassName("treeCaret");
+		var i;
+		
+		for (i = 0; i < toggler.length; i++) {
+		  toggler[i].addEventListener("click", function() {
+		    this.parentElement.querySelector(".nested").classList.toggle("active");
+		    this.classList.toggle("treeCaret-down");
+		  });
+		}
+		function addTableVisibilityToggle(toggler)
+		{
+			for (i = 0; i < toggler.length; i++) {
+			  toggler[i].addEventListener("click", function() {
+			    var invisibleTable = this.parentElement.parentElement.parentElement.parentElement.querySelector(".invisibleTable");
+			    if (invisibleTable != null)
+			    {
+			    	this.parentElement.parentElement.parentElement.parentElement.querySelector(".invisibleTable").className = "visibleTable";
+			    	this.className= "makeInvisible";
+			    	
+			    }else
+			    {
+			   		this.parentElement.parentElement.parentElement.parentElement.querySelector(".visibleTable").className = "invisibleTable";
+			   		this.className = "makeVisible";
+			    }
+			    
+			  });
+			}
+		}
+		togglerUnvisible = document.getElementsByClassName("makeVisible");
+		togglerVisible = document.getElementsByClassName("makeInvisible");
+		addTableVisibilityToggle(togglerUnvisible);
+		addTableVisibilityToggle(togglerVisible);
+		
+		</script>
+	</body>
+</html>
+

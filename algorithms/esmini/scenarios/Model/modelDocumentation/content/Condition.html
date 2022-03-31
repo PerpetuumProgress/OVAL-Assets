@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" 
+	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<link rel ="stylesheet" type="text/css" href="../stylesheet.css" title="Style">
+	<head>
+		<title>Condition</title>
+	</head>
+	<body>
+		 	<h2>Class Condition</h2>
+		<dl>
+			<dt CLASS="ListPrefixFont">Applied Stereotypes:</dt><dd>
+			
+			XSDcomplexType, 
+
+			union
+		</dd>
+		</dl>
+		<!-- implements Interfaces -->
+
+		
+		<!-- Implemented by -->
+				<p>A condition represents a set of logical expressions that evaluate the relationship of values provided by the user. These values may be entity states, scenario properties, scenario states or external signals. Conditions are the main components in triggers.</p>
+		<dl>
+			<dt><B>Used in:</B></dt><dd>
+				<a href="ConditionGroup.html">ConditionGroup</a>
+		</dd></dl>
+			<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+				<thead>
+					<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+					<TH ALIGN="left" ><span class="makeInvisible"/><FONT SIZE="+1">Properties</FONT></TH></TR>
+				<thead>
+				<tbody class="visibleTable">
+				<TR><TD>
+				<table>
+				<thead>
+				<tr class="PropertyColor">
+					<th align="left">Name</th>
+					<th align="left">Type</th>
+					<th align="left">Cardinality</th>
+					<th align="left">AppliedStereotypes</th>
+					<th align="left">Description</th>
+				</tr>
+				</thead>
+				<tbody>				
+				<tr>
+				  	<td>conditionEdge</td>
+				  		<td><a href="ConditionEdge.html">ConditionEdge</a></td>
+					<td>1..1</td>
+					<td>			
+
+					XSDattribute
+					</td>
+					<td>Specifies the edge when the condition is evaluated to true (rising, falling, risingOrFalling, none).</td>
+				</tr>
+				<tr>
+				  	<td>delay</td>
+				  		<td>double</td>
+					<td>1..1</td>
+					<td>			
+
+					XSDattribute
+					</td>
+					<td>Time elapsed after the edge condition is verified, until the condition returns true to the scenario. Unit: s; Range: [0..inf[.</td>
+				</tr>
+				<tr>
+				  	<td>name</td>
+				  		<td>string</td>
+					<td>1..1</td>
+					<td>			
+
+					XSDattribute
+					</td>
+					<td>Name of the condition.</td>
+				</tr>
+				<tr>
+				  	<td>byEntityCondition</td>
+				  		<td><a href="ByEntityCondition.html">ByEntityCondition</a></td>
+					<td>0..1</td>
+					<td>			
+
+					xor, 
+
+					XSDelement
+					</td>
+					<td>A condition that refers to an entity.</td>
+				</tr>
+				<tr>
+				  	<td>byValueCondition</td>
+				  		<td><a href="ByValueCondition.html">ByValueCondition</a></td>
+					<td>0..1</td>
+					<td>			
+
+					xor, 
+
+					XSDelement
+					</td>
+					<td>A condition that refers to a runtime value.</td>
+				</tr>
+				</tbody>
+				</table>
+				</TD><TR>
+				</tbody>
+				</TABLE>
+				</p>
+		<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+				<thead>
+				<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+				<TH ALIGN="left" ><span class="makeInvisible"/><FONT SIZE="+1">XSD 1.1 Representation</FONT></TH></TR>
+				</thead>
+				<tbody class="visibleTable">
+				<TR><TD>
+				<table>
+				<tbody>
+				<tr>
+				  	<td><p class='code'>
+  <br /><span class='markup indent0'>&lt;xsd:complexType <span class='attribute'>name</span>=<span class='literal'>"Condition"</span>&gt;</span>
+  <br /><span class='markup indent2'>&lt;xsd:choice&gt;</span>
+  <br /><span class='markup indent4'>&lt;xsd:element <span class='attribute'>name</span>=<span class='literal'>"ByEntityCondition"</span> <span class='attribute'>type</span>=<span class='literal'>"</span><a href='./ByEntityCondition.html'><span>ByEntityCondition</span></a><span class='literal'>"</span> <span class='attribute'>minOccurs</span>=<span class='literal'>"0"</span>/&gt;</span>
+  <br /><span class='markup indent4'>&lt;xsd:element <span class='attribute'>name</span>=<span class='literal'>"ByValueCondition"</span> <span class='attribute'>type</span>=<span class='literal'>"</span><a href='./ByValueCondition.html'><span>ByValueCondition</span></a><span class='literal'>"</span> <span class='attribute'>minOccurs</span>=<span class='literal'>"0"</span>/&gt;</span>
+  <br /><span class='markup indent2'>&lt;/xsd:choice&gt;</span>
+  <br /><span class='markup indent2'>&lt;xsd:attribute <span class='attribute'>name</span>=<span class='literal'>"conditionEdge"</span> <span class='attribute'>type</span>=<span class='literal'>"</span><a href='./ConditionEdge.html'><span>ConditionEdge</span></a><span class='literal'>"</span> <span class='attribute'>use</span>=<span class='literal'>"required"</span>/&gt;</span>
+  <br /><span class='markup indent2'>&lt;xsd:attribute <span class='attribute'>name</span>=<span class='literal'>"delay"</span> <span class='attribute'>type</span>=<span class='literal'>"</span><a href='./Double.html'><span>Double</span></a><span class='literal'>"</span> <span class='attribute'>use</span>=<span class='literal'>"required"</span>/&gt;</span>
+  <br /><span class='markup indent2'>&lt;xsd:attribute <span class='attribute'>name</span>=<span class='literal'>"name"</span> <span class='attribute'>type</span>=<span class='literal'>"</span><a href='./String.html'><span>String</span></a><span class='literal'>"</span> <span class='attribute'>use</span>=<span class='literal'>"required"</span>/&gt;</span>
+  <br /><span class='markup indent0'>&lt;/xsd:complexType&gt;</span>
+</p></td>
+				</tr>
+				</tbody>
+				</table>
+				</TD></TR>
+				</tbody>
+		</TABLE>
+		</p>
+			<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+				<thead>
+				<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+				<TH ALIGN="left" ><span class="makeInvisible"/><FONT SIZE="+1">Change log from version 1.0</FONT></TH>
+				</TR>
+				</thead>
+				<tbody class="visibleTable">
+				<TR><TD style="padding-left : 10px;">
+				<ul class="tree">
+				<li><span class="treeCaret">Property &apos;conditionEdge&apos;. Annotation changed.</span>
+					<ul class="nested"><li class="noChildren">
+						<dl>
+						<dt class="ListPrefixFont">New Value</dt>
+						<dd>Specifies the edge when the condition is evaluated to true (rising, falling, risingOrFalling, none).</dd>
+						</dl>
+						<dl>
+						<dt class="ListPrefixFont">From 1.0.0</dt>
+						<dd>Specifies the edge when the condition is evaluated to true (rising, falling, any).</dd>
+						</dl>
+					</li></ul>
+				</li>
+				</ul>
+				</TD></TR>
+				</tbody>
+			 </TABLE>
+			 </p>	
+			<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+				<thead>
+				<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+				<TH ALIGN="left">
+				<span class="makeVisible"><FONT SIZE="+1">Stereotype Details Information</FONT></span></TH>
+				</TR>
+				</thead>
+				<tbody class="invisibleTable">
+				<TR><TD style="padding-left : 10px;">
+				<ul class="tree">
+				<li><span class="ListPrefixFont">Class</span>
+					<ul class="active">
+						<li class="noChildren">XSDcomplexType [modelGroup: "choice"; mixed: "false"]</li>
+					</ul>
+					<ul class="active">
+						<li class="noChildren">union </li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>conditionEdge</i></span>
+					<ul class="active">
+						<li class="noChildren">XSDattribute </li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>delay</i></span>
+					<ul class="active">
+						<li class="noChildren">XSDattribute </li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>name</i></span>
+					<ul class="active">
+						<li class="noChildren">XSDattribute </li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>byEntityCondition</i></span>
+					<ul class="active">
+						<li class="noChildren">xor </li>
+					</ul>
+					<ul class="active">
+						<li class="noChildren">XSDelement [position: "1"]</li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>byValueCondition</i></span>
+					<ul class="active">
+						<li class="noChildren">xor </li>
+					</ul>
+					<ul class="active">
+						<li class="noChildren">XSDelement [position: "2"]</li>
+					</ul>
+				</li>
+				</ul>
+				</TD></TR>
+				<tbody>
+			 </TABLE>
+			 </p>	
+		
+		
+		<p class="PropertyColor"><a href="../RenderedXsdOutput.html#Condition">To XSD</a> <a href="ConditionTreeView.html">To XSD Tree</a></p>
+		<script>
+		var toggler = document.getElementsByClassName("treeCaret");
+		var i;
+		
+		for (i = 0; i < toggler.length; i++) {
+		  toggler[i].addEventListener("click", function() {
+		    this.parentElement.querySelector(".nested").classList.toggle("active");
+		    this.classList.toggle("treeCaret-down");
+		  });
+		}
+		function addTableVisibilityToggle(toggler)
+		{
+			for (i = 0; i < toggler.length; i++) {
+			  toggler[i].addEventListener("click", function() {
+			    var invisibleTable = this.parentElement.parentElement.parentElement.parentElement.querySelector(".invisibleTable");
+			    if (invisibleTable != null)
+			    {
+			    	this.parentElement.parentElement.parentElement.parentElement.querySelector(".invisibleTable").className = "visibleTable";
+			    	this.className= "makeInvisible";
+			    	
+			    }else
+			    {
+			   		this.parentElement.parentElement.parentElement.parentElement.querySelector(".visibleTable").className = "invisibleTable";
+			   		this.className = "makeVisible";
+			    }
+			    
+			  });
+			}
+		}
+		togglerUnvisible = document.getElementsByClassName("makeVisible");
+		togglerVisible = document.getElementsByClassName("makeInvisible");
+		addTableVisibilityToggle(togglerUnvisible);
+		addTableVisibilityToggle(togglerVisible);
+		
+		</script>
+	</body>
+</html>
+

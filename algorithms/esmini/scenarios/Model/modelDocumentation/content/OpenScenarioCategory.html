@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" 
+	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<link rel ="stylesheet" type="text/css" href="../stylesheet.css" title="Style">
+	<head>
+		<title>OpenScenarioCategory</title>
+	</head>
+	<body>
+		 	<h2>Class OpenScenarioCategory</h2>
+		<dl>
+			<dt CLASS="ListPrefixFont">Applied Stereotypes:</dt><dd>
+			
+			XSDgroup, 
+
+			union
+		</dd>
+		</dl>
+		<!-- implements Interfaces -->
+
+		
+		<!-- Implemented by -->
+				<p>Indicates if the following content defines a scenario or a catalog.</p>
+		<dl>
+			<dt><B>Used in:</B></dt><dd>
+				<a href="OpenScenario.html">OpenScenario</a>
+		</dd></dl>
+			<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+				<thead>
+					<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+					<TH ALIGN="left" ><span class="makeInvisible"/><FONT SIZE="+1">Properties</FONT></TH></TR>
+				<thead>
+				<tbody class="visibleTable">
+				<TR><TD>
+				<table>
+				<thead>
+				<tr class="PropertyColor">
+					<th align="left">Name</th>
+					<th align="left">Type</th>
+					<th align="left">Cardinality</th>
+					<th align="left">AppliedStereotypes</th>
+					<th align="left">Description</th>
+				</tr>
+				</thead>
+				<tbody>				
+				<tr>
+				  	<td>scenarioDefinition</td>
+				  		<td><a href="ScenarioDefinition.html">ScenarioDefinition</a></td>
+					<td>1..1</td>
+					<td>			
+
+					xor, 
+
+					XSDelement
+					</td>
+					<td>Definition of a scenario.</td>
+				</tr>
+				<tr>
+				  	<td>catalogDefinition</td>
+				  		<td><a href="CatalogDefinition.html">CatalogDefinition</a></td>
+					<td>1..1</td>
+					<td>			
+
+					xor, 
+
+					XSDelement
+					</td>
+					<td>Definition of a catalog.</td>
+				</tr>
+				<tr>
+				  	<td>parameterValueDistributionDefinition</td>
+				  		<td><a href="ParameterValueDistributionDefinition.html">ParameterValueDistributionDefinition</a></td>
+					<td>1..1</td>
+					<td>			
+
+					xor, 
+
+					XSDelement
+					</td>
+					<td>Definition of a parameter value distribution.</td>
+				</tr>
+				</tbody>
+				</table>
+				</TD><TR>
+				</tbody>
+				</TABLE>
+				</p>
+		<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+				<thead>
+				<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+				<TH ALIGN="left" ><span class="makeInvisible"/><FONT SIZE="+1">XSD 1.1 Representation</FONT></TH></TR>
+				</thead>
+				<tbody class="visibleTable">
+				<TR><TD>
+				<table>
+				<tbody>
+				<tr>
+				  	<td><p class='code'>
+  <br /><span class='markup indent0'>&lt;xsd:group <span class='attribute'>name</span>=<span class='literal'>"OpenScenarioCategory"</span>&gt;</span>
+  <br /><span class='markup indent2'>&lt;xsd:choice&gt;</span>
+  <br /><span class='markup indent4'>&lt;xsd:group <span class='attribute'>ref</span>=<span class='literal'>"</span><a href='./ScenarioDefinition.html'><span>ScenarioDefinition</span></a><span class='literal'>"</span>/&gt;</span>
+  <br /><span class='markup indent4'>&lt;xsd:group <span class='attribute'>ref</span>=<span class='literal'>"</span><a href='./CatalogDefinition.html'><span>CatalogDefinition</span></a><span class='literal'>"</span>/&gt;</span>
+  <br /><span class='markup indent4'>&lt;xsd:group <span class='attribute'>ref</span>=<span class='literal'>"</span><a href='./ParameterValueDistributionDefinition.html'><span>ParameterValueDistributionDefinition</span></a><span class='literal'>"</span>/&gt;</span>
+  <br /><span class='markup indent2'>&lt;/xsd:choice&gt;</span>
+  <br /><span class='markup indent0'>&lt;/xsd:group&gt;</span>
+</p></td>
+				</tr>
+				</tbody>
+				</table>
+				</TD></TR>
+				</tbody>
+		</TABLE>
+		</p>
+			<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+				<thead>
+				<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+				<TH ALIGN="left" ><span class="makeInvisible"/><FONT SIZE="+1">Change log from version 1.0</FONT></TH>
+				</TR>
+				</thead>
+				<tbody class="visibleTable">
+				<TR><TD style="padding-left : 10px;">
+				<ul class="tree">
+				<li class="noChildren">Property &apos;parameterValueDistributionDefinition&apos; created.</li>
+				</ul>
+				</TD></TR>
+				</tbody>
+			 </TABLE>
+			 </p>	
+			<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+				<thead>
+				<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+				<TH ALIGN="left">
+				<span class="makeVisible"><FONT SIZE="+1">Stereotype Details Information</FONT></span></TH>
+				</TR>
+				</thead>
+				<tbody class="invisibleTable">
+				<TR><TD style="padding-left : 10px;">
+				<ul class="tree">
+				<li><span class="ListPrefixFont">Class</span>
+					<ul class="active">
+						<li class="noChildren">XSDgroup [modelGroup: "choice"]</li>
+					</ul>
+					<ul class="active">
+						<li class="noChildren">union </li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>scenarioDefinition</i></span>
+					<ul class="active">
+						<li class="noChildren">xor </li>
+					</ul>
+					<ul class="active">
+						<li class="noChildren">XSDelement [position: "1"]</li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>catalogDefinition</i></span>
+					<ul class="active">
+						<li class="noChildren">xor </li>
+					</ul>
+					<ul class="active">
+						<li class="noChildren">XSDelement [position: "2"]</li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>parameterValueDistributionDefinition</i></span>
+					<ul class="active">
+						<li class="noChildren">xor </li>
+					</ul>
+					<ul class="active">
+						<li class="noChildren">XSDelement [position: "3"]</li>
+					</ul>
+				</li>
+				</ul>
+				</TD></TR>
+				<tbody>
+			 </TABLE>
+			 </p>	
+		
+		
+		<p class="PropertyColor"><a href="../RenderedXsdOutput.html#OpenScenarioCategory">To XSD</a> <a href="OpenScenarioCategoryTreeView.html">To XSD Tree</a></p>
+		<script>
+		var toggler = document.getElementsByClassName("treeCaret");
+		var i;
+		
+		for (i = 0; i < toggler.length; i++) {
+		  toggler[i].addEventListener("click", function() {
+		    this.parentElement.querySelector(".nested").classList.toggle("active");
+		    this.classList.toggle("treeCaret-down");
+		  });
+		}
+		function addTableVisibilityToggle(toggler)
+		{
+			for (i = 0; i < toggler.length; i++) {
+			  toggler[i].addEventListener("click", function() {
+			    var invisibleTable = this.parentElement.parentElement.parentElement.parentElement.querySelector(".invisibleTable");
+			    if (invisibleTable != null)
+			    {
+			    	this.parentElement.parentElement.parentElement.parentElement.querySelector(".invisibleTable").className = "visibleTable";
+			    	this.className= "makeInvisible";
+			    	
+			    }else
+			    {
+			   		this.parentElement.parentElement.parentElement.parentElement.querySelector(".visibleTable").className = "invisibleTable";
+			   		this.className = "makeVisible";
+			    }
+			    
+			  });
+			}
+		}
+		togglerUnvisible = document.getElementsByClassName("makeVisible");
+		togglerVisible = document.getElementsByClassName("makeInvisible");
+		addTableVisibilityToggle(togglerUnvisible);
+		addTableVisibilityToggle(togglerVisible);
+		
+		</script>
+	</body>
+</html>
+

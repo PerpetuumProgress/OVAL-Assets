@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" 
+	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<link rel ="stylesheet" type="text/css" href="../stylesheet.css" title="Style">
+	<head>
+		<title>LateralDisplacement</title>
+	</head>
+	<body>
+		 	<h2>Enumeration LateralDisplacement</h2>
+		<!-- implements Interfaces -->
+
+		<!-- Implemented by -->
+				<p>A displacement relative to an entity along a lateral axis (e.g. the y axis of the entity coordinate system)</p>
+		<dl>
+			<dt><B>Used in:</B></dt><dd>
+				<a href="LateralDistanceAction.html">LateralDistanceAction</a>
+		</dd></dl>
+			<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+				<thead>
+				<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+				<TH ALIGN="left" ><span class="makeInvisible"/><FONT SIZE="+1">Enumeration Literals</FONT></TH></TR>
+				</thead>				
+				<tbody class="visibleTable">
+				<TR><TD>
+				<table>
+				<thead>
+				<tr class="PropertyColor">
+					<th align="left">Name</th>
+					<th align="left">Applied Stereotypes</th>
+					<th align="left">Description</th>
+				</tr>
+				</thead>
+				<tbody>
+				
+				<tr>
+				  	<td>any</td>
+				  	<td>			
+					</td>
+				  	<td>Either left or right to the entity along the lateral dimension.</td>
+				</tr>
+				<tr>
+				  	<td>leftToReferencedEntity</td>
+				  	<td>			
+					</td>
+				  	<td>Left to the entity along the lateral dimension.</td>
+				</tr>
+				<tr>
+				  	<td>rightToReferencedEntity</td>
+				  	<td>			
+					</td>
+				  	<td>Right to the entity along the lateral dimension.</td>
+				</tr>
+				</tbody>
+				</table>
+				</TD></TR>
+				</tbody>
+			 </TABLE>
+			 </p>	
+		<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+				<thead>
+				<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+				<TH ALIGN="left" ><span class="makeInvisible"/><FONT SIZE="+1">XSD 1.1 Representation</FONT></TH></TR>
+				</thead>
+				<tbody class="visibleTable">
+				<TR><TD>
+				<table>
+				<tbody>
+				<tr>
+				  	<td><p class='code'>
+  <br /><span class='markup indent0'>&lt;xsd:simpleType <span class='attribute'>name</span>=<span class='literal'>"LateralDisplacement"</span>&gt;</span>
+  <br /><span class='markup indent2'>&lt;xsd:union&gt;</span>
+  <br /><span class='markup indent4'>&lt;xsd:simpleType&gt;</span>
+  <br /><span class='markup indent6'>&lt;xsd:restriction <span class='attribute'>base</span>=<span class='literal'>"xsd:string"</span>&gt;</span>
+  <br /><span class='markup indent8'>&lt;xsd:enumeration <span class='attribute'>value</span>=<span class='literal'>"any"</span>/&gt;</span>
+  <br /><span class='markup indent8'>&lt;xsd:enumeration <span class='attribute'>value</span>=<span class='literal'>"leftToReferencedEntity"</span>/&gt;</span>
+  <br /><span class='markup indent8'>&lt;xsd:enumeration <span class='attribute'>value</span>=<span class='literal'>"rightToReferencedEntity"</span>/&gt;</span>
+  <br /><span class='markup indent6'>&lt;/xsd:restriction&gt;</span>
+  <br /><span class='markup indent4'>&lt;/xsd:simpleType&gt;</span>
+  <br /><span class='markup indent4'>&lt;xsd:simpleType&gt;</span>
+  <br /><span class='markup indent6'>&lt;xsd:restriction <span class='attribute'>base</span>=<span class='literal'>"parameter"</span>/&gt;</span>
+  <br /><span class='markup indent4'>&lt;/xsd:simpleType&gt;</span>
+  <br /><span class='markup indent2'>&lt;/xsd:union&gt;</span>
+  <br /><span class='markup indent0'>&lt;/xsd:simpleType&gt;</span>
+</p></td>
+				</tr>
+				</tbody>
+				</table>
+				</TD></TR>
+				</tbody>
+		</TABLE>
+		</p>
+			<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+				<thead>
+				<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+				<TH ALIGN="left" ><span class="makeInvisible"/><FONT SIZE="+1">Change log from version 1.0</FONT></TH>
+				</TR>
+				</thead>
+				<tbody class="visibleTable">
+				<TR><TD style="padding-left : 10px;">
+				<ul class="tree">
+				<li class="noChildren">Enumeration created.</li>
+				</ul>
+				</TD></TR>
+				</tbody>
+			 </TABLE>
+			 </p>	
+		
+		
+		<p class="PropertyColor"><a href="../RenderedXsdOutput.html#LateralDisplacement">To XSD</a></p>
+		<script>
+		var toggler = document.getElementsByClassName("treeCaret");
+		var i;
+		
+		for (i = 0; i < toggler.length; i++) {
+		  toggler[i].addEventListener("click", function() {
+		    this.parentElement.querySelector(".nested").classList.toggle("active");
+		    this.classList.toggle("treeCaret-down");
+		  });
+		}
+		function addTableVisibilityToggle(toggler)
+		{
+			for (i = 0; i < toggler.length; i++) {
+			  toggler[i].addEventListener("click", function() {
+			    var invisibleTable = this.parentElement.parentElement.parentElement.parentElement.querySelector(".invisibleTable");
+			    if (invisibleTable != null)
+			    {
+			    	this.parentElement.parentElement.parentElement.parentElement.querySelector(".invisibleTable").className = "visibleTable";
+			    	this.className= "makeInvisible";
+			    	
+			    }else
+			    {
+			   		this.parentElement.parentElement.parentElement.parentElement.querySelector(".visibleTable").className = "invisibleTable";
+			   		this.className = "makeVisible";
+			    }
+			    
+			  });
+			}
+		}
+		togglerUnvisible = document.getElementsByClassName("makeVisible");
+		togglerVisible = document.getElementsByClassName("makeInvisible");
+		addTableVisibilityToggle(togglerUnvisible);
+		addTableVisibilityToggle(togglerVisible);
+		
+		</script>
+	</body>
+</html>
+

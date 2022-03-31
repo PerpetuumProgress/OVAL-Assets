@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" 
+	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<link rel ="stylesheet" type="text/css" href="../stylesheet.css" title="Style">
+	<head>
+		<title>Nurbs</title>
+	</head>
+	<body>
+		 	<h2>Class Nurbs</h2>
+		<dl>
+			<dt CLASS="ListPrefixFont">Applied Stereotypes:</dt><dd>
+			
+			XSDcomplexType
+		</dd>
+		</dl>
+		<!-- implements Interfaces -->
+
+		
+		<!-- Implemented by -->
+				<p>Non-uniform rational b-spline (NURBS) trajectory specification.</p>
+		<dl>
+			<dt><B>Used in:</B></dt><dd>
+				<a href="Shape.html">Shape</a>
+		</dd></dl>
+			<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+				<thead>
+					<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+					<TH ALIGN="left" ><span class="makeInvisible"/><FONT SIZE="+1">Properties</FONT></TH></TR>
+				<thead>
+				<tbody class="visibleTable">
+				<TR><TD>
+				<table>
+				<thead>
+				<tr class="PropertyColor">
+					<th align="left">Name</th>
+					<th align="left">Type</th>
+					<th align="left">Cardinality</th>
+					<th align="left">AppliedStereotypes</th>
+					<th align="left">Description</th>
+				</tr>
+				</thead>
+				<tbody>				
+				<tr>
+				  	<td>order</td>
+				  		<td>unsignedInt</td>
+					<td>1..1</td>
+					<td>			
+
+					XSDattribute
+					</td>
+					<td>Order of the NURBS trajectory. This is the order of the curve, not the degree of the polynomials, which will be one less than the order of the curve. Range [2..inf[.</td>
+				</tr>
+				<tr>
+				  	<td>controlPoints</td>
+				  		<td><a href="ControlPoint.html">ControlPoint</a></td>
+					<td>2..*</td>
+					<td>			
+
+					XSDunwrapped, 
+
+					XSDelement
+					</td>
+					<td>Control point vector of the NURBS trajectory. The number of control points must be greater or equal to the order of the curve. It's an ordered list, therefore the first control point determines the start of the trajectory and the last control point determines the end of the trajectory.</td>
+				</tr>
+				<tr>
+				  	<td>knots</td>
+				  		<td><a href="Knot.html">Knot</a></td>
+					<td>2..*</td>
+					<td>			
+
+					XSDunwrapped, 
+
+					XSDelement
+					</td>
+					<td>Knot vector of the NURBS trajectory. Knot values must be given in ascending order. The number of knot vector values must be equal to the number of control points plus the order of the curve.</td>
+				</tr>
+				</tbody>
+				</table>
+				</TD><TR>
+				</tbody>
+				</TABLE>
+				</p>
+		<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+				<thead>
+				<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+				<TH ALIGN="left" ><span class="makeInvisible"/><FONT SIZE="+1">XSD 1.1 Representation</FONT></TH></TR>
+				</thead>
+				<tbody class="visibleTable">
+				<TR><TD>
+				<table>
+				<tbody>
+				<tr>
+				  	<td><p class='code'>
+  <br /><span class='markup indent0'>&lt;xsd:complexType <span class='attribute'>name</span>=<span class='literal'>"Nurbs"</span>&gt;</span>
+  <br /><span class='markup indent2'>&lt;xsd:sequence&gt;</span>
+  <br /><span class='markup indent4'>&lt;xsd:element <span class='attribute'>name</span>=<span class='literal'>"ControlPoint"</span> <span class='attribute'>type</span>=<span class='literal'>"</span><a href='./ControlPoint.html'><span>ControlPoint</span></a><span class='literal'>"</span> <span class='attribute'>minOccurs</span>=<span class='literal'>"2"</span> <span class='attribute'>maxOccurs</span>=<span class='literal'>"unbounded"</span>/&gt;</span>
+  <br /><span class='markup indent4'>&lt;xsd:element <span class='attribute'>name</span>=<span class='literal'>"Knot"</span> <span class='attribute'>type</span>=<span class='literal'>"</span><a href='./Knot.html'><span>Knot</span></a><span class='literal'>"</span> <span class='attribute'>minOccurs</span>=<span class='literal'>"2"</span> <span class='attribute'>maxOccurs</span>=<span class='literal'>"unbounded"</span>/&gt;</span>
+  <br /><span class='markup indent2'>&lt;/xsd:sequence&gt;</span>
+  <br /><span class='markup indent2'>&lt;xsd:attribute <span class='attribute'>name</span>=<span class='literal'>"order"</span> <span class='attribute'>type</span>=<span class='literal'>"</span><a href='./UnsignedInt.html'><span>UnsignedInt</span></a><span class='literal'>"</span> <span class='attribute'>use</span>=<span class='literal'>"required"</span>/&gt;</span>
+  <br /><span class='markup indent0'>&lt;/xsd:complexType&gt;</span>
+</p></td>
+				</tr>
+				</tbody>
+				</table>
+				</TD></TR>
+				</tbody>
+		</TABLE>
+		</p>
+		<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+				<thead>
+				<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+				<TH ALIGN="left" ><span class="makeInvisible"/><FONT SIZE="+1">XSD Transformation</FONT></TH></TR>
+				</thead>
+				<tbody class="visibleTable">
+				<TR><TD>
+				<table>
+				<thead>
+				<tr class="PropertyColor">
+					<th align="left">UML Element</th>
+					<th align="left">Stereotype</th>
+					<th align="left">Description</th>
+				</tr>
+				</thead>
+				<tbody>
+												<tr>
+				  	<td>controlPoints</td>
+				  	<td>XSDunwrapped</td>
+				  	<td>This property represents an unwrapped list in XSD. The element name 'ControlPoint' is used for the list elements.</td>
+				</tr>
+								<tr>
+				  	<td>knots</td>
+				  	<td>XSDunwrapped</td>
+				  	<td>This property represents an unwrapped list in XSD. The element name 'Knot' is used for the list elements.</td>
+				</tr>
+				</tbody>
+				</table>
+				</TD></TR>
+				</tbody>
+			 </TABLE>
+			 </p>
+			<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+				<thead>
+				<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+				<TH ALIGN="left" ><span class="makeInvisible"/><FONT SIZE="+1">Change log from version 1.0</FONT></TH>
+				</TR>
+				</thead>
+				<tbody class="visibleTable">
+				<TR><TD style="padding-left : 10px;">
+				<ul class="tree">
+				<li><span class="treeCaret">Property &apos;controlPoints&apos;. Annotation changed.</span>
+					<ul class="nested"><li class="noChildren">
+						<dl>
+						<dt class="ListPrefixFont">New Value</dt>
+						<dd>Control point vector of the NURBS trajectory. The number of control points must be greater or equal to the order of the curve. It's an ordered list, therefore the first control point determines the start of the trajectory and the last control point determines the end of the trajectory.</dd>
+						</dl>
+						<dl>
+						<dt class="ListPrefixFont">From 1.0.0</dt>
+						<dd>Control point vector of the NURBS trajectory. The number of control points must be greater or equal to the order of the curve.</dd>
+						</dl>
+					</li></ul>
+				</li>
+				</ul>
+				</TD></TR>
+				</tbody>
+			 </TABLE>
+			 </p>	
+			<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+				<thead>
+				<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+				<TH ALIGN="left">
+				<span class="makeVisible"><FONT SIZE="+1">Stereotype Details Information</FONT></span></TH>
+				</TR>
+				</thead>
+				<tbody class="invisibleTable">
+				<TR><TD style="padding-left : 10px;">
+				<ul class="tree">
+				<li><span class="ListPrefixFont">Class</span>
+					<ul class="active">
+						<li class="noChildren">XSDcomplexType [modelGroup: "sequence"; mixed: "false"]</li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>order</i></span>
+					<ul class="active">
+						<li class="noChildren">XSDattribute </li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>controlPoints</i></span>
+					<ul class="active">
+						<li class="noChildren">XSDunwrapped [xsdElementName: "ControlPoint"]</li>
+					</ul>
+					<ul class="active">
+						<li class="noChildren">XSDelement [position: "1"]</li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>knots</i></span>
+					<ul class="active">
+						<li class="noChildren">XSDunwrapped [xsdElementName: "Knot"]</li>
+					</ul>
+					<ul class="active">
+						<li class="noChildren">XSDelement [position: "2"]</li>
+					</ul>
+				</li>
+				</ul>
+				</TD></TR>
+				<tbody>
+			 </TABLE>
+			 </p>	
+		
+		
+		<p class="PropertyColor"><a href="../RenderedXsdOutput.html#Nurbs">To XSD</a> <a href="NurbsTreeView.html">To XSD Tree</a></p>
+		<script>
+		var toggler = document.getElementsByClassName("treeCaret");
+		var i;
+		
+		for (i = 0; i < toggler.length; i++) {
+		  toggler[i].addEventListener("click", function() {
+		    this.parentElement.querySelector(".nested").classList.toggle("active");
+		    this.classList.toggle("treeCaret-down");
+		  });
+		}
+		function addTableVisibilityToggle(toggler)
+		{
+			for (i = 0; i < toggler.length; i++) {
+			  toggler[i].addEventListener("click", function() {
+			    var invisibleTable = this.parentElement.parentElement.parentElement.parentElement.querySelector(".invisibleTable");
+			    if (invisibleTable != null)
+			    {
+			    	this.parentElement.parentElement.parentElement.parentElement.querySelector(".invisibleTable").className = "visibleTable";
+			    	this.className= "makeInvisible";
+			    	
+			    }else
+			    {
+			   		this.parentElement.parentElement.parentElement.parentElement.querySelector(".visibleTable").className = "invisibleTable";
+			   		this.className = "makeVisible";
+			    }
+			    
+			  });
+			}
+		}
+		togglerUnvisible = document.getElementsByClassName("makeVisible");
+		togglerVisible = document.getElementsByClassName("makeInvisible");
+		addTableVisibilityToggle(togglerUnvisible);
+		addTableVisibilityToggle(togglerVisible);
+		
+		</script>
+	</body>
+</html>
+
