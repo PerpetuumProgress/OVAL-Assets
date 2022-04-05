@@ -1,4 +1,4 @@
-name: build
+name: esmini-build
 on:
   push:
     branches:
