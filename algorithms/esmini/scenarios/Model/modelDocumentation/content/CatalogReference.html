@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" 
+	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<link rel ="stylesheet" type="text/css" href="../stylesheet.css" title="Style">
+	<head>
+		<title>CatalogReference</title>
+	</head>
+	<body>
+		 	<h2>Class CatalogReference</h2>
+		<dl>
+			<dt CLASS="ListPrefixFont">Applied Stereotypes:</dt><dd>
+			
+			XSDcomplexType
+		</dd>
+		</dl>
+		<!-- implements Interfaces -->
+
+		
+		<!-- Implemented by -->
+				<p>A reference to type in a catalog. It is used when importing the type in a scenario. Furthermore, it hands over additional parameter values.</p>
+		<dl>
+			<dt><B>Used in:</B></dt><dd>
+				<a href="AssignControllerAction.html">AssignControllerAction</a> ,
+				<a href="AssignRouteAction.html">AssignRouteAction</a> ,
+				<a href="ControllerDistributionEntry.html">ControllerDistributionEntry</a> ,
+				<a href="EntityObject.html">EntityObject</a> ,
+				<a href="EnvironmentAction.html">EnvironmentAction</a> ,
+				<a href="FollowTrajectoryAction.html">FollowTrajectoryAction</a> ,
+				<a href="ManeuverGroup.html">ManeuverGroup</a> ,
+				<a href="ObjectController.html">ObjectController</a> ,
+				<a href="RouteRef.html">RouteRef</a> ,
+				<a href="TrajectoryRef.html">TrajectoryRef</a>
+		</dd></dl>
+			<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+				<thead>
+					<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+					<TH ALIGN="left" ><span class="makeInvisible"/><FONT SIZE="+1">Properties</FONT></TH></TR>
+				<thead>
+				<tbody class="visibleTable">
+				<TR><TD>
+				<table>
+				<thead>
+				<tr class="PropertyColor">
+					<th align="left">Name</th>
+					<th align="left">Type</th>
+					<th align="left">Cardinality</th>
+					<th align="left">AppliedStereotypes</th>
+					<th align="left">Description</th>
+				</tr>
+				</thead>
+				<tbody>				
+				<tr>
+				  	<td>catalogName</td>
+				  		<td>string</td>
+					<td>1..1</td>
+					<td>			
+
+					XSDattribute
+					</td>
+					<td>Name of the catalog.</td>
+				</tr>
+				<tr>
+				  	<td>entryName</td>
+				  		<td>string</td>
+					<td>1..1</td>
+					<td>			
+
+					XSDattribute
+					</td>
+					<td>Name of catalog entry.</td>
+				</tr>
+				<tr>
+				  	<td>parameterAssignments</td>
+				  		<td><a href="ParameterAssignment.html">ParameterAssignment</a></td>
+					<td>0..*</td>
+					<td>			
+
+					XSDwrapped, 
+
+					XSDelement
+					</td>
+					<td>List of parameter assignments for instantiation.</td>
+				</tr>
+				<tr>
+				  	<td>ref</td>
+				  		<td><a href="CatalogElement.html">CatalogElement</a></td>
+					<td>1..1</td>
+					<td>			
+
+					transient
+					</td>
+					<td>The resolved reference to a catalog element (out of the catalogName and entryName). Transient means, that it is not mapped to the schema.</td>
+				</tr>
+				</tbody>
+				</table>
+				</TD><TR>
+				</tbody>
+				</TABLE>
+				</p>
+		<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+				<thead>
+				<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+				<TH ALIGN="left" ><span class="makeInvisible"/><FONT SIZE="+1">XSD 1.1 Representation</FONT></TH></TR>
+				</thead>
+				<tbody class="visibleTable">
+				<TR><TD>
+				<table>
+				<tbody>
+				<tr>
+				  	<td><p class='code'>
+  <br /><span class='markup indent0'>&lt;xsd:complexType <span class='attribute'>name</span>=<span class='literal'>"CatalogReference"</span>&gt;</span>
+  <br /><span class='markup indent2'>&lt;xsd:sequence&gt;</span>
+  <br /><span class='markup indent4'>&lt;xsd:element <span class='attribute'>name</span>=<span class='literal'>"ParameterAssignments"</span> <span class='attribute'>type</span>=<span class='literal'>"ParameterAssignments"</span> <span class='attribute'>minOccurs</span>=<span class='literal'>"0"</span>/&gt;</span>
+  <br /><span class='markup indent2'>&lt;/xsd:sequence&gt;</span>
+  <br /><span class='markup indent2'>&lt;xsd:attribute <span class='attribute'>name</span>=<span class='literal'>"catalogName"</span> <span class='attribute'>type</span>=<span class='literal'>"</span><a href='./String.html'><span>String</span></a><span class='literal'>"</span> <span class='attribute'>use</span>=<span class='literal'>"required"</span>/&gt;</span>
+  <br /><span class='markup indent2'>&lt;xsd:attribute <span class='attribute'>name</span>=<span class='literal'>"entryName"</span> <span class='attribute'>type</span>=<span class='literal'>"</span><a href='./String.html'><span>String</span></a><span class='literal'>"</span> <span class='attribute'>use</span>=<span class='literal'>"required"</span>/&gt;</span>
+  <br /><span class='markup indent0'>&lt;/xsd:complexType&gt;</span>
+</p></td>
+				</tr>
+				</tbody>
+				</table>
+				</TD></TR>
+				</tbody>
+		</TABLE>
+		</p>
+		<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+				<thead>
+				<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+				<TH ALIGN="left" ><span class="makeInvisible"/><FONT SIZE="+1">XSD Transformation</FONT></TH></TR>
+				</thead>
+				<tbody class="visibleTable">
+				<TR><TD>
+				<table>
+				<thead>
+				<tr class="PropertyColor">
+					<th align="left">UML Element</th>
+					<th align="left">Stereotype</th>
+					<th align="left">Description</th>
+				</tr>
+				</thead>
+				<tbody>
+																<tr>
+				  	<td>parameterAssignments</td>
+				  	<td>XSDwrapper</td>
+				  	<td>This property represents a wrapped list. In XSD, the complex type <a href="../RenderedXsdOutput.html#ParameterAssignments">ParameterAssignments</a> is used as a wrapper.</td>
+				</tr>
+								</tbody>
+				</table>
+				</TD></TR>
+				</tbody>
+			 </TABLE>
+			 </p>
+			<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+				<thead>
+				<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+				<TH ALIGN="left">
+				<span class="makeVisible"><FONT SIZE="+1">Stereotype Details Information</FONT></span></TH>
+				</TR>
+				</thead>
+				<tbody class="invisibleTable">
+				<TR><TD style="padding-left : 10px;">
+				<ul class="tree">
+				<li><span class="ListPrefixFont">Class</span>
+					<ul class="active">
+						<li class="noChildren">XSDcomplexType [modelGroup: "sequence"; mixed: "false"]</li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>catalogName</i></span>
+					<ul class="active">
+						<li class="noChildren">XSDattribute </li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>entryName</i></span>
+					<ul class="active">
+						<li class="noChildren">XSDattribute </li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>parameterAssignments</i></span>
+					<ul class="active">
+						<li class="noChildren">XSDwrapped [wrapperMin: "0"; wrapperMax: "1"]</li>
+					</ul>
+					<ul class="active">
+						<li class="noChildren">XSDelement [position: "1"]</li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>ref</i></span>
+					<ul class="active">
+						<li class="noChildren">transient </li>
+					</ul>
+				</li>
+				</ul>
+				</TD></TR>
+				<tbody>
+			 </TABLE>
+			 </p>	
+		
+		
+		<p class="PropertyColor"><a href="../RenderedXsdOutput.html#CatalogReference">To XSD</a> <a href="CatalogReferenceTreeView.html">To XSD Tree</a></p>
+		<script>
+		var toggler = document.getElementsByClassName("treeCaret");
+		var i;
+		
+		for (i = 0; i < toggler.length; i++) {
+		  toggler[i].addEventListener("click", function() {
+		    this.parentElement.querySelector(".nested").classList.toggle("active");
+		    this.classList.toggle("treeCaret-down");
+		  });
+		}
+		function addTableVisibilityToggle(toggler)
+		{
+			for (i = 0; i < toggler.length; i++) {
+			  toggler[i].addEventListener("click", function() {
+			    var invisibleTable = this.parentElement.parentElement.parentElement.parentElement.querySelector(".invisibleTable");
+			    if (invisibleTable != null)
+			    {
+			    	this.parentElement.parentElement.parentElement.parentElement.querySelector(".invisibleTable").className = "visibleTable";
+			    	this.className= "makeInvisible";
+			    	
+			    }else
+			    {
+			   		this.parentElement.parentElement.parentElement.parentElement.querySelector(".visibleTable").className = "invisibleTable";
+			   		this.className = "makeVisible";
+			    }
+			    
+			  });
+			}
+		}
+		togglerUnvisible = document.getElementsByClassName("makeVisible");
+		togglerVisible = document.getElementsByClassName("makeInvisible");
+		addTableVisibilityToggle(togglerUnvisible);
+		addTableVisibilityToggle(togglerVisible);
+		
+		</script>
+	</body>
+</html>
+

@@ -1,0 +1,203 @@
+/* Javadoc style sheet */
+
+/* Define colors, fonts and other style attributes here to override the defaults */
+
+/* Page background color */
+body { background-color: #FFFFFF; font-size: 90
+	%; font-family: Helvetica, Arial, sans-serif; color:#000000
+}
+
+/* Headings */
+h1 { font-size: 145% 
+}
+
+.code { background-color: #FFFFFF; font-size: 90
+	%; font-family: Courier; color:#000000;font-size: 80%
+}
+
+.PropertyColor { color:#303030 } 
+.DeprecatedFont { color:#96111e ;} 
+.ListPrefixFont { color:#303030 ; font-weight: bold} 
+
+/* Table colors */
+.TableHeadingColor     { background: #CCCCFF; color:#000000;} /* Dark mauve */
+.TableSubHeadingColor  { background: #EEEEFF; color:#000000 } /* Light mauve */
+.TableRowColor         { background: #FFFFFF; color:#000000 } /* White */
+
+/* Font used in left-hand frame lists */
+.FrameTitleFont   { font-size: 100%; font-family: Helvetica, Arial, sans-serif; color:#000000 }
+.FrameHeadingFont { font-size:  100%; font-family: Helvetica, Arial, sans-serif; color:#000000; size:+1}
+.FrameItemFont    { font-size:  90%; font-family: Helvetica, Arial, sans-serif; color:#000000 }
+
+/* Navigation bar fonts and colors */
+.NavBarCell1    { background-color:#EEEEFF; color:#000000} /* Light mauve */
+.NavBarCell1Rev { background-color:#00008B; color:#FFFFFF} /* Dark Blue */
+.NavBarFont1    { font-family: Arial, Helvetica, sans-serif; color:#000000;}
+.NavBarFont1Rev { font-family: Arial, Helvetica, sans-serif; color:#FFFFFF;}
+
+.NavBarCell2    { font-family: Arial, Helvetica, sans-serif; background-color:#FFFFFF; color:#000000}
+.NavBarCell3    { font-family: Arial, Helvetica, sans-serif; background-color:#FFFFFF; color:#000000}
+
+.markup {color:#0000FF;}
+.attribute {color:#ff0000}
+.literal {color:#8000ff; font-weight:bold}
+
+.indent0{ }
+.indent1{ margin-left: 20px;}
+.indent2{ margin-left: 40px;}
+.indent3{ margin-left: 60px;}
+.indent4{ margin-left: 80px;}
+.indent5{ margin-left: 100px;}
+.indent6{ margin-left: 120px;}
+.indent7{ margin-left: 140px;}
+.indent8{ margin-left: 160px;}
+.indent9{ margin-left: 180px;}
+.indent10{margin-left: 200px;}
+.indent11{ margin-left: 220px;}
+.indent12{ margin-left: 240px;}
+.indent13{ margin-left: 260px;}
+.indent14{ margin-left: 280px;}
+.indent15{ margin-left: 300px;}
+
+.node {
+	cursor: pointer;
+}
+
+.elementWithChildren {
+  fill: lightsteelblue;
+  stroke: steelblue;
+  stroke-width: 3px;
+}
+
+.typeWithChildren {
+  fill: #ccc;
+  stroke: #1c1c1c;
+  stroke-width: 3px;
+}
+
+.elementNoChildren {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 3px;
+}
+
+.typeNoChildren {
+  fill: #fff;
+  stroke: #1c1c1c;
+  stroke-width: 3px;
+}
+
+
+.node text {
+  font: 12px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2px;
+}
+div.tooltip {	
+	position: absolute;			
+	text-align: left;								
+	padding: 2px;				
+	font: 12px sans-serif;		
+	background: lightsteelblue;	
+	border: 0px;		
+	border-radius: 8px;			
+	pointer-events: none;			
+}
+
+ul.root {
+  margin-left: 0;
+  padding-left: 20px;
+}
+
+ul.child {
+  list-style-type: none;
+}
+/* Style the caret/arrow */
+.caret {
+  cursor: pointer;
+  user-select: none; /* Prevent text selection */
+  color:#303030 ; 
+  
+}
+
+/* Create the caret/arrow with a unicode, and style it */
+.caret::before {
+  content: "\25B6";
+  color: #303030;
+  display: inline-block;
+  transform: rotate(90deg);
+  margin-left: 6px;
+}
+
+/* Rotate the caret/arrow icon when clicked on (using JavaScript) */
+.caret-down::before {
+  transform: rotate(-90deg);
+}
+.nested {
+  display: none;
+  list-style-type: none;
+}
+
+.active {
+  display: block;
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 15px;
+}
+
+/* Style the caret/arrow */
+.treeCaret {
+	width : auto;
+	background: url("images/close.png") no-repeat left top;
+	background-size: 12px 12px;
+	padding-left: 20px;
+  
+}
+
+
+.treeCaret-down {
+  width : auto;
+  background: url("images/open.png") no-repeat left top;
+  background-size: 12px 12px;
+  padding-left: 20px;
+}
+
+.visibleTable {
+	display: table-row-group;
+}
+.invisibleTable {
+	display: none;
+}
+
+.makeVisible
+{
+	background: url("images/open.png") no-repeat left center;
+	background-size: 12px 12px;
+	padding-left: 20px;
+}
+
+.makeInvisible
+{
+	background: url("images/closeTable.png") no-repeat left top;
+	background-size: 12px 12px;
+	padding-left: 20px;
+}
+
+li.noChildren {
+  padding-left: 20px;
+}
+
+ul.tree {
+ list-style-type: none;
+ margin-left: 0;
+ padding-left: 0px;
+}
+
+li{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}

@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" 
+	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<link rel ="stylesheet" type="text/css" href="../stylesheet.css" title="Style">
+	<head>
+		<title>EntityCondition</title>
+	</head>
+	<body>
+		 	<h2>Class EntityCondition</h2>
+		<dl>
+			<dt CLASS="ListPrefixFont">Applied Stereotypes:</dt><dd>
+			
+			XSDcomplexType, 
+
+			union
+		</dd>
+		</dl>
+		<!-- implements Interfaces -->
+
+		
+		<!-- Implemented by -->
+				<p>Defines a specific condition on an entity.</p>
+		<dl>
+			<dt><B>Used in:</B></dt><dd>
+				<a href="ByEntityCondition.html">ByEntityCondition</a>
+		</dd></dl>
+			<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+				<thead>
+					<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+					<TH ALIGN="left" ><span class="makeInvisible"/><FONT SIZE="+1">Properties</FONT></TH></TR>
+				<thead>
+				<tbody class="visibleTable">
+				<TR><TD>
+				<table>
+				<thead>
+				<tr class="PropertyColor">
+					<th align="left">Name</th>
+					<th align="left">Type</th>
+					<th align="left">Cardinality</th>
+					<th align="left">AppliedStereotypes</th>
+					<th align="left">Description</th>
+				</tr>
+				</thead>
+				<tbody>				
+				<tr>
+				  	<td>endOfRoadCondition</td>
+				  		<td><a href="EndOfRoadCondition.html">EndOfRoadCondition</a></td>
+					<td>0..1</td>
+					<td>			
+
+					xor, 
+
+					XSDelement
+					</td>
+					<td>Condition checking for how long the reference entity has reached the end of the road.</td>
+				</tr>
+				<tr>
+				  	<td>collisionCondition</td>
+				  		<td><a href="CollisionCondition.html">CollisionCondition</a></td>
+					<td>0..1</td>
+					<td>			
+
+					xor, 
+
+					XSDelement
+					</td>
+					<td>Condition checking whether the reference entity was involved in a collision.</td>
+				</tr>
+				<tr>
+				  	<td>offroadCondition</td>
+				  		<td><a href="OffroadCondition.html">OffroadCondition</a></td>
+					<td>0..1</td>
+					<td>			
+
+					xor, 
+
+					XSDelement
+					</td>
+					<td>Condition checking for how long the reference entity has left the road.</td>
+				</tr>
+				<tr>
+				  	<td>timeHeadwayCondition</td>
+				  		<td><a href="TimeHeadwayCondition.html">TimeHeadwayCondition</a></td>
+					<td>0..1</td>
+					<td>			
+
+					xor, 
+
+					XSDelement
+					</td>
+					<td>Condition checking the time headway between two entities.</td>
+				</tr>
+				<tr>
+				  	<td>timeToCollisionCondition</td>
+				  		<td><a href="TimeToCollisionCondition.html">TimeToCollisionCondition</a></td>
+					<td>0..1</td>
+					<td>			
+
+					xor, 
+
+					XSDelement
+					</td>
+					<td>Condition checking the time to collision between two entities.</td>
+				</tr>
+				<tr>
+				  	<td>accelerationCondition</td>
+				  		<td><a href="AccelerationCondition.html">AccelerationCondition</a></td>
+					<td>0..1</td>
+					<td>			
+
+					xor, 
+
+					XSDelement
+					</td>
+					<td>Condition checking the current acceleration of an entity.</td>
+				</tr>
+				<tr>
+				  	<td>standStillCondition</td>
+				  		<td><a href="StandStillCondition.html">StandStillCondition</a></td>
+					<td>0..1</td>
+					<td>			
+
+					xor, 
+
+					XSDelement
+					</td>
+					<td>Condition checking for how long the reference entity has not moved.</td>
+				</tr>
+				<tr>
+				  	<td>speedCondition</td>
+				  		<td><a href="SpeedCondition.html">SpeedCondition</a></td>
+					<td>0..1</td>
+					<td>			
+
+					xor, 
+
+					XSDelement
+					</td>
+					<td>Condition checking the current speed of the referenced entities.</td>
+				</tr>
+				<tr>
+				  	<td>relativeSpeedCondition</td>
+				  		<td><a href="RelativeSpeedCondition.html">RelativeSpeedCondition</a></td>
+					<td>0..1</td>
+					<td>			
+
+					xor, 
+
+					XSDelement
+					</td>
+					<td>Condition checking the relative speed between two entity.</td>
+				</tr>
+				<tr>
+				  	<td>traveledDistanceCondition</td>
+				  		<td><a href="TraveledDistanceCondition.html">TraveledDistanceCondition</a></td>
+					<td>0..1</td>
+					<td>			
+
+					xor, 
+
+					XSDelement
+					</td>
+					<td>Condition checking the total traveled distance of the reference entity since the start of the scenario.</td>
+				</tr>
+				<tr>
+				  	<td>reachPositionCondition</td>
+				  		<td><a href="ReachPositionCondition.html">ReachPositionCondition</a></td>
+					<td>0..1</td>
+					<td>			
+
+					xor, 
+
+					XSDelement
+					</td>
+					<td>Condition checking whether the reference entity has reached a given position within a given uncertainty.</td>
+				</tr>
+				<tr>
+				  	<td>distanceCondition</td>
+				  		<td><a href="DistanceCondition.html">DistanceCondition</a></td>
+					<td>0..1</td>
+					<td>			
+
+					xor, 
+
+					XSDelement
+					</td>
+					<td>Condition checking the distance between two entities or an entity and a position.</td>
+				</tr>
+				<tr>
+				  	<td>relativeDistanceCondition</td>
+				  		<td><a href="RelativeDistanceCondition.html">RelativeDistanceCondition</a></td>
+					<td>0..1</td>
+					<td>			
+
+					xor, 
+
+					XSDelement
+					</td>
+					<td>Condition checking the relative distance between two entities.</td>
+				</tr>
+				</tbody>
+				</table>
+				</TD><TR>
+				</tbody>
+				</TABLE>
+				</p>
+		<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+				<thead>
+				<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+				<TH ALIGN="left" ><span class="makeInvisible"/><FONT SIZE="+1">XSD 1.1 Representation</FONT></TH></TR>
+				</thead>
+				<tbody class="visibleTable">
+				<TR><TD>
+				<table>
+				<tbody>
+				<tr>
+				  	<td><p class='code'>
+  <br /><span class='markup indent0'>&lt;xsd:complexType <span class='attribute'>name</span>=<span class='literal'>"EntityCondition"</span>&gt;</span>
+  <br /><span class='markup indent2'>&lt;xsd:choice&gt;</span>
+  <br /><span class='markup indent4'>&lt;xsd:element <span class='attribute'>name</span>=<span class='literal'>"EndOfRoadCondition"</span> <span class='attribute'>type</span>=<span class='literal'>"</span><a href='./EndOfRoadCondition.html'><span>EndOfRoadCondition</span></a><span class='literal'>"</span> <span class='attribute'>minOccurs</span>=<span class='literal'>"0"</span>/&gt;</span>
+  <br /><span class='markup indent4'>&lt;xsd:element <span class='attribute'>name</span>=<span class='literal'>"CollisionCondition"</span> <span class='attribute'>type</span>=<span class='literal'>"</span><a href='./CollisionCondition.html'><span>CollisionCondition</span></a><span class='literal'>"</span> <span class='attribute'>minOccurs</span>=<span class='literal'>"0"</span>/&gt;</span>
+  <br /><span class='markup indent4'>&lt;xsd:element <span class='attribute'>name</span>=<span class='literal'>"OffroadCondition"</span> <span class='attribute'>type</span>=<span class='literal'>"</span><a href='./OffroadCondition.html'><span>OffroadCondition</span></a><span class='literal'>"</span> <span class='attribute'>minOccurs</span>=<span class='literal'>"0"</span>/&gt;</span>
+  <br /><span class='markup indent4'>&lt;xsd:element <span class='attribute'>name</span>=<span class='literal'>"TimeHeadwayCondition"</span> <span class='attribute'>type</span>=<span class='literal'>"</span><a href='./TimeHeadwayCondition.html'><span>TimeHeadwayCondition</span></a><span class='literal'>"</span> <span class='attribute'>minOccurs</span>=<span class='literal'>"0"</span>/&gt;</span>
+  <br /><span class='markup indent4'>&lt;xsd:element <span class='attribute'>name</span>=<span class='literal'>"TimeToCollisionCondition"</span> <span class='attribute'>type</span>=<span class='literal'>"</span><a href='./TimeToCollisionCondition.html'><span>TimeToCollisionCondition</span></a><span class='literal'>"</span> <span class='attribute'>minOccurs</span>=<span class='literal'>"0"</span>/&gt;</span>
+  <br /><span class='markup indent4'>&lt;xsd:element <span class='attribute'>name</span>=<span class='literal'>"AccelerationCondition"</span> <span class='attribute'>type</span>=<span class='literal'>"</span><a href='./AccelerationCondition.html'><span>AccelerationCondition</span></a><span class='literal'>"</span> <span class='attribute'>minOccurs</span>=<span class='literal'>"0"</span>/&gt;</span>
+  <br /><span class='markup indent4'>&lt;xsd:element <span class='attribute'>name</span>=<span class='literal'>"StandStillCondition"</span> <span class='attribute'>type</span>=<span class='literal'>"</span><a href='./StandStillCondition.html'><span>StandStillCondition</span></a><span class='literal'>"</span> <span class='attribute'>minOccurs</span>=<span class='literal'>"0"</span>/&gt;</span>
+  <br /><span class='markup indent4'>&lt;xsd:element <span class='attribute'>name</span>=<span class='literal'>"SpeedCondition"</span> <span class='attribute'>type</span>=<span class='literal'>"</span><a href='./SpeedCondition.html'><span>SpeedCondition</span></a><span class='literal'>"</span> <span class='attribute'>minOccurs</span>=<span class='literal'>"0"</span>/&gt;</span>
+  <br /><span class='markup indent4'>&lt;xsd:element <span class='attribute'>name</span>=<span class='literal'>"RelativeSpeedCondition"</span> <span class='attribute'>type</span>=<span class='literal'>"</span><a href='./RelativeSpeedCondition.html'><span>RelativeSpeedCondition</span></a><span class='literal'>"</span> <span class='attribute'>minOccurs</span>=<span class='literal'>"0"</span>/&gt;</span>
+  <br /><span class='markup indent4'>&lt;xsd:element <span class='attribute'>name</span>=<span class='literal'>"TraveledDistanceCondition"</span> <span class='attribute'>type</span>=<span class='literal'>"</span><a href='./TraveledDistanceCondition.html'><span>TraveledDistanceCondition</span></a><span class='literal'>"</span> <span class='attribute'>minOccurs</span>=<span class='literal'>"0"</span>/&gt;</span>
+  <br /><span class='markup indent4'>&lt;xsd:element <span class='attribute'>name</span>=<span class='literal'>"ReachPositionCondition"</span> <span class='attribute'>type</span>=<span class='literal'>"</span><a href='./ReachPositionCondition.html'><span>ReachPositionCondition</span></a><span class='literal'>"</span> <span class='attribute'>minOccurs</span>=<span class='literal'>"0"</span>/&gt;</span>
+  <br /><span class='markup indent4'>&lt;xsd:element <span class='attribute'>name</span>=<span class='literal'>"DistanceCondition"</span> <span class='attribute'>type</span>=<span class='literal'>"</span><a href='./DistanceCondition.html'><span>DistanceCondition</span></a><span class='literal'>"</span> <span class='attribute'>minOccurs</span>=<span class='literal'>"0"</span>/&gt;</span>
+  <br /><span class='markup indent4'>&lt;xsd:element <span class='attribute'>name</span>=<span class='literal'>"RelativeDistanceCondition"</span> <span class='attribute'>type</span>=<span class='literal'>"</span><a href='./RelativeDistanceCondition.html'><span>RelativeDistanceCondition</span></a><span class='literal'>"</span> <span class='attribute'>minOccurs</span>=<span class='literal'>"0"</span>/&gt;</span>
+  <br /><span class='markup indent2'>&lt;/xsd:choice&gt;</span>
+  <br /><span class='markup indent0'>&lt;/xsd:complexType&gt;</span>
+</p></td>
+				</tr>
+				</tbody>
+				</table>
+				</TD></TR>
+				</tbody>
+		</TABLE>
+		</p>
+			<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+				<thead>
+				<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+				<TH ALIGN="left">
+				<span class="makeVisible"><FONT SIZE="+1">Stereotype Details Information</FONT></span></TH>
+				</TR>
+				</thead>
+				<tbody class="invisibleTable">
+				<TR><TD style="padding-left : 10px;">
+				<ul class="tree">
+				<li><span class="ListPrefixFont">Class</span>
+					<ul class="active">
+						<li class="noChildren">XSDcomplexType [modelGroup: "choice"; mixed: "false"]</li>
+					</ul>
+					<ul class="active">
+						<li class="noChildren">union </li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>endOfRoadCondition</i></span>
+					<ul class="active">
+						<li class="noChildren">xor </li>
+					</ul>
+					<ul class="active">
+						<li class="noChildren">XSDelement [position: "1"]</li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>collisionCondition</i></span>
+					<ul class="active">
+						<li class="noChildren">xor </li>
+					</ul>
+					<ul class="active">
+						<li class="noChildren">XSDelement [position: "2"]</li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>offroadCondition</i></span>
+					<ul class="active">
+						<li class="noChildren">xor </li>
+					</ul>
+					<ul class="active">
+						<li class="noChildren">XSDelement [position: "3"]</li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>timeHeadwayCondition</i></span>
+					<ul class="active">
+						<li class="noChildren">xor </li>
+					</ul>
+					<ul class="active">
+						<li class="noChildren">XSDelement [position: "4"]</li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>timeToCollisionCondition</i></span>
+					<ul class="active">
+						<li class="noChildren">xor </li>
+					</ul>
+					<ul class="active">
+						<li class="noChildren">XSDelement [position: "5"]</li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>accelerationCondition</i></span>
+					<ul class="active">
+						<li class="noChildren">xor </li>
+					</ul>
+					<ul class="active">
+						<li class="noChildren">XSDelement [position: "6"]</li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>standStillCondition</i></span>
+					<ul class="active">
+						<li class="noChildren">xor </li>
+					</ul>
+					<ul class="active">
+						<li class="noChildren">XSDelement [position: "7"]</li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>speedCondition</i></span>
+					<ul class="active">
+						<li class="noChildren">xor </li>
+					</ul>
+					<ul class="active">
+						<li class="noChildren">XSDelement [position: "8"]</li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>relativeSpeedCondition</i></span>
+					<ul class="active">
+						<li class="noChildren">xor </li>
+					</ul>
+					<ul class="active">
+						<li class="noChildren">XSDelement [position: "9"]</li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>traveledDistanceCondition</i></span>
+					<ul class="active">
+						<li class="noChildren">xor </li>
+					</ul>
+					<ul class="active">
+						<li class="noChildren">XSDelement [position: "10"]</li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>reachPositionCondition</i></span>
+					<ul class="active">
+						<li class="noChildren">xor </li>
+					</ul>
+					<ul class="active">
+						<li class="noChildren">XSDelement [position: "11"]</li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>distanceCondition</i></span>
+					<ul class="active">
+						<li class="noChildren">xor </li>
+					</ul>
+					<ul class="active">
+						<li class="noChildren">XSDelement [position: "12"]</li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>relativeDistanceCondition</i></span>
+					<ul class="active">
+						<li class="noChildren">xor </li>
+					</ul>
+					<ul class="active">
+						<li class="noChildren">XSDelement [position: "13"]</li>
+					</ul>
+				</li>
+				</ul>
+				</TD></TR>
+				<tbody>
+			 </TABLE>
+			 </p>	
+		
+		
+		<p class="PropertyColor"><a href="../RenderedXsdOutput.html#EntityCondition">To XSD</a> <a href="EntityConditionTreeView.html">To XSD Tree</a></p>
+		<script>
+		var toggler = document.getElementsByClassName("treeCaret");
+		var i;
+		
+		for (i = 0; i < toggler.length; i++) {
+		  toggler[i].addEventListener("click", function() {
+		    this.parentElement.querySelector(".nested").classList.toggle("active");
+		    this.classList.toggle("treeCaret-down");
+		  });
+		}
+		function addTableVisibilityToggle(toggler)
+		{
+			for (i = 0; i < toggler.length; i++) {
+			  toggler[i].addEventListener("click", function() {
+			    var invisibleTable = this.parentElement.parentElement.parentElement.parentElement.querySelector(".invisibleTable");
+			    if (invisibleTable != null)
+			    {
+			    	this.parentElement.parentElement.parentElement.parentElement.querySelector(".invisibleTable").className = "visibleTable";
+			    	this.className= "makeInvisible";
+			    	
+			    }else
+			    {
+			   		this.parentElement.parentElement.parentElement.parentElement.querySelector(".visibleTable").className = "invisibleTable";
+			   		this.className = "makeVisible";
+			    }
+			    
+			  });
+			}
+		}
+		togglerUnvisible = document.getElementsByClassName("makeVisible");
+		togglerVisible = document.getElementsByClassName("makeInvisible");
+		addTableVisibilityToggle(togglerUnvisible);
+		addTableVisibilityToggle(togglerVisible);
+		
+		</script>
+	</body>
+</html>
+

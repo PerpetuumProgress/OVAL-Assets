@@ -1,0 +1,1 @@
+"../../bin/esmini" --window 60 60 800 400 --osc ../../resources/xosc/ltap-od.xosc --trail_mode 1 --disable_controllers

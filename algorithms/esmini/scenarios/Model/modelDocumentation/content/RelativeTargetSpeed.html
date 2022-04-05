@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" 
+	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<link rel ="stylesheet" type="text/css" href="../stylesheet.css" title="Style">
+	<head>
+		<title>RelativeTargetSpeed</title>
+	</head>
+	<body>
+		 	<h2>Class RelativeTargetSpeed</h2>
+		<dl>
+			<dt CLASS="ListPrefixFont">Applied Stereotypes:</dt><dd>
+			
+			XSDcomplexType
+		</dd>
+		</dl>
+		<!-- implements Interfaces -->
+
+		
+		<!-- Implemented by -->
+				<p>Defines a target speed relative to a reference entity's speed.</p>
+		<dl>
+			<dt><B>Used in:</B></dt><dd>
+				<a href="SpeedActionTarget.html">SpeedActionTarget</a>
+		</dd></dl>
+			<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+				<thead>
+					<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+					<TH ALIGN="left" ><span class="makeInvisible"/><FONT SIZE="+1">Properties</FONT></TH></TR>
+				<thead>
+				<tbody class="visibleTable">
+				<TR><TD>
+				<table>
+				<thead>
+				<tr class="PropertyColor">
+					<th align="left">Name</th>
+					<th align="left">Type</th>
+					<th align="left">Cardinality</th>
+					<th align="left">AppliedStereotypes</th>
+					<th align="left">Description</th>
+				</tr>
+				</thead>
+				<tbody>				
+				<tr>
+				  	<td>continuous</td>
+				  		<td>boolean</td>
+					<td>1..1</td>
+					<td>			
+
+					XSDattribute
+					</td>
+					<td>By setting continuous to true a controller comes into place and tries to maintain a continuous relative speed. This may not be used together with Dynamics.time or Dynamics.distance.</td>
+				</tr>
+				<tr>
+				  	<td>entityRef</td>
+				  		<td><a href="Entity.html">Entity</a></td>
+					<td>1..1</td>
+					<td>			
+
+					nameRef, 
+
+					XSDattribute
+					</td>
+					<td>Reference entity.</td>
+				</tr>
+				<tr>
+				  	<td>speedTargetValueType</td>
+				  		<td><a href="SpeedTargetValueType.html">SpeedTargetValueType</a></td>
+					<td>1..1</td>
+					<td>			
+
+					XSDattribute
+					</td>
+					<td>The value is either a delta (Unit m/s) or a factor (no Unit).</td>
+				</tr>
+				<tr>
+				  	<td>value</td>
+				  		<td>double</td>
+					<td>1..1</td>
+					<td>			
+
+					XSDattribute
+					</td>
+					<td>Value of the relative speed. This value is either given as a delta or as a factor. E.g. value=10 together with valueType=delta means the entity/entities are supposed to drive 10m/s faster than the target reference entity. E.g. value=1.1 together with valueType=factor means that the entity/entities are supposed to drive 10% faster than the target reference entity. Unit: m/s or 1.</td>
+				</tr>
+				</tbody>
+				</table>
+				</TD><TR>
+				</tbody>
+				</TABLE>
+				</p>
+		<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+				<thead>
+				<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+				<TH ALIGN="left" ><span class="makeInvisible"/><FONT SIZE="+1">XSD 1.1 Representation</FONT></TH></TR>
+				</thead>
+				<tbody class="visibleTable">
+				<TR><TD>
+				<table>
+				<tbody>
+				<tr>
+				  	<td><p class='code'>
+  <br /><span class='markup indent0'>&lt;xsd:complexType <span class='attribute'>name</span>=<span class='literal'>"RelativeTargetSpeed"</span>&gt;</span>
+  <br /><span class='markup indent2'>&lt;xsd:attribute <span class='attribute'>name</span>=<span class='literal'>"entityRef"</span> <span class='attribute'>type</span>=<span class='literal'>"</span><a href='./String.html'><span>String</span></a><span class='literal'>"</span> <span class='attribute'>use</span>=<span class='literal'>"required"</span>/&gt;</span>
+  <br /><span class='markup indent2'>&lt;xsd:attribute <span class='attribute'>name</span>=<span class='literal'>"continuous"</span> <span class='attribute'>type</span>=<span class='literal'>"</span><a href='./Boolean.html'><span>Boolean</span></a><span class='literal'>"</span> <span class='attribute'>use</span>=<span class='literal'>"required"</span>/&gt;</span>
+  <br /><span class='markup indent2'>&lt;xsd:attribute <span class='attribute'>name</span>=<span class='literal'>"speedTargetValueType"</span> <span class='attribute'>type</span>=<span class='literal'>"</span><a href='./SpeedTargetValueType.html'><span>SpeedTargetValueType</span></a><span class='literal'>"</span> <span class='attribute'>use</span>=<span class='literal'>"required"</span>/&gt;</span>
+  <br /><span class='markup indent2'>&lt;xsd:attribute <span class='attribute'>name</span>=<span class='literal'>"value"</span> <span class='attribute'>type</span>=<span class='literal'>"</span><a href='./Double.html'><span>Double</span></a><span class='literal'>"</span> <span class='attribute'>use</span>=<span class='literal'>"required"</span>/&gt;</span>
+  <br /><span class='markup indent0'>&lt;/xsd:complexType&gt;</span>
+</p></td>
+				</tr>
+				</tbody>
+				</table>
+				</TD></TR>
+				</tbody>
+		</TABLE>
+		</p>
+			<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+				<thead>
+				<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+				<TH ALIGN="left">
+				<span class="makeVisible"><FONT SIZE="+1">Stereotype Details Information</FONT></span></TH>
+				</TR>
+				</thead>
+				<tbody class="invisibleTable">
+				<TR><TD style="padding-left : 10px;">
+				<ul class="tree">
+				<li><span class="ListPrefixFont">Class</span>
+					<ul class="active">
+						<li class="noChildren">XSDcomplexType [modelGroup: "sequence"; mixed: "false"]</li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>continuous</i></span>
+					<ul class="active">
+						<li class="noChildren">XSDattribute </li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>entityRef</i></span>
+					<ul class="active">
+						<li class="noChildren">nameRef [xsdType: "string"]</li>
+					</ul>
+					<ul class="active">
+						<li class="noChildren">XSDattribute </li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>speedTargetValueType</i></span>
+					<ul class="active">
+						<li class="noChildren">XSDattribute </li>
+					</ul>
+				</li>
+				<li><span class="ListPrefixFont">Property <i>value</i></span>
+					<ul class="active">
+						<li class="noChildren">XSDattribute </li>
+					</ul>
+				</li>
+				</ul>
+				</TD></TR>
+				<tbody>
+			 </TABLE>
+			 </p>	
+		
+		
+		<p class="PropertyColor"><a href="../RenderedXsdOutput.html#RelativeTargetSpeed">To XSD</a> <a href="RelativeTargetSpeedTreeView.html">To XSD Tree</a></p>
+		<script>
+		var toggler = document.getElementsByClassName("treeCaret");
+		var i;
+		
+		for (i = 0; i < toggler.length; i++) {
+		  toggler[i].addEventListener("click", function() {
+		    this.parentElement.querySelector(".nested").classList.toggle("active");
+		    this.classList.toggle("treeCaret-down");
+		  });
+		}
+		function addTableVisibilityToggle(toggler)
+		{
+			for (i = 0; i < toggler.length; i++) {
+			  toggler[i].addEventListener("click", function() {
+			    var invisibleTable = this.parentElement.parentElement.parentElement.parentElement.querySelector(".invisibleTable");
+			    if (invisibleTable != null)
+			    {
+			    	this.parentElement.parentElement.parentElement.parentElement.querySelector(".invisibleTable").className = "visibleTable";
+			    	this.className= "makeInvisible";
+			    	
+			    }else
+			    {
+			   		this.parentElement.parentElement.parentElement.parentElement.querySelector(".visibleTable").className = "invisibleTable";
+			   		this.className = "makeVisible";
+			    }
+			    
+			  });
+			}
+		}
+		togglerUnvisible = document.getElementsByClassName("makeVisible");
+		togglerVisible = document.getElementsByClassName("makeInvisible");
+		addTableVisibilityToggle(togglerUnvisible);
+		addTableVisibilityToggle(togglerVisible);
+		
+		</script>
+	</body>
+</html>
+
