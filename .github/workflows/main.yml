@@ -23,7 +23,7 @@ jobs:
         name: Build and push Esmini
         uses: docker/build-push-action@v2
         with:
-          context: .
+          context: ./algorithms/esmini
           file: ./algorithms/esmini/Dockerfile
           push: true
           tags: ${{ secrets.DOCKER_HUB_USERNAME }}/oval-esmini
@@ -31,7 +31,7 @@ jobs:
         name: Build and push QChecker
         uses: docker/build-push-action@v2
         with:
-          context: .
+          context: ./algorithms/qchecker/
           file: ./algorithms/qchecker/Dockerfile
           push: true
           tags: ${{ secrets.DOCKER_HUB_USERNAME }}/oval-qchecker
