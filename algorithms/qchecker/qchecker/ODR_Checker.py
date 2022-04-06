@@ -52,7 +52,7 @@ def main(argv):
         output12 = header.attrib.get('date')
 
     output21 = ' - Consistent with Quality schema version 1.5M ? : '
-    
+
     if result:
         output22 = str(result)
     else:
