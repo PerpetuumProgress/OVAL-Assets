@@ -1,31 +1,49 @@
 import os
-import fnmatch
 import sys
-import traceback
-from xml.etree import ElementTree as ET
-import xmlschema
-import csv
+import getopt
 import fpdf
+import xmlschema
+from xml.etree import ElementTree as ET
+
+# not used
+import csv
 import pathlib
+import fnmatch
+import traceback
 
 
-def main():
+def main(argv):
     # file paths
     xsd_file = r'OpenDRIVE_1.5M.xsd'
-    xml_directory = r"..\data\inputs"
-    xml_extension = r".xodr"
+    xml_file = ''
 
-    # find the file name
-    xml_file = [os.path.join(xml_directory, _) for _ in os.listdir(xml_directory) if _.endswith(xml_extension)]
-    print(xml_file[0].split('\\')[3])
+    # get the input parameter
+    try:
+        opts, args = getopt.getopt(argv, "hi:", ["ifile="])
+    except getopt.GetoptError:
+        print('test.py -i <inputfile>')
+        sys.exit(2)
+    for opt, arg in opts:
+        if opt == '-h':
+            print ('test.py -i <inputfile>')
+            sys.exit()
+        elif opt in ("-i", "--ifile"):
+            xml_file = arg
+    print('Input file is: ', xml_file)
 
-    # Check the validity
+    # find the file in the folder
+    # xml_directory = r"..\data\inputs"
+    # xml_extension = r".xodr"
+    # list all the file with the extension in the folder
+    # xml_file = [os.path.join(xml_directory, _) for _ in os.listdir(xml_directory) if _.endswith(xml_extension)]
+    # print(xml_file[0].split('\\')[3])
+
+    # check the validity
     my_schema = xmlschema.XMLSchema(xsd_file)
-    result = my_schema.is_valid(xml_file[0])
+    result = my_schema.is_valid(xml_file)
 
-    # Gather Metadata and Pool the results
-
-    xml_tree = ET.parse(xml_file[0])
+    # gather metadata and pool the results
+    xml_tree = ET.parse(xml_file)
     root = xml_tree.getroot()
 
     for header in root.iter('header'):
@@ -34,19 +52,19 @@ def main():
         output12 = header.attrib.get('date')
 
     output21 = ' - Consistent with Quality schema version 1.5M ? : '
-
+    
     if result:
         output22 = str(result)
     else:
         output22 = str(result)
+
     for road in root.iter('road'):
         output31 = ' - Type(s) of Road included : '
         output32 = 'No Road Type defined'
         for type in road.iter('type'):
             output32 = type.attrib.get('type')
 
-    # Generate Report
-
+    # generate report
     class PDF(fpdf.FPDF):
         def header(self):
             # Logo
@@ -76,7 +94,7 @@ def main():
     pdf.set_font_size(10)
     pdf.ln(10)
     pdf.write(5, ' - OpenDrive File Name : ')
-    pdf.write(5, xml_file[0].split('\\')[3])
+    pdf.write(5, xml_file.split('/')[3])
     pdf.ln(5)
     pdf.write(5, output11)
     pdf.write(5, output12)
@@ -92,4 +110,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    main(sys.argv[1:])
