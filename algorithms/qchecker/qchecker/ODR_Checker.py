@@ -106,7 +106,7 @@ def main(argv):
     pdf.write(5, output31)
     pdf.write(5, output32)
 
-    pdf.output("../data/outputs/CheckerLog.pdf")
+    pdf.output("/data/outputs/CheckerLog.pdf")
 
 
 if __name__ == "__main__":
