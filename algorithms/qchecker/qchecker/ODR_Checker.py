@@ -94,7 +94,7 @@ def main(argv):
     pdf.set_font_size(10)
     pdf.ln(10)
     pdf.write(5, ' - OpenDrive File Name : ')
-    pdf.write(5, xml_file.split('/')[3])
+    pdf.write(5, xml_file.split('/')[-1])
     pdf.ln(5)
     pdf.write(5, output11)
     pdf.write(5, output12)
