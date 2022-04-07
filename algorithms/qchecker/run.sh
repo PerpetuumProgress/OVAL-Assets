@@ -1,1 +1,1 @@
-docker run -it -v /data/inputs/:/data/inputs/ -v /data/outputs/:/data/outputs/ pepro/qchecker bash
+docker run -it --rm -v $(pwd)/data/inputs:/data/inputs/ -v $(pwd)/data/outputs:/data/outputs/ perpetuumprogress/qchecker "./entrypoint.sh"
