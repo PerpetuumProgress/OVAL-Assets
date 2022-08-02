@@ -8,7 +8,7 @@
 
 ![](https://github.com/PerpetuumProgress/OVAL-Assets/blob/dev/algorithms/esmini/scenarios/Examples/CutIn.png)
 
-![](https://github.com/PerpetuumProgress/OVAL-Assets/blob/dev/algorithms/esmini/scenarios/Examples/CutIn.gif)
+![](https://github.com/PerpetuumProgress/OVAL-Assets/blob/dev/algorithms/esmini/scenarios/Examples/CutIn_2.gif)
 
 
 ## Highway merge Scenario
