@@ -9,4 +9,3 @@
 
 
 <img src="https://github.com/PerpetuumProgress/OVAL-Assets/blob/dev/algorithms/esmini/scenarios/Examples/slow-lead-vehicle.gif" width="1000" height="500"/>
-![](https://github.com/PerpetuumProgress/OVAL-Assets/blob/dev/algorithms/esmini/scenarios/Examples/slow-lead-vehicle.gif)
