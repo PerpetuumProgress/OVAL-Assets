@@ -6,4 +6,5 @@
 
 ![](https://github.com/PerpetuumProgress/OVAL-Assets/blob/dev/algorithms/esmini/scenarios/Examples/Straight_Road_500m.PNG)
 
+<img src="https://github.com/PerpetuumProgress/OVAL-Assets/blob/dev/algorithms/esmini/scenarios/Examples/CutIn_2.gif" width="1000" height="500"/>
 ![](https://github.com/PerpetuumProgress/OVAL-Assets/blob/dev/algorithms/esmini/scenarios/Examples/CutIn_2.gif)
