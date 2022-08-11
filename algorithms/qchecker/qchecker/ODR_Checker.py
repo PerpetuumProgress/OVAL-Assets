@@ -54,18 +54,20 @@ def main():
     class PDF(fpdf.FPDF):
         def header(self):
             # Logo
-            self.image('perpetuumprogress_transparent.png', 10, 8, 33)
+            self.image('perpetuumprogress_transparent.png', 10, 8, 20)
             # Arial bold 15
             self.set_font('Arial', 'B', 15)
             # Move to the right
-            self.cell(80)
+            self.cell(50)
             # Title
-            self.cell(30, 10, 'Q-Checker Report')
+            self.cell(20, 20, 'Credible Modelling Process Checker Result')
             # Line break
             self.ln(30)
 
         # Page footer
         def footer(self):
+            # Logo
+            self.image('perpetuumprogress_transparent.png', 10, -15, 10)
             # Position at 1.5 cm from bottom
             self.set_y(-15)
             # Arial italic 8
@@ -92,7 +94,7 @@ def main():
     pdf.write(5, output31)
     pdf.write(5, output32)
 
-    pdf.output("../data/outputs/CheckerLog.pdf")
+    pdf.output("../data/outputs/CMPCheckResult.pdf")
 
 
 if __name__ == "__main__":
