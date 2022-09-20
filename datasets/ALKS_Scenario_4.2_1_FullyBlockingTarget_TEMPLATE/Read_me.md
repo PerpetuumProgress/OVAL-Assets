@@ -8,4 +8,4 @@
 
 ![](https://github.com/PerpetuumProgress/OVAL-Assets/blob/dev/datasets/ALKS_Scenario_4.2_1_FullyBlockingTarget_TEMPLATE/ALKS_Road_sc.PNG)
 
-![](https://github.com/PerpetuumProgress/OVAL-Assets/blob/dev/datasets/ALKS_Scenario_4.2_1_FullyBlockingTarget_TEMPLATE/ALKS_Scenario_4.2_1_FullyBlockingTarget_TEMPLATE_gif)
+![](https://github.com/PerpetuumProgress/OVAL-Assets/blob/dev/datasets/ALKS_Scenario_4.2_1_FullyBlockingTarget_TEMPLATE/ALKS_Scenario_4.2_1_FullyBlockingTarget_TEMPLATE_gif.gif)
