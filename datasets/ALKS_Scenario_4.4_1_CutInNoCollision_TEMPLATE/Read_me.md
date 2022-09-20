@@ -6,6 +6,6 @@
 
 - Traffic: Front Vehicle cut in from right side to middle 
 
-![]([https://github.com/PerpetuumProgress/OVAL-Assets/blob/dev/datasets/ALKS_Scenario_4.4_1_CutInNoCollision_TEMPLATE/ALKS_Road_sc.PNG](https://github.com/PerpetuumProgress/OVAL-Assets/blob/dev/datasets/ALKS_Scenario_4.4_1_CutInNoCollision_TEMPLATE/ALKS_Road_sc.PNG))
+![](https://github.com/PerpetuumProgress/OVAL-Assets/blob/dev/datasets/ALKS_Scenario_4.4_1_CutInNoCollision_TEMPLATE/ALKS_Road_sc.PNG](https://github.com/PerpetuumProgress/OVAL-Assets/blob/dev/datasets/ALKS_Scenario_4.4_1_CutInNoCollision_TEMPLATE/ALKS_Road_sc.PNG)
 
 ![](https://github.com/PerpetuumProgress/OVAL-Assets/blob/dev/datasets/ALKS_Scenario_4.4_1_CutInNoCollision_TEMPLATE/ALKS_Scenario_4.4_1_CutInNoCollision_TEMPLATE_gif.gif)
