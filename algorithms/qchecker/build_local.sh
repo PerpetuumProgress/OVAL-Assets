@@ -1,1 +1,1 @@
-docker build . -t perpetuumprogress/orv:local
+docker build . -f local.Dockerfile -t perpetuumprogress/orv:local
