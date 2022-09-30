@@ -1,0 +1,2 @@
+xmlschema==1.5
+fpdf==1.7.2

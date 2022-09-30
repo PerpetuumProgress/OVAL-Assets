@@ -1,23 +1,71 @@
 import os
+from xml.etree import ElementTree as ET
+import xmlschema
+import fpdf
+import json
+import pandas as pd
+
+
+#not used
+import csv
+import pathlib
 import fnmatch
 import sys
 import traceback
-from xml.etree import ElementTree as ET
-import xmlschema
-import csv
-import fpdf
-import pathlib
 
+def get_job_details():
+    """Reads in metadata information about assets used by the algo"""
+    job = dict()
+    job['dids'] = json.loads(os.getenv('DIDS', None))
+    job['metadata'] = dict()
+    job['files'] = dict()
+    job['algo'] = dict()
+    job['secret'] = os.getenv('secret', None)
+    algo_did = os.getenv('TRANSFORMATION_DID', None)
+    if job['dids'] is not None:
+        for did in job['dids']:
+            # get the ddo from disk
+            filename = '/data/ddos/' + did
+            print(f'Reading json from {filename}')
+            with open(filename) as json_file:
+                ddo = json.load(json_file)
+                # search for metadata service
+                for service in ddo['service']:
+                    if service['type'] == 'metadata':
+                        job['files'][did] = list()
+                        index = 0
+                        for file in service['attributes']['main']['files']:
+                            job['files'][did].append(
+                                '/data/inputs/' + did + '/' + str(index))
+                            index = index + 1
+    if algo_did is not None:
+        job['algo']['did'] = algo_did
+        job['algo']['ddo_path'] = '/data/ddos/' + algo_did
+    return job
 
-def main():
+def main(job_details):
+
+    # Executes function based on input
+    print('Starting compute job with the following input information:')
+    print(json.dumps(job_details, sort_keys=True, indent=4))
+
+    #find the file name
+    first_did = job_details['dids'][0]
+    filename = job_details['files'][first_did][0]
+
     # file paths
-    xsd_file = r'OpenDRIVE_1.5M.xsd'
-    xml_directory = r"..\data\inputs"
-    xml_extension = r".xodr"
+    xsd_file = 'OpenDRIVE_1.5M.xsd'
+    xml_directory = "/data/inputs"
 
-    # find the file name
-    xml_file = [os.path.join(xml_directory, _) for _ in os.listdir(xml_directory) if _.endswith(xml_extension)]
-    print(xml_file[0].split('\\')[3])
+    #find the file name from env
+    first_did = job_details['dids'][0]
+    filename = job_details['files'][first_did][0]
+    xml_file = [xml_directory + "/" + filename]
+
+    # find the file name for test
+    #xml_extension = ".xodr"
+    #xml_file = [os.path.join(xml_directory, _) for _ in os.listdir(xml_directory) if _.endswith(xml_extension)]
+    #print(xml_file[0].split('/')[3])
 
     # Check the validity
     my_schema = xmlschema.XMLSchema(xsd_file)
@@ -82,7 +130,7 @@ def main():
     pdf.set_font_size(10)
     pdf.ln(10)
     pdf.write(5, ' - OpenDrive File Name : ')
-    pdf.write(5, xml_file[0].split('\\')[3])
+    pdf.write(5, xml_file[0].split('/')[3])
     pdf.ln(5)
     pdf.write(5, output11)
     pdf.write(5, output12)
@@ -94,8 +142,8 @@ def main():
     pdf.write(5, output31)
     pdf.write(5, output32)
 
-    pdf.output("../data/outputs/CMPCheckResult.pdf")
+    pdf.output("/data/outputs/CMPCheckResult.pdf")
 
 
 if __name__ == "__main__":
-    main()
+    main(get_job_details())
