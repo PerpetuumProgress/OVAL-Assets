@@ -2,7 +2,7 @@ import os
 from xml.etree import ElementTree as ET
 import xmlschema
 import fpdf
-#import json
+import json
 #import pandas as pd
 
 
@@ -13,7 +13,7 @@ import fnmatch
 import sys
 import traceback
 
-"""def get_job_details():
+def get_job_details():
     #Reads in metadata information about assets used by the algo
     job = dict()
     job['dids'] = json.loads(os.getenv('DIDS', None))
@@ -41,27 +41,23 @@ import traceback
     if algo_did is not None:
         job['algo']['did'] = algo_did
         job['algo']['ddo_path'] = '/data/ddos/' + algo_did
-    return job"""
+    return job
 
-def main():
+def QChecker(job_details):
     
     # file paths
     xsd_file = 'OpenDRIVE_1.5M.xsd'
     xml_directory = "/data/inputs"
-    xml_file = ["/data/inputs/0"]
+    #xml_file = ["/data/inputs/0"]
 
     # Executes function based on input
-    #print('Starting compute job with the following input information:')
-    #print(json.dumps(job_details, sort_keys=True, indent=4))
+    print('Starting compute job with the following input information:')
+    print(json.dumps(job_details, sort_keys=True, indent=4))
 
     #find the file name
-    #first_did = job_details['dids'][0]
-    #filename = job_details['files'][first_did][0]
-
-    #find the file name from env
-    #first_did = job_details['dids'][0]
-    #filename = job_details['files'][first_did][0]
-    #xml_file = [xml_directory + "/" + filename]
+    first_did = job_details['dids'][0]
+    filename = job_details['files'][first_did][0]
+    xml_file = [xml_directory + "/" + filename]
 
     # find the file name for test
     #xml_extension = ".xodr"
@@ -146,4 +142,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    QChecker(get_job_details())
