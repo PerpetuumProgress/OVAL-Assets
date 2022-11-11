@@ -30,14 +30,14 @@ def get_job_details():
             with open(filename) as json_file:
                 ddo = json.load(json_file)
                 # search for metadata service
-                for service in ddo['service']:
-                    if service['type'] == 'metadata':
-                        job['files'][did] = list()
-                        index = 0
-                        for file in service['attributes']['main']['files']:
-                            job['files'][did].append(
-                                '/data/inputs/' + did + '/' + str(index))
-                            index = index + 1
+                # for service in ddo['service']:
+                #     if service['type'] == 'metadata':
+                #         job['files'][did] = list()
+                #         index = 0
+                #         for file in service['attributes']['main']['files']:
+                #             job['files'][did].append(
+                #                 '/data/inputs/' + did + '/' + str(index))
+                #             index = index + 1
     if algo_did is not None:
         job['algo']['did'] = algo_did
         job['algo']['ddo_path'] = '/data/ddos/' + algo_did
