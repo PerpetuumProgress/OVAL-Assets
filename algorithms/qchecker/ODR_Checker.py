@@ -57,10 +57,12 @@ def QChecker(job_details):
     #find the file name
     first_did = job_details['dids'][0]
     print(first_did)
-    filename = job_details['files'][first_did][0]
+    filename = '/data/ddos/' + first_did
+    #filename = job_details['files'][first_did][0]
     print(filename)
     xml_file = [xml_directory + "/" + filename]
     print(xml_file)
+    #xml_file = filename
 
 
 
