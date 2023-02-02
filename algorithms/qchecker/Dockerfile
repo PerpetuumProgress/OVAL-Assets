@@ -1,8 +1,8 @@
 FROM python:3.7-slim
 
-COPY ./qchecker /
-COPY requirements.txt /tmp/
+COPY ./template/perpetuumprogress_transparent.png /
+COPY ./template/OpenDRIVE_1.5M.xsd /
+COPY ./requirements.txt /tmp/
 RUN pip install -r /tmp/requirements.txt
 
-COPY ./entrypoint.sh .
-RUN ["chmod", "+x", "entrypoint.sh"]
+
