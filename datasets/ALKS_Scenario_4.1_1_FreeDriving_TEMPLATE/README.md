@@ -6,7 +6,7 @@
 
 - Traffic: No other Traffic objects
 
-![](https://github.com/PerpetuumProgress/OVAL-Assets/blob/dev/datasets/ALKS_Scenario_4.1_1_FreeDriving_TEMPLATE/ALKS_Road_Different_Curvatures_sc.PNG)
+![](https://github.com/PerpetuumProgress/OVAL-Assets/raw/main/datasets/ALKS_Scenario_4.1_1_FreeDriving_TEMPLATE/ALKS_Road_Different_Curvatures_sc.PNG)
 
-![](https://github.com/PerpetuumProgress/OVAL-Assets/blob/dev/datasets/ALKS_Scenario_4.1_1_FreeDriving_TEMPLATE/ALKS_Scenario_4.1_1_FreeDriving_TEMPLATE.gif)
+![](https://github.com/PerpetuumProgress/OVAL-Assets/raw/main/datasets/ALKS_Scenario_4.1_1_FreeDriving_TEMPLATE/ALKS_Scenario_4.1_1_FreeDriving_TEMPLATE.gif)
 
