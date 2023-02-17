@@ -2,6 +2,9 @@
 ## Model Description
 This model is a parameterizable object based video perception sensor and tracking model using the interface OSI. The model was developed in the project SetLevel by Bosch. 
 
+
+![](https://github.com/PerpetuumProgress/OVAL-Assets/raw/main/datasets/Object-based-camera-object-model/movie8.mp4)
+
 ## Modeling Approach
 ### Modeling Framework / Model Overall Structure
 
