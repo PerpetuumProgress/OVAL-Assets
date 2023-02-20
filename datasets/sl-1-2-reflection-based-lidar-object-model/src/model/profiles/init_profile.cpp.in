@@ -1,0 +1,11 @@
+//
+// Copyright 2022 Technical University of Darmstadt - FZD
+// SPDX-License-Identifier: MPL-2.0
+//
+
+#ifndef REFLECTIONBASEDLIDARMODEL_SELECTED_PROFILE_H
+#define REFLECTIONBASEDLIDARMODEL_SELECTED_PROFILE_H
+
+set_fmi_profile("@FIRST_PROFILE@");
+
+#endif //REFLECTIONBASEDLIDARMODEL_SELECTED_PROFILE_H

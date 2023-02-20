@@ -1,0 +1,30 @@
+//
+// Copyright 2022 Technical University of Darmstadt - FZD
+// SPDX-License-Identifier: MPL-2.0
+//
+
+time_t curr_time;
+struct tm *detl;
+char buf[80];
+time( &curr_time );
+detl = localtime( &curr_time );
+strftime(buf, 20, "%Y%m%dT%H%M%SZ", detl);
+
+std::string start_time = std::string(buf);
+
+std::string path_string = "@BIN_PATH@/";
+size_t pos;
+
+path_string = path_string + "@MODEL_NAME@" + "_" + start_time;
+std::string filename = start_time + "_sv_340_300_0000_protoBin.osi";
+
+#if defined(_WIN32)
+    while ((pos = path_string.find("/")) != std::string::npos) {
+        path_string.replace(pos, 1, "\\");
+    }
+    _mkdir(path_string.c_str());
+    file_path_tracefile = path_string + "\\" + filename;
+#else
+    mkdir(path_string.c_str(), 0777);
+    file_path_tracefile = path_string + "/" + filename;
+#endif
