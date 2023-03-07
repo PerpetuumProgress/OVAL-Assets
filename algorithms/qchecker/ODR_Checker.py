@@ -1,9 +1,8 @@
 import os
 from xml.etree import ElementTree as ET
 import xmlschema
+from xmlschema import XMLSchemaValidationError
 import fpdf
-#import json
-#import pandas as pd
 
 
 #not used
@@ -13,35 +12,6 @@ import fnmatch
 import sys
 import traceback
 
-"""def get_job_details():
-    #Reads in metadata information about assets used by the algo
-    job = dict()
-    job['dids'] = json.loads(os.getenv('DIDS', None))
-    job['metadata'] = dict()
-    job['files'] = dict()
-    job['algo'] = dict()
-    job['secret'] = os.getenv('secret', None)
-    algo_did = os.getenv('TRANSFORMATION_DID', None)
-    if job['dids'] is not None:
-        for did in job['dids']:
-            # get the ddo from disk
-            filename = '/data/ddos/' + did
-            print(f'Reading json from {filename}')
-            with open(filename) as json_file:
-                ddo = json.load(json_file)
-                # search for metadata service
-                for service in ddo['service']:
-                    if service['type'] == 'metadata':
-                        job['files'][did] = list()
-                        index = 0
-                        for file in service['attributes']['main']['files']:
-                            job['files'][did].append(
-                                '/data/inputs/' + did + '/' + str(index))
-                            index = index + 1
-    if algo_did is not None:
-        job['algo']['did'] = algo_did
-        job['algo']['ddo_path'] = '/data/ddos/' + algo_did
-    return job"""
 
 def main():
     
@@ -50,27 +20,18 @@ def main():
     xml_directory = "/data/inputs"
     xml_file = ["/data/inputs/0"]
 
-    # Executes function based on input
-    #print('Starting compute job with the following input information:')
-    #print(json.dumps(job_details, sort_keys=True, indent=4))
-
-    #find the file name
-    #first_did = job_details['dids'][0]
-    #filename = job_details['files'][first_did][0]
-
-    #find the file name from env
-    #first_did = job_details['dids'][0]
-    #filename = job_details['files'][first_did][0]
-    #xml_file = [xml_directory + "/" + filename]
-
-    # find the file name for test
-    #xml_extension = ".xodr"
-    #xml_file = [os.path.join(xml_directory, _) for _ in os.listdir(xml_directory) if _.endswith(xml_extension)]
-    #print(xml_file[0].split('/')[3])
-
     # Check the validity
     my_schema = xmlschema.XMLSchema(xsd_file)
     result = my_schema.is_valid(xml_file[0])
+    output71 = ' - Schema Checker Result : '
+    try:
+        my_schema.validate(xml_file[0])
+        output72 = 'No Error'
+    except XMLSchemaValidationError as err:
+        path_line = str(err).splitlines()[-1]
+        output72 = err.args
+    else:
+        path_line = ''
 
     # Gather Metadata and Pool the results
     xml_tree = ET.parse(xml_file[0])
@@ -80,6 +41,18 @@ def main():
         print(header.attrib.get('date'))
         output11 = ' - Creation Date : '
         output12 = header.attrib.get('date')
+        output41 = ' - Vendor : '
+        if header.attrib.get('vendor'):
+            output42 = header.attrib.get('vendor')
+        else:
+            output42 = 'Not Mentioned in the header'
+        output51 = ' - Format Version : '
+        output52 = header.attrib.get('revMajor') + '.' + header.attrib.get('revMinor')
+        output61 = ' - Geo-Coordinates (NSEW) : '
+        if header.attrib.get('north'):
+            output62 = header.attrib.get('north') + ',' + header.attrib.get('south') + ',' + header.attrib.get('east') + ',' + header.attrib.get('west')
+        else:
+            output62 = 'Geo Location Not available'
 
     output21 = ' - Consistent with Quality schema version 1.5M ? : '
 
@@ -87,6 +60,7 @@ def main():
         output22 = str(result)
     else:
         output22 = str(result)
+
     for road in root.iter('road'):
         output31 = ' - Type(s) of Road included : '
         output32 = 'No Road Type defined'
@@ -103,12 +77,14 @@ def main():
         def header(self):
             # Logo
             self.image('perpetuumprogress_transparent.png', 10, 8, 20)
+            # Text Colour
+            self.set_text_color(000)
             # Arial bold 15
             self.set_font('Arial', 'B', 15)
             # Move to the right
             self.cell(50)
             # Title
-            self.cell(20, 20, 'Credible Modelling Process Checker Result')
+            self.cell(20, 20, 'Quality assurance of the model')
             # Line break
             self.ln(30)
 
@@ -125,24 +101,59 @@ def main():
 
     pdf = PDF()
     pdf.add_page()
+    # Heading
+    pdf.set_font('Arial', 'B', 10)
+    pdf.cell(20, 20, 'General Description')
+    pdf.ln(10)
 
     pdf.set_text_color(128)
     pdf.set_font_size(10)
     pdf.ln(10)
-    pdf.write(5, ' - OpenDrive File Name : ')
-    pdf.write(5, xml_file[0].split('/')[3])
+    pdf.write(5, ' - File Name : ')
+    pdf.write(5, header.attrib.get('name'))
     pdf.ln(5)
     pdf.write(5, output11)
     pdf.write(5, output12)
     pdf.ln(5)
+    pdf.write(5, output41)
+    pdf.write(5, output42)
+    pdf.ln(5)
+    pdf.write(5, output51)
+    pdf.write(5, output52)
 
+    # Content
+    pdf.add_page()
+    # Heading
+    pdf.set_text_color(000)
+    pdf.set_font('Arial', 'B', 10)
+    pdf.cell(20, 20, 'Content')
+    pdf.ln(20)
+
+    pdf.set_text_color(128)
+    pdf.set_font_size(10)
+    pdf.write(5, output31)
+    pdf.write(5, output32)
+    pdf.ln(5)
+    pdf.write(5, output61)
+    pdf.write(5, output62)
+
+    # Quality
+    pdf.add_page()
+    # Heading
+    pdf.set_text_color(000)
+    pdf.set_font('Arial', 'B', 10)
+    pdf.cell(20, 20, 'Quality')
+    pdf.ln(20)
+
+    pdf.set_text_color(128)
+    pdf.set_font_size(10)
     pdf.write(5, output21)
     pdf.write(5, output22)
     pdf.ln(5)
-    pdf.write(5, output31)
-    pdf.write(5, output32)
+    pdf.write(5, output71)
+    pdf.write(5, output72.__str__())
 
-    pdf.output("/data/outputs/CMPCheckResult.pdf")
+    pdf.output("../data/outputs/QA-Report.pdf")
 
 
 if __name__ == "__main__":
