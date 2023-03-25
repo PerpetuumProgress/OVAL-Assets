@@ -6,6 +6,6 @@
 
 - Traffic: no traffic objects
 
-![](https://github.com/PerpetuumProgress/OVAL-Assets/raw/main/datasets/ALKS_Scenario_4.3_1_FollowLeadVehicleComfortable_TEMPLATE/ALKS_Road_sc.PNG)
+![](https://raw.githubusercontent.com/PerpetuumProgress/OVAL-Assets/main/datasets/SAVe_Prio5/Track_Overview.PNG)
 
-![](https://github.com/PerpetuumProgress/OVAL-Assets/raw/main/datasets/ALKS_Scenario_4.3_1_FollowLeadVehicleComfortable_TEMPLATE/ALKS_Scenario_4.3_1_FollowLeadVehicleComfortable_TEMPLATE_gif.gif)
+![](https://raw.githubusercontent.com/PerpetuumProgress/OVAL-Assets/main/datasets/SAVe_Prio5/2019-10-31_SAVe_Ingolstadt_Prio5_offset.gif)
