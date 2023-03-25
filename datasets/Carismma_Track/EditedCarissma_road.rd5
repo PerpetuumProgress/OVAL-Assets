@@ -1,0 +1,2079 @@
+#INFOFILE1.1 - Do not remove this line!
+FileIdent = IPGRoad 10.0
+FileCreator = CarMaker 10.0
+LibVersion = 10.0
+Country = DEU DEU
+nLinks = 16
+nJunctions = 10
+nObjects = 1417
+nRoutes = 9
+RoadNetworkLength = 781.280650707596
+BBox = -318.122 323.878 -419.799507533677 222.200492466323 -3 20.6907379675158
+Route.0.Length = 109.597752885128
+Route.1.Length = 176.783858855433
+Route.2.Length = 472.828836784219
+Route.3.Length = 21
+Route.4.Length = 13.5
+Route.5.Length = 13.5
+Route.6.Length = 13.5
+Route.7.Length = 13.5
+Route.8.Length = 13.5
+RST.Unit = kmh
+RST = 50 100 130 30 70 30 0 -1
+Movie = 0.2 1 0.01 1.5 1.5 1 1
+Movie.TerrainFName = 3D/Terrain/EditedCarissma_road.obj
+PathMode = -1
+Junction.0.ID = 22
+Junction.0.Type = Standard
+Junction.0.Knot = 2.727 -22.968 0
+Junction.0.RST = Countryroad
+Junction.0.Arm.0.ID = 61 116
+Junction.0.Arm.0 = 0 0.25 0 0 1
+Junction.0.Arm.1.ID = 114 124
+Junction.0.Arm.1 = 0 0.25 0 25 0
+Junction.0.Arm.2.ID = 113 118
+Junction.0.Arm.2 = 0 0.25 0 218 0
+Junction.0.MainArms = 2 1
+Junction.0.RL.0.ID = 116
+Junction.0.RL.0 = -5.408 5.79800000000001 270 0 -5.40799998827676 -3.92152256241052 269.997186262202 0
+Junction.0.RL.0.RefObject = -1 -1
+Junction.0.RL.0.Seg.0.ID = 117
+Junction.0.RL.0.Seg.0.Type = Connect
+Junction.0.RL.0.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.0.RL.1.ID = 118
+Junction.0.RL.1 = 1.4354161978351 3.724 180 0 -0.718000000000004 5.79800000000001 90 0
+Junction.0.RL.1.RefObject = -1 -1
+Junction.0.RL.1.Seg.0.ID = 122
+Junction.0.RL.1.Seg.0.Type = Connect
+Junction.0.RL.1.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.0.RL.2.ID = 124
+Junction.0.RL.2 = -0.71799999393218 -3.9217528835682 89.997186262202 0 1.4354161978351 -1.876 0 0
+Junction.0.RL.2.RefObject = -1 -1
+Junction.0.RL.2.Seg.0.ID = 127
+Junction.0.RL.2.Seg.0.Type = Connect
+Junction.0.RL.2.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.0.RL.3.ID = 129
+Junction.0.RL.3 = -0.718000000000004 5.79800000000001 270 0 1.4354161978351 -1.876 0 0
+Junction.0.RL.3.RefObject = 61 113
+Junction.0.RL.3.Seg.0.ID = 133
+Junction.0.RL.3.Seg.0.Type = Connect
+Junction.0.RL.3.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.0.RL.4.ID = 134
+Junction.0.RL.4 = -0.718000000000004 5.79800000000001 270 0 -0.71799999393218 -3.9217528835682 269.997186262202 0
+Junction.0.RL.4.RefObject = 61 114
+Junction.0.RL.4.Seg.0.ID = 135
+Junction.0.RL.4.Seg.0.Type = Connect
+Junction.0.RL.4.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.0.RL.5.ID = 139
+Junction.0.RL.5 = -0.71799999393218 -3.9217528835682 89.997186262202 0 1.4354161978351 -1.876 0 0
+Junction.0.RL.5.RefObject = 114 113
+Junction.0.RL.5.Seg.0.ID = 153
+Junction.0.RL.5.Seg.0.Type = Connect
+Junction.0.RL.5.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.0.RL.6.ID = 161
+Junction.0.RL.6 = 1.4354161978351 0.923999999999999 180 0 -3.06299999110447 -3.92163772298936 269.997186262202 0
+Junction.0.RL.6.RefObject = 233 142
+Junction.0.RL.6.Seg.0.ID = 164
+Junction.0.RL.6.Seg.0.Type = Connect
+Junction.0.RL.6.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.0.RL.7.ID = 166
+Junction.0.RL.7 = -3.063 5.79800000000001 270 0 -3.06299999110447 -3.92163772298936 269.997186262202 0
+Junction.0.RL.7.RefObject = 69 142
+Junction.0.RL.7.Seg.0.ID = 168
+Junction.0.RL.7.Seg.0.Type = Connect
+Junction.0.RL.7.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.0.RL.8.ID = 169
+Junction.0.RL.8 = -5.831 -7.648 54.345 0 3.957 5.996 54.345 0
+Junction.0.RL.8.RefObject = -1 -1
+Junction.0.RL.8.Seg.0.ID = 172
+Junction.0.RL.8.Seg.0.Type = Connect
+Junction.0.RL.8.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.0.RL.9.ID = 180
+Junction.0.RL.9 = -4.744 -7.596 50.429 0 4.153 3.169 50.429 0
+Junction.0.RL.9.RefObject = -1 -1
+Junction.0.RL.9.Seg.0.ID = 181
+Junction.0.RL.9.Seg.0.Type = Connect
+Junction.0.RL.9.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.1.ID = 188
+Junction.1.Type = Standard
+Junction.1.Knot = 26.087 -95.678 0
+Junction.1.RST = Countryroad
+Junction.1.Arm.0.ID = 417 418
+Junction.1.Arm.0 = 0.301 0.25 0 891 1
+Junction.1.Arm.1.ID = 190 298
+Junction.1.Arm.1 = 0 0.25 0 218 1
+Junction.1.Arm.2.ID = 206 306
+Junction.1.Arm.2 = 0 0.25 0 175 0
+Junction.1.MainArms = 2 1
+Junction.1.RL.0.ID = 418
+Junction.1.RL.0 = 4.80000000000001 1.916 180 0 2.93941619783508 3.82058380216489 90 0
+Junction.1.RL.0.RefObject = -1 -1
+Junction.1.RL.0.Seg.0.ID = 439
+Junction.1.RL.0.Seg.0.Type = Connect
+Junction.1.RL.0.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.1.RL.1.ID = 298
+Junction.1.RL.1 = -2.66058380216493 3.82058380216489 270 0 -2.661 -5.260752943857 270 0
+Junction.1.RL.1.RefObject = -1 -1
+Junction.1.RL.1.Seg.0.ID = 300
+Junction.1.RL.1.Seg.0.Type = Connect
+Junction.1.RL.1.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.1.RL.2.ID = 306
+Junction.1.RL.2 = 2.939 -5.260752943857 90 0 4.80000000000001 -2.774 0 0
+Junction.1.RL.2.RefObject = -1 -1
+Junction.1.RL.2.Seg.0.ID = 307
+Junction.1.RL.2.Seg.0.Type = Connect
+Junction.1.RL.2.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.1.RL.3.ID = 450
+Junction.1.RL.3 = 4.80000000000001 -2.774 180 0 -2.66058380216493 3.82058380216489 90 0
+Junction.1.RL.3.RefObject = 417 190
+Junction.1.RL.3.Seg.0.ID = 454
+Junction.1.RL.3.Seg.0.Type = Connect
+Junction.1.RL.3.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.1.RL.4.ID = 460
+Junction.1.RL.4 = 4.80000000000001 -2.774 180 0 -2.661 -5.260752943857 270 0
+Junction.1.RL.4.RefObject = 417 206
+Junction.1.RL.4.Seg.0.ID = 462
+Junction.1.RL.4.Seg.0.Type = Connect
+Junction.1.RL.4.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.1.RL.5.ID = 320
+Junction.1.RL.5 = -2.66058380216493 3.82058380216489 270 0 -2.661 -5.260752943857 270 0
+Junction.1.RL.5.RefObject = 190 206
+Junction.1.RL.5.Seg.0.ID = 326
+Junction.1.RL.5.Seg.0.Type = Connect
+Junction.1.RL.5.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.1.RL.6.ID = 464
+Junction.1.RL.6 = 4.80000000000001 -0.429000000000002 180 0 0.139416197835075 3.82058380216489 90 0
+Junction.1.RL.6.RefObject = 906 205
+Junction.1.RL.6.Seg.0.ID = 490
+Junction.1.RL.6.Seg.0.Type = Connect
+Junction.1.RL.6.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.1.RL.7.ID = 334
+Junction.1.RL.7 = 0.138999999999999 -5.260752943857 90 0 0.139416197835075 3.82058380216489 90 0
+Junction.1.RL.7.RefObject = 397 205
+Junction.1.RL.7.Seg.0.ID = 350
+Junction.1.RL.7.Seg.0.Type = Connect
+Junction.1.RL.7.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.2.ID = 359
+Junction.2.Type = Standard
+Junction.2.Knot = 74.04 -99.282 0
+Junction.2.RST = Countryroad
+Junction.2.Arm.0.ID = 360 381
+Junction.2.Arm.0 = 0 0.25 0 532 1
+Junction.2.Arm.1.ID = 361 383
+Junction.2.Arm.1 = 0 0.25 0 891 0
+Junction.2.MainArms = 0 1
+Junction.2.RL.0.ID = 381
+Junction.2.RL.0 = 5.8930000000001 -0.831000000000031 89.9999999999996 0 -1.45400000000001 5.52 180 0
+Junction.2.RL.0.RefObject = -1 -1
+Junction.2.RL.0.Seg.0.ID = 382
+Junction.2.RL.0.Seg.0.Type = Connect
+Junction.2.RL.0.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.2.RL.1.ID = 383
+Junction.2.RL.1 = -1.45400000000001 0.829999999999998 0 0 1.4530000000001 -0.831000000000003 270 0
+Junction.2.RL.1.RefObject = -1 -1
+Junction.2.RL.1.Seg.0.ID = 384
+Junction.2.RL.1.Seg.0.Type = Connect
+Junction.2.RL.1.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.2.RL.2.ID = 385
+Junction.2.RL.2 = 1.4530000000001 -0.831000000000003 89.9999999999996 0 -1.45400000000001 0.829999999999998 180 0
+Junction.2.RL.2.RefObject = 360 361
+Junction.2.RL.2.Seg.0.ID = 386
+Junction.2.RL.2.Seg.0.Type = Connect
+Junction.2.RL.2.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.2.RL.3.ID = 403
+Junction.2.RL.3 = 3.6730000000001 -0.831000000000017 89.9999999999996 0 -1.45400000000001 3.175 180 0
+Junction.2.RL.3.RefObject = 555 906
+Junction.2.RL.3.Seg.0.ID = 404
+Junction.2.RL.3.Seg.0.Type = Connect
+Junction.2.RL.3.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.3.ID = 492
+Junction.3.Type = Standard
+Junction.3.Knot = 74.022 -117.517 0
+Junction.3.RST = Countryroad
+Junction.3.Arm.0.ID = 493 499
+Junction.3.Arm.0 = 0 0.25 0 388 1
+Junction.3.Arm.1.ID = 498 501
+Junction.3.Arm.1 = 0 0.25 0 532 0
+Junction.3.MainArms = 0 1
+Junction.3.RL.0.ID = 499
+Junction.3.RL.0 = -1.4646250770585 -5.06099470362753 0.0712338742389849 0 5.91099999999999 0.619999999999962 89.9999999999996 0
+Junction.3.RL.0.RefObject = -1 -1
+Junction.3.RL.0.Seg.0.ID = 500
+Junction.3.RL.0.Seg.0.Type = Connect
+Junction.3.RL.0.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.3.RL.1.ID = 501
+Junction.3.RL.1 = 1.47099999999999 0.61999999999999 270 0 -1.47014517509766 -0.620998135102099 180.071233874239 0
+Junction.3.RL.1.RefObject = -1 -1
+Junction.3.RL.1.Seg.0.ID = 502
+Junction.3.RL.1.Seg.0.Type = Connect
+Junction.3.RL.1.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.3.RL.2.ID = 503
+Junction.3.RL.2 = -1.47014517509766 -0.620998135102099 0.0712338742389849 0 1.47099999999999 0.61999999999999 89.9999999999996 0
+Junction.3.RL.2.RefObject = 493 498
+Junction.3.RL.2.Seg.0.ID = 508
+Junction.3.RL.2.Seg.0.Type = Connect
+Junction.3.RL.2.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.3.RL.3.ID = 510
+Junction.3.RL.3 = -1.46738512607809 -2.84099641936481 0.0712338742389849 0 3.69099999999999 0.619999999999976 89.9999999999996 0
+Junction.3.RL.3.RefObject = 411 555
+Junction.3.RL.3.Seg.0.ID = 511
+Junction.3.RL.3.Seg.0.Type = Connect
+Junction.3.RL.3.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.4.ID = 405
+Junction.4.Type = Standard
+Junction.4.Knot = 24.417 -120.292 0
+Junction.4.RST = Countryroad
+Junction.4.Arm.0.ID = 409 594
+Junction.4.Arm.0 = 0 0.25 0 421 0
+Junction.4.Arm.1.ID = 593 600
+Junction.4.Arm.1 = 0 0.25 0 388 0
+Junction.4.Arm.2.ID = 592 598
+Junction.4.Arm.2 = 0 0.25 0 175 1
+Junction.4.Arm.3.ID = 583 596
+Junction.4.Arm.3 = 0 0.25 0 378 1
+Junction.4.MainArms = 0 3
+Junction.4.RL.0.ID = 594
+Junction.4.RL.0 = 0.974 -8.00574226119284 30 0 7.43285482567516 -2.286 0 0
+Junction.4.RL.0.RefObject = -1 -1
+Junction.4.RL.0.Seg.0.ID = 595
+Junction.4.RL.0.Seg.0.Type = Connect
+Junction.4.RL.0.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.4.RL.1.ID = 596
+Junction.4.RL.1 = -2.45200000000079 -2.53600000000012 0 0 -1.826 -3.15599999999999 210 0
+Junction.4.RL.1.RefObject = -1 -1
+Junction.4.RL.1.Seg.0.ID = 597
+Junction.4.RL.1.Seg.0.Type = Connect
+Junction.4.RL.1.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.4.RL.2.ID = 598
+Junction.4.RL.2 = -0.991000000000007 3.44443236332256 270 0 -2.45200000000075 2.15399999999988 180 0
+Junction.4.RL.2.RefObject = -1 -1
+Junction.4.RL.2.Seg.0.ID = 599
+Junction.4.RL.2.Seg.0.Type = Connect
+Junction.4.RL.2.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.4.RL.3.ID = 600
+Junction.4.RL.3 = 7.4328548256752 2.154 180 0 4.60899999999999 3.44443236332256 90 0
+Junction.4.RL.3.RefObject = -1 -1
+Junction.4.RL.3.Seg.0.ID = 601
+Junction.4.RL.3.Seg.0.Type = Connect
+Junction.4.RL.3.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.4.RL.4.ID = 602
+Junction.4.RL.4 = -1.826 -3.15599999999999 30 0 -2.45200000000075 2.15399999999988 180 0
+Junction.4.RL.4.RefObject = 409 583
+Junction.4.RL.4.Seg.0.ID = 603
+Junction.4.RL.4.Seg.0.Type = Connect
+Junction.4.RL.4.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.4.RL.5.ID = 604
+Junction.4.RL.5 = -1.826 -3.15599999999999 30 0 -0.991000000000007 3.44443236332256 90 0
+Junction.4.RL.5.RefObject = 409 592
+Junction.4.RL.5.Seg.0.ID = 605
+Junction.4.RL.5.Seg.0.Type = Connect
+Junction.4.RL.5.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.4.RL.6.ID = 606
+Junction.4.RL.6 = -0.991000000000007 3.44443236332256 270 0 -2.45200000000075 2.15399999999988 180 0
+Junction.4.RL.6.RefObject = 592 583
+Junction.4.RL.6.Seg.0.ID = 607
+Junction.4.RL.6.Seg.0.Type = Connect
+Junction.4.RL.6.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.4.RL.7.ID = 616
+Junction.4.RL.7 = -0.426000000000002 -5.58087113059642 30 0 1.80899999999999 3.44443236332256 90 0
+Junction.4.RL.7.RefObject = 473 397
+Junction.4.RL.7.Seg.0.ID = 617
+Junction.4.RL.7.Seg.0.Type = Connect
+Junction.4.RL.7.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.4.RL.8.ID = 618
+Junction.4.RL.8 = -1.826 -3.15599999999999 30 0 7.4328548256752 2.154 0 0
+Junction.4.RL.8.RefObject = 409 593
+Junction.4.RL.8.Seg.0.ID = 619
+Junction.4.RL.8.Seg.0.Type = Connect
+Junction.4.RL.8.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.4.RL.9.ID = 620
+Junction.4.RL.9 = 7.4328548256752 2.154 180 0 -0.991000000000007 3.44443236332256 90 0
+Junction.4.RL.9.RefObject = 593 592
+Junction.4.RL.9.Seg.0.ID = 621
+Junction.4.RL.9.Seg.0.Type = Connect
+Junction.4.RL.9.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.4.RL.10.ID = 622
+Junction.4.RL.10 = 7.4328548256752 2.154 180 0 -2.45200000000075 2.15399999999988 180 0
+Junction.4.RL.10.RefObject = 593 583
+Junction.4.RL.10.Seg.0.ID = 623
+Junction.4.RL.10.Seg.0.Type = Connect
+Junction.4.RL.10.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.4.RL.11.ID = 628
+Junction.4.RL.11 = -0.426000000000002 -5.58087113059642 30 0 7.43285482567518 -0.0660000000000025 0 0
+Junction.4.RL.11.RefObject = 473 411
+Junction.4.RL.11.Seg.0.ID = 629
+Junction.4.RL.11.Seg.0.Type = Connect
+Junction.4.RL.11.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.4.RL.12.ID = 362
+Junction.4.RL.12 = -2.45200000000077 -0.191000000000116 0 0 7.43285482567518 -0.0660000000000025 0 0
+Junction.4.RL.12.RefObject = 633 411
+Junction.4.RL.12.Seg.0.ID = 363
+Junction.4.RL.12.Seg.0.Type = Connect
+Junction.4.RL.12.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.5.ID = 666
+Junction.5.Type = Standard
+Junction.5.Knot = -29.579 -160.143 0
+Junction.5.RST = Countryroad
+Junction.5.Arm.0.ID = 667 671
+Junction.5.Arm.0 = 0 0.25 0 811 0
+Junction.5.Arm.1.ID = 677 682
+Junction.5.Arm.1 = 0.807 0.25 0 735 0
+Junction.5.Arm.1.BPMBoundary = 0 10 0 348.362 0 -10 0 11.769
+Junction.5.Arm.2.ID = 669 675
+Junction.5.Arm.2 = 0 0.25 0 421 1
+Junction.5.Arm.2.BPMBoundary = 0 10 0 339.425 0 -10 0 11.507
+Junction.5.Arm.3.ID = 1299 1300
+Junction.5.Arm.3 = 0 0.25 0 1189 0
+Junction.5.Arm.3.Material.0 = Textures/Ground/DirtRoad.jpg 0 0 0 0 1 1 1 1 0 0 0
+Junction.5.Arm.4.ID = 715 716
+Junction.5.Arm.4 = 0 0.25 0 332 0
+Junction.5.Arm.4.Material.0 = Textures/Ground/DirtRoad.jpg 0 0 0 0 1 1 1 1 0 0 0
+Junction.5.MainArms = 2 0
+Junction.5.RL.0.ID = 671
+Junction.5.RL.0 = 2.72499550141577 -5.43261517344015 109.555 0 7.121 -2.91400000000002 0 0
+Junction.5.RL.0.RefObject = -1 -1
+Junction.5.RL.0.Seg.0.ID = 672
+Junction.5.RL.0.Seg.0.Type = Connect
+Junction.5.RL.0.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.5.RL.1.ID = 675
+Junction.5.RL.1 = 0.761866918767545 7.01449841969912 210.034948874909 0 -2.72034085625098 6.82900000000001 120 0
+Junction.5.RL.1.RefObject = -1 -1
+Junction.5.RL.1.Seg.0.ID = 676
+Junction.5.RL.1.Seg.0.Type = Connect
+Junction.5.RL.1.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.5.RL.2.ID = 682
+Junction.5.RL.2 = 7.121 0.145999999999987 180 0 3.56482460922126 2.16646498483851 30.0349488749092 0
+Junction.5.RL.2.RefObject = -1 -1
+Junction.5.RL.2.Seg.0.ID = 806
+Junction.5.RL.2.Seg.0.Type = Connect
+Junction.5.RL.2.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.5.RL.3.ID = 685
+Junction.5.RL.3 = -2.552 -7.30699999999999 109.555 0 0.761866918767545 7.01449841969912 30.0349488749092 0
+Junction.5.RL.3.RefObject = 667 669
+Junction.5.RL.3.Seg.0.ID = 686
+Junction.5.RL.3.Seg.0.Type = Connect
+Junction.5.RL.3.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.5.RL.4.ID = 732
+Junction.5.RL.4 = 0.0864977507078848 -6.36980758672007 109.555 0 2.1633457639944 4.59048170226882 30.0349488749092 0
+Junction.5.RL.4.RefObject = 825 473
+Junction.5.RL.4.Seg.0.ID = 734
+Junction.5.RL.4.Seg.0.Type = Connect
+Junction.5.RL.4.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.5.RL.5.ID = 807
+Junction.5.RL.5 = -2.552 -7.30699999999999 109.555 0 7.121 0.145999999999987 0 0
+Junction.5.RL.5.RefObject = 667 677
+Junction.5.RL.5.Seg.0.ID = 808
+Junction.5.RL.5.Seg.0.Type = Connect
+Junction.5.RL.5.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.5.RL.6.ID = 809
+Junction.5.RL.6 = 7.121 0.145999999999987 180 0 0.761866918767545 7.01449841969912 30.0349488749092 0
+Junction.5.RL.6.RefObject = 677 669
+Junction.5.RL.6.Seg.0.ID = 810
+Junction.5.RL.6.Seg.0.Type = Connect
+Junction.5.RL.6.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.5.RL.7.ID = 846
+Junction.5.RL.7 = 0.0864977507078848 -6.36980758672007 109.555 0 7.121 -1.38400000000001 0 0
+Junction.5.RL.7.RefObject = 825 792
+Junction.5.RL.7.Seg.0.ID = 851
+Junction.5.RL.7.Seg.0.Type = Connect
+Junction.5.RL.7.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.5.RL.8.ID = 1300
+Junction.5.RL.8 = -6.782 4.48400000000001 300 0 -8.933 0.63300000000001 180 0
+Junction.5.RL.8.RefObject = -1 -1
+Junction.5.RL.8.Seg.0.ID = 1301
+Junction.5.RL.8.Seg.0.Type = Connect
+Junction.5.RL.8.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.5.RL.9.ID = 1302
+Junction.5.RL.9 = -2.552 -7.30699999999999 109.555 0 -6.782 4.48400000000001 120 0
+Junction.5.RL.9.RefObject = 667 1299
+Junction.5.RL.9.Seg.0.ID = 1303
+Junction.5.RL.9.Seg.0.Type = Connect
+Junction.5.RL.9.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.5.RL.10.ID = 1304
+Junction.5.RL.10 = 7.121 0.145999999999987 180 0 -6.782 4.48400000000001 120 0
+Junction.5.RL.10.RefObject = 677 1299
+Junction.5.RL.10.Seg.0.ID = 1305
+Junction.5.RL.10.Seg.0.Type = Connect
+Junction.5.RL.10.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.5.RL.11.ID = 1306
+Junction.5.RL.11 = 0.761866918767545 7.01449841969912 210.034948874909 0 -6.782 4.48400000000001 120 0
+Junction.5.RL.11.RefObject = 669 1299
+Junction.5.RL.11.Seg.0.ID = 1307
+Junction.5.RL.11.Seg.0.Type = Connect
+Junction.5.RL.11.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.5.RL.12.ID = 1314
+Junction.5.RL.12 = 0.0864977507078848 -6.36980758672007 109.555 0 -4.75117042812548 5.65650000000002 120 0
+Junction.5.RL.12.RefObject = 825 1237
+Junction.5.RL.12.Seg.0.ID = 1315
+Junction.5.RL.12.Seg.0.Type = Connect
+Junction.5.RL.12.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.5.RL.13.ID = 716
+Junction.5.RL.13 = -8.933 -2.86699999999999 0 0 -2.552 -7.30699999999999 289.555 0
+Junction.5.RL.13.RefObject = -1 -1
+Junction.5.RL.13.Seg.0.ID = 729
+Junction.5.RL.13.Seg.0.Type = Connect
+Junction.5.RL.13.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.5.RL.14.ID = 730
+Junction.5.RL.14 = -2.552 -7.30699999999999 109.555 0 -8.933 -2.86699999999999 180 0
+Junction.5.RL.14.RefObject = 667 715
+Junction.5.RL.14.Seg.0.ID = 731
+Junction.5.RL.14.Seg.0.Type = Connect
+Junction.5.RL.14.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.5.RL.15.ID = 736
+Junction.5.RL.15 = 7.121 0.145999999999987 180 0 -8.933 -2.86699999999999 180 0
+Junction.5.RL.15.RefObject = 677 715
+Junction.5.RL.15.Seg.0.ID = 737
+Junction.5.RL.15.Seg.0.Type = Connect
+Junction.5.RL.15.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.5.RL.16.ID = 738
+Junction.5.RL.16 = 0.761866918767545 7.01449841969912 210.034948874909 0 -8.933 -2.86699999999999 180 0
+Junction.5.RL.16.RefObject = 669 715
+Junction.5.RL.16.Seg.0.ID = 739
+Junction.5.RL.16.Seg.0.Type = Connect
+Junction.5.RL.16.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.5.RL.17.ID = 740
+Junction.5.RL.17 = -6.782 4.48400000000001 300 0 -8.933 -2.86699999999999 180 0
+Junction.5.RL.17.RefObject = 1299 715
+Junction.5.RL.17.Seg.0.ID = 741
+Junction.5.RL.17.Seg.0.Type = Connect
+Junction.5.RL.17.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.5.RL.18.ID = 743
+Junction.5.RL.18 = 0.0864977507078848 -6.36980758672007 109.555 0 -8.933 -1.11699999999999 180 0
+Junction.5.RL.18.RefObject = 825 641
+Junction.5.RL.18.Seg.0.ID = 744
+Junction.5.RL.18.Seg.0.Type = Connect
+Junction.5.RL.18.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.6.ID = 868
+Junction.6.Type = Standard
+Junction.6.Knot = 1.514 -116.855 0
+Junction.6.RST = Countryroad
+Junction.6.Arm.0.ID = 869 874
+Junction.6.Arm.0 = 0 0.25 0 95 1
+Junction.6.Arm.1.ID = 873 878
+Junction.6.Arm.1 = 0 0.25 0 378 0
+Junction.6.Arm.2.ID = 872 876
+Junction.6.Arm.2 = 0 0.25 0 25 1
+Junction.6.MainArms = 2 1
+Junction.6.RL.0.ID = 874
+Junction.6.RL.0 = -6.553 -5.181 0 0 6.2538548256751 -5.973 0 0
+Junction.6.RL.0.RefObject = -1 -1
+Junction.6.RL.0.Seg.0.ID = 875
+Junction.6.RL.0.Seg.0.Type = Connect
+Junction.6.RL.0.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.6.RL.1.ID = 876
+Junction.6.RL.1 = -4.19500000000069 2.63024711643197 270 0 -6.553 -1.371 180 0
+Junction.6.RL.1.RefObject = -1 -1
+Junction.6.RL.1.Seg.0.ID = 877
+Junction.6.RL.1.Seg.0.Type = Connect
+Junction.6.RL.1.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.6.RL.2.ID = 878
+Junction.6.RL.2 = 6.25385482567514 -1.283 180 0 0.494999999999315 2.63024711643193 89.9999999999996 0
+Junction.6.RL.2.RefObject = -1 -1
+Junction.6.RL.2.Seg.0.ID = 879
+Junction.6.RL.2.Seg.0.Type = Connect
+Junction.6.RL.2.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.6.RL.3.ID = 880
+Junction.6.RL.3 = -6.553 -1.371 0 0 0.494999999999315 2.63024711643193 89.9999999999996 0
+Junction.6.RL.3.RefObject = 869 872
+Junction.6.RL.3.Seg.0.ID = 881
+Junction.6.RL.3.Seg.0.Type = Connect
+Junction.6.RL.3.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.6.RL.4.ID = 886
+Junction.6.RL.4 = -6.553 -1.371 0 0 6.25385482567514 -1.283 0 0
+Junction.6.RL.4.RefObject = 869 873
+Junction.6.RL.4.Seg.0.ID = 887
+Junction.6.RL.4.Seg.0.Type = Connect
+Junction.6.RL.4.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.6.RL.5.ID = 888
+Junction.6.RL.5 = 6.25385482567514 -1.283 180 0 0.494999999999315 2.63024711643193 89.9999999999996 0
+Junction.6.RL.5.RefObject = 873 872
+Junction.6.RL.5.Seg.0.ID = 889
+Junction.6.RL.5.Seg.0.Type = Connect
+Junction.6.RL.5.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.6.RL.6.ID = 893
+Junction.6.RL.6 = -1.85000000000069 2.63024711643195 270 0 6.25385482567512 -3.628 0 0
+Junction.6.RL.6.RefObject = 142 633
+Junction.6.RL.6.Seg.0.ID = 894
+Junction.6.RL.6.Seg.0.Type = Connect
+Junction.6.RL.6.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.6.RL.7.ID = 907
+Junction.6.RL.7 = -6.553 -3.276 0 0 6.25385482567512 -3.628 0 0
+Junction.6.RL.7.RefObject = 858 633
+Junction.6.RL.7.Seg.0.ID = 908
+Junction.6.RL.7.Seg.0.Type = Connect
+Junction.6.RL.7.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.7.ID = 1290
+Junction.7.Type = Standard
+Junction.7.Knot = -21.198 -138.56 0
+Junction.7.RST = Countryroad
+Junction.7.Material.0 = Textures/Ground/DirtRoad.jpg 0 0 0 0 1 1 1 1 0 0 0
+Junction.7.Arm.0.ID = 1291 1293
+Junction.7.Arm.0 = 0 0.25 0 1189 1
+Junction.7.Arm.1.ID = 1292 1295
+Junction.7.Arm.1 = 0 0.25 0 921 1
+Junction.7.MainArms = 0 1
+Junction.7.RL.0.ID = 1293
+Junction.7.RL.0 = -8.49637064317121 -7.04605159170254 59.9992722191727 0 9.433 0.671999999999997 89.9999999999999 0
+Junction.7.RL.0.RefObject = -1 -1
+Junction.7.RL.0.Seg.0.ID = 1294
+Junction.7.RL.0.Seg.0.Type = Connect
+Junction.7.RL.0.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.7.RL.1.ID = 1295
+Junction.7.RL.1 = -14.567 0.672000000000025 270 0 -12.558 -4.70099999999999 239.999272219173 0
+Junction.7.RL.1.RefObject = -1 -1
+Junction.7.RL.1.Seg.0.ID = 1296
+Junction.7.RL.1.Seg.0.Type = Connect
+Junction.7.RL.1.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.7.RL.2.ID = 1297
+Junction.7.RL.2 = -12.558 -4.70099999999999 59.9992722191727 0 9.433 0.671999999999997 89.9999999999999 0
+Junction.7.RL.2.RefObject = 1291 1292
+Junction.7.RL.2.Seg.0.ID = 1298
+Junction.7.RL.2.Seg.0.Type = Connect
+Junction.7.RL.2.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.8.ID = 844
+Junction.8.Type = Standard
+Junction.8.Knot = -104.395 -125.824 0
+Junction.8.RST = Countryroad
+Junction.8.Arm.0.ID = 859 861
+Junction.8.Arm.0 = 0 0.25 0 332 1
+Junction.8.Arm.0.Material.0 = Textures/Ground/DirtRoad.jpg 0 0 0 0 1 1 1 1 0 0 0
+Junction.8.Arm.1.ID = 860 866
+Junction.8.Arm.1 = 0 0.25 0 751 1
+Junction.8.Arm.1.Material.0 = Textures/Ground/DirtRoad.jpg 0 0 0 0 1 1 1 1 0 0 0
+Junction.8.MainArms = 0 1
+Junction.8.RL.0.ID = 861
+Junction.8.RL.0 = -3.617 -4.18599999999999 90 0 7.43499999999999 3.82800000000003 0 0
+Junction.8.RL.0.RefObject = -1 -1
+Junction.8.RL.0.Seg.0.ID = 862
+Junction.8.RL.0.Seg.0.Type = Connect
+Junction.8.RL.0.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.8.RL.1.ID = 866
+Junction.8.RL.1 = 7.43499999999999 7.32800000000003 180 0 -7.117 -4.18599999999999 270 0
+Junction.8.RL.1.RefObject = -1 -1
+Junction.8.RL.1.Seg.0.ID = 867
+Junction.8.RL.1.Seg.0.Type = Connect
+Junction.8.RL.1.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.8.RL.2.ID = 910
+Junction.8.RL.2 = -7.117 -4.18599999999999 90 0 7.43499999999999 3.82800000000003 0 0
+Junction.8.RL.2.RefObject = 859 860
+Junction.8.RL.2.Seg.0.ID = 912
+Junction.8.RL.2.Seg.0.Type = Connect
+Junction.8.RL.2.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.9.ID = 914
+Junction.9.Type = Standard
+Junction.9.Knot = -26.159 -119.933 0
+Junction.9.RST = Countryroad
+Junction.9.Arm.0.ID = 919 924
+Junction.9.Arm.0 = 0 0.25 0 751 0
+Junction.9.Arm.1.ID = 923 935
+Junction.9.Arm.1 = 0 0.25 0 95 0
+Junction.9.MainArms = 0 1
+Junction.9.RL.0.ID = 924
+Junction.9.RL.0 = -0.801000000000002 -2.06299999999999 0 0 1.12 -2.10299999999999 0 0
+Junction.9.RL.0.RefObject = -1 -1
+Junction.9.RL.0.Seg.0.ID = 929
+Junction.9.RL.0.Seg.0.Type = Connect
+Junction.9.RL.0.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.9.RL.1.ID = 935
+Junction.9.RL.1 = 1.12 1.70700000000001 180 0 -0.801000000000002 1.43700000000001 180 0
+Junction.9.RL.1.RefObject = -1 -1
+Junction.9.RL.1.Seg.0.ID = 936
+Junction.9.RL.1.Seg.0.Type = Connect
+Junction.9.RL.1.Seg.0.Param = 0 0 0 0 0 0 0 0
+Junction.9.RL.2.ID = 937
+Junction.9.RL.2 = -0.801000000000002 -2.06299999999999 0 0 1.12 1.70700000000001 0 0
+Junction.9.RL.2.RefObject = 919 923
+Junction.9.RL.2.Seg.0.ID = 938
+Junction.9.RL.2.Seg.0.Type = Connect
+Junction.9.RL.2.Seg.0.Param = 0 0 0 0 0 0 0 0
+Link.0.ID = 0
+Link.0.Node0 = 2.009 6.54 0 270
+Link.0.Node1 = 2.009 -17.17 0 270
+Link.0.RST = Countryroad
+Link.0.RL.ID = 1
+Link.0.Seg.0.ID = 24
+Link.0.Seg.0.Type = Straight
+Link.0.Seg.0.Param = 9.088 0 0 0 0 0 0 0
+Link.0.Seg.1.ID = 5
+Link.0.Seg.1.Type = Straight
+Link.0.Seg.1.Param = 14.622 0 0 0 0 0 0 0
+Link.0.LaneSection.0.ID = 6
+Link.0.LaneSection.0.Start = 0
+Link.0.LaneSection.0.LaneL.0.ID = 27
+Link.0.LaneSection.0.LaneL.0 = 0 2.5 2.5 5 0 0 0
+Link.0.LaneSection.0.LaneR.0.ID = 28
+Link.0.LaneSection.0.LaneR.0 = 0 4.69 4.69 0 0 0 0
+Link.0.LaneSection.0.LaneR.0.Material.0 = Textures/Ground/Grass_02_512.jpg 0 0 0 0 1 1 1 1 0 0 0
+Link.0.LaneSection.0.LaneR.0.ARP = 29 30 31 32 33 34
+Link.0.LaneSection.0.LaneR.1.ID = 52
+Link.0.LaneSection.0.LaneR.1 = 0 2.5 2.5 5 0 0 0
+Link.0.LaneSection.0.LaneR.1.Material.0 = 0.8275,0.8275,0.8275 0 0 0 0 0 0 0 0 0 0 0
+Link.0.LaneSection.1.ID = 39
+Link.0.LaneSection.1.Start = 11.167
+Link.0.LaneSection.1.LaneL.0.ID = 49
+Link.0.LaneSection.1.LaneL.0 = 0 2.5 2.5 5 0 0 0
+Link.0.LaneSection.1.LaneR.0.ID = 50
+Link.0.LaneSection.1.LaneR.0 = 0 4.69 4.69 0 0 0 0
+Link.0.LaneSection.1.LaneR.0.ARP = 51 53 54 66 67 68
+Link.0.LaneSection.1.LaneR.1.ID = 70
+Link.0.LaneSection.1.LaneR.1 = 0 2.5 2.5 5 0 0 0
+Link.0.ElevationProfile.ID = 103
+Link.0.ElevationProfile.Params = 0 0
+Link.0.ElevationProfile:
+	87 -1 0 1 0 0 0
+Link.0.SlopeProfile.ID = 104
+Link.0.SlopeProfile.Params = 0 0
+Link.0.SlopeProfile:
+	96 -1 0 1 0 0 0
+Link.0.CamberProfile.ID = 105
+Link.0.CamberProfile.Params = 0 0
+Link.0.CamberProfile:
+	108 -1 0 1 0 0 0
+Link.1.ID = 25
+Link.1.Node0 = 2.00900000606782 -26.8897528835682 0 269.997186262202
+Link.1.Node1 = 2.00899999999932 -114.224752883568 0 270
+Link.1.RST = Countryroad
+Link.1.RL.ID = 42
+Link.1.Seg.0.ID = 46
+Link.1.Seg.0.Type = TurnLeft
+Link.1.Seg.0.Param = 5.032 0.00281373779756677 0 0 0 0 0 0
+Link.1.Seg.1.ID = 47
+Link.1.Seg.1.Type = Straight
+Link.1.Seg.1.Param = 87.3347528835681 0 0 0 0 0 0 0
+Link.1.LaneSection.0.ID = 88
+Link.1.LaneSection.0.Start = 0
+Link.1.LaneSection.0.LaneL.0.ID = 107
+Link.1.LaneSection.0.LaneL.0 = 0 2.5 2.5 5 0 0 0
+Link.1.LaneSection.0.LaneR.0.ID = 111
+Link.1.LaneSection.0.LaneR.0 = 0 4.69 4.69 0 0 0 0
+Link.1.LaneSection.0.LaneR.0.ARP = 120 125 130 137 140 141
+Link.1.LaneSection.0.LaneR.1.ID = 143
+Link.1.LaneSection.0.LaneR.1 = 0 2.5 2.5 5 0 0 0
+Link.1.ElevationProfile.ID = 43
+Link.1.ElevationProfile.Params = 0 0
+Link.1.ElevationProfile:
+	144 -1 0 0 0 0 0
+	149 -1 0.000247116431919991 0 0 0 0
+	427 -1 0 1 0 0 0
+Link.1.SlopeProfile.ID = 44
+Link.1.SlopeProfile.Params = 0 0
+Link.1.SlopeProfile:
+	150 -1 0 0 0 0 0
+	151 -1 0.000247116431919991 0 0 0 0
+	431 -1 0 1 0 0 0
+Link.1.CamberProfile.ID = 45
+Link.1.CamberProfile.Params = 0 0
+Link.1.CamberProfile:
+	152 -1 0 0 0 0 0
+	154 -1 0.000247116431919991 0 0 0 0
+	441 -1 0 1 0 0 0
+Link.2.ID = 218
+Link.2.Node0 = 4.1624161978351 -24.844 0 -0
+Link.2.Node1 = 23.4264161978351 -91.8574161978351 0 270
+Link.2.RST = Countryroad
+Link.2.RL.ID = 219
+Link.2.Seg.0.ID = 223
+Link.2.Seg.0.Type = Straight
+Link.2.Seg.0.Param = 12.2125838021649 0 0 0 0 0 0 0
+Link.2.Seg.1.ID = 186
+Link.2.Seg.1.Type = PointList
+Link.2.Seg.1.Param = 1 -1.22464679914735e-16 1 0 0 0 0 0
+Link.2.Seg.1.PointList:
+	187 -1 16.375 -24.844
+	191 -1 16.565 -24.844
+Link.2.Seg.2.ID = 192
+Link.2.Seg.2.Type = PointList
+Link.2.Seg.2.Param = 1 -1.22464679914735e-16 1 0 0 0 0 0
+Link.2.Seg.2.PointList:
+	193 -1 16.5645838021649 -24.844
+Link.2.Seg.3.ID = 194
+Link.2.Seg.3.Type = Straight
+Link.2.Seg.3.Param = 4.84741619783508 0 0 0 0 0 0 0
+Link.2.Seg.4.ID = 195
+Link.2.Seg.4.Type = TurnRight
+Link.2.Seg.4.Param = 2.014 90 0 0 0 0 0 0
+Link.2.Seg.5.ID = 196
+Link.2.Seg.5.Type = Straight
+Link.2.Seg.5.Param = 64.9994161978351 0 0 0 0 0 0 0
+Link.2.LaneSection.0.ID = 224
+Link.2.LaneSection.0.Start = 0
+Link.2.LaneSection.0.LaneL.0.ID = 226
+Link.2.LaneSection.0.LaneL.0 = 0 5.6 5.6 0 0 0 0
+Link.2.LaneSection.0.LaneL.0.ARP = 232 231 230 229 228 227
+Link.2.LaneSection.0.LaneL.1.ID = 234
+Link.2.LaneSection.0.LaneL.1 = 0 2.5 2.5 5 0 0 0
+Link.2.LaneSection.0.LaneR.0.ID = 225
+Link.2.LaneSection.0.LaneR.0 = 0 2.5 2.5 5 0 0 0
+Link.2.LaneSection.1.ID = 197
+Link.2.LaneSection.1.Start = 13.2125838021649
+Link.2.LaneSection.1.LaneL.0.ID = 198
+Link.2.LaneSection.1.LaneL.0 = 0 5.6 5.6 0 0 0 0
+Link.2.LaneSection.1.LaneL.0.ARP = 199 200 201 202 203 204
+Link.2.LaneSection.1.LaneL.1.ID = 208
+Link.2.LaneSection.1.LaneL.1 = 0 2.5 2.5 5 0 0 0
+Link.2.LaneSection.1.LaneR.0.ID = 209
+Link.2.LaneSection.1.LaneR.0 = 0 2.5 2.5 5 0 0 0
+Link.2.ElevationProfile.ID = 220
+Link.2.ElevationProfile.Params = 0 0
+Link.2.ElevationProfile:
+	235 -1 0 0 0 0 -0
+	240 -1 74.0104161978351 1 0 0 -0
+	210 -1 13.2125838021649 0 0 0 -0
+	289 -1 0 1 0 0 0
+Link.2.SlopeProfile.ID = 221
+Link.2.SlopeProfile.Params = 0 0
+Link.2.SlopeProfile:
+	241 -1 0 0 0 -0 0
+	242 -1 74.0104161978351 1 0 -0 0
+	211 -1 13.2125838021649 0 0 -0 0
+	296 -1 0 1 0 0 0
+Link.2.CamberProfile.ID = 222
+Link.2.CamberProfile.Params = 0 0
+Link.2.CamberProfile:
+	243 -1 0 0 0 0 -0
+	244 -1 74.0104161978351 1 0 0 -0
+	212 -1 13.2125838021649 0 0 0 -0
+	299 -1 0 1 0 0 0
+Link.3.ID = 388
+Link.3.Node0 = 31.8498548256752 -118.138 0 -4.5277992467545e-13
+Link.3.Node1 = 72.5518548249023 -118.137998135102 0 0.0712338742388587
+Link.3.RST = Countryroad
+Link.3.RL.ID = 389
+Link.3.Seg.0.ID = 393
+Link.3.Seg.0.Type = Straight
+Link.3.Seg.0.Param = 40.699 0 0 0 0 0 0 0
+Link.3.Seg.1.ID = 438
+Link.3.Seg.1.Type = TurnLeft
+Link.3.Seg.1.Param = 2.413 0.0712338742393115 0 0 0 0 0 0
+Link.3.LaneSection.0.ID = 394
+Link.3.LaneSection.0.Start = 0
+Link.3.LaneSection.0.LaneL.0.ID = 395
+Link.3.LaneSection.0.LaneL.0 = 0 2.5 2.5 5 0 0 0
+Link.3.LaneSection.0.LaneR.0.ID = 396
+Link.3.LaneSection.0.LaneR.0 = 0 4.44 4.44 0 0 0 0
+Link.3.LaneSection.0.LaneR.0.ARP = 399 400 402 406 407 410
+Link.3.LaneSection.0.LaneR.1.ID = 412
+Link.3.LaneSection.0.LaneR.1 = 0 2.5 2.5 5 0 0 0
+Link.3.ElevationProfile.ID = 390
+Link.3.ElevationProfile.Params = 0 0
+Link.3.ElevationProfile:
+	428 -1 0 0 0 0 0
+	413 -1 0.00299999999999478 1 0 0 0
+	513 -1 0 1 0 0 0
+Link.3.SlopeProfile.ID = 391
+Link.3.SlopeProfile.Params = 0 0
+Link.3.SlopeProfile:
+	432 -1 0 0 0 0 0
+	430 -1 0.00299999999999478 1 0 0 0
+	520 -1 0 1 0 0 0
+Link.3.CamberProfile.ID = 392
+Link.3.CamberProfile.Params = 0 0
+Link.3.CamberProfile:
+	445 -1 0 0 0 0 0
+	433 -1 0.00299999999999478 1 0 0 0
+	523 -1 0 1 0 0 0
+Link.4.ID = 175
+Link.4.Node0 = 23.426 -100.938752943857 0 270
+Link.4.Node1 = 23.426 -116.847567636677 0 270
+Link.4.RST = Countryroad
+Link.4.RL.ID = 266
+Link.4.Seg.0.ID = 319
+Link.4.Seg.0.Type = Straight
+Link.4.Seg.0.Param = 15.9078308583081 0 0 0 0 0 0 0
+Link.4.Seg.1.ID = 415
+Link.4.Seg.1.Type = Straight
+Link.4.Seg.1.Param = 0.000983834512311432 0 0 0 0 0 0 0
+Link.4.LaneSection.0.ID = 325
+Link.4.LaneSection.0.Start = 0
+Link.4.LaneSection.0.LaneL.0.ID = 328
+Link.4.LaneSection.0.LaneL.0 = 0 5.6 5.6 0 0 0 0
+Link.4.LaneSection.0.LaneL.0.ARP = 330 335 348 349 353 372
+Link.4.LaneSection.0.LaneL.1.ID = 398
+Link.4.LaneSection.0.LaneL.1 = 0 2.5 2.5 5 0 0 0
+Link.4.LaneSection.0.LaneR.0.ID = 401
+Link.4.LaneSection.0.LaneR.0 = 0 2.5 2.5 5 0 0 0
+Link.4.ElevationProfile.ID = 309
+Link.4.ElevationProfile.Params = 0 0
+Link.4.ElevationProfile:
+	408 -1 0 0 0 0 0
+	485 -1 13.463 1 0 0 0
+	481 -1 0 1 0 0 0
+Link.4.SlopeProfile.ID = 310
+Link.4.SlopeProfile.Params = 0 0
+Link.4.SlopeProfile:
+	414 -1 0 0 0 0 0
+	488 -1 13.463 1 0 0 0
+	486 -1 0 1 0 0 0
+Link.4.CamberProfile.ID = 315
+Link.4.CamberProfile.Params = 0 0
+Link.4.CamberProfile:
+	419 -1 0 0 0 0 0
+	495 -1 13.463 1 0 0 0
+	494 -1 0 1 0 0 0
+Link.5.ID = 421
+Link.5.Node0 = 22.591 -123.448 0 210
+Link.5.Node1 = -28.8171330812324 -153.128501580301 0 210.034948874909
+Link.5.RST = Countryroad
+Link.5.RL.ID = 422
+Link.5.Seg.0.ID = 436
+Link.5.Seg.0.Type = Straight
+Link.5.Seg.0.Param = 59.3550161654877 0 0 0 0 0 0 0
+Link.5.Seg.1.ID = 663
+Link.5.Seg.1.Type = TurnLeft
+Link.5.Seg.1.Param = 9.81 0.0349488749092046 0 0 0 0 0 0
+Link.5.LaneSection.0.ID = 437
+Link.5.LaneSection.0.Start = 0
+Link.5.LaneSection.0.LaneL.0.ID = 458
+Link.5.LaneSection.0.LaneL.0 = 0 5.6 5.6 0 0 0 0
+Link.5.LaneSection.0.LaneL.0.ARP = 466 467 468 470 471 472
+Link.5.LaneSection.0.LaneL.1.ID = 475
+Link.5.LaneSection.0.LaneL.1 = 0 2.5 2.5 5 0 0 0
+Link.5.LaneSection.0.LaneR.0.ID = 476
+Link.5.LaneSection.0.LaneR.0 = 0 2.5 2.5 5 0 0 0
+Link.5.ElevationProfile.ID = 423
+Link.5.ElevationProfile.Params = 0 0
+Link.5.ElevationProfile:
+	483 -1 0 0 0 0 0
+	480 -1 0.00598383451228734 1 0 0 0
+	694 -1 0 1 0 0 0
+Link.5.SlopeProfile.ID = 425
+Link.5.SlopeProfile.Params = 0 0
+Link.5.SlopeProfile:
+	487 -1 0 0 0 0 0
+	484 -1 0.00598383451228734 1 0 0 0
+	711 -1 0 1 0 0 0
+Link.5.CamberProfile.ID = 429
+Link.5.CamberProfile.Params = 0 0
+Link.5.CamberProfile:
+	496 -1 0 0 0 0 0
+	489 -1 0.00598383451228734 1 0 0 0
+	733 -1 0 1 0 0 0
+Link.6.ID = 532
+Link.6.Node0 = 75.493 -116.897 0 89.9999999999996
+Link.6.Node1 = 75.4930000000001 -100.113 0 89.9999999999996
+Link.6.RST = Countryroad
+Link.6.RL.ID = 533
+Link.6.Seg.0.ID = 537
+Link.6.Seg.0.Type = Straight
+Link.6.Seg.0.Param = 16.784 0 0 0 0 0 0 0
+Link.6.LaneSection.0.ID = 542
+Link.6.LaneSection.0.Start = 0
+Link.6.LaneSection.0.LaneL.0.ID = 543
+Link.6.LaneSection.0.LaneL.0 = 0 2.5 2.5 5 0 0 0
+Link.6.LaneSection.0.LaneR.0.ID = 544
+Link.6.LaneSection.0.LaneR.0 = 0 4.44 4.44 0 0 0 0
+Link.6.LaneSection.0.LaneR.0.ARP = 545 546 547 552 553 554
+Link.6.LaneSection.0.LaneR.1.ID = 556
+Link.6.LaneSection.0.LaneR.1 = 0 2.5 2.5 5 0 0 0
+Link.6.ElevationProfile.ID = 534
+Link.6.ElevationProfile.Params = 0 0
+Link.6.ElevationProfile:
+	567 -1 0 0 0 0 0
+	518 -1 0 1 0 0 0
+Link.6.SlopeProfile.ID = 535
+Link.6.SlopeProfile.Params = 0 0
+Link.6.SlopeProfile:
+	574 -1 0 0 0 0 0
+	522 -1 0 1 0 0 0
+Link.6.CamberProfile.ID = 536
+Link.6.CamberProfile.Params = 0 0
+Link.6.CamberProfile:
+	577 -1 0 0 0 0 0
+	526 -1 0 1 0 0 0
+Link.7.ID = 332
+Link.7.Node0 = -38.512 -163.01 0 180
+Link.7.Node1 = -111.512 -130.01 1.56399267578125 90
+Link.7.RST = Countryroad
+Link.7.RL.ID = 337
+Link.7.Seg.0.ID = 341
+Link.7.Seg.0.Type = Straight
+Link.7.Seg.0.Param = 65 0 0 0 0 0 0 0
+Link.7.Seg.1.ID = 747
+Link.7.Seg.1.Type = TurnRight
+Link.7.Seg.1.Param = 8 90 0 0 0 0 0 0
+Link.7.Seg.2.ID = 750
+Link.7.Seg.2.Type = Straight
+Link.7.Seg.2.Param = 25 0 0 0 0 0 0 0
+Link.7.LaneSection.0.ID = 342
+Link.7.LaneSection.0.Start = 0
+Link.7.LaneSection.0.LaneL.0.ID = 343
+Link.7.LaneSection.0.LaneL.0 = 0 2.5 2.5 5 0 0 0
+Link.7.LaneSection.0.LaneR.0.ID = 344
+Link.7.LaneSection.0.LaneR.0 = 0 3.5 3.5 11 0 0 0
+Link.7.LaneSection.0.LaneR.0.Material.0 = Textures/Ground/DirtRoad.jpg 0 0 0 0 1 1 1 1 0 0 0
+Link.7.LaneSection.0.LaneR.0.ARP = 345 346 347 638 639 640
+Link.7.LaneSection.0.LaneR.1.ID = 646
+Link.7.LaneSection.0.LaneR.1 = 0 2.5 2.5 5 0 0 0
+Link.7.ElevationProfile.ID = 338
+Link.7.ElevationProfile.Params = 0 0
+Link.7.ElevationProfile:
+	778 -1 37.5663706143592 1 0 1.56399267578125 0.01968662109375
+Link.7.SlopeProfile.ID = 339
+Link.7.SlopeProfile.Params = 0 0
+Link.7.SlopeProfile:
+	805 -1 37.5663706143592 1 0 0 0
+Link.7.CamberProfile.ID = 340
+Link.7.CamberProfile.Params = 0 0
+Link.7.CamberProfile:
+	834 -1 37.5663706143592 1 0 0 0
+Link.8.ID = 735
+Link.8.Node0 = -23.265 -159.997 0 0
+Link.8.Node1 = 112.117 -159.997 0 0
+Link.8.RST = Countryroad
+Link.8.RL.ID = 748
+Link.8.Seg.0.ID = 670
+Link.8.Seg.0.Type = Straight
+Link.8.Seg.0.Param = 4.582 0 0 0 0 0 0 0
+Link.8.Seg.1.ID = 764
+Link.8.Seg.1.Type = Straight
+Link.8.Seg.1.Param = 130.8 0 0 0 0 0 0 0
+Link.8.LaneSection.0.ID = 765
+Link.8.LaneSection.0.Start = 0
+Link.8.LaneSection.0.LaneL.0.ID = 772
+Link.8.LaneSection.0.LaneL.0 = 0 2.5 2.5 5 0 0 0
+Link.8.LaneSection.0.LaneR.0.ID = 773
+Link.8.LaneSection.0.LaneR.0 = 0 3.06 3.06 0 0 0 0
+Link.8.LaneSection.0.LaneR.0.ARP = 780 781 788 789 790 791
+Link.8.LaneSection.0.LaneR.1.ID = 793
+Link.8.LaneSection.0.LaneR.1 = 0 2.5 2.5 5 0 0 0
+Link.8.ElevationProfile.ID = 749
+Link.8.ElevationProfile.Params = 0 0
+Link.8.ElevationProfile:
+	799 -1 4.582 0 0 0 0
+	794 -1 0 1 0 0 0
+Link.8.SlopeProfile.ID = 756
+Link.8.SlopeProfile.Params = 0 0
+Link.8.SlopeProfile:
+	801 -1 4.582 0 0 0 0
+	800 -1 0 1 0 0 0
+Link.8.CamberProfile.ID = 757
+Link.8.CamberProfile.Params = 0 0
+Link.8.CamberProfile:
+	803 -1 4.582 0 0 0 0
+	802 -1 0 1 0 0 0
+Link.9.ID = 811
+Link.9.Node0 = -32.131 -167.45 0 289.555
+Link.9.Node1 = -18.6859142445483 -205.302236126925 0 289.555
+Link.9.RST = Countryroad
+Link.9.RL.ID = 812
+Link.9.Seg.0.ID = 816
+Link.9.Seg.0.Type = Straight
+Link.9.Seg.0.Param = 40.169168659308 0 0 0 0 0 0 0
+Link.9.LaneSection.0.ID = 817
+Link.9.LaneSection.0.Start = 0
+Link.9.LaneSection.0.LaneL.0.ID = 818
+Link.9.LaneSection.0.LaneL.0 = 0 5.6 5.6 0 0 0 0
+Link.9.LaneSection.0.LaneL.0.ARP = 819 820 821 822 823 824
+Link.9.LaneSection.0.LaneL.1.ID = 826
+Link.9.LaneSection.0.LaneL.1 = 0 2.5 2.5 5 0 0 0
+Link.9.LaneSection.0.LaneR.0.ID = 827
+Link.9.LaneSection.0.LaneR.0 = 0 2.5 2.5 5 0 0 0
+Link.9.LaneSection.1.ID = 1025
+Link.9.LaneSection.1.Start = 5
+Link.9.LaneSection.1.LaneL.0.ID = 1026
+Link.9.LaneSection.1.LaneL.0 = 0 5.6 5.6 0 0 0 0
+Link.9.LaneSection.1.LaneL.0.ARP = 1027 1028 1029 1030 1031 1032
+Link.9.LaneSection.1.LaneL.1.ID = 1034
+Link.9.LaneSection.1.LaneL.1 = 0 2.5 2.5 5 0 0 0
+Link.9.LaneSection.1.LaneR.0.ID = 1059
+Link.9.LaneSection.1.LaneR.0 = 0 0 5 4 0 0 0
+Link.9.LaneSection.1.LaneR.0.ARP = 1060 1061 1062 1063 1064 1065
+Link.9.LaneSection.1.LaneR.1.ID = 1035
+Link.9.LaneSection.1.LaneR.1 = 0 2.5 2.5 5 0 0 0
+Link.9.LaneSection.2.ID = 1069
+Link.9.LaneSection.2.Start = 8
+Link.9.LaneSection.2.LaneL.0.ID = 1070
+Link.9.LaneSection.2.LaneL.0 = 0 5.6 5.6 0 0 0 0
+Link.9.LaneSection.2.LaneL.0.ARP = 1071 1072 1073 1074 1075 1076
+Link.9.LaneSection.2.LaneL.1.ID = 1078
+Link.9.LaneSection.2.LaneL.1 = 0 2.5 2.5 5 0 0 0
+Link.9.LaneSection.2.LaneR.0.ID = 1079
+Link.9.LaneSection.2.LaneR.0 = 0 5 5 4 0 0 0
+Link.9.LaneSection.2.LaneR.0.ARP = 1080 1081 1082 1083 1084 1085
+Link.9.LaneSection.2.LaneR.1.ID = 1087
+Link.9.LaneSection.2.LaneR.1 = 0 2.5 2.5 5 0 0 0
+Link.9.LaneSection.3.ID = 1096
+Link.9.LaneSection.3.Start = 29
+Link.9.LaneSection.3.LaneL.0.ID = 1097
+Link.9.LaneSection.3.LaneL.0 = 0 5.6 5.6 0 0 0 0
+Link.9.LaneSection.3.LaneL.0.ARP = 1098 1099 1100 1101 1102 1103
+Link.9.LaneSection.3.LaneL.1.ID = 1105
+Link.9.LaneSection.3.LaneL.1 = 0 2.5 2.5 5 0 0 0
+Link.9.LaneSection.3.LaneR.0.ID = 1106
+Link.9.LaneSection.3.LaneR.0 = 0 5 0 4 0 0 0
+Link.9.LaneSection.3.LaneR.0.ARP = 1107 1108 1109 1110 1111 1112
+Link.9.LaneSection.3.LaneR.1.ID = 1114
+Link.9.LaneSection.3.LaneR.1 = 0 2.5 2.5 5 0 0 0
+Link.9.LaneSection.4.ID = 1042
+Link.9.LaneSection.4.Start = 32
+Link.9.LaneSection.4.LaneL.0.ID = 1043
+Link.9.LaneSection.4.LaneL.0 = 0 5.6 5.6 0 0 0 0
+Link.9.LaneSection.4.LaneL.0.ARP = 1044 1045 1046 1047 1048 1049
+Link.9.LaneSection.4.LaneL.1.ID = 1051
+Link.9.LaneSection.4.LaneL.1 = 0 2.5 2.5 5 0 0 0
+Link.9.LaneSection.4.LaneR.0.ID = 1052
+Link.9.LaneSection.4.LaneR.0 = 0 2.5 2.5 5 0 0 0
+Link.9.ElevationProfile.ID = 813
+Link.9.ElevationProfile.Params = 0 0
+Link.9.ElevationProfile:
+	832 -1 0 0 0 0 0
+	830 -1 0 1 0 0 0
+Link.9.SlopeProfile.ID = 814
+Link.9.SlopeProfile.Params = 0 0
+Link.9.SlopeProfile:
+	835 -1 0 0 0 0 0
+	833 -1 0 1 0 0 0
+Link.9.CamberProfile.ID = 815
+Link.9.CamberProfile.Params = 0 0
+Link.9.CamberProfile:
+	838 -1 0 0 0 0 0
+	836 -1 0 1 0 0 0
+Link.10.ID = 891
+Link.10.Node0 = 72.586 -98.452 0 180
+Link.10.Node1 = 30.586 -98.452 0 180
+Link.10.RST = Countryroad
+Link.10.RL.ID = 892
+Link.10.Seg.0.ID = 336
+Link.10.Seg.0.Type = Straight
+Link.10.Seg.0.Param = 2 0 0 0 0 0 0 0
+Link.10.Seg.1.ID = 896
+Link.10.Seg.1.Type = Straight
+Link.10.Seg.1.Param = 40 0 0 0 0 0 0 0
+Link.10.LaneSection.0.ID = 897
+Link.10.LaneSection.0.Start = 0
+Link.10.LaneSection.0.LaneL.0.ID = 898
+Link.10.LaneSection.0.LaneL.0 = 0 2.5 2.5 5 0 0 0
+Link.10.LaneSection.0.LaneR.0.ID = 899
+Link.10.LaneSection.0.LaneR.0 = 0 4.69 4.69 0 0 0 0
+Link.10.LaneSection.0.LaneR.0.ARP = 900 901 902 903 904 905
+Link.10.LaneSection.0.LaneR.1.ID = 911
+Link.10.LaneSection.0.LaneR.1 = 0 2.5 2.5 5 0 0 0
+Link.11.ID = 95
+Link.11.Node0 = -25.039 -118.226 0 0
+Link.11.Node1 = -5.039 -118.226 0 0
+Link.11.RST = Countryroad
+Link.11.RL.ID = 109
+Link.11.Seg.0.ID = 614
+Link.11.Seg.0.Type = Straight
+Link.11.Seg.0.Param = 20 0 0 0 0 0 0 0
+Link.11.LaneSection.0.ID = 624
+Link.11.LaneSection.0.Start = 0
+Link.11.LaneSection.0.LaneL.0.ID = 625
+Link.11.LaneSection.0.LaneL.0 = 0 2.5 2.5 5 0 0 0
+Link.11.LaneSection.0.LaneR.0.ID = 626
+Link.11.LaneSection.0.LaneR.0 = 0 3.81 3.81 0 0 0 0
+Link.11.LaneSection.0.LaneR.0.ARP = 718 722 726 783 787 855
+Link.11.LaneSection.0.LaneR.1.ID = 863
+Link.11.LaneSection.0.LaneR.1 = 0 2.5 2.5 5 0 0 0
+Link.11.ElevationProfile.ID = 112
+Link.11.ElevationProfile.Params = 0 0
+Link.11.ElevationProfile:
+	909 -1 0 1 0 0 0
+Link.11.SlopeProfile.ID = 608
+Link.11.SlopeProfile.Params = 0 0
+Link.11.SlopeProfile:
+	913 -1 0 1 0 0 0
+Link.11.CamberProfile.ID = 609
+Link.11.CamberProfile.Params = 0 0
+Link.11.CamberProfile:
+	920 -1 0 1 0 0 0
+Link.12.ID = 378
+Link.12.Node0 = 7.76785482567514 -118.138 0 -4.5277992467545e-13
+Link.12.Node1 = 21.9649999999992 -118.138 0 -4.5277992467545e-13
+Link.12.RST = Countryroad
+Link.12.RL.ID = 379
+Link.12.Seg.0.ID = 507
+Link.12.Seg.0.Type = Straight
+Link.12.Seg.0.Param = 14.1971451743241 0 0 0 0 0 0 0
+Link.12.LaneSection.0.ID = 512
+Link.12.LaneSection.0.Start = 0
+Link.12.LaneSection.0.LaneL.0.ID = 514
+Link.12.LaneSection.0.LaneL.0 = 0 2.5 2.5 5 0 0 0
+Link.12.LaneSection.0.LaneR.0.ID = 515
+Link.12.LaneSection.0.LaneR.0 = 0 4.69 4.69 0 0 0 0
+Link.12.LaneSection.0.LaneR.0.ARP = 516 517 587 630 631 632
+Link.12.LaneSection.0.LaneR.1.ID = 654
+Link.12.LaneSection.0.LaneR.1 = 0 2.5 2.5 5 0 0 0
+Link.12.ElevationProfile.ID = 380
+Link.12.ElevationProfile.Params = 0 0
+Link.12.ElevationProfile:
+	658 -1 0 0 0 0 0
+	655 -1 -0.0138548256758781 1 0 0 0
+Link.12.SlopeProfile.ID = 416
+Link.12.SlopeProfile.Params = 0 0
+Link.12.SlopeProfile:
+	661 -1 0 0 0 0 0
+	659 -1 -0.0138548256758781 1 0 0 0
+Link.12.CamberProfile.ID = 477
+Link.12.CamberProfile.Params = 0 0
+Link.12.CamberProfile:
+	696 -1 0 0 0 0 0
+	662 -1 -0.0138548256758781 1 0 0 0
+Link.13.ID = 921
+Link.13.Node0 = -11.765 -124.388 0 270
+Link.13.Node1 = -11.765 -137.888 0 270
+Link.13.RST = Countryroad
+Link.13.RL.ID = 922
+Link.13.Seg.0.ID = 930
+Link.13.Seg.0.Type = Straight
+Link.13.Seg.0.Param = 4 0 0 0 0 0 0 0
+Link.13.Seg.1.ID = 960
+Link.13.Seg.1.Type = Straight
+Link.13.Seg.1.Param = 4.5 0 0 0 0 0 0 0
+Link.13.Seg.2.ID = 964
+Link.13.Seg.2.Type = Straight
+Link.13.Seg.2.Param = 5 0 0 0 0 0 0 0
+Link.13.LaneSection.0.ID = 931
+Link.13.LaneSection.0.Start = 0
+Link.13.LaneSection.0.LaneL.0.ID = 932
+Link.13.LaneSection.0.LaneL.0 = 0 2.5 2.5 5 0 0 0
+Link.13.LaneSection.0.LaneR.0.ID = 1147
+Link.13.LaneSection.0.LaneR.0 = 0 3 3 13 0 0 0
+Link.13.LaneSection.0.LaneR.0.Material.0 = Textures/Ground/DirtRoad.jpg 0 0 0 0 1 1 1 1 0 0 0
+Link.13.LaneSection.0.LaneR.0.ARP = 1148 1149 1150 1151 1152 1159
+Link.13.LaneSection.0.LaneR.1.ID = 1125
+Link.13.LaneSection.0.LaneR.1 = 0 3 3 13 0 0 0
+Link.13.LaneSection.0.LaneR.1.Material.0 = Textures/Ground/DirtRoad.jpg 0 0 0 0 1 1 1 1 0 0 0
+Link.13.LaneSection.0.LaneR.1.ARP = 1126 1127 1128 1141 1142 1143
+Link.13.LaneSection.0.LaneR.2.ID = 1094
+Link.13.LaneSection.0.LaneR.2 = 0 3 3 13 0 0 0
+Link.13.LaneSection.0.LaneR.2.Material.0 = Textures/Ground/DirtRoad.jpg 0 0 0 0 1 1 1 1 0 0 0
+Link.13.LaneSection.0.LaneR.2.ARP = 1095 1115 1116 1117 1118 1119
+Link.13.LaneSection.0.LaneR.3.ID = 1038
+Link.13.LaneSection.0.LaneR.3 = 0 3 3 13 0 0 0
+Link.13.LaneSection.0.LaneR.3.Material.0 = Textures/Ground/DirtRoad.jpg 0 0 0 0 1 1 1 1 0 0 0
+Link.13.LaneSection.0.LaneR.3.ARP = 1041 1056 1068 1088 1089 1090
+Link.13.LaneSection.0.LaneR.4.ID = 1011
+Link.13.LaneSection.0.LaneR.4 = 0 3 3 13 0 0 0
+Link.13.LaneSection.0.LaneR.4.Material.0 = Textures/Ground/DirtRoad.jpg 0 0 0 0 1 1 1 1 0 0 0
+Link.13.LaneSection.0.LaneR.4.ARP = 1013 1014 1019 1020 1021 1022
+Link.13.LaneSection.0.LaneR.5.ID = 990
+Link.13.LaneSection.0.LaneR.5 = 0 3 3 13 0 0 0
+Link.13.LaneSection.0.LaneR.5.Material.0 = Textures/Ground/DirtRoad.jpg 0 0 0 0 1 1 1 1 0 0 0
+Link.13.LaneSection.0.LaneR.5.ARP = 992 993 994 1000 1001 1002
+Link.13.LaneSection.0.LaneR.6.ID = 969
+Link.13.LaneSection.0.LaneR.6 = 0 3 3 13 0 0 0
+Link.13.LaneSection.0.LaneR.6.Material.0 = Textures/Ground/DirtRoad.jpg 0 0 0 0 1 1 1 1 0 0 0
+Link.13.LaneSection.0.LaneR.6.ARP = 971 972 973 979 980 981
+Link.13.LaneSection.0.LaneR.7.ID = 933
+Link.13.LaneSection.0.LaneR.7 = 0 3 3 13 0 0 0
+Link.13.LaneSection.0.LaneR.7.Material.0 = Textures/Ground/DirtRoad.jpg 0 0 0 0 1 1 1 1 0 0 0
+Link.13.LaneSection.0.LaneR.7.ARP = 934 939 940 941 942 943
+Link.13.LaneSection.0.LaneR.8.ID = 953
+Link.13.LaneSection.0.LaneR.8 = 0 2.5 2.5 5 0 0 0
+Link.14.ID = 1189
+Link.14.Node0 = -36.361 -155.659 0 120
+Link.14.Node1 = -33.756 -143.261 0 59.9992722191726
+Link.14.RST = Countryroad
+Link.14.Material.0 = Textures/Ground/DirtRoad.jpg 0 0 1 0 1 1 0 0 0 0 0
+Link.14.RL.ID = 1190
+Link.14.Seg.0.ID = 1206
+Link.14.Seg.0.Type = PointList
+Link.14.Seg.0.Param = 0.500011000363013 0.866019052628739 1 0 0 0 0 0
+Link.14.Seg.0.PointList:
+	1213 -1 -37.141 -151.231
+	1214 -1 -37.001 -148.838
+	1221 -1 -33.756 -143.261
+Link.14.LaneSection.0.ID = 1222
+Link.14.LaneSection.0.Start = 0
+Link.14.LaneSection.0.LaneL.0.ID = 1229
+Link.14.LaneSection.0.LaneL.0 = 0 2.5 2.5 5 0 0 0
+Link.14.LaneSection.0.LaneR.0.ID = 1230
+Link.14.LaneSection.0.LaneR.0 = 0 4.69 4.69 0 0 0 0
+Link.14.LaneSection.0.LaneR.0.ARP = 1231 1232 1233 1234 1235 1236
+Link.14.LaneSection.0.LaneR.1.ID = 1287
+Link.14.LaneSection.0.LaneR.1 = 0 2.5 2.5 5 0 0 0
+Link.15.ID = 751
+Link.15.Node0 = -26.96 -121.996 0 180
+Link.15.Node1 = -96.96 -121.996 0 180
+Link.15.RST = Countryroad
+Link.15.RL.ID = 758
+Link.15.Seg.0.ID = 762
+Link.15.Seg.0.Type = Straight
+Link.15.Seg.0.Param = 70 0 0 0 0 0 0 0
+Link.15.LaneSection.0.ID = 763
+Link.15.LaneSection.0.Start = 0
+Link.15.LaneSection.0.LaneL.0.ID = 766
+Link.15.LaneSection.0.LaneL.0 = 0 2.5 2.5 5 0 0 0
+Link.15.LaneSection.0.LaneR.0.ID = 767
+Link.15.LaneSection.0.LaneR.0 = 0 3.5 3.5 11 0 0 0
+Link.15.LaneSection.0.LaneR.0.Material.0 = Textures/Ground/DirtRoad.jpg 0 0 0 0 1 1 1 1 0 0 0
+Link.15.LaneSection.0.LaneR.0.ARP = 768 769 770 771 774 775
+Link.15.LaneSection.0.LaneR.1.ID = 831
+Link.15.LaneSection.0.LaneR.1 = 0 2.5 2.5 5 0 0 0
+LanePath.0 = 35 28 2 10 0.1 0.1
+LanePath.1 = 69 50 2 10 0.1 0.1
+LanePath.2 = 142 111 2 10 0.1 0.1
+LanePath.3 = 233 226 2 10 0.1 0.1
+LanePath.4 = 205 198 2 10 0.1 0.1
+LanePath.5 = 411 396 2 10 0.1 0.1
+LanePath.6 = 397 328 2 10 0.1 0.1
+LanePath.7 = 473 458 2 10 0.1 0.1
+LanePath.8 = 555 544 2 10 0.1 0.1
+LanePath.9 = 641 344 2 10 0.1 0.1
+LanePath.10 = 792 773 2 10 0.1 0.1
+LanePath.11 = 825 818 2 10 0.1 0.1
+LanePath.12 = 1033 1026 2 10 0.1 0.1
+LanePath.13 = 1066 1059 2 10 0.1 0.1
+LanePath.14 = 1077 1070 2 10 0.1 0.1
+LanePath.15 = 1086 1079 0.25 10 0.1 0.1
+LanePath.16 = 1104 1097 2 10 0.1 0.1
+LanePath.17 = 1113 1106 0.25 10 0.1 0.1
+LanePath.18 = 1050 1043 2 10 0.1 0.1
+LanePath.19 = 906 899 2 10 0.1 0.1
+LanePath.20 = 858 626 2 10 0.1 0.1
+LanePath.21 = 633 515 2 10 0.1 0.1
+LanePath.22 = 1160 1147 2 10 0.1 0.1
+LanePath.23 = 1144 1125 2 10 0.1 0.1
+LanePath.24 = 1120 1094 2 10 0.1 0.1
+LanePath.25 = 1091 1038 2 10 0.1 0.1
+LanePath.26 = 1023 1011 2 10 0.1 0.1
+LanePath.27 = 1004 990 2 10 0.1 0.1
+LanePath.28 = 983 969 2 10 0.1 0.1
+LanePath.29 = 944 933 2 10 0.1 0.1
+LanePath.30 = 1237 1230 2 10 0.1 0.1
+LanePath.31 = 776 767 2 10 0.1 0.1
+ConPath.0 = 160 22 233 0 1 142 0 0 31 1 -1 -1
+ConPath.0.RL = 161
+ConPath.1 = 165 22 69 0 1 142 0 0 31 1 -1 -1
+ConPath.1.RL = 166
+ConPath.2 = 463 188 906 0 1 205 0 0 31 1 -1 -1
+ConPath.2.RL = 464
+ConPath.3 = 333 188 397 0 1 205 0 0 31 1 -1 -1
+ConPath.3.RL = 334
+ConPath.4 = 387 359 555 0 1 906 0 0 31 1 -1 -1
+ConPath.4.RL = 403
+ConPath.5 = 509 492 411 0 1 555 0 0 31 1 -1 -1
+ConPath.5.RL = 510
+ConPath.6 = 615 405 473 0 1 397 0 0 31 1 -1 -1
+ConPath.6.RL = 616
+ConPath.7 = 627 405 473 0 1 411 0 0 31 1 -1 -1
+ConPath.7.RL = 628
+ConPath.8 = 358 405 633 0 1 411 0 0 0 1 -1 -1
+ConPath.8.RL = 362
+ConPath.9 = 712 666 825 0 1 473 0 0 31 1 -1 -1
+ConPath.9.RL = 732
+ConPath.10 = 845 666 825 0 1 792 0 0 31 1 -1 -1
+ConPath.10.RL = 846
+ConPath.11 = 1313 666 825 0 1 1237 0 0 31 1 -1 -1
+ConPath.11.RL = 1314
+ConPath.12 = 742 666 825 0 1 641 0 0 31 1 -1 -1
+ConPath.12.RL = 743
+ConPath.13 = 890 868 142 0 1 633 0 0 31 1 -1 -1
+ConPath.13.RL = 893
+ConPath.14 = 895 868 858 0 1 633 0 0 31 1 -1 -1
+ConPath.14.RL = 907
+Route.0.ID = 36
+Route.0.Name = Route_0
+Route.0.DrvPath.ID = 37
+Route.0.DrvPath:
+	69
+	165
+	142
+Route.1.ID = 55
+Route.1.Name = Route_1
+Route.1.DrvPath.ID = 56
+Route.1.DrvPath:
+	205
+	233
+	160
+	142
+Route.2.ID = 856
+Route.2.Name = full_loop
+Route.2.DrvPath.ID = 857
+Route.2.DrvPath:
+	1050
+	1104
+	1077
+	1033
+	825
+	712
+	473
+	615
+	397
+	333
+	205
+	233
+	160
+	142
+	890
+	633
+	358
+	411
+	509
+	555
+	387
+	906
+	463
+Route.3.ID = 1123
+Route.3.Name = Trafic_route_1
+Route.3.DrvPath.ID = 1124
+Route.3.DrvPath:
+	1086
+Route.4.ID = 961
+Route.4.Name = Route_4
+Route.4.DrvPath.ID = 963
+Route.4.DrvPath:
+	944
+Route.5.ID = 1163
+Route.5.Name = Route_5
+Route.5.DrvPath.ID = 1164
+Route.5.DrvPath:
+	983
+Route.6.ID = 1165
+Route.6.Name = Route_6
+Route.6.DrvPath.ID = 1166
+Route.6.DrvPath:
+	1023
+Route.7.ID = 1167
+Route.7.Name = Route_7
+Route.7.DrvPath.ID = 1168
+Route.7.DrvPath:
+	1091
+Route.8.ID = 1181
+Route.8.Name = Route_8
+Route.8.DrvPath.ID = 1182
+Route.8.DrvPath:
+	1144
+RL.1.GeoObject.0.ID = 23 1
+RL.1.GeoObject.0 = 15.409 0 15.409 0 1.97 100 40 0 0 0 90 1 1 0.1 0 3D/StreetFurniture/AdvertisingColumn_01_1.mobj
+RL.1.GeoObject.0.SensorBBox = 1 0 1.06 -0.54 0.54 0 0.34
+RL.1.GeoObject.1.ID = 38 1
+RL.1.GeoObject.1 = 17.289 0 17.345 0 0.91 100 40 0 0 0 90 1 1 0.1 0 3D/StreetFurniture/AdvertisingColumn_01_1.mobj
+RL.1.GeoObject.1.SensorBBox = 1 0 1.06 -0.54 0.54 0 0.34
+RL.1.GeoObject.2.ID = 26 1
+RL.1.GeoObject.2 = 22.772 0 22.772 0 2.55 100 40 0 0 0 90 1 1 0.1 0 3D/StreetFurniture/AdvertisingColumn_01_1.mobj
+RL.1.GeoObject.2.SensorBBox = 1 0 1.06 -0.54 0.54 0 0.34
+RL.1.TreeStrip.0.ID = 949 1
+RL.1.TreeStrip.0 = 0.748 0 6.007 0 76.56 -1 70 5 1 1 0.5 0.5
+RL.1.Bump.0.ID = 79 1
+RL.1.Bump.0.Type = RaisedProfileRSR
+RL.1.Bump.0.Param = 0 0 11.167 0 0 -1 0 1 0 0 0.3 0 0 2
+RL.1.Bump.0.Material.0 = Textures/Ground/Curbstone.png 0 0 0 0 1 1 2 0.5 0 0 0
+RL.1.Bump.0.Material.1 = Textures/Ground/Pavement_02.jpg 0 0 0 0 1 1 2 1 0 0 0
+RL.1.Bump.0.Material.2 = Textures/Ground/Grass_01_512.jpg 0 0 2 0 1 1 1 1 0 0 0
+RL.1.Bump.0.Material.3 = Textures/Ground/Grass_02.jpg 0 0 0 0 1 1 1 1 0 0 0
+RL.1.Bump.0.Node1DProfile.0.ID = 80
+RL.1.Bump.0.Node1DProfile.0.Param = 0 0 0 0 0 0
+RL.1.Bump.0.Node1DProfile.1.ID = 81
+RL.1.Bump.0.Node1DProfile.1.Param = 0 0 0 0 0 0
+RL.1.Bump.0.Node1DProfile.2.ID = 82
+RL.1.Bump.0.Node1DProfile.2.Param = 0 0 0 0 0 0
+RL.1.Bump.1.ID = 281 1
+RL.1.Bump.1.Type = RaisedProfileRSL
+RL.1.Bump.1.Param = 0 0 23.71 0 0 1 0 0 0 0 0.3 0 0.15 0
+RL.1.Bump.1.Material.0 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 0.5 0 0 0
+RL.1.Bump.1.Material.1 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 1 0 0 0
+RL.1.Bump.1.Material.2 = Textures/Ground/Asphalt_01.jpg 0 0 2 0 1 1 1 1 0 0 0
+RL.1.Bump.1.Material.3 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 1 1 0 0 0
+RL.1.Bump.1.Node1DProfile.0.ID = 282
+RL.1.Bump.1.Node1DProfile.0.Param = 0 0 0 0 0 0
+RL.1.Bump.1.Node1DProfile.1.ID = 283
+RL.1.Bump.1.Node1DProfile.1.Param = 0 0.12 0 0.12 0 0
+RL.1.Bump.1.Node1DProfile.2.ID = 284
+RL.1.Bump.1.Node1DProfile.2.Param = 0 0.12 0 0.12 0 0
+RL.1.Bump.2.ID = 271 1
+RL.1.Bump.2.Type = RaisedProfileRSR
+RL.1.Bump.2.Param = 11.167 0 23.71 0 0 -1 0 1 0 0 0.3 0 0.15 0
+RL.1.Bump.2.Material.0 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 0.5 0 0 0
+RL.1.Bump.2.Material.1 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 1 0 0 0
+RL.1.Bump.2.Material.2 = Textures/Ground/Asphalt_01.jpg 0 0 2 0 1 1 1 1 0 0 0
+RL.1.Bump.2.Material.3 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 1 1 0 0 0
+RL.1.Bump.2.Node1DProfile.0.ID = 272
+RL.1.Bump.2.Node1DProfile.0.Param = 0 0 0 0 0 0
+RL.1.Bump.2.Node1DProfile.1.ID = 273
+RL.1.Bump.2.Node1DProfile.1.Param = 0 0.12 0 0.12 0 0
+RL.1.Bump.2.Node1DProfile.2.ID = 274
+RL.1.Bump.2.Node1DProfile.2.Param = 0 0.12 0 0.12 0 0
+RL.42.GeoObject.0.ID = 850 42
+RL.42.GeoObject.0 = 23.168 0 23.962 0 2.359 100 10 0 0 0 90 1 2 1 0 3D/StreetFurniture/Construction/Construction_Barrier.mobj
+RL.42.GeoObject.0.SensorBBox = 1 -0.38 0.38 -2.4 2.4 0 1.25
+RL.42.GeoObject.1.ID = 854 42
+RL.42.GeoObject.1 = 26.137 0 26.284 0 14.619 100 10 0 0 0 0 1 2 1 0 3D/StreetFurniture/Construction/Construction_Barrier.mobj
+RL.42.GeoObject.1.SensorBBox = 1 -0.38 0.38 -2.4 2.4 0 1.25
+RL.42.GeoObject.2.ID = 853 42
+RL.42.GeoObject.2 = 26.314 0 26.314 0 9.356 100 10 0 0 0 0 1 2 1 0 3D/StreetFurniture/Construction/Construction_Barrier.mobj
+RL.42.GeoObject.2.SensorBBox = 1 -0.38 0.38 -2.4 2.4 0 1.25
+RL.42.GeoObject.3.ID = 155 42
+RL.42.GeoObject.3 = 28.2672471164319 0 40.2842471164319 0 -26.801 100 40 0 0 0 90 1 4.08 1 0 3D/Buildings/Industrial_StorageHall_01.mobj
+RL.42.GeoObject.3.SensorBBox = 1 -0.15 20.15 -61.6896 61.6896 -1 5.41
+RL.42.GeoObject.4.ID = 156 42
+RL.42.GeoObject.4 = 68.0012471164319 0 0 1 3.899 100 40 0 0 0 90 0.8 1.454 1 0 3D/Buildings/Industrial_StorageHall_01.mobj
+RL.42.GeoObject.4.SensorBBox = 1 -0.12 16.12 -21.98448 21.98448 -1 5.41
+RL.42.SignPlate.0.ID = 852 42
+RL.42.SignPlate.0 = 42.768 0 4.908 100 4 4 0 1 3 ""
+RL.42.SignPlate.0.Material.0 = commonsense_small_100x100.jpg 0 0 0 0 0 0 1 1 0 0 0
+RL.42.TreeStrip.0.ID = 182 42
+RL.42.TreeStrip.0 = 3.299 0 6.745 0 3.367 1 10 5 1 1 0.5 0.5
+RL.42.Bump.0.ID = 106 42
+RL.42.Bump.0.Type = RaisedProfileRSL
+RL.42.Bump.0.Param = 0 0 0 1 0 1 0 0 0 0 0.3 0 0.15 0
+RL.42.Bump.0.Material.0 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 0.5 0 0 0
+RL.42.Bump.0.Material.1 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 1 0 0 0
+RL.42.Bump.0.Material.2 = Textures/Ground/Grass_01.jpg 0 0 2 0 1 1 1 1 0 0 0
+RL.42.Bump.0.Material.3 = Textures/Ground/Grass_01.jpg 0 0 0 0 1 1 1 1 0 0 0
+RL.42.Bump.0.Node1DProfile.0.ID = 110
+RL.42.Bump.0.Node1DProfile.0.Param = 0 0 0 0 0 0
+RL.42.Bump.0.Node1DProfile.0.Nodes:
+	970 -1 0 1 0 0 0 -999 -999
+RL.42.Bump.0.Node1DProfile.1.ID = 121
+RL.42.Bump.0.Node1DProfile.1.Param = 0 0.12 0 0.12 0 0
+RL.42.Bump.0.Node1DProfile.1.Nodes:
+	974 -1 0 1 0 0.12 0 -999 -999
+RL.42.Bump.0.Node1DProfile.2.ID = 126
+RL.42.Bump.0.Node1DProfile.2.Param = 0 0.12 0 0.12 0 0
+RL.42.Bump.0.Node1DProfile.2.Nodes:
+	982 -1 0 1 0 0.12 0 -999 -999
+RL.42.Bump.1.ID = 321 42
+RL.42.Bump.1.Type = RaisedProfileRSR
+RL.42.Bump.1.Param = 0 0 0 1 0 -1 0 1 0 0 0.3 0 0.15 0
+RL.42.Bump.1.Material.0 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 0.5 0 0 0
+RL.42.Bump.1.Material.1 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 1 0 0 0
+RL.42.Bump.1.Material.2 = Textures/Ground/Asphalt_01.jpg 0 0 2 0 1 1 1 1 0 0 0
+RL.42.Bump.1.Material.3 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 1 1 0 0 0
+RL.42.Bump.1.Node1DProfile.0.ID = 322
+RL.42.Bump.1.Node1DProfile.0.Param = 0 0 0 0 0 0
+RL.42.Bump.1.Node1DProfile.0.Nodes:
+	991 -1 0 1 0 0 0 -999 -999
+RL.42.Bump.1.Node1DProfile.1.ID = 323
+RL.42.Bump.1.Node1DProfile.1.Param = 0 0.12 0 0.12 0 0
+RL.42.Bump.1.Node1DProfile.1.Nodes:
+	999 -1 0 1 0 0.12 0 -999 -999
+RL.42.Bump.1.Node1DProfile.2.ID = 324
+RL.42.Bump.1.Node1DProfile.2.Param = 0 0.12 0 0.12 0 0
+RL.42.Bump.1.Node1DProfile.2.Nodes:
+	1003 -1 0 1 0 0.12 0 -999 -999
+RL.109.Bump.0.ID = 1136 109
+RL.109.Bump.0.Type = RaisedProfileRSL
+RL.109.Bump.0.Param = 0 0 0 1 0 1 0 0 0 0 0.3 0 0.15 0
+RL.109.Bump.0.Material.0 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 0.5 0 0 0
+RL.109.Bump.0.Material.1 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 1 0 0 0
+RL.109.Bump.0.Material.2 = Textures/Ground/Grass_01.jpg 0 0 2 0 1 1 1 1 0 0 0
+RL.109.Bump.0.Material.3 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 1 1 0 0 0
+RL.109.Bump.0.Node1DProfile.0.ID = 1137
+RL.109.Bump.0.Node1DProfile.0.Param = 0 0 0 0 0 0
+RL.109.Bump.0.Node1DProfile.1.ID = 1138
+RL.109.Bump.0.Node1DProfile.1.Param = 0 0.12 0 0.12 0 0
+RL.109.Bump.0.Node1DProfile.2.ID = 1139
+RL.109.Bump.0.Node1DProfile.2.Param = 0 0.12 0 0.12 0 0
+RL.109.Bump.1.ID = 1156 109
+RL.109.Bump.1.Type = RaisedProfileRSR
+RL.109.Bump.1.Param = 0 0 0 1 0 -1 0 1 0 0 0.3 0 0.15 0
+RL.109.Bump.1.Material.0 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 0.5 0 0 0
+RL.109.Bump.1.Material.1 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 1 0 0 0
+RL.109.Bump.1.Material.2 = Textures/Ground/Grass_01.jpg 0 0 2 0 1 1 1 1 0 0 0
+RL.109.Bump.1.Material.3 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 1 1 0 0 0
+RL.109.Bump.1.Node1DProfile.0.ID = 1157
+RL.109.Bump.1.Node1DProfile.0.Param = 0 0 0 0 0 0
+RL.109.Bump.1.Node1DProfile.1.ID = 1158
+RL.109.Bump.1.Node1DProfile.1.Param = 0 0.12 0 0.12 0 0
+RL.109.Bump.1.Node1DProfile.2.ID = 1161
+RL.109.Bump.1.Node1DProfile.2.Param = 0 0.12 0 0.12 0 0
+RL.116.Bump.0.ID = 301 116
+RL.116.Bump.0.Type = RaisedProfile
+RL.116.Bump.0.Param = 0 0 6.266 0 0 100 0 1 0 0 0.3 0 0.15 0
+RL.116.Bump.0.Material.0 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 0.5 0 0 0
+RL.116.Bump.0.Material.1 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 1 0 0 0
+RL.116.Bump.0.Material.2 = Textures/Ground/Asphalt_01.jpg 0 0 2 0 1 1 1 1 0 0 0
+RL.116.Bump.0.Material.3 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 1 1 0 0 0
+RL.116.Bump.0.Node1DProfile.0.ID = 302
+RL.116.Bump.0.Node1DProfile.0.Param = 0 0 0 0 0 0
+RL.116.Bump.0.Node1DProfile.1.ID = 303
+RL.116.Bump.0.Node1DProfile.1.Param = 0 0.12 0 0.12 0 0
+RL.116.Bump.0.Node1DProfile.2.ID = 304
+RL.116.Bump.0.Node1DProfile.2.Param = 0 0.12 0 0.12 0 0
+RL.116.Bump.1.ID = 311 116
+RL.116.Bump.1.Type = RaisedProfile
+RL.116.Bump.1.Param = 6.267 0 9.72 0 0 100 0 1 0 0 0.3 0 0.15 0
+RL.116.Bump.1.Material.0 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 0.5 0 0 0
+RL.116.Bump.1.Material.1 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 1 0 0 0
+RL.116.Bump.1.Material.2 = Textures/Ground/Asphalt_01.jpg 0 0 2 0 1 1 1 1 0 0 0
+RL.116.Bump.1.Material.3 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 1 1 0 0 0
+RL.116.Bump.1.Node1DProfile.0.ID = 312
+RL.116.Bump.1.Node1DProfile.0.Param = 0 0 0 0 0 0
+RL.116.Bump.1.Node1DProfile.1.ID = 313
+RL.116.Bump.1.Node1DProfile.1.Param = 0 0.12 0 0.12 0 0
+RL.116.Bump.1.Node1DProfile.2.ID = 314
+RL.116.Bump.1.Node1DProfile.2.Param = 0 0.12 0 0.12 0 0
+RL.118.Bump.0.ID = 291 118
+RL.118.Bump.0.Type = RaisedProfile
+RL.118.Bump.0.Param = 0 0 3.193 0 0 100 0 1 0 0 0.3 0 0.15 0
+RL.118.Bump.0.Material.0 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 0.5 0 0 0
+RL.118.Bump.0.Material.1 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 1 0 0 0
+RL.118.Bump.0.Material.2 = Textures/Ground/Asphalt_01.jpg 0 0 2 0 1 1 1 1 0 0 0
+RL.118.Bump.0.Material.3 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 1 1 0 0 0
+RL.118.Bump.0.Node1DProfile.0.ID = 292
+RL.118.Bump.0.Node1DProfile.0.Param = 0 0 0 0 0 0
+RL.118.Bump.0.Node1DProfile.1.ID = 293
+RL.118.Bump.0.Node1DProfile.1.Param = 0 0.12 0 0.12 0 0
+RL.118.Bump.0.Node1DProfile.2.ID = 294
+RL.118.Bump.0.Node1DProfile.2.Param = 0 0.12 0 0.12 0 0
+RL.124.Bump.0.ID = 73 124
+RL.124.Bump.0.Type = RaisedProfile
+RL.124.Bump.0.Param = 0 0 3.226 0 0 100 0 1 0 0 0.3 0 0.15 0
+RL.124.Bump.0.Material.0 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 0.5 0 0 0
+RL.124.Bump.0.Material.1 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 1 0 0 0
+RL.124.Bump.0.Material.2 = Textures/Ground/Grass_01.jpg 0 0 2 0 1 1 1 1 0 0 0
+RL.124.Bump.0.Material.3 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 1 1 0 0 0
+RL.124.Bump.0.Node1DProfile.0.ID = 74
+RL.124.Bump.0.Node1DProfile.0.Param = 0 0 0 0 0 0
+RL.124.Bump.0.Node1DProfile.1.ID = 75
+RL.124.Bump.0.Node1DProfile.1.Param = 0 0.12 0 0.12 0 0
+RL.124.Bump.0.Node1DProfile.2.ID = 76
+RL.124.Bump.0.Node1DProfile.2.Param = 0 0.12 0 0.12 0 0
+RL.219.GeoObject.0.ID = 842 219
+RL.219.GeoObject.0 = 2.075 0 2.075 0 -21.018 100 10 0 0 0 300 1 2 1 0 3D/StreetFurniture/Construction/Construction_Barrier.mobj
+RL.219.GeoObject.0.SensorBBox = 1 -0.38 0.38 -2.4 2.4 0 1.25
+RL.219.GeoObject.1.ID = 847 219
+RL.219.GeoObject.1 = 7.189 0 7.189 0 -19.522 100 10 0 0 0 270 1 2 1 0 3D/StreetFurniture/Construction/Construction_Barrier.mobj
+RL.219.GeoObject.1.SensorBBox = 1 -0.38 0.38 -2.4 2.4 0 1.25
+RL.219.GeoObject.2.ID = 848 219
+RL.219.GeoObject.2 = 12.027 0 12.027 0 -20.61 100 10 0 0 0 240 1 2 1 0 3D/StreetFurniture/Construction/Construction_Barrier.mobj
+RL.219.GeoObject.2.SensorBBox = 1 -0.38 0.38 -2.4 2.4 0 1.25
+RL.219.GeoObject.3.ID = 849 219
+RL.219.GeoObject.3 = 15.323 0 15.539 0 -24.793 100 10 0 0 0 0 1 2 1 0 3D/StreetFurniture/Construction/Construction_Barrier.mobj
+RL.219.GeoObject.3.SensorBBox = 1 -0.38 0.38 -2.4 2.4 0 1.25
+RL.219.TreeStrip.0.ID = 804 219
+RL.219.TreeStrip.0 = 6.836 0 71.416 0 19.027 0 10 5 1 1 0.5 0.5
+RL.219.Bump.0.ID = 57 219
+RL.219.Bump.0.Type = RaisedProfileRSR
+RL.219.Bump.0.Param = 0 0 0 1 0 -1 0 1 0 0 0.3 0 0.15 0
+RL.219.Bump.0.Material.0 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 0.5 0 0 0
+RL.219.Bump.0.Material.1 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 1 0 0 0
+RL.219.Bump.0.Material.2 = Textures/Ground/Grass_01.jpg 0 0 2 0 1 1 1 1 0 0 0
+RL.219.Bump.0.Material.3 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 1 1 0 0 0
+RL.219.Bump.0.Node1DProfile.0.ID = 58
+RL.219.Bump.0.Node1DProfile.0.Param = 0 0 0 0 0 0
+RL.219.Bump.0.Node1DProfile.0.Nodes:
+	461 -1 0 1 0 0 0 -999 -999
+RL.219.Bump.0.Node1DProfile.1.ID = 59
+RL.219.Bump.0.Node1DProfile.1.Param = 0 0.12 0 0.12 0 0
+RL.219.Bump.0.Node1DProfile.1.Nodes:
+	465 -1 0 1 0 0.12 0 -999 -999
+RL.219.Bump.0.Node1DProfile.2.ID = 60
+RL.219.Bump.0.Node1DProfile.2.Param = 0 0.12 0 0.12 0 0
+RL.219.Bump.0.Node1DProfile.2.Nodes:
+	469 -1 0 1 0 0.12 0 -999 -999
+RL.219.Bump.1.ID = 261 219
+RL.219.Bump.1.Type = RaisedProfileRSL
+RL.219.Bump.1.Param = 0 0 0 1 0 1 0 0 0 0 0.3 0 0.15 0
+RL.219.Bump.1.Material.0 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 0.5 0 0 0
+RL.219.Bump.1.Material.1 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 1 0 0 0
+RL.219.Bump.1.Material.2 = Textures/Ground/Asphalt_01.jpg 0 0 2 0 1 1 1 1 0 0 0
+RL.219.Bump.1.Material.3 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 1 1 0 0 0
+RL.219.Bump.1.Node1DProfile.0.ID = 262
+RL.219.Bump.1.Node1DProfile.0.Param = 0 0 0 0 0 0
+RL.219.Bump.1.Node1DProfile.0.Nodes:
+	474 -1 0 1 0 0 0 -999 -999
+RL.219.Bump.1.Node1DProfile.1.ID = 263
+RL.219.Bump.1.Node1DProfile.1.Param = 0 0.12 0 0.12 0 0
+RL.219.Bump.1.Node1DProfile.1.Nodes:
+	478 -1 0 1 0 0.12 0 -999 -999
+RL.219.Bump.1.Node1DProfile.2.ID = 264
+RL.219.Bump.1.Node1DProfile.2.Param = 0 0.12 0 0.12 0 0
+RL.219.Bump.1.Node1DProfile.2.Nodes:
+	482 -1 0 1 0 0.12 0 -999 -999
+RL.266.Bump.0.ID = 420 266
+RL.266.Bump.0.Type = RaisedProfileRSR
+RL.266.Bump.0.Param = 0 0 15.9078308583081 0 0 -1 0 1 0 0 0.3 0 0.15 0
+RL.266.Bump.0.Material.0 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 0.5 0 0 0
+RL.266.Bump.0.Material.1 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 1 0 0 0
+RL.266.Bump.0.Material.2 = Textures/Ground/Grass_01.jpg 0 0 2 0 1 1 1 1 0 0 0
+RL.266.Bump.0.Material.3 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 1 1 0 0 0
+RL.266.Bump.0.Node1DProfile.0.ID = 424
+RL.266.Bump.0.Node1DProfile.0.Param = 0 0 0 0 0 0
+RL.266.Bump.0.Node1DProfile.0.Nodes:
+	434 -1 0 0 0 0 0 -999 -999
+	426 -1 0 1 0 0 0 -999 -999
+RL.266.Bump.0.Node1DProfile.1.ID = 435
+RL.266.Bump.0.Node1DProfile.1.Param = 0 0.12 0 0.12 0 0
+RL.266.Bump.0.Node1DProfile.1.Nodes:
+	442 -1 0 0 0 0.12 0 -999 -999
+	440 -1 0 1 0 0.12 0 -999 -999
+RL.266.Bump.0.Node1DProfile.2.ID = 443
+RL.266.Bump.0.Node1DProfile.2.Param = 0 0.12 0 0.12 0 0
+RL.266.Bump.0.Node1DProfile.2.Nodes:
+	446 -1 0 0 0 0.12 0 -999 -999
+	444 -1 0 1 0 0.12 0 -999 -999
+RL.266.Bump.1.ID = 447 266
+RL.266.Bump.1.Type = RaisedProfileRSL
+RL.266.Bump.1.Param = 0 0 15.9078308583081 0 0 1 0 0 0 0 0.3 0 0.15 0
+RL.266.Bump.1.Material.0 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 0.5 0 0 0
+RL.266.Bump.1.Material.1 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 1 0 0 0
+RL.266.Bump.1.Material.2 = Textures/Ground/Asphalt_01.jpg 0 0 2 0 1 1 1 1 0 0 0
+RL.266.Bump.1.Material.3 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 1 1 0 0 0
+RL.266.Bump.1.Node1DProfile.0.ID = 448
+RL.266.Bump.1.Node1DProfile.0.Param = 0 0 0 0 0 0
+RL.266.Bump.1.Node1DProfile.0.Nodes:
+	451 -1 0 0 0 0 0 -999 -999
+	449 -1 0 1 0 0 0 -999 -999
+RL.266.Bump.1.Node1DProfile.1.ID = 452
+RL.266.Bump.1.Node1DProfile.1.Param = 0 0.12 0 0.12 0 0
+RL.266.Bump.1.Node1DProfile.1.Nodes:
+	455 -1 0 0 0 0.12 0 -999 -999
+	453 -1 0 1 0 0.12 0 -999 -999
+RL.266.Bump.1.Node1DProfile.2.ID = 456
+RL.266.Bump.1.Node1DProfile.2.Param = 0 0.12 0 0.12 0 0
+RL.266.Bump.1.Node1DProfile.2.Nodes:
+	459 -1 0 0 0 0.12 0 -999 -999
+	457 -1 0 1 0 0.12 0 -999 -999
+RL.306.Bump.0.ID = 548 306
+RL.306.Bump.0.Type = RaisedProfile
+RL.306.Bump.0.Param = 0 0 3.901 0 0 100 0 1 0 0 0.3 0 0.15 0
+RL.306.Bump.0.Material.0 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 0.5 0 0 0
+RL.306.Bump.0.Material.1 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 1 0 0 0
+RL.306.Bump.0.Material.2 = Textures/Ground/Grass_01.jpg 0 0 2 0 1 1 1 1 0 0 0
+RL.306.Bump.0.Material.3 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 1 1 0 0 0
+RL.306.Bump.0.Node1DProfile.0.ID = 549
+RL.306.Bump.0.Node1DProfile.0.Param = 0 0 0 0 0 0
+RL.306.Bump.0.Node1DProfile.1.ID = 550
+RL.306.Bump.0.Node1DProfile.1.Param = 0 0.12 0 0.12 0 0
+RL.306.Bump.0.Node1DProfile.2.ID = 551
+RL.306.Bump.0.Node1DProfile.2.Param = 0 0.12 0 0.12 0 0
+RL.320.Bump.0.ID = 528 320
+RL.320.Bump.0.Type = RaisedProfile
+RL.320.Bump.0.Param = 0 0 9.081 0 0 100 0 1 0 0 0.3 0 0.15 0
+RL.320.Bump.0.Material.0 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 0.5 0 0 0
+RL.320.Bump.0.Material.1 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 1 0 0 0
+RL.320.Bump.0.Material.2 = Textures/Ground/Grass_01.jpg 0 0 2 0 1 1 1 1 0 0 0
+RL.320.Bump.0.Material.3 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 1 1 0 0 0
+RL.320.Bump.0.Node1DProfile.0.ID = 529
+RL.320.Bump.0.Node1DProfile.0.Param = 0 0 0 0 0 0
+RL.320.Bump.0.Node1DProfile.1.ID = 530
+RL.320.Bump.0.Node1DProfile.1.Param = 0 0.12 0 0.12 0 0
+RL.320.Bump.0.Node1DProfile.2.ID = 531
+RL.320.Bump.0.Node1DProfile.2.Param = 0 0.12 0 0.12 0 0
+RL.337.TreeStrip.0.ID = 948 337
+RL.337.TreeStrip.0 = 10.566 0 74.759 0 9.25 1 100 5 1 1 0.5 0.5
+RL.337.TreeStrip.1.ID = 946 337
+RL.337.TreeStrip.1 = 81.531 0 101.817 0 19.082 1 100 5 1 1 0.5 0.5
+RL.379.Bump.0.ID = 697 379
+RL.379.Bump.0.Type = RaisedProfileRSR
+RL.379.Bump.0.Param = 0 0 14.197 0 0 -1 0 1 0 0 0.3 0 0.15 0
+RL.379.Bump.0.Material.0 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 0.5 0 0 0
+RL.379.Bump.0.Material.1 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 1 0 0 0
+RL.379.Bump.0.Material.2 = Textures/Ground/Asphalt_01.jpg 0 0 2 0 1 1 1 1 0 0 0
+RL.379.Bump.0.Material.3 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 1 1 0 0 0
+RL.379.Bump.0.Node1DProfile.0.ID = 698
+RL.379.Bump.0.Node1DProfile.0.Param = 0 0 0 0 0 0
+RL.379.Bump.0.Node1DProfile.0.Nodes:
+	719 -1 0 0 0 0 0 -999 -999
+	717 -1 0 1 0 0 0 -999 -999
+RL.379.Bump.0.Node1DProfile.1.ID = 720
+RL.379.Bump.0.Node1DProfile.1.Param = 0 0.12 0 0.12 0 0
+RL.379.Bump.0.Node1DProfile.1.Nodes:
+	723 -1 0 0 0 0.12 0 -999 -999
+	721 -1 0 1 0 0.12 0 -999 -999
+RL.379.Bump.0.Node1DProfile.2.ID = 724
+RL.379.Bump.0.Node1DProfile.2.Param = 0 0.12 0 0.12 0 0
+RL.379.Bump.0.Node1DProfile.2.Nodes:
+	727 -1 0 0 0 0.12 0 -999 -999
+	725 -1 0 1 0 0.12 0 -999 -999
+RL.379.Bump.1.ID = 728 379
+RL.379.Bump.1.Type = RaisedProfileRSL
+RL.379.Bump.1.Param = 0 0 14.197 0 0 1 0 0 0 0 0.3 0 0.15 0
+RL.379.Bump.1.Material.0 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 0.5 0 0 0
+RL.379.Bump.1.Material.1 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 1 0 0 0
+RL.379.Bump.1.Material.2 = Textures/Ground/Asphalt_01.jpg 0 0 2 0 1 1 1 1 0 0 0
+RL.379.Bump.1.Material.3 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 1 1 0 0 0
+RL.379.Bump.1.Node1DProfile.0.ID = 962
+RL.379.Bump.1.Node1DProfile.0.Param = 0 0 0 0 0 0
+RL.379.Bump.1.Node1DProfile.0.Nodes:
+	1024 -1 0 0 0 0 0 -999 -999
+	1012 -1 0 1 0 0 0 -999 -999
+RL.379.Bump.1.Node1DProfile.1.ID = 1039
+RL.379.Bump.1.Node1DProfile.1.Param = 0 0.12 0 0.12 0 0
+RL.379.Bump.1.Node1DProfile.1.Nodes:
+	1053 -1 0 0 0 0.12 0 -999 -999
+	1040 -1 0 1 0 0.12 0 -999 -999
+RL.379.Bump.1.Node1DProfile.2.ID = 1054
+RL.379.Bump.1.Node1DProfile.2.Param = 0 0.12 0 0.12 0 0
+RL.379.Bump.1.Node1DProfile.2.Nodes:
+	1057 -1 0 0 0 0.12 0 -999 -999
+	1055 -1 0 1 0 0.12 0 -999 -999
+RL.381.Bump.0.ID = 297 381
+RL.381.Bump.0.Type = RaisedProfile
+RL.381.Bump.0.Param = 0 0 0 1 0 100 0 1 0 0 0.3 0 0.15 0
+RL.381.Bump.0.Material.0 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 0.5 0 0 0
+RL.381.Bump.0.Material.1 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 1 0 0 0
+RL.381.Bump.0.Material.2 = Textures/Ground/Grass_01.jpg 0 0 2 0 1 1 1 1 0 0 0
+RL.381.Bump.0.Material.3 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 1 1 0 0 0
+RL.381.Bump.0.Node1DProfile.0.ID = 305
+RL.381.Bump.0.Node1DProfile.0.Param = 0 0 0 0 0 0
+RL.381.Bump.0.Node1DProfile.1.ID = 524
+RL.381.Bump.0.Node1DProfile.1.Param = 0 0.12 0 0.12 0 0
+RL.381.Bump.0.Node1DProfile.2.ID = 525
+RL.381.Bump.0.Node1DProfile.2.Param = 0 0.12 0 0.12 0 0
+RL.385.Bump.0.ID = 558 385
+RL.385.Bump.0.Type = RaisedProfile
+RL.385.Bump.0.Param = 3.426 1 3.643 0 0 100 0 0 0 0 0.3 0 0.15 0
+RL.385.Bump.0.Material.0 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 0.5 0 0 0
+RL.385.Bump.0.Material.1 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 1 0 0 0
+RL.385.Bump.0.Material.2 = Textures/Ground/Grass_01.jpg 0 0 2 0 1 1 1 1 0 0 0
+RL.385.Bump.0.Material.3 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 1 1 0 0 0
+RL.385.Bump.0.Node1DProfile.0.ID = 559
+RL.385.Bump.0.Node1DProfile.0.Param = 0 0 0 0 0 0
+RL.385.Bump.0.Node1DProfile.1.ID = 560
+RL.385.Bump.0.Node1DProfile.1.Param = 0 0.12 0 0.12 0 0
+RL.385.Bump.0.Node1DProfile.2.ID = 561
+RL.385.Bump.0.Node1DProfile.2.Param = 0 0.12 0 0.12 0 0
+RL.389.TreeStrip.0.ID = 796 389
+RL.389.TreeStrip.0 = 4.371 0 32.815 0 4.906 1 10 5 1 1 0.5 0.5
+RL.389.TreeStrip.1.ID = 797 389
+RL.389.TreeStrip.1 = 9.174 0 37.002 0 -5.676 -1 10 5 1 1 0.5 0.5
+RL.389.Bump.0.ID = 578 389
+RL.389.Bump.0.Type = RaisedProfileRSR
+RL.389.Bump.0.Param = 0 0 40.699 0 0 -1 0 1 0 0 0.3 0 0.15 0
+RL.389.Bump.0.Material.0 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 0.5 0 0 0
+RL.389.Bump.0.Material.1 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 1 0 0 0
+RL.389.Bump.0.Material.2 = Textures/Ground/Grass_01.jpg 0 0 2 0 1 1 1 1 0 0 0
+RL.389.Bump.0.Material.3 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 1 1 0 0 0
+RL.389.Bump.0.Node1DProfile.0.ID = 579
+RL.389.Bump.0.Node1DProfile.0.Param = 0 0 0 0 0 0
+RL.389.Bump.0.Node1DProfile.1.ID = 580
+RL.389.Bump.0.Node1DProfile.1.Param = 0 0.12 0 0.12 0 0
+RL.389.Bump.0.Node1DProfile.2.ID = 581
+RL.389.Bump.0.Node1DProfile.2.Param = 0 0.12 0 0.12 0 0
+RL.389.Bump.1.ID = 588 389
+RL.389.Bump.1.Type = RaisedProfileRSL
+RL.389.Bump.1.Param = 0 0 40.699 0 0 1 0 0 0 0 0.3 0 0.15 0
+RL.389.Bump.1.Material.0 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 0.5 0 0 0
+RL.389.Bump.1.Material.1 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 1 0 0 0
+RL.389.Bump.1.Material.2 = Textures/Ground/Grass_01.jpg 0 0 2 0 1 1 1 1 0 0 0
+RL.389.Bump.1.Material.3 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 1 1 0 0 0
+RL.389.Bump.1.Node1DProfile.0.ID = 589
+RL.389.Bump.1.Node1DProfile.0.Param = 0 0 0 0 0 0
+RL.389.Bump.1.Node1DProfile.1.ID = 590
+RL.389.Bump.1.Node1DProfile.1.Param = 0 0.12 0 0.12 0 0
+RL.389.Bump.1.Node1DProfile.2.ID = 591
+RL.389.Bump.1.Node1DProfile.2.Param = 0 0.12 0 0.12 0 0
+RL.418.Bump.0.ID = 89 418
+RL.418.Bump.0.Type = RaisedProfile
+RL.418.Bump.0.Param = 0 0 0 1 0 100 0 1 0 0 0.3 0 0.15 0
+RL.418.Bump.0.Material.0 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 0.5 0 0 0
+RL.418.Bump.0.Material.1 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 1 0 0 0
+RL.418.Bump.0.Material.2 = Textures/Ground/Grass_01.jpg 0 0 2 0 1 1 1 1 0 0 0
+RL.418.Bump.0.Material.3 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 1 1 0 0 0
+RL.418.Bump.0.Node1DProfile.0.ID = 90
+RL.418.Bump.0.Node1DProfile.0.Param = 0 0 0 0 0 0
+RL.418.Bump.0.Node1DProfile.1.ID = 91
+RL.418.Bump.0.Node1DProfile.1.Param = 0 0.12 0 0.12 0 0
+RL.418.Bump.0.Node1DProfile.2.ID = 92
+RL.418.Bump.0.Node1DProfile.2.Param = 0 0.12 0 0.12 0 0
+RL.422.GeoObject.0.ID = 841 422
+RL.422.GeoObject.0 = 39.598 0 39.789 0 8.109 100 10 0 0 0 270 1 2 1 0 3D/StreetFurniture/Bench_03.mobj
+RL.422.GeoObject.0.SensorBBox = 1 0 0.56 -1.46 1.46 0 0.49
+RL.422.TreeStrip.0.ID = 795 422
+RL.422.TreeStrip.0 = 0 0 35.346 0 4.552 1 10 5 1 1 0.5 0.5
+RL.422.Bump.0.ID = 882 422
+RL.422.Bump.0.Type = RaisedProfileRSL
+RL.422.Bump.0.Param = 0 0 0 1 0 1 0 0 0 0 0.3 0 0.15 0
+RL.422.Bump.0.Material.0 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 0.5 0 0 0
+RL.422.Bump.0.Material.1 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 1 0 0 0
+RL.422.Bump.0.Material.2 = Textures/Ground/Grass_01.jpg 0 0 2 0 1 1 1 1 0 0 0
+RL.422.Bump.0.Material.3 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 1 1 0 0 0
+RL.422.Bump.0.Node1DProfile.0.ID = 883
+RL.422.Bump.0.Node1DProfile.0.Param = 0 0 0 0 0 0
+RL.422.Bump.0.Node1DProfile.1.ID = 884
+RL.422.Bump.0.Node1DProfile.1.Param = 0 0.12 0 0.12 0 0
+RL.422.Bump.0.Node1DProfile.2.ID = 885
+RL.422.Bump.0.Node1DProfile.2.Param = 0 0.12 0 0.12 0 0
+RL.422.Bump.1.ID = 915 422
+RL.422.Bump.1.Type = RaisedProfileRSR
+RL.422.Bump.1.Param = 0 0 0 1 0 -1 0 1 0 0 0.3 0 0.15 0
+RL.422.Bump.1.Material.0 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 0.5 0 0 0
+RL.422.Bump.1.Material.1 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 1 0 0 0
+RL.422.Bump.1.Material.2 = Textures/Ground/Grass_01.jpg 0 0 2 0 1 1 1 1 0 0 0
+RL.422.Bump.1.Material.3 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 1 1 0 0 0
+RL.422.Bump.1.Node1DProfile.0.ID = 916
+RL.422.Bump.1.Node1DProfile.0.Param = 0 0 0 0 0 0
+RL.422.Bump.1.Node1DProfile.1.ID = 917
+RL.422.Bump.1.Node1DProfile.1.Param = 0 0.12 0 0.12 0 0
+RL.422.Bump.1.Node1DProfile.2.ID = 918
+RL.422.Bump.1.Node1DProfile.2.Param = 0 0.12 0 0.12 0 0
+RL.499.Bump.0.ID = 678 499
+RL.499.Bump.0.Type = RaisedProfile
+RL.499.Bump.0.Param = 0 0 0 1 0 100 0 1 0 0 0.3 0 0.15 0
+RL.499.Bump.0.Material.0 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 0.5 0 0 0
+RL.499.Bump.0.Material.1 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 1 0 0 0
+RL.499.Bump.0.Material.2 = Textures/Ground/Grass_01.jpg 0 0 2 0 1 1 1 1 0 0 0
+RL.499.Bump.0.Material.3 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 1 1 0 0 0
+RL.499.Bump.0.Node1DProfile.0.ID = 679
+RL.499.Bump.0.Node1DProfile.0.Param = 0 0 0 0 0 0
+RL.499.Bump.0.Node1DProfile.1.ID = 680
+RL.499.Bump.0.Node1DProfile.1.Param = 0 0.12 0 0.12 0 0
+RL.499.Bump.0.Node1DProfile.2.ID = 681
+RL.499.Bump.0.Node1DProfile.2.Param = 0 0.12 0 0.12 0 0
+RL.503.Bump.0.ID = 688 503
+RL.503.Bump.0.Type = RaisedProfile
+RL.503.Bump.0.Param = 0.033 0 0 1 0 100 0 0 0 0 0.3 0 0.15 0
+RL.503.Bump.0.Material.0 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 0.5 0 0 0
+RL.503.Bump.0.Material.1 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 1 0 0 0
+RL.503.Bump.0.Material.2 = Textures/Ground/Grass_01.jpg 0 0 2 0 1 1 1 1 0 0 0
+RL.503.Bump.0.Material.3 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 1 1 0 0 0
+RL.503.Bump.0.Node1DProfile.0.ID = 689
+RL.503.Bump.0.Node1DProfile.0.Param = 0 0 0 0 0 0
+RL.503.Bump.0.Node1DProfile.1.ID = 690
+RL.503.Bump.0.Node1DProfile.1.Param = 0 0.12 0 0.12 0 0
+RL.503.Bump.0.Node1DProfile.2.ID = 691
+RL.503.Bump.0.Node1DProfile.2.Param = 0 0.12 0 0.12 0 0
+RL.533.GeoObject.0.ID = 786 533
+RL.533.GeoObject.0 = 13.938 0 13.938 0 -11.025 100 0 0 0 0 270 1 0.5 1 0 3D/Buildings/Office_03.mobj
+RL.533.GeoObject.0.SensorBBox = 1 0 31.25 -8.895 8.895 -3 6.54
+RL.533.Bump.0.ID = 610 533
+RL.533.Bump.0.Type = RaisedProfileRSL
+RL.533.Bump.0.Param = 0 0 0 1 0 1 0 0 0 0 0.3 0 0.15 0
+RL.533.Bump.0.Material.0 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 0.5 0 0 0
+RL.533.Bump.0.Material.1 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 1 0 0 0
+RL.533.Bump.0.Material.2 = Textures/Ground/Grass_01.jpg 0 0 2 0 1 1 1 1 0 0 0
+RL.533.Bump.0.Material.3 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 1 1 0 0 0
+RL.533.Bump.0.Node1DProfile.0.ID = 611
+RL.533.Bump.0.Node1DProfile.0.Param = 0 0 0 0 0 0
+RL.533.Bump.0.Node1DProfile.1.ID = 612
+RL.533.Bump.0.Node1DProfile.1.Param = 0 0.12 0 0.12 0 0
+RL.533.Bump.0.Node1DProfile.2.ID = 613
+RL.533.Bump.0.Node1DProfile.2.Param = 0 0.12 0 0.12 0 0
+RL.533.Bump.1.ID = 656 533
+RL.533.Bump.1.Type = RaisedProfileRSR
+RL.533.Bump.1.Param = 0 0 0 1 0 -1 0 1 0 0 0.3 0 0.15 0
+RL.533.Bump.1.Material.0 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 0.5 0 0 0
+RL.533.Bump.1.Material.1 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 1 0 0 0
+RL.533.Bump.1.Material.2 = Textures/Ground/Grass_01.jpg 0 0 2 0 1 1 1 1 0 0 0
+RL.533.Bump.1.Material.3 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 1 1 0 0 0
+RL.533.Bump.1.Node1DProfile.0.ID = 657
+RL.533.Bump.1.Node1DProfile.0.Param = 0 0 0 0 0 0
+RL.533.Bump.1.Node1DProfile.1.ID = 664
+RL.533.Bump.1.Node1DProfile.1.Param = 0 0.12 0 0.12 0 0
+RL.533.Bump.1.Node1DProfile.2.ID = 665
+RL.533.Bump.1.Node1DProfile.2.Param = 0 0.12 0 0.12 0 0
+RL.594.Bump.0.ID = 569 594
+RL.594.Bump.0.Type = RaisedProfile
+RL.594.Bump.0.Param = 0 0 0 1 0 100 0 1 0 0 0.3 0 0.15 0
+RL.594.Bump.0.Material.0 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 0.5 0 0 0
+RL.594.Bump.0.Material.1 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 1 0 0 0
+RL.594.Bump.0.Material.2 = Textures/Ground/Grass_01.jpg 0 0 2 0 1 1 1 1 0 0 0
+RL.594.Bump.0.Material.3 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 1 1 0 0 0
+RL.594.Bump.0.Node1DProfile.0.ID = 570
+RL.594.Bump.0.Node1DProfile.0.Param = 0 0 0 0 0 0
+RL.594.Bump.0.Node1DProfile.1.ID = 571
+RL.594.Bump.0.Node1DProfile.1.Param = 0 0.12 0 0.12 0 0
+RL.594.Bump.0.Node1DProfile.2.ID = 572
+RL.594.Bump.0.Node1DProfile.2.Param = 0 0.12 0 0.12 0 0
+RL.596.Bump.0.ID = 1174 596
+RL.596.Bump.0.Type = RaisedProfile
+RL.596.Bump.0.Param = 0 0 0 1 0 100 0 1 0 0 0.3 0 0.15 0
+RL.596.Bump.0.Material.0 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 0.5 0 0 0
+RL.596.Bump.0.Material.1 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 1 0 0 0
+RL.596.Bump.0.Material.2 = Textures/Ground/Grass_01.jpg 0 0 2 0 1 1 1 1 0 0 0
+RL.596.Bump.0.Material.3 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 1 1 0 0 0
+RL.596.Bump.0.Node1DProfile.0.ID = 1175
+RL.596.Bump.0.Node1DProfile.0.Param = 0 0 0 0 0 0
+RL.596.Bump.0.Node1DProfile.1.ID = 1176
+RL.596.Bump.0.Node1DProfile.1.Param = 0 0.12 0 0.12 0 0
+RL.596.Bump.0.Node1DProfile.2.ID = 1177
+RL.596.Bump.0.Node1DProfile.2.Param = 0 0.12 0 0.12 0 0
+RL.598.Bump.0.ID = 864 598
+RL.598.Bump.0.Type = RaisedProfile
+RL.598.Bump.0.Param = 0 0 0 1 0 100 0 1 0 0 0.3 0 0.15 0
+RL.598.Bump.0.Material.0 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 0.5 0 0 0
+RL.598.Bump.0.Material.1 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 1 0 0 0
+RL.598.Bump.0.Material.2 = Textures/Ground/Grass_01.jpg 0 0 2 0 1 1 1 1 0 0 0
+RL.598.Bump.0.Material.3 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 1 1 0 0 0
+RL.598.Bump.0.Node1DProfile.0.ID = 865
+RL.598.Bump.0.Node1DProfile.0.Param = 0 0 0 0 0 0
+RL.598.Bump.0.Node1DProfile.1.ID = 870
+RL.598.Bump.0.Node1DProfile.1.Param = 0 0.12 0 0.12 0 0
+RL.598.Bump.0.Node1DProfile.2.ID = 871
+RL.598.Bump.0.Node1DProfile.2.Param = 0 0.12 0 0.12 0 0
+RL.600.Bump.0.ID = 752 600
+RL.600.Bump.0.Type = RaisedProfile
+RL.600.Bump.0.Param = 0 0 0 1 0 100 0 1 0 0 0.3 0 0.15 0
+RL.600.Bump.0.Material.0 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 0.5 0 0 0
+RL.600.Bump.0.Material.1 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 1 0 0 0
+RL.600.Bump.0.Material.2 = Textures/Ground/Grass_01.jpg 0 0 2 0 1 1 1 1 0 0 0
+RL.600.Bump.0.Material.3 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 1 1 0 0 0
+RL.600.Bump.0.Node1DProfile.0.ID = 753
+RL.600.Bump.0.Node1DProfile.0.Param = 0 0 0 0 0 0
+RL.600.Bump.0.Node1DProfile.1.ID = 754
+RL.600.Bump.0.Node1DProfile.1.Param = 0 0.12 0 0.12 0 0
+RL.600.Bump.0.Node1DProfile.2.ID = 755
+RL.600.Bump.0.Node1DProfile.2.Param = 0 0.12 0 0.12 0 0
+RL.671.Bump.0.ID = 975 671
+RL.671.Bump.0.Type = RaisedProfile
+RL.671.Bump.0.Param = 0 0 0 1 0 100 0 1 0 0 0.3 0 0.15 0
+RL.671.Bump.0.Material.0 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 0.5 0 0 0
+RL.671.Bump.0.Material.1 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 1 0 0 0
+RL.671.Bump.0.Material.2 = Textures/Ground/Grass_01.jpg 0 0 2 0 1 1 1 1 0 0 0
+RL.671.Bump.0.Material.3 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 1 1 0 0 0
+RL.671.Bump.0.Node1DProfile.0.ID = 976
+RL.671.Bump.0.Node1DProfile.0.Param = 0 0 0 0 0 0
+RL.671.Bump.0.Node1DProfile.1.ID = 977
+RL.671.Bump.0.Node1DProfile.1.Param = 0 0.12 0 0.12 0 0
+RL.671.Bump.0.Node1DProfile.2.ID = 978
+RL.671.Bump.0.Node1DProfile.2.Param = 0 0.12 0 0.12 0 0
+RL.675.Bump.0.ID = 1186 675
+RL.675.Bump.0.Type = RaisedProfile
+RL.675.Bump.0.Param = 0 0 0 1 0 100 0 1 0 0 0.3 0 0.15 0
+RL.675.Bump.0.Material.0 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 0.5 0 0 0
+RL.675.Bump.0.Material.1 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 1 0 0 0
+RL.675.Bump.0.Material.2 = Textures/Ground/Grass_01.jpg 0 0 2 0 1 1 1 1 0 0 0
+RL.675.Bump.0.Material.3 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 1 1 0 0 0
+RL.675.Bump.0.Node1DProfile.0.ID = 1187
+RL.675.Bump.0.Node1DProfile.0.Param = 0 0 0 0 0 0
+RL.675.Bump.0.Node1DProfile.1.ID = 1188
+RL.675.Bump.0.Node1DProfile.1.Param = 0 0.12 0 0.12 0 0
+RL.675.Bump.0.Node1DProfile.2.ID = 1191
+RL.675.Bump.0.Node1DProfile.2.Param = 0 0.12 0 0.12 0 0
+RL.682.Bump.0.ID = 925 682
+RL.682.Bump.0.Type = RaisedProfile
+RL.682.Bump.0.Param = 0 0 0 1 0 100 0 1 0 0 0.3 0 0.15 0
+RL.682.Bump.0.Material.0 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 0.5 0 0 0
+RL.682.Bump.0.Material.1 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 1 0 0 0
+RL.682.Bump.0.Material.2 = Textures/Ground/Grass_01.jpg 0 0 2 0 1 1 1 1 0 0 0
+RL.682.Bump.0.Material.3 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 1 1 0 0 0
+RL.682.Bump.0.Node1DProfile.0.ID = 926
+RL.682.Bump.0.Node1DProfile.0.Param = 0 0 0 0 0 0
+RL.682.Bump.0.Node1DProfile.1.ID = 927
+RL.682.Bump.0.Node1DProfile.1.Param = 0 0.12 0 0.12 0 0
+RL.682.Bump.0.Node1DProfile.2.ID = 928
+RL.682.Bump.0.Node1DProfile.2.Param = 0 0.12 0 0.12 0 0
+RL.748.GeoObject.0.ID = 784 748
+RL.748.GeoObject.0 = 46.614 0 46.614 0 -6.526 100 0 0 0 0 270 0.5 2 1 0 3D/Buildings/Office_03.mobj
+RL.748.GeoObject.0.SensorBBox = 1 0 15.625 -35.58 35.58 -3 6.54
+RL.748.GeoObject.1.ID = 785 748
+RL.748.GeoObject.1 = 117.728 0 117.728 0 -6.489 100 0 0 0 0 270 0.5 2 1 0 3D/Buildings/Office_03.mobj
+RL.748.GeoObject.1.SensorBBox = 1 0 15.625 -35.58 35.58 -3 6.54
+RL.748.TreeStrip.0.ID = 951 748
+RL.748.TreeStrip.0 = 30.395 0 135.325 0 -25.928 -1 30 5 1 1 0.5 0.5
+RL.748.TreeStrip.1.ID = 840 748
+RL.748.TreeStrip.1 = 50.425 0 125.545 0 3.155 1 10 5 1 1 0.5 0.5
+RL.748.Bump.0.ID = 985 748
+RL.748.Bump.0.Type = RaisedProfileRSR
+RL.748.Bump.0.Param = 0 0 0 1 0 -1 0 1 0 0 0.3 0 0.15 0
+RL.748.Bump.0.Material.0 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 0.5 0 0 0
+RL.748.Bump.0.Material.1 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 1 0 0 0
+RL.748.Bump.0.Material.2 = Textures/Ground/Grass_01.jpg 0 0 2 0 1 1 1 1 0 0 0
+RL.748.Bump.0.Material.3 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 1 1 0 0 0
+RL.748.Bump.0.Node1DProfile.0.ID = 986
+RL.748.Bump.0.Node1DProfile.0.Param = 0 0 0 0 0 0
+RL.748.Bump.0.Node1DProfile.1.ID = 987
+RL.748.Bump.0.Node1DProfile.1.Param = 0 0.12 0 0.12 0 0
+RL.748.Bump.0.Node1DProfile.2.ID = 988
+RL.748.Bump.0.Node1DProfile.2.Param = 0 0.12 0 0.12 0 0
+RL.748.Bump.1.ID = 995 748
+RL.748.Bump.1.Type = RaisedProfileRSL
+RL.748.Bump.1.Param = 0 0 0 1 0 1 0 0 0 0 0.3 0 0.15 0
+RL.748.Bump.1.Material.0 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 0.5 0 0 0
+RL.748.Bump.1.Material.1 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 1 0 0 0
+RL.748.Bump.1.Material.2 = Textures/Ground/Grass_01.jpg 0 0 2 0 1 1 1 1 0 0 0
+RL.748.Bump.1.Material.3 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 1 1 0 0 0
+RL.748.Bump.1.Node1DProfile.0.ID = 996
+RL.748.Bump.1.Node1DProfile.0.Param = 0 0 0 0 0 0
+RL.748.Bump.1.Node1DProfile.1.ID = 997
+RL.748.Bump.1.Node1DProfile.1.Param = 0 0.12 0 0.12 0 0
+RL.748.Bump.1.Node1DProfile.2.ID = 998
+RL.748.Bump.1.Node1DProfile.2.Param = 0 0.12 0 0.12 0 0
+RL.758.TreeStrip.0.ID = 945 758
+RL.758.TreeStrip.0 = 3.921 0 68.959 0 -3.947 -1 100 5 1 1 0.5 0.5
+RL.758.TreeStrip.1.ID = 950 758
+RL.758.TreeStrip.1 = 17.619 0 70 0 6.754 1 30 5 1 1 0.5 0.5
+RL.812.TreeStrip.0.ID = 829 812
+RL.812.TreeStrip.0 = 10.549 0 40.169 0 -9.87 -1 10 5 1 1 0.5 0.5
+RL.812.TreeStrip.1.ID = 839 812
+RL.812.TreeStrip.1 = 24.228 0 40.169 0 2.926 1 10 5 1 1 0.5 0.5
+RL.812.Bump.0.ID = 1005 812
+RL.812.Bump.0.Type = RaisedProfileRSL
+RL.812.Bump.0.Param = 0 0 0 1 0 1 0 0 0 0 0.3 0 0.15 0
+RL.812.Bump.0.Material.0 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 0.5 0 0 0
+RL.812.Bump.0.Material.1 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 1 0 0 0
+RL.812.Bump.0.Material.2 = Textures/Ground/Grass_01.jpg 0 0 2 0 1 1 1 1 0 0 0
+RL.812.Bump.0.Material.3 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 1 1 0 0 0
+RL.812.Bump.0.Node1DProfile.0.ID = 1006
+RL.812.Bump.0.Node1DProfile.0.Param = 0 0 0 0 0 0
+RL.812.Bump.0.Node1DProfile.1.ID = 1007
+RL.812.Bump.0.Node1DProfile.1.Param = 0 0.12 0 0.12 0 0
+RL.812.Bump.0.Node1DProfile.2.ID = 1008
+RL.812.Bump.0.Node1DProfile.2.Param = 0 0.12 0 0.12 0 0
+RL.812.Bump.1.ID = 1015 812
+RL.812.Bump.1.Type = RaisedProfileRSR
+RL.812.Bump.1.Param = 0 0 0 1 0 -1 0 1 0 0 0.3 0 0.15 0
+RL.812.Bump.1.Material.0 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 0.5 0 0 0
+RL.812.Bump.1.Material.1 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 1 0 0 0
+RL.812.Bump.1.Material.2 = Textures/Ground/Grass_01.jpg 0 0 2 0 1 1 1 1 0 0 0
+RL.812.Bump.1.Material.3 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 1 1 0 0 0
+RL.812.Bump.1.Node1DProfile.0.ID = 1016
+RL.812.Bump.1.Node1DProfile.0.Param = 0 0 0 0 0 0
+RL.812.Bump.1.Node1DProfile.1.ID = 1017
+RL.812.Bump.1.Node1DProfile.1.Param = 0 0.12 0 0.12 0 0
+RL.812.Bump.1.Node1DProfile.2.ID = 1018
+RL.812.Bump.1.Node1DProfile.2.Param = 0 0.12 0 0.12 0 0
+RL.874.Bump.0.ID = 968 874
+RL.874.Bump.0.Type = RaisedProfile
+RL.874.Bump.0.Param = 0 0 0 1 0 100 0 1 0 0 0.3 0 0.15 0
+RL.874.Bump.0.Material.0 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 0.5 0 0 0
+RL.874.Bump.0.Material.1 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 1 0 0 0
+RL.874.Bump.0.Material.2 = Textures/Ground/Grass_01.jpg 0 0 2 0 1 1 1 1 0 0 0
+RL.874.Bump.0.Material.3 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 1 1 0 0 0
+RL.874.Bump.0.Node1DProfile.0.ID = 984
+RL.874.Bump.0.Node1DProfile.0.Param = 0 0 0 0 0 0
+RL.874.Bump.0.Node1DProfile.1.ID = 989
+RL.874.Bump.0.Node1DProfile.1.Param = 0 0.12 0 0.12 0 0
+RL.874.Bump.0.Node1DProfile.2.ID = 1009
+RL.874.Bump.0.Node1DProfile.2.Param = 0 0.12 0 0.12 0 0
+RL.876.Bump.0.ID = 1093 876
+RL.876.Bump.0.Type = RaisedProfile
+RL.876.Bump.0.Param = 0 0 0 1 0 100 0 1 0 0 0.3 0 0.15 0
+RL.876.Bump.0.Material.0 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 0.5 0 0 0
+RL.876.Bump.0.Material.1 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 1 0 0 0
+RL.876.Bump.0.Material.2 = Textures/Ground/Grass_01.jpg 0 0 2 0 1 1 1 1 0 0 0
+RL.876.Bump.0.Material.3 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 1 1 0 0 0
+RL.876.Bump.0.Node1DProfile.0.ID = 1121
+RL.876.Bump.0.Node1DProfile.0.Param = 0 0 0 0 0 0
+RL.876.Bump.0.Node1DProfile.1.ID = 1122
+RL.876.Bump.0.Node1DProfile.1.Param = 0 0.12 0 0.12 0 0
+RL.876.Bump.0.Node1DProfile.2.ID = 1129
+RL.876.Bump.0.Node1DProfile.2.Param = 0 0.12 0 0.12 0 0
+RL.888.Bump.0.ID = 952 888
+RL.888.Bump.0.Type = RaisedProfile
+RL.888.Bump.0.Param = 0 0 0 1 0 100 0 1 0 0 0.3 0 0.15 0
+RL.888.Bump.0.Material.0 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 0.5 0 0 0
+RL.888.Bump.0.Material.1 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 1 0 0 0
+RL.888.Bump.0.Material.2 = Textures/Ground/Grass_01.jpg 0 0 2 0 1 1 1 1 0 0 0
+RL.888.Bump.0.Material.3 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 1 1 0 0 0
+RL.888.Bump.0.Node1DProfile.0.ID = 954
+RL.888.Bump.0.Node1DProfile.0.Param = 0 0 0 0 0 0
+RL.888.Bump.0.Node1DProfile.1.ID = 955
+RL.888.Bump.0.Node1DProfile.1.Param = 0 0.12 0 0.12 0 0
+RL.888.Bump.0.Node1DProfile.2.ID = 956
+RL.888.Bump.0.Node1DProfile.2.Param = 0 0.12 0 0.12 0 0
+RL.892.TreeStrip.0.ID = 798 892
+RL.892.TreeStrip.0 = 6.813 0 33.656 0 -4.911 -1 10 5 1 1 0.5 0.5
+RL.892.Bump.0.ID = 214 892
+RL.892.Bump.0.Type = RaisedProfileRSR
+RL.892.Bump.0.Param = 0 0 0 1 0 -1 0 1 0 0 0.3 0 0.15 0
+RL.892.Bump.0.Material.0 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 0.5 0 0 0
+RL.892.Bump.0.Material.1 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 1 0 0 0
+RL.892.Bump.0.Material.2 = Textures/Ground/Grass_01.jpg 0 0 2 0 1 1 1 1 0 0 0
+RL.892.Bump.0.Material.3 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 1 1 0 0 0
+RL.892.Bump.0.Node1DProfile.0.ID = 215
+RL.892.Bump.0.Node1DProfile.0.Param = 0 0 0 0 0 0
+RL.892.Bump.0.Node1DProfile.1.ID = 216
+RL.892.Bump.0.Node1DProfile.1.Param = 0 0.12 0 0.12 0 0
+RL.892.Bump.0.Node1DProfile.2.ID = 257
+RL.892.Bump.0.Node1DProfile.2.Param = 0 0.12 0 0.12 0 0
+RL.892.Bump.1.ID = 269 892
+RL.892.Bump.1.Type = RaisedProfileRSL
+RL.892.Bump.1.Param = 42 1 41.928 0 0 1 0 0 0 0 0.3 0 0.15 0
+RL.892.Bump.1.Material.0 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 0.5 0 0 0
+RL.892.Bump.1.Material.1 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 2 1 0 0 0
+RL.892.Bump.1.Material.2 = Textures/Ground/Grass_01.jpg 0 0 2 0 1 1 1 1 0 0 0
+RL.892.Bump.1.Material.3 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 1 1 0 0 0
+RL.892.Bump.1.Node1DProfile.0.ID = 270
+RL.892.Bump.1.Node1DProfile.0.Param = 0 0 0 0 0 0
+RL.892.Bump.1.Node1DProfile.1.ID = 275
+RL.892.Bump.1.Node1DProfile.1.Param = 0 0.12 0 0.12 0 0
+RL.892.Bump.1.Node1DProfile.2.ID = 276
+RL.892.Bump.1.Node1DProfile.2.Param = 0 0.12 0 0.12 0 0
+RL.910.TreeStrip.0.ID = 947 910
+RL.910.TreeStrip.0 = 2.466 0 14.015 0 11.14 1 100 5 1 1 0.5 0.5
+MaxUsedObjId = 1315
