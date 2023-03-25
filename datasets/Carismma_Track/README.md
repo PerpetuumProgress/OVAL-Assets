@@ -1,11 +1,11 @@
-## SAVe_Ingolstadt 
+## CARISSMA  
 
-- Track : 3 Lanes Highway with Shoulder lane
+- Track : 1 Lane street, covering the Main street infront of CARISSMA and Technische Hochschule Ingolstadt
 
-- Ego : Driving on the right lane at 100 km/h
+- Ego : Driving on the right lane at 90 km/h
 
-- Traffic: no traffic objects
+- Traffic: Traffic objects are static
 
-![](https://raw.githubusercontent.com/PerpetuumProgress/OVAL-Assets/main/datasets/SAVe_Prio4/Track_Overview.PNG)
+![](https://raw.githubusercontent.com/PerpetuumProgress/OVAL-Assets/main/datasets/Carismma_Track/Unbenannt.PNG)
 
 ![](https://raw.githubusercontent.com/PerpetuumProgress/OVAL-Assets/main/datasets/SAVe_Prio4/2019-07-31_SAVe_Ingolstadt_Prio2_Prio4_offset.gif)
