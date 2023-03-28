@@ -1,7 +1,7 @@
 FROM python:3.7-slim
 
-COPY ./template/perpetuumprogress_transparent.png /
-COPY ./template/OpenDRIVE_1.5M.xsd /
+COPY ./template/perpetuumprogress_transparent.png /template/perpetuumprogress_transparent.png
+COPY ./template/OpenDRIVE_1.5M.xsd /template/OpenDRIVE_1.5M.xsd
 COPY ./ODR_Checker.py /
 COPY ./requirements.txt /tmp/
 RUN apt update && apt install -y vim

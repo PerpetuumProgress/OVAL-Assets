@@ -16,9 +16,9 @@ import traceback
 def main():
     
     # file paths
-    xsd_file = 'OpenDRIVE_1.5M.xsd'
+    xsd_file = 'template/OpenDRIVE_1.5M.xsd'
     xml_directory = "/data/inputs"
-    xml_file = ["/data/inputs/0"]
+    xml_file = ["data/inputs/0"]
 
     # Check the validity
     my_schema = xmlschema.XMLSchema(xsd_file)
@@ -76,7 +76,7 @@ def main():
     class PDF(fpdf.FPDF):
         def header(self):
             # Logo
-            self.image('perpetuumprogress_transparent.png', 10, 8, 20)
+            self.image('template/perpetuumprogress_transparent.png', 10, 8, 20)
             # Text Colour
             self.set_text_color(000)
             # Arial bold 15
@@ -91,7 +91,7 @@ def main():
         # Page footer
         def footer(self):
             # Logo
-            self.image('perpetuumprogress_transparent.png', 10, -15, 10)
+            self.image('template/perpetuumprogress_transparent.png', 10, -15, 10)
             # Position at 1.5 cm from bottom
             self.set_y(-15)
             # Arial italic 8
@@ -153,7 +153,8 @@ def main():
     pdf.write(5, output71)
     pdf.write(5, output72.__str__())
 
-    pdf.output("../data/outputs/QA-Report.pdf")
+    pdf.output("data/outputs/QA-Report.pdf")
+
 
 
 if __name__ == "__main__":
