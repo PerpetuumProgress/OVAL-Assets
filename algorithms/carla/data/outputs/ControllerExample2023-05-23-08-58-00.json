@@ -1,0 +1,14 @@
+{
+    "scenario": "ControllerExample",
+    "success": true,
+    "criteria": [
+        {
+            "name": "Duration",
+            "actor": "all",
+            "optional": false,
+            "expected": 100000,
+            "actual": 0.7106377296149731,
+            "success": true
+        }
+    ]
+}
