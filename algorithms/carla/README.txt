@@ -1,4 +1,4 @@
-## Run Carla locally
+# Run Carla locally
 
 Step 1: Build docker image
 
@@ -6,7 +6,7 @@ docker build . -t carla:0.9.13_local
 
 Step 2: Run the container with privileges
 
-sudo docker run -it --rm --privileged -u root --gpus all --net=host -e DISPLAY=$DISPLAY --volume /temp/.X11-unix:/temp/.X11-unix carla:0.9.13_test /bin/bash
+sudo docker run -it --rm --privileged -u root --gpus all --net=host -e DISPLAY=$DISPLAY --volume /temp/.X11-unix:/temp/.X11-unix carla:0.9.13_local /bin/bash
 
 Step 3: Run Carla Server
 
