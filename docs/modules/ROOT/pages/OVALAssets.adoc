@@ -17,14 +17,14 @@ The finished images can be found here on Docker Hub.
 
 image::https://github.com/PerpetuumProgress/OVAL-Assets/tree/dev/algorithms/esmini/scenarios/Examples/CutIn.png[]
 
-image::./images/CutIn.png[]
+//image::./images/CutIn.png[]
 
 
 
 
 //image::https://github.com/PerpetuumProgress/OVAL-Assets/blob/dev/algorithms/esmini/scenarios/Examples/CutIn.gif[]
 
-image::.//CutIn_2.gif[]
+//image::.//CutIn_2.gif[]
 
 
 
@@ -35,10 +35,10 @@ image::.//CutIn_2.gif[]
 * Traffic: Normal traffic on the Highway, both lanes busy
 
 //image::https://github.com/PerpetuumProgress/OVAL-Assets/blob/dev/algorithms/esmini/scenarios/Examples/highway_merge.PNG[]
-image::.//highway_merge.PNG[]
+//image::.//highway_merge.PNG[]
 
 //image::https://github.com/PerpetuumProgress/OVAL-Assets/blob/dev/algorithms/esmini/scenarios/Examples/highway_merge.gif[]
-image::.//highway_merge.gif[]
+//image::.//highway_merge.gif[]
 
 == Lane change Scenario
 
@@ -47,10 +47,10 @@ image::.//highway_merge.gif[]
 * Traffic: No Traffic
 
 //image::https://github.com/PerpetuumProgress/OVAL-Assets/blob/dev/algorithms/esmini/scenarios/Examples/lane_change_simple.PNG[]
-image::lane_change_simple.PNG[]
+//image::lane_change_simple.PNG[]
 
 //image::https://github.com/PerpetuumProgress/OVAL-Assets/blob/dev/algorithms/esmini/scenarios/Examples/lane_change_simple.gif[]
-image::lane_change_simple.gif[]
+//image::lane_change_simple.gif[]
 
 == Slow lead vehicle Scenario
 
@@ -59,7 +59,7 @@ image::lane_change_simple.gif[]
 * Traffic: A slow traffic in the Ego's lane, makes Ego to brake hard
 
 //image::https://github.com/PerpetuumProgress/OVAL-Assets/blob/dev/algorithms/esmini/scenarios/Examples/slow-lead-vehicle.PNG[]
-image::slow-lead-vehicle.PNG[]
+//image::slow-lead-vehicle.PNG[]
 
 //image::https://github.com/PerpetuumProgress/OVAL-Assets/blob/dev/algorithms/esmini/scenarios/Examples/slow-lead-vehicle.gif[]
-image::slow-lead-vehicle.gif[]
+//image::slow-lead-vehicle.gif[]
