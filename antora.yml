@@ -1,0 +1,6 @@
+name: ovalassets
+title: Oval Assets
+version: 1.0
+start_page: doc/OvalAssets.adoc
+nav:
+- modules/ROOT/nav.adoc
