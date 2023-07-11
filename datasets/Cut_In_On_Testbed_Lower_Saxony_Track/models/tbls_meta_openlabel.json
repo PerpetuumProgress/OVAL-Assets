@@ -1,0 +1,915 @@
+{
+    "openlabel": {
+        "metadata": {
+            "schema_version": "1.0.0",
+            "annotator": "Fin Heuer",
+            "comment": "OD Description of Testbed Lower Saxony using OpenLABEL",
+            "file_version": "1.0",
+            "name": "Testbed Lower Saxony",
+            "tagged_file": "https://github.com/GAIA-X4PLC-AAD/testbed-data-DLR/tree/main/001_Testbed_Lower_Saxony"
+        },
+        "coordinate_systems": {
+            "WORLD": {
+                "type": "geo",
+                "parent": ""
+            }
+        },
+        "ontologies": {
+            "dCd0E0bC-C81c-Bf4e-CeBc-5BfFBc0AbcFc": {
+                "uri": "https://openlabel.asam.net/V1-0-0/ontologies/openlabel_ontology_scenario_tags.ttl"
+            }
+        },
+        "resources": {
+            "3591b524-098f-478f-8846-afd194e6db61": "bbox.html",
+            "ad4104de-79ea-4ec2-b903-70b5d40c50d2": "identity.json"
+        },
+        "tags": {
+            "9e3af669-c361-4e59-bcd9-248c2ff0ec24": {
+                "ontology_uid": "dCd0E0bC-C81c-Bf4e-CeBc-5BfFBc0AbcFc",
+                "type": "SubjectVehicleSpeed",
+                "tag_data": {
+                    "vec": [
+                        {
+                            "type": "range",
+                            "val": [
+                                "126",
+                                "134"
+                            ]
+                        }
+                    ]
+                },
+                "resource_uid": {
+                    "1753ef0f-b1db-44fe-bd2b-6cbaa38d3d5f": "https://openlabel.asam.net/V1-0-0/ontologies/SubjectVehicleSpeed"
+                }
+            },
+            "5893e321-0259-49dc-8310-f1ae3570fbb1": {
+                "ontology_uid": "dCd0E0bC-C81c-Bf4e-CeBc-5BfFBc0AbcFc",
+                "type": "TrafficAgentType",
+                "tag_data": {
+                    "text": [
+                        {
+                            "type": "value",
+                            "val": "Car"
+                        },
+                        {
+                            "type": "value",
+                            "val": "Truck"
+                        }
+                    ]
+                },
+                "resource_uid": {
+                    "44f9f0df-4c93-449a-aff1-9545f111f402": "https://openlabel.asam.net/V1-0-0/ontologies/TrafficAgentType"
+                }
+            },
+            "73a44c94-7e55-49df-b448-953f94bf61d6": {
+                "ontology_uid": "dCd0E0bC-C81c-Bf4e-CeBc-5BfFBc0AbcFc",
+                "type": "BehaviourMotion",
+                "tag_data": {
+                    "text": [
+                        {
+                            "type": "value",
+                            "val": "Cut-in"
+                        },
+                        {
+                            "type": "value",
+                            "val": "Drive"
+                        }
+                    ]
+                },
+                "resource_uid": {
+                    "c905e1af-d704-4c96-a9f6-0823a50aa599": "https://openlabel.asam.net/V1-0-0/ontologies/BehaviourMotion"
+                }
+            },
+            "2deacf3d-2c1d-4ef6-aa75-49869848b17a": {
+                "ontology_uid": "dCd0E0bC-C81c-Bf4e-CeBc-5BfFBc0AbcFc",
+                "type": "Vehicle to infrastructure communication (V2I)",
+                "tag_data": {
+                    "text": [
+                        {
+                            "type": "value",
+                            "val": "802.11p-based WiFi"
+                        }
+                    ]
+                },
+                "resource_uid": {
+                    "c905e1af-d704-4c96-a9f6-0823a50aa599": "https://openlabel.asam.net/V1-0-0/ontologies/CpmmunicationV2i"
+                }
+            },
+            "658deaaf-2b5f-421f-b7de-5e75f1f15e42": {
+                "ontology_uid": "dCd0E0bC-C81c-Bf4e-CeBc-5BfFBc0AbcFc",
+                "type": "Vehicle to vehicle communication (V2V)",
+                "tag_data": {
+                    "text": [
+                        {
+                            "type": "value",
+                            "val": "802.11p-based WiFi"
+                        }
+                    ]
+                },
+                "resource_uid": {
+                    "c905e1af-d704-4c96-a9f6-0823a50aa599": "https://openlabel.asam.net/V1-0-0/ontologies/CommunicationV2x"
+                }
+            },
+            "b1d54726-e563-4d31-9f58-a95240f42644": {
+                "ontology_uid": "dCd0E0bC-C81c-Bf4e-CeBc-5BfFBc0AbcFc",
+                "type": "Positioning",
+                "tag_data": {
+                    "text": [
+                        {
+                            "type": "value",
+                            "val": "Galileo"
+                        },
+                        {
+                            "type": "value",
+                            "val": "GLObal NAvigation Satellite System (GLONASS)"
+                        },
+                        {
+                            "type": "value",
+                            "val": "Global Positioning System (GPS)"
+                        }
+                    ]
+                },
+                "resource_uid": {
+                    "c905e1af-d704-4c96-a9f6-0823a50aa599": "https://openlabel.asam.net/V1-0-0/ontologies/ConnectivityPositioning"
+                }
+            },
+            "0e319957-4433-4f4c-908a-3dfe6fec7128": {
+                "ontology_uid": "dCd0E0bC-C81c-Bf4e-CeBc-5BfFBc0AbcFc",
+                "type": "Artificial illumination",
+                "tag_data": {
+                    "text": [
+                        {
+                            "type": "value",
+                            "val": "Oncoming vehicle lights"
+                        }
+                    ]
+                },
+                "resource_uid": {
+                    "c905e1af-d704-4c96-a9f6-0823a50aa599": "https://openlabel.asam.net/V1-0-0/ontologies/IlluminationArtificial"
+                }
+            },
+            "39fe5bd4-e7ea-44c1-8259-03c059c4f922": {
+                "ontology_uid": "dCd0E0bC-C81c-Bf4e-CeBc-5BfFBc0AbcFc",
+                "type": "Cloudiness",
+                "tag_data": {
+                    "num": [
+                        {
+                            "type": "min",
+                            "min": 0,
+                            "unit": "oktas"
+                        },
+                        {
+                            "type": "max",
+                            "max": 8,
+                            "unit": "oktas"
+                        }
+                    ]
+                },
+                "resource_uid": {
+                    "c905e1af-d704-4c96-a9f6-0823a50aa599": "https://openlabel.asam.net/V1-0-0/ontologies/IlluminationCloudiness"
+                }
+            },
+            "b28b07a7-99dc-4670-b3c6-4e9f4998df46": {
+                "ontology_uid": "dCd0E0bC-C81c-Bf4e-CeBc-5BfFBc0AbcFc",
+                "type": "Elevation of the sun above the horizon",
+                "tag_data": {
+                    "num": [
+                        {
+                            "type": "min",
+                            "val": 14.28,
+                            "unit": "degree"
+                        },
+                        {
+                            "type": "max",
+                            "val": 60.95,
+                            "unit": "degree"
+                        }
+                    ]
+                },
+                "resource_uid": {
+                    "c905e1af-d704-4c96-a9f6-0823a50aa599": "https://openlabel.asam.net/V1-0-0/ontologies/DaySunElevation"
+                }
+            },
+            "5179de72-e134-4e89-90df-92d1e7a55453": {
+                "ontology_uid": "dCd0E0bC-C81c-Bf4e-CeBc-5BfFBc0AbcFc",
+                "type": "Position of the sun",
+                "tag_data": {
+                    "text": [
+                        {
+                            "type": "value",
+                            "val": "Behind"
+                        },
+                        {
+                            "type": "value",
+                            "val": "Front"
+                        },
+                        {
+                            "type": "value",
+                            "val": "Left"
+                        },
+                        {
+                            "type": "value",
+                            "val": "Right"
+                        }
+                    ]
+                },
+                "resource_uid": {
+                    "c905e1af-d704-4c96-a9f6-0823a50aa599": "https://openlabel.asam.net/V1-0-0/ontologies/DaySunPosition"
+                }
+            },
+            "6526dcda-7a4c-424a-8140-202c095d3e8b": {
+                "ontology_uid": "dCd0E0bC-C81c-Bf4e-CeBc-5BfFBc0AbcFc",
+                "type": "LowAmbient lighting",
+                "tag_data": {
+                    "text": [
+                        {
+                            "type": "value",
+                            "val": "No artificial light"
+                        }
+                    ]
+                },
+                "resource_uid": {
+                    "c905e1af-d704-4c96-a9f6-0823a50aa599": "https://openlabel.asam.net/V1-0-0/ontologies/LowLightAmbient"
+                }
+            },
+            "4b119903-0db8-4652-ac85-5ceabec88a04": {
+                "ontology_uid": "dCd0E0bC-C81c-Bf4e-CeBc-5BfFBc0AbcFc",
+                "type": "Night",
+                "tag_data": {
+                    "text": [
+                        {
+                            "type": "value",
+                            "val": "No artificial light"
+                        }
+                    ]
+                },
+                "resource_uid": {
+                    "c905e1af-d704-4c96-a9f6-0823a50aa599": "https://openlabel.asam.net/V1-0-0/ontologies/LowLightNight"
+                }
+            },
+            "3d4af331-0ae9-4ede-98e3-e7afba17100d": {
+                "ontology_uid": "dCd0E0bC-C81c-Bf4e-CeBc-5BfFBc0AbcFc",
+                "type": "Particulates (obscuration by nonPrecipitating water droplets and other particulates)",
+                "tag_data": {
+                    "text": [
+                        {
+                            "type": "value",
+                            "val": "Non-precipitating water droplets or ice crystals (i.e. mist/fog)"
+                        },
+                        {
+                            "type": "value",
+                            "val": "Sand and dust"
+                        },
+                        {
+                            "type": "value",
+                            "val": "Smoke and pollution"
+                        }
+                    ]
+                },
+                "resource_uid": {
+                    "c905e1af-d704-4c96-a9f6-0823a50aa599": "https://openlabel.asam.net/V1-0-0/ontologies/Environmentparticulates"
+                }
+            },
+            "849c346b-c59b-4add-8243-b2a33a2160fb": {
+                "ontology_uid": "dCd0E0bC-C81c-Bf4e-CeBc-5BfFBc0AbcFc",
+                "type": "Snowfall",
+                "tag_data": {
+                    "text": [
+                        {
+                            "type": "value",
+                            "val": "no snow"
+                        },
+                        {
+                            "type": "value",
+                            "val": "light snow"
+                        },
+                        {
+                            "type": "value",
+                            "val": "moderate snow"
+                        }
+                    ]
+                },
+                "resource_uid": {
+                    "c905e1af-d704-4c96-a9f6-0823a50aa599": "https://openlabel.asam.net/V1-0-0/ontologies/LowLightNight"
+                }
+            },
+            "5aa17275-a23a-4478-a56c-407e0e4e23d7": {
+                "ontology_uid": "dCd0E0bC-C81c-Bf4e-CeBc-5BfFBc0AbcFc",
+                "type": "Wind",
+                "tag_data": {
+                    "num": [
+                        {
+                            "type": "min",
+                            "val": 0.0,
+                            "unit": "m/s"
+                        },
+                        {
+                            "type": "max",
+                            "val": 17.1,
+                            "unit": "m/s"
+                        }
+                    ]
+                },
+                "resource_uid": {
+                    "c905e1af-d704-4c96-a9f6-0823a50aa599": "https://openlabel.asam.net/V1-0-0/ontologies/WeatherWind"
+                }
+            },
+            "f5437ca9-181d-42fc-ad78-6cd4ad7f3714": {
+                "ontology_uid": "dCd0E0bC-C81c-Bf4e-CeBc-5BfFBc0AbcFc",
+                "type": "Rainfall",
+                "tag_data": {
+                    "num": [
+                        {
+                            "type": "min",
+                            "val": 0.0,
+                            "unit": "mm/h"
+                        },
+                        {
+                            "type": "max",
+                            "val": 100.0,
+                            "unit": "mm/h"
+                        }
+                    ]
+                },
+                "resource_uid": {
+                    "c905e1af-d704-4c96-a9f6-0823a50aa599": "https://openlabel.asam.net/V1-0-0/ontologies/WeatherRain"
+                }
+            },
+            "f3552a79-1620-4153-b2c9-b2b277549627": {
+                "ontology_uid": "dCd0E0bC-C81c-Bf4e-CeBc-5BfFBc0AbcFc",
+                "type": "Rainfall type",
+                "tag_data": {
+                    "text": [
+                        {
+                            "type": "value",
+                            "val": "Dynamic",
+                            "unit": "m/s"
+                        }
+                    ]
+                },
+                "resource_uid": {
+                    "c905e1af-d704-4c96-a9f6-0823a50aa599": "https://openlabel.asam.net/V1-0-0/ontologies/RainType"
+                }
+            },
+            "6f0a13e0-eb19-4a92-91fb-f5d20d644453": {
+                "ontology_uid": "dCd0E0bC-C81c-Bf4e-CeBc-5BfFBc0AbcFc",
+                "type": "Road user",
+                "tag_data": {
+                    "text": [
+                        {
+                            "type": "value",
+                            "val": "Animal"
+                        },
+                        {
+                            "type": "value",
+                            "val": "Human"
+                        },
+                        {
+                            "type": "value",
+                            "val": "Driver"
+                        },
+                        {
+                            "type": "value",
+                            "val": "Motorcyclist"
+                        },
+                        {
+                            "type": "value",
+                            "val": "Passenger"
+                        },
+                        {
+                            "type": "value",
+                            "val": "Pedestrian"
+                        },
+                        {
+                            "type": "value",
+                            "val": "Vehicle"
+                        },
+                        {
+                            "type": "value",
+                            "val": "Agricultural vehicle"
+                        },
+                        {
+                            "type": "value",
+                            "val": "Bus"
+                        },
+                        {
+                            "type": "value",
+                            "val": "Car"
+                        },
+                        {
+                            "type": "value",
+                            "val": "Construction vehicle"
+                        },
+                        {
+                            "type": "value",
+                            "val": "Emergency vehicle"
+                        },
+                        {
+                            "type": "value",
+                            "val": "Motorcycle"
+                        },
+                        {
+                            "type": "value",
+                            "val": "Trailer"
+                        },
+                        {
+                            "type": "value",
+                            "val": "Truck"
+                        },
+                        {
+                            "type": "value",
+                            "val": "Van"
+                        }
+                    ]
+                },
+                "resource_uid": {
+                    "c905e1af-d704-4c96-a9f6-0823a50aa599": "https://openlabel.asam.net/V1-0-0/ontologies/RoadUser"
+                }
+            },
+            "713982bb-611a-4e54-9d25-f1b094e14229": {
+                "ontology_uid": "dCd0E0bC-C81c-Bf4e-CeBc-5BfFBc0AbcFc",
+                "type": "Fixed road structures",
+                "tag_data": {
+                    "text": [
+                        {
+                            "type": "value",
+                            "val": "Buildings"
+                        },
+                        {
+                            "type": "value",
+                            "val": "Vegetation"
+                        }
+                    ]
+                },
+                "resource_uid": {
+                    "c905e1af-d704-4c96-a9f6-0823a50aa599": "https://openlabel.asam.net/V1-0-0/ontologies/ScenereryFixedStructure"
+                }
+            },
+            "a529ac16-e061-487d-9bda-0ebd01b05cda": {
+                "ontology_uid": "dCd0E0bC-C81c-Bf4e-CeBc-5BfFBc0AbcFc",
+                "type": "Intersections",
+                "tag_data": {
+                    "text": [
+                        {
+                            "type": "value",
+                            "val": "Grade separated"
+                        }
+                    ]
+                },
+                "resource_uid": {
+                    "c905e1af-d704-4c96-a9f6-0823a50aa599": "https://openlabel.asam.net/V1-0-0/ontologies/JunctionIntersection"
+                }
+            },
+            "6db850a4-ef98-4172-87ee-1002ccbf06bc": {
+                "ontology_uid": "dCd0E0bC-C81c-Bf4e-CeBc-5BfFBc0AbcFc",
+                "type": "Special structures",
+                "tag_data": {
+                    "text": [
+                        {
+                            "type": "value",
+                            "val": "Bridges"
+                        }
+                    ]
+                },
+                "resource_uid": {
+                    "c905e1af-d704-4c96-a9f6-0823a50aa599": "https://openlabel.asam.net/V1-0-0/ontologies/SpecialStructure"
+                }
+            },
+            "8ff82656-325d-49f7-a037-d232c93bd290": {
+                "ontology_uid": "dCd0E0bC-C81c-Bf4e-CeBc-5BfFBc0AbcFc",
+                "type": "Rail crossings",
+                "tag_data": {
+                    "text": [
+                        {
+                            "type": "value",
+                            "val": "By Bridge / Over Road"
+                        }
+                    ]
+                },
+                "resource_uid": {
+                    "c905e1af-d704-4c96-a9f6-0823a50aa599": "https://openlabel.asam.net/V1-0-0/ontologies/SpecialStructureRailCrossing"
+                }
+            },
+            "dadf8899-df65-4ba6-9d8a-2645d8905261": {
+                "ontology_uid": "dCd0E0bC-C81c-Bf4e-CeBc-5BfFBc0AbcFc",
+                "type": "Temporary road structures",
+                "tag_data": {
+                    "text": [
+                        {
+                            "type": "value",
+                            "val": "Construction site detours"
+                        },
+                        {
+                            "type": "value",
+                            "val": "Road signage"
+                        },
+                        {
+                            "type": "value",
+                            "val": "Road works"
+                        }
+                    ]
+                },
+                "resource_uid": {
+                    "c905e1af-d704-4c96-a9f6-0823a50aa599": "https://openlabel.asam.net/V1-0-0/ontologies/SceneryTemporaryStructure"
+                }
+            },
+            "2c881428-74b2-477b-a93b-1b25edba9cec": {
+                "ontology_uid": "dCd0E0bC-C81c-Bf4e-CeBc-5BfFBc0AbcFc",
+                "type": "GeoFenced areas",
+                "tag_data": {
+                    "text": [
+                        {
+                            "type": "value",
+                            "val": "POLYGON ((612833.58 5790610.00, 617645.6 5790610.00, 617645.6 5796243.6, 612833.58 5796243.6, 612833.58 5790610.00)) # UTM Zone 32"
+                        }
+                    ]
+                },
+                "resource_uid": {
+                    "c905e1af-d704-4c96-a9f6-0823a50aa599": "https://openlabel.asam.net/V1-0-0/ontologies/ZoneGeoFenced"
+                }
+            },
+            "50838ce4-c561-434b-94e9-3f3b09123b6b": {
+                "ontology_uid": "dCd0E0bC-C81c-Bf4e-CeBc-5BfFBc0AbcFc",
+                "type": "Regions or states",
+                "tag_data": {
+                    "text": [
+                        {
+                            "type": "value",
+                            "val": "Germany"
+                        },
+                        {
+                            "type": "value",
+                            "val": "Lower Saxony"
+                        },
+                        {
+                            "type": "value",
+                            "val": "A 39"
+                        },
+                        {
+                            "type": "value",
+                            "val": "154,2km <-> 162,3km"
+                        },
+                        {
+                            "type": "value",
+                            "val": "Cremlingen <-> AK Wob-KöLu"
+                        }
+                    ]
+                },
+                "resource_uid": {
+                    "c905e1af-d704-4c96-a9f6-0823a50aa599": "https://openlabel.asam.net/V1-0-0/ontologies/ZoneRegion"
+                }
+            },
+            "17cf178d-8f7f-4891-bf8a-975e0e88b2f3": {
+                "ontology_uid": "dCd0E0bC-C81c-Bf4e-CeBc-5BfFBc0AbcFc",
+                "type": "Traffic management zones",
+                "tag_data": {
+                    "text": [
+                        {
+                            "type": "value",
+                            "val": "Induction Loops"
+                        }
+                    ]
+                },
+                "resource_uid": {
+                    "c905e1af-d704-4c96-a9f6-0823a50aa599": "https://openlabel.asam.net/V1-0-0/ontologies/ZoneTrafficManagement"
+                }
+            },
+            "0cdf5a85-3ec6-4e20-bedb-65a96b20dfb7": {
+                "ontology_uid": "dCd0E0bC-C81c-Bf4e-CeBc-5BfFBc0AbcFc",
+                "type": "Drivable area edge",
+                "tag_data": {
+                    "text": [
+                        {
+                            "type": "value",
+                            "val": "Line Markers"
+                        },
+                        {
+                            "type": "value",
+                            "val": "Shoulder (paved or gravel)"
+                        },
+                        {
+                            "type": "value",
+                            "val": "Solid barriers (e.g. grating, rails, curb, cones)"
+                        },
+                        {
+                            "type": "value",
+                            "val": "Temporary line markers"
+                        }
+                    ]
+                },
+                "resource_uid": {
+                    "c905e1af-d704-4c96-a9f6-0823a50aa599": "https://openlabel.asam.net/V1-0-0/ontologies/DrivableAreaEdge"
+                }
+            },
+            "a88eaab5-74ba-4509-9a5d-a4ce3bb39b4d": {
+                "ontology_uid": "dCd0E0bC-C81c-Bf4e-CeBc-5BfFBc0AbcFc",
+                "type": "Horizontal plane",
+                "tag_data": {
+                    "text": [
+                        {
+                            "type": "value",
+                            "val": "Curves"
+                        },
+                        {
+                            "type": "value",
+                            "val": "Straight lines"
+                        }
+                    ]
+                },
+                "resource_uid": {
+                    "c905e1af-d704-4c96-a9f6-0823a50aa599": "https://openlabel.asam.net/V1-0-0/ontologies/GeometryHorizontal"
+                }
+            },
+            "89db4bce-4ba0-4425-b443-0363d662e554": {
+                "ontology_uid": "dCd0E0bC-C81c-Bf4e-CeBc-5BfFBc0AbcFc",
+                "type": "Longitudinal plane",
+                "tag_data": {
+                    "text": [
+                        {
+                            "type": "value",
+                            "val": "Dow-slope (negativeGradient)"
+                        },
+                        {
+                            "type": "value",
+                            "val": "Level plane"
+                        },
+                        {
+                            "type": "value",
+                            "val": "Up-slope (positive gradient)"
+                        }
+                    ]
+                },
+                "resource_uid": {
+                    "c905e1af-d704-4c96-a9f6-0823a50aa599": "https://openlabel.asam.net/V1-0-0/ontologies/GeometryLongitudinal"
+                }
+            },
+            "c455fdd5-a8b3-41d2-bf68-ae74dd19822d": {
+                "ontology_uid": "dCd0E0bC-C81c-Bf4e-CeBc-5BfFBc0AbcFc",
+                "type": "Transverse plane",
+                "tag_data": {
+                    "text": [
+                        {
+                            "type": "value",
+                            "val": "Barriers on edges"
+                        },
+                        {
+                            "type": "value",
+                            "val": "Divided"
+                        }
+                    ]
+                },
+                "resource_uid": {
+                    "c905e1af-d704-4c96-a9f6-0823a50aa599": "https://openlabel.asam.net/V1-0-0/ontologies/GeometryTransverse"
+                }
+            },
+            "8308fd46-20de-4f90-850a-f920b6a037a7": {
+                "ontology_uid": "dCd0E0bC-C81c-Bf4e-CeBc-5BfFBc0AbcFc",
+                "type": "Direction of travel",
+                "tag_data": {
+                    "text": [
+                        {
+                            "type": "value",
+                            "val": "Right"
+                        }
+                    ]
+                },
+                "resource_uid": {
+                    "c905e1af-d704-4c96-a9f6-0823a50aa599": "https://openlabel.asam.net/V1-0-0/ontologies/LaneSpecificationTravelDirection"
+                }
+            },
+            "93f514c2-499e-409b-8682-e6c17375cd9b": {
+                "ontology_uid": "dCd0E0bC-C81c-Bf4e-CeBc-5BfFBc0AbcFc",
+                "type": "Lane dimensions",
+                "tag_data": {
+                    "num": [
+                        {
+                            "type": "value",
+                            "val": 2.75,
+                            "unit": "m - emergency lane width"
+                        },
+                        {
+                            "type": "min",
+                            "val": 3.6,
+                            "unit": "m - main lane width"
+                        },
+                        {
+                            "type": "max",
+                            "val": 3.8,
+                            "unit": "m - main lane width"
+                        },
+                        {
+                            "type": "min",
+                            "val": 3.6,
+                            "unit": "m - passing lane width"
+                        },
+                        {
+                            "type": "max",
+                            "val": 3.8,
+                            "unit": "m - passing lane width"
+                        }
+                    ]
+                },
+                "resource_uid": {
+                    "c905e1af-d704-4c96-a9f6-0823a50aa599": "https://openlabel.asam.net/V1-0-0/ontologies/LaneSpecificationDimensions"
+                }
+            },
+            "ac9aa825-0455-476a-be39-801989c521d6": {
+                "ontology_uid": "dCd0E0bC-C81c-Bf4e-CeBc-5BfFBc0AbcFc",
+                "type": "Lane marking",
+                "tag_data": {
+                    "text": [
+                        {
+                            "type": "value",
+                            "val": "dashed"
+                        }
+                    ]
+                },
+                "resource_uid": {
+                    "c905e1af-d704-4c96-a9f6-0823a50aa599": "https://openlabel.asam.net/V1-0-0/ontologies/LaneSpecificationMarking"
+                }
+            },
+            "4e42b9c2-5fdd-475a-bc21-31665991dc16": {
+                "ontology_uid": "dCd0E0bC-C81c-Bf4e-CeBc-5BfFBc0AbcFc",
+                "type": "Lane type",
+                "tag_data": {
+                    "text": [
+                        {
+                            "type": "value",
+                            "val": "Emergency lane"
+                        },
+                        {
+                            "type": "value",
+                            "val": "Traffic lane"
+                        }
+                    ]
+                },
+                "resource_uid": {
+                    "c905e1af-d704-4c96-a9f6-0823a50aa599": "https://openlabel.asam.net/V1-0-0/ontologies/LaneSpecificationType"
+                }
+            },
+            "a192ac77-6ce8-4c96-bc88-dab1b5293fe4": {
+                "ontology_uid": "dCd0E0bC-C81c-Bf4e-CeBc-5BfFBc0AbcFc",
+                "type": "Number of lanes",
+                "tag_data": {
+                    "num": [
+                        {
+                            "type": "value",
+                            "val": 3
+                        }
+                    ]
+                },
+                "resource_uid": {
+                    "c905e1af-d704-4c96-a9f6-0823a50aa599": "https://openlabel.asam.net/V1-0-0/ontologies/LaneSpecificationLaneCount"
+                }
+            },
+            "5aa6131a-4e00-4266-a4a1-f455724d1f12": {
+                "ontology_uid": "dCd0E0bC-C81c-Bf4e-CeBc-5BfFBc0AbcFc",
+                "type": "FullTime",
+                "tag_data": {
+                    "text": [
+                        {
+                            "type": "value",
+                            "val": "Recording"
+                        }
+                    ]
+                },
+                "resource_uid": {
+                    "c905e1af-d704-4c96-a9f6-0823a50aa599": "https://openlabel.asam.net/V1-0-0/ontologies/InformationSignsUniformFullTime"
+                }
+            },
+            "b6c9dde5-ed9a-4421-ba00-fa3458bffe74": {
+                "ontology_uid": "dCd0E0bC-C81c-Bf4e-CeBc-5BfFBc0AbcFc",
+                "type": "Temporary",
+                "tag_data": {
+                    "text": [
+                        {
+                            "type": "value",
+                            "val": "north, 80 km/h between 06-10 a.m."
+                        }
+                    ]
+                },
+                "resource_uid": {
+                    "c905e1af-d704-4c96-a9f6-0823a50aa599": "https://openlabel.asam.net/V1-0-0/ontologies/RegulatorySignsUniformTemporary"
+                }
+            },
+            "bbf45852-a6e1-4e56-a1b7-9ffead1007c3": {
+                "ontology_uid": "dCd0E0bC-C81c-Bf4e-CeBc-5BfFBc0AbcFc",
+                "type": "FullTime",
+                "tag_data": {
+                    "text": [
+                        {
+                            "type": "value",
+                            "val": "Animals"
+                        }
+                    ]
+                },
+                "resource_uid": {
+                    "c905e1af-d704-4c96-a9f6-0823a50aa599": "https://openlabel.asam.net/V1-0-0/ontologies/WarningSignsUniformFullTime"
+                }
+            },
+            "e89ce940-2507-48fc-80d6-f6990070c09c": {
+                "ontology_uid": "dCd0E0bC-C81c-Bf4e-CeBc-5BfFBc0AbcFc",
+                "type": "Drivable area induced road surface conditions",
+                "tag_data": {
+                    "text": [
+                        {
+                            "type": "value",
+                            "val": "Icy"
+                        },
+                        {
+                            "type": "value",
+                            "val": "Snow on drivable area"
+                        },
+                        {
+                            "type": "value",
+                            "val": "Standing water"
+                        },
+                        {
+                            "type": "value",
+                            "val": "Surface contamination"
+                        },
+                        {
+                            "type": "value",
+                            "val": "Wet road"
+                        }
+                    ]
+                },
+                "resource_uid": {
+                    "c905e1af-d704-4c96-a9f6-0823a50aa599": "https://openlabel.asam.net/V1-0-0/ontologies/DrivableAreaSurfaceCondition"
+                }
+            },
+            "bbed5b26-76dc-4542-8b07-0a80b24c405d": {
+                "ontology_uid": "dCd0E0bC-C81c-Bf4e-CeBc-5BfFBc0AbcFc",
+                "type": "Drivable area surface features",
+                "tag_data": {
+                    "text": [
+                        {
+                            "type": "value",
+                            "val": "Cracks"
+                        },
+                        {
+                            "type": "value",
+                            "val": "potholes"
+                        },
+                        {
+                            "type": "value",
+                            "val": "Ruts"
+                        },
+                        {
+                            "type": "value",
+                            "val": "Swells"
+                        }
+                    ]
+                },
+                "resource_uid": {
+                    "c905e1af-d704-4c96-a9f6-0823a50aa599": "https://openlabel.asam.net/V1-0-0/ontologies/DrivableAreaSurfaceFeature"
+                }
+            },
+            "20997dc7-a808-48b6-9e66-7b66a546d96b": {
+                "ontology_uid": "dCd0E0bC-C81c-Bf4e-CeBc-5BfFBc0AbcFc",
+                "type": "Drivable area surface type",
+                "tag_data": {
+                    "text": [
+                        {
+                            "type": "value",
+                            "val": "Uniform (e.g. asphalt)"
+                        }
+                    ]
+                },
+                "resource_uid": {
+                    "c905e1af-d704-4c96-a9f6-0823a50aa599": "https://openlabel.asam.net/V1-0-0/ontologies/DrivableAreaSurfaceType"
+                }
+            },
+            "030d9bd5-d986-4f62-b786-772dca3f7dd3": {
+                "ontology_uid": "dCd0E0bC-C81c-Bf4e-CeBc-5BfFBc0AbcFc",
+                "type": "Drivable area type",
+                "tag_data": {
+                    "text": [
+                        {
+                            "type": "value",
+                            "val": "Motorways"
+                        }
+                    ]
+                },
+                "resource_uid": {
+                    "c905e1af-d704-4c96-a9f6-0823a50aa599": "https://openlabel.asam.net/V1-0-0/ontologies/DrivableAreaType"
+                }
+            },
+            "f26cf0fc-bfeb-4688-b2d3-13459efba817": {
+                "ontology_uid": "dCd0E0bC-C81c-Bf4e-CeBc-5BfFBc0AbcFc",
+                "type": "Motorways",
+                "tag_data": {
+                    "text": [
+                        {
+                            "type": "value",
+                            "val": "Without active traffic management"
+                        }
+                    ]
+                },
+                "resource_uid": {
+                    "c905e1af-d704-4c96-a9f6-0823a50aa599": "https://openlabel.asam.net/V1-0-0/ontologies/RoadTypeMotorways"
+                }
+            }
+        }
+    }
+}
