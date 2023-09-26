@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"soapenv:Bodyns:getParkInfoDataResponse xmlns:ns="http://cfc_webservice"ns:return<?xml> version="1.0" encoding="UTF-8"?>
+<parkInfo>
+		&lt;parkInfoQuery id="1977747" timestamp="2023-09-14 14:00:00.617"/>
+	
+&lt;arrayOfParkInfoItem>
+	
+	
+			&lt;parkInfoItem>
+				&lt;name>
+					Congressgarage
+				&lt;/name>
+				&lt;categories>
+					
+							&lt;category>Tiefgarage&lt;/category>
+						
+				&lt;/categories>
+				&lt;max>
+					558
+				&lt;/max>
+				&lt;free>
+					511
+				&lt;/free>
+				&lt;tendency>
+					3
+				&lt;/tendency>
+			&lt;/parkInfoItem>
+		
+			&lt;parkInfoItem>
+				&lt;name>
+					Festplatz
+				&lt;/name>
+				&lt;categories>
+					
+							&lt;category>Offene Fläche&lt;/category>
+						
+				&lt;/categories>
+				&lt;max>
+					0
+				&lt;/max>
+				&lt;free>
+					0
+				&lt;/free>
+				&lt;tendency>
+					3
+				&lt;/tendency>
+			&lt;/parkInfoItem>
+		
+			&lt;parkInfoItem>
+				&lt;name>
+					Hallenbad
+				&lt;/name>
+				&lt;categories>
+					
+							&lt;category>Offene Fläche&lt;/category>
+						
+				&lt;/categories>
+				&lt;max>
+					562
+				&lt;/max>
+				&lt;free>
+					97
+				&lt;/free>
+				&lt;tendency>
+					3
+				&lt;/tendency>
+			&lt;/parkInfoItem>
+		
+			&lt;parkInfoItem>
+				&lt;name>
+					Hauptbahnhof Ost
+				&lt;/name>
+				&lt;categories>
+					
+							&lt;category>Parkhaus&lt;/category>
+						
+				&lt;/categories>
+				&lt;max>
+					240
+				&lt;/max>
+				&lt;free>
+					79
+				&lt;/free>
+				&lt;tendency>
+					3
+				&lt;/tendency>
+			&lt;/parkInfoItem>
+		
+			&lt;parkInfoItem>
+				&lt;name>
+					Hauptbahnhof West
+				&lt;/name>
+				&lt;categories>
+					
+							&lt;category>Parkhaus&lt;/category>
+						
+				&lt;/categories>
+				&lt;max>
+					640
+				&lt;/max>
+				&lt;free>
+					93
+				&lt;/free>
+				&lt;tendency>
+					3
+				&lt;/tendency>
+			&lt;/parkInfoItem>
+		
+			&lt;parkInfoItem>
+				&lt;name>
+					Münster
+				&lt;/name>
+				&lt;categories>
+					
+							&lt;category>Tiefgarage&lt;/category>
+						
+				&lt;/categories>
+				&lt;max>
+					182
+				&lt;/max>
+				&lt;free>
+					96
+				&lt;/free>
+				&lt;tendency>
+					3
+				&lt;/tendency>
+			&lt;/parkInfoItem>
+		
+			&lt;parkInfoItem>
+				&lt;name>
+					Nordbahnhof
+				&lt;/name>
+				&lt;categories>
+					
+							&lt;category>Parkhaus&lt;/category>
+						
+				&lt;/categories>
+				&lt;max>
+					232
+				&lt;/max>
+				&lt;free>
+					11
+				&lt;/free>
+				&lt;tendency>
+					3
+				&lt;/tendency>
+			&lt;/parkInfoItem>
+		
+			&lt;parkInfoItem>
+				&lt;name>
+					Reduit Tilly
+				&lt;/name>
+				&lt;categories>
+					
+							&lt;category>Tiefgarage&lt;/category>
+						
+				&lt;/categories>
+				&lt;max>
+					216
+				&lt;/max>
+				&lt;free>
+					108
+				&lt;/free>
+				&lt;tendency>
+					3
+				&lt;/tendency>
+			&lt;/parkInfoItem>
+		
+			&lt;parkInfoItem>
+				&lt;name>
+					Schloss
+				&lt;/name>
+				&lt;categories>
+					
+							&lt;category>Tiefgarage&lt;/category>
+						
+				&lt;/categories>
+				&lt;max>
+					272
+				&lt;/max>
+				&lt;free>
+					169
+				&lt;/free>
+				&lt;tendency>
+					3
+				&lt;/tendency>
+			&lt;/parkInfoItem>
+		
+			&lt;parkInfoItem>
+				&lt;name>
+					Theater-Ost
+				&lt;/name>
+				&lt;categories>
+					
+							&lt;category>Tiefgarage&lt;/category>
+						
+				&lt;/categories>
+				&lt;max>
+					343
+				&lt;/max>
+				&lt;free>
+					171
+				&lt;/free>
+				&lt;tendency>
+					3
+				&lt;/tendency>
+			&lt;/parkInfoItem>
+		
+			&lt;parkInfoItem>
+				&lt;name>
+					Theater-West
+				&lt;/name>
+				&lt;categories>
+					
+							&lt;category>Tiefgarage&lt;/category>
+						
+				&lt;/categories>
+				&lt;max>
+					161
+				&lt;/max>
+				&lt;free>
+					11
+				&lt;/free>
+				&lt;tendency>
+					3
+				&lt;/tendency>
+			&lt;/parkInfoItem>
+		
+	
+&lt;/arrayOfParkInfoItem>
+</parkInfo></ns:return></ns:getParkInfoDataResponse></soapenv:Body></soapenv:Envelope>
