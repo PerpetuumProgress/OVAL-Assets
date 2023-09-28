@@ -12,3 +12,5 @@
 # Legal
 The data is only for usage within and during the project GAIA-X4PLC-AAD.
 The usage of the data is limited to project related tasks for the project members. 
+
+![](blob:https://github.com/b6322f6c-b00b-4c36-b480-6be741484217)
