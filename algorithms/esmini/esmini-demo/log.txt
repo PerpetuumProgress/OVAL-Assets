@@ -1,0 +1,9 @@
+esmini GIT REV: 275600c
+esmini GIT TAG: v2.21.1
+esmini GIT BRANCH: tags/v2.21.1^0
+esmini BUILD VERSION: 2.21.1.build.2347
+Generated seed 867638558
+density: 1.00
+global speed factor: 1.00
+Viewer failure. Probably requested level of Anti Aliasing (4 multisamples) is not supported. Making another attempt without Anti-Alias and on first screen.
+Failed 2nd attempt to create viewer, giving up. Try --headless option to run without viewer
