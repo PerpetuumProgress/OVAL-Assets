@@ -1,0 +1,494 @@
+= esmini Hello World Tutorial
+
+This tutorial shows how to utilize esmini as a shared (dynamically loaded) library for use in a custom application. It can be used with or without esmini embedded viewer.
+
+== Preparations [[preparations]]
+
+The simplest preparation is to get the demo package from https://github.com/esmini/esmini/releases/latest[the latest relase] and then head on to the steps below.
+
+But, of course, if you already have checked out the esmini project from GitHub and compiled it you should already be set.
+
+Just make sure that the shared library is available in the `bin` or `lib` folder, which should be available directly under esmini root. Exact filename depends on the platform as follows:
+
+[horizontal]
+*Windows:*:: esminiLib.dll
+*Linux:*:: libesminiLib.so
+*Mac:*:: libesminiLib.dylib
+
+:listing-caption: Example
+
+== How to build, run and debug "Hello World"
+
+=== Windows/Visual Studio
+
+==== First step: Create the solution file
+Run from `Hello-World_coding-example` root folder: +
+`mkdir build` +
+`cd build` +
+`cmake ..` (will generate solution for multiple variants, including Release and Debug)
+
+==== Build and run the application from command line
+
+===== Build
+`cmake --build . --config Release` (release variant), or +
+`cmake --build . --config Debug` (debug variant) +
+
+===== Run
+. open a command shell and put yourself in `Hello-World_coding-example/build` folder
+. add shared library location to the environment path variable, e.g: +
+  CMD: `set path=../../bin;%path%` +
+  PowerShell: `$env:path+=";../../bin"` +
+  bash: `PATH=$PATH:../../bin` +
+. Launch application +
+   CMD: +
+  `.\Debug\esmini-player.exe` or +
+  `.\Release\esmini-player.exe` (depending on variant) +
+  PowerShell or bash: +
+  `./Debug/esmini-player.exe` or +
+  `./Release/esmini-player.exe`
+
+==== Build, run and debug the application from Visual Studio
+. Open `esmini-player.sln` in Visual Studio
+. Build as usual (Ctrl-F7 or `Build` -> `Build Solution`)
+. Set as startup project
+  ** Right click on esmini-player in Solution Explorer
+  ** Click on `Set as Startup Project`
+. Tell the system where to find the shared library
+  ** Right click on esmini-player in Solution Explorer
+  ** Click on `Properties`
+  ** Select Configuration -> `All Configurations`
+  ** In `Configuration Properties` -> `Debugging` -> `Environment` write:
+    `path=$(ProjectDir)/../../bin` +
+    or any other folder containing the esmini library
+. Run
+  ** `Ctrl-F5` to run without debug
+  ** `F5` to debug
+
+=== Linux
+
+==== First step: Create the Makefile
+Run from `Hello-World_coding-example` root folder: +
+  `mkdir build` +
+  `cd build` +
+then: +
+  `cmake .. -DCMAKE_BUILD_TYPE=Release` for Release variant, or +
+  `cmake .. -DCMAKE_BUILD_TYPE=Debug` for Debug variant +
+
+==== Build and run from command line
+. Build +
+  `cmake --build .` or just +
+  `make` +
+. Tell system where to look for esmini shared library (maybe not necessary) +
+  `export LD_LIBRARY_PATH=../../bin`
+. Launch application +
+  `./esmini-player`
+
+==== Build, run and debug from Visual Studio Code
+
+Prerequisites: Install the following VS Code extensions:
+
+* C/C++
+* CMake Tools
+
+===== Build
+
+. Open visual studio as Hello-World_coding-example as root folder
+. Open the Command Palette (Ctrl+Shift+P) and run `CMake: Select a Kit`. Select the compiler you want to use. For example GCC 11.3.0
+. Open the Command Palette (Ctrl+Shift+P) run the `CMake: Select Variant` command. Select Debug.
+. Open the Command Palette (Ctrl+Shift+P) run the `CMake:Set Build Target`. Select esmini-player.
+. Open the Command Palette (Ctrl+Shift+P) and run the `CMake: Build` command, or select the build button from the Status bar.
+
+Open main.cpp file in the Hello-World_coding-example folder and optionally introduce break points.
+
+===== Run
+. Open the Command Palette (Ctrl+Shift+P) and run the `CMake: Run Without Debugging` command, or
+. Use play button in the status bar, or
+. Shift-F5
+
+===== Debug
+. Open the Command Palette (Ctrl+Shift+P) and run the `CMake: Debug` command, or
+. Use debug button in the status bar, or
+. Ctrl-F5
+
+=== Next step
+
+Now that you can build and run Hello World, it's time to explore some functionality of esmini. Next section presents a few code examples to try out, e.g. by modifying main.cpp.
+
+== Examples
+
+=== Hello world - load and play a scenario
+:file: Hello-World_coding-example/main.cpp
+.link:{src-remote-root}/{file}[{file}]
+[source,c++]
+----
+include::{src-local-root}/{file}[]
+----
+
+Exercise: Change scenario to pedestrian.xosc, then compile and run the program again.
+
+=== Add optional argument to load any scenario
+:file: EnvironmentSimulator/code-examples/hello_world/hw2_arguments.cpp
+.link:{src-remote-root}/{file}[{file}]
+[source,c++]
+----
+include::{src-local-root}/{file}[]
+----
+
+You can now specify esmini arguments according to https://github.com/esmini/esmini/blob/master/docs/commands.txt[esmini launch commands].
+
+Example:
+----
+./esmini-player --window 60 60 1000 500 --osc ../resources/xosc/pedestrian.xosc --trails
+----
+
+=== Fetch state of scenario objects
+This example shows how to retrieve the state of scenario objects.
+
+We also check the return code from the initialization and react on any error.
+
+:file: EnvironmentSimulator/code-examples/hello_world/hw3_fetch_states.cpp
+.link:{src-remote-root}/{file}[{file}]
+[source,c++]
+----
+include::{src-local-root}/{file}[]
+----
+
+=== External control of Ego
+A silly example showing how you can just take control over vehicle state via the API. The Ego car will move one meter along the Y-axis for each frame while rotating...
+
+Now we will also introduce the quit_flag, which lets you quit by pressing 'Esc' key.
+
+In addition we'll try out the alignment feature. By default objects will be aligned to road surface. This behavior can be controlled with alignment settings. In below example, the Ego vehicle will be aligned to road surface except during iterations 100-200 where it will obey the reported Z coordinate and move accordingly to elevation/Z = 10 meter.
+
+:file: EnvironmentSimulator/code-examples/hello_world/hw4_external_ego_control.cpp
+.link:{src-remote-root}//{file}[{file}]
+[source,c++]
+----
+include::{src-local-root}/{file}[]
+----
+
+Exercise: Change heading with i, e.g:
+
+``SE_ReportObjectPos(0, 0.0f, 8.0f, (float)i, 0.0f, 1.57f + 0.01f*i, 0.0f, 0.0f);``
+
+Yes, it looks crazy! But it demonstrates how an application totally can take control of a vehicle.
+
+=== Control controllers
+Try to run cut-in_interactive.xosc, as below.
+
+:file: EnvironmentSimulator/code-examples/hello_world/hw5_control_controllers_enabled.cpp
+.link:{src-remote-root}//{file}[{file}]
+[source,c++]
+----
+include::{src-local-root}/{file}[]
+----
+
+Control the Ego vehicle with arrow keys.
+
+To disable controllers and hand over to default scenario behavior set first argument flag (see https://github.com/esmini/esmini/blob/45ef22ed04867f6e6630bb73461e5d4a3fcd7d93/EnvironmentSimulator/Libraries/esminiLib/esminiLib.hpp#L259[headerfile esminiLib.hpp]):
+
+:file: EnvironmentSimulator/code-examples/hello_world/hw6_control_controllers_disabled.cpp
+.link:{src-remote-root}//{file}[{file}]
+[source,c++]
+----
+include::{src-local-root}/{file}[]
+----
+
+
+=== Ideal sensors
+:file: EnvironmentSimulator/code-examples/hello_world/hw7_ideal_sensors.cpp
+.link:{src-remote-root}//{file}[{file}]
+[source,c++]
+----
+include::{src-local-root}/{file}[]
+----
+
+*Note*: If you want M_PI, add on top (before includes): ``#define _USE_MATH_DEFINES``
+
+=== Collision detection
+
+There are two approaches to collision detection that fit different use cases:
+
+==== 1. By scenario
+
+Making use of the OpenSCENARIO https://www.asam.net/static_downloads/ASAM_OpenSCENARIO_V1.2.0_Model_Documentation/modelDocumentation/content/CollisionCondition.html[CollisionCondition] a collision can be detected and act upon. This can be useful for example if a scenario or test case should end in case of Ego vehicle gets involved in a collision.
+
+See example https://github.com/esmini/esmini/blob/master/EnvironmentSimulator/Unittest/xosc/test-collision-detection.xosc[EnvironmentSimulator/Unittest/xosc/test-collision-detection.xosc]. To run it from command line:
+
+`./bin/esmini --window 60 60 800 400 --osc ./EnvironmentSimulator/Unittest/xosc/test-collision-detection.xosc`
+
+Control the Ego car with keyboard arrow keys. Press "up" to accelerate, and "left" or "right" to steer. See output in console when colliding with the two other cars.
+
+The interactive controller can be disabled. Then the Ego car will get the speed from the scenario. Run:
+
+`./bin/esmini --window 60 60 800 400 --osc ./EnvironmentSimulator/Unittest/xosc/test-collision-detection.xosc --disable_controllers`
+
+*Note:* In this example the action is empty, i.e. the event is triggered on collision but nothing really happens, other than logging the trigger result. In a real use case there could be an actual action, e.g. immediate stop by setting speed to zero in a single step. Another usage is to use the condition in a scenario stop trigger, e.g. to quit the test case as soon as collision happens.
+
+==== 2. By API
+
+In addition, or as alternative, to detect collisions via OpenSCENARIO condition esmini can check for collisions between any objects regardless of the scenario. This is a feature that must be enabled (`SE_CollisionDetection(true)`) since it's off by default to avoid unnecessary performance penalties.
+
+See code example:
+
+:file: EnvironmentSimulator/code-examples/hello_world/hw8_collision_detection.cpp
+.link:{src-remote-root}//{file}[{file}]
+[source,c++]
+----
+include::{src-local-root}/{file}[]
+----
+
+*Note:* It uses the same scenario file as the above (<<1. By scenario>>) but the complete "CollisionManeuver" could be removed since no CollisionCondition is needed for API based collision detection. Actually, if maneuver is present the console will show log info from both the condition and the API driven collision detections.
+
+=== Driver model
+
+Using a simple vehicle model this example demonstrates how a driver model can interact with the scenario, once again using the ``ExternalController``.
+
+To show different variants we also show how to set scenario parameters during intialization, via callbacks. In effect this is a way to achieve runtime variants of the same basic scenario.
+
+Before heading into the application code we will look into the scenario file link:../EnvironmentSimulator/code-examples/test-driver/test-driver.xosc[EnvironmentSimulator/code-examples/test-driver/test-driver.xosc].
+
+Now, let's have a look inside it to see how to activate the ExternalController, which will prevent the DefaultController to interfere with the Ego vehicle and instead hand over exclusive control to our application. You can skip this and go to the C++ code example below if you're not interested in the controller setup.
+
+- Open test-driver.xosc
+- Look in the Entities section, under the ``<ScenarioObject name="Ego"\>`` element. Here the controller is defined and assigned to the Ego vehicle.
+
+[source,xml]
+----
+include::{src-local-root}/EnvironmentSimulator/code-examples/test-driver/test-driver.xosc[tag=ObjectController]
+----
+
+*Note:* The GhostMode parameter is set to true or false in the ParameterDeclarations section in the top of the scenario file.
+
+- Then the initial position is set. This could instead be done by the application, but it's convenient to specify it in the scenario file.
+
+[source,xml]
+----
+include::{src-local-root}/EnvironmentSimulator/code-examples/test-driver/test-driver.xosc[tag=TeleportAction]
+----
+
+- Finally we need to activate the controller on both lateral and longitudinal domains.
+
+[source,xml]
+----
+include::{src-local-root}/EnvironmentSimulator/code-examples/test-driver/test-driver.xosc[tag=ActivateController]
+----
+
+The reason for putting it AFTER the positioning is that oterwise the position action would have no effect, since once the controller is activated all scenario actions will be ignored. The controller then having exclusive control.
+
+
+Now let's head into the code example. It will run the scenario three times:
+
+. External controller without ghost mode
+ - just look ahead and follow along current lane. Find point along the lane and steer towards it.
+. External controller with ghost mode and time based lookahead
+ - find the state of ghost at given time offset. Use it for steering and speed target.
+. External controller with ghost mode and position based lookahead
+ - given the current Ego position, find ghost state at some look ahead distance along its trail. Use it for steering and speed target.
+
+
+Now, study the code and perhaps play around mainpulating some values.
+
+:file: EnvironmentSimulator/code-examples/test-driver/test-driver.cpp
+.link:{src-remote-root}/{file}[{file}]
+[source,c++]
+----
+include::{src-local-root}/{file}[]
+----
+
+Don't worry about the stationary red car on the road, you'll just drive through it.
+
+Try experimenting with the driver settings, e.g. increase lookahead distance factor from 0.75 to 1.75.
+
+When running the application, press key 'j' to toggle ghost trail dots and lines visualization.
+
+*Challenge*: Attach a front looking sensor to detect it and have the driver to brake to avoid collision...
+
+
+==== Ghost concept in brief
+In the first loop the driver model is just capable of driving along the specified lane. It's totally detached from any scenario events.
+
+The ghost concept is a solution for a driver model to perform scenario actions. Basically it will launch a fore-runner to perform the scenario actions. The trajectory, including speed, is registered into a "trail" which can then be used as reference for steering and speed target.
+
+Ghost mode is a parameter of the external controller. Normally this is set in the scenario, for example in test-driver.xosc, change line:
+
+[source,xml]
+----
+<ParameterDeclaration name="GhostMode" parameterType="bool" value="false"/>
+----
+
+to:
+
+[source,xml]
+----
+<ParameterDeclaration name="GhostMode" parameterType="bool" value="true"/>
+----
+
+However, in the example code this parameter is controlled by the ``paramDeclCB()`` callback. Once it's registered with ``SE_RegisterParameterDeclarationCallback()`` it will be called each time esmini is initialized (``SE_Init()``).
+
+=== OSI groundtruth
+
+To access OSI data we first need to complement the build script (CMakeLists.txt) with OSI include and library info. For example:
+
+Windows:
+----
+include_directories(. ../include ../EnvironmentSimulator/Libraries/esminiLib ../externals/osi/v10/include)
+
+link_directories(. ../bin ../externals/osi/v10/lib)
+
+target_link_libraries(${TARGET} esminiLib libprotobuf open_simulation_interface_pic)
+----
+
+Linux:
+----
+include_directories(. ../include ../EnvironmentSimulator/Libraries/esminiLib ../externals/osi/linux/include)
+
+link_directories(. ../bin ../externals/osi/linux/lib)
+
+target_link_libraries(${TARGET} esminiLib protobuf open_simulation_interface_pic)
+----
+
+
+*Note:*
+
+- Replace foldername "v10" with linux or mac depending on your platform.
+- If linking with custom applications or libraries: OSI and Google Protobuf versions needs to be consistent (at least major version nr), also with the versions used in esmini (see https://github.com/esmini/esmini#osi-support[here]).
+
+Then run ``cmake ..`` from the build folder to apply the changes in CMakeFiles.cxx.
+
+The following code will update, fetch and print some OSI data each frame.
+
+:file: EnvironmentSimulator/code-examples/osi-groundtruth/osi-groundtruth.cpp
+.link:{src-remote-root}/{file}[{file}]
+[source,c++]
+----
+include::{src-local-root}/{file}[]
+----
+
+== Python binding
+:listing-caption: Example
+
+A Python wrapper for esmini can easily be created using "ctypes" (thanks David Kaplan for the tip!). This section presents a few examples to get you started.
+
+* Make sure the esminiLib is present in `esmini/bin` folder
+* Run the script examples from the `esmini/Hello-World_coding-example` folder
+
+=== Minimalistic esmini Python player
+
+```Python
+import ctypes
+
+se = ctypes.CDLL("../bin/esminiLib.dll")
+se.SE_Init(b"../resources/xosc/cut-in.xosc", 1, 1, 0, 0, 2)
+
+for i in range (500):
+    se.SE_Step()
+```
+
+*Note:* Library name varies with the platform as mentioned above (see <<preparations>>)
+
+Below is a bit more flexible variant:
+
+- Portable: Works on all supported platforms
+- Provide scenario via argument
+- Quit at press Escape or end of scenario
+
+:file: Hello-World_coding-example/esmini-player.py
+.link:{src-remote-root}/{file}[{file}]
+[source,python]
+----
+include::{src-local-root}/{file}[]
+----
+
+=== Initialize esmini by flexible argument list
+
+Instead of using the limited `SE_Init()` function you can pass any arguments using `SE_InitWithArgs()`
+
+:file: EnvironmentSimulator/code-examples/hello_world/init_by_args.py
+.link:{src-remote-root}/{file}[{file}]
+[source,python]
+----
+include::{src-local-root}/{file}[]
+----
+
+=== Forward command line arguments
+
+How to just forward any argument provided from command line:
+
+:file: EnvironmentSimulator/code-examples/hello_world/forward_cmd_args.py
+.link:{src-remote-root}/{file}[{file}]
+[source,python]
+----
+include::{src-local-root}/{file}[]
+----
+
+=== Get object states
+How to retrieve the state of all scenario objects:
+
+:file: EnvironmentSimulator/code-examples/hello_world/get_states.py
+.link:{src-remote-root}/{file}[{file}]
+[source,python]
+----
+include::{src-local-root}/{file}[]
+----
+
+=== Example use of esminiRMLib (RoadManager)
+
+* Make sure the esminiRMLib is present in `esmini/bin` folder
+* In the code, check filepath to the OpenDRIVE file to load (current search path should work when script is copied to and run from the esmini/Hello-World_coding-example folder)
+
+:file: EnvironmentSimulator/code-examples/hello_world/use_roadmanager.py
+.link:{src-remote-root}/{file}[{file}]
+[source,python]
+----
+include::{src-local-root}/{file}[]
+----
+
+=== Storyboard element state callback
+The following code shows how to get notification of storyboard events using StoryBoardElementStateChangeCallback.
+
+:file: EnvironmentSimulator/code-examples/hello_world/storyboard_state_callback.py
+.link:{src-remote-root}/{file}[{file}] (complete code)
+[source,python]
+----
+include::{src-local-root}/{file}[tag=StoryboardStateCallback]
+----
+
+=== OSI groundtruth
+
+OSI groundtruth can also be retrieved and processed via Python. The following code shows one way of doing it. This example also shows how the simulation can be encapsulated in a class.
+
+:file: EnvironmentSimulator/code-examples/hello_world/osi_groundtruth.py
+.link:{src-remote-root}/{file}[{file}] (complete code)
+[source,python]
+----
+include::{src-local-root}/{file}[]
+----
+
+=== Object state callback
+#Advanced#
+
+Controllers and callbacks can also be utilized via Python. Following code drafts how to grab state of the first scenario object and then, in a callback, manipulate it and report back. If used in combination with ExternalController in mode=additive the scenario action are applied first. On the contrary, if used with mode=override, the scenario actions will not be applied giving exclusive control to the external callback function.
+
+:file: EnvironmentSimulator/code-examples/hello_world/object_callback.py
+.link:{src-remote-root}/{file}[{file}] (complete code)
+[source,python]
+----
+include::{src-local-root}/{file}[tag=ObjectCallback]
+----
+
+== C# binding
+:listing-caption: Example
+
+A C# wrapper for the esminiLib is provided (https://github.com/esmini/esmini/blob/master/EnvironmentSimulator/Libraries/esminiLib/ESMiniWrapper.cs[ESMiniWrapper.cs]). Coverage is limited, but it might serve as a good starting point.
+
+=== OSI groundtruth with C#
+
+:file: EnvironmentSimulator/code-examples/osi-groundtruth-cs/osi-gt.cs
+.link:{src-remote-root}/{file}[{file}] (complete code)
+[source, c++]
+----
+include::{src-local-root}/{file}[]
+----
+
+include::../EnvironmentSimulator/code-examples/osi-groundtruth-cs/README.adoc[leveloffset=+1]

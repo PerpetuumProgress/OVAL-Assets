@@ -1,0 +1,1 @@
+"../../bin/odrviewer" --odr ../../resources/xodr/e6mini.xodr --window 60 60 800 400 --density 5.0 --ground_plane

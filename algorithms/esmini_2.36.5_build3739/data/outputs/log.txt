@@ -1,0 +1,2536 @@
+esmini GIT REV: N/A
+esmini GIT TAG: N/A
+esmini GIT BRANCH: N/A
+esmini BUILD VERSION: 3739
+Generated seed 2052696239
+density: 5.00
+global speed factor: 1.00
+Unsupported geo reference attr: +no_defs
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type -1--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 283.30--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type -1--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type -1--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 283--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type -1--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 283--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 297--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 297--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type -1--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 283.30--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 297--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 297--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type -1--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type -1--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type -1--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 297--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 297--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 297--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 224--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type -1--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type -1--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type -1--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type -1--1 doesn't exists for country deu
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 432.20--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 283.10--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type -1--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type -1--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 458--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 297--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 297--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 297--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type -1--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 138.10--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 1000.20--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type -1--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type -1--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type -1--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 297--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 297--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 297--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 297--1 doesn't exists for country deu
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 224--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 297--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 297--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type -1--1 doesn't exists for country deu
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 297--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 297--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 283.30--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 297--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 297--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 241.30--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 1012--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 297--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 297--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 297--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 297--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 297--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 297--1 doesn't exists for country deu
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 297--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 297--1 doesn't exists for country deu
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 297--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 297--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type -1--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 605.20--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 222--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 294--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 294--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 1000001--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 1000007--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 293--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 1000001--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 1000001--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 306--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 1000007--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 293--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 437--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 626.20--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 222--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 293--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 1000007--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 293--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 1000007--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 297--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 297--1 doesn't exists for country deu
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 297--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 297--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 294--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 294--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 1000001--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 1000001--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 1000001--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 306--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 1000007--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 293--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 1000007--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 293--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 437--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 222--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 293--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 1000007--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 293--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 283.10--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 1000007--1 doesn't exists for country deu
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 297--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 294--1 doesn't exists for country deu
+INFO: signal element "signalReference" not supported yet
+Unsupported object type: roadMark - interpret as NONE
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 297--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 294--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 1000008--1 doesn't exists for country deu
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 297--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 605.20--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 222--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 294--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 1000001--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 1000002--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 293--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 1000001--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 1000002--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 293--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 626.20--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 222--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 293--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 1000002--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 293--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 1000002--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 205--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 283.10--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 297--1 doesn't exists for country deu
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 293--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 293--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 293--1 doesn't exists for country deu
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 297--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 293--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 293--1 doesn't exists for country deu
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 222--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 297--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 297--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 294--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 294--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 1000011.10--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 1000011.10--1 doesn't exists for country deu
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type -1--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 297--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 294--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 1000002--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 293--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 1000001--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 1000001--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 1000002--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 293--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 222--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 605.20--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 1000002--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 1000002--1 doesn't exists for country deu
+Failed to load deu_traffic_signals.txt file. Tried:
+  deu_traffic_signals.txt
+  deu_traffic_signals.txt
+  /data/inputs/HiDrive/../../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./deu_traffic_signals.txt
+  /esmini-demo/bin/./traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/./resources/traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../traffic_signals/deu_traffic_signals.txt
+  /esmini-demo/bin/.//../resources/traffic_signals/deu_traffic_signals.txt
+Signal Type 605.20--1 doesn't exists for country deu
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+Unsupported object type: roadMark - interpret as NONE
+No scenegraph 3D model loaded. Generating a simplistic one...
+Failed to load signal deu_-1--1.osgb / Privat.osgb - use simple bounding box
+Failed to load signal deu_283_30--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_-1--1.osgb / Privat.osgb - use simple bounding box
+Failed to load signal deu_-1--1.osgb / Privat.osgb - use simple bounding box
+Failed to load signal deu_283--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_-1--1.osgb / Privat.osgb - use simple bounding box
+Failed to load signal deu_283--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_297--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_297--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_-1--1.osgb / Privat.osgb - use simple bounding box
+Failed to load signal deu_283_30--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_297--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_297--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_-1--1.osgb / Privat.osgb - use simple bounding box
+Failed to load signal deu_-1--1.osgb / Privat.osgb - use simple bounding box
+Failed to load signal deu_-1--1.osgb / Privat.osgb - use simple bounding box
+Failed to load signal deu_297--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_297--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_297--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_224--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_-1--1.osgb / Privat.osgb - use simple bounding box
+Failed to load signal deu_-1--1.osgb / Privat.osgb - use simple bounding box
+Failed to load signal deu_-1--1.osgb / Privat.osgb - use simple bounding box
+Failed to load signal deu_-1--1.osgb / Privat.osgb - use simple bounding box
+Failed to load road object model file: tree.osgb (tree). Creating a bounding box as stand in.
+Object tree missing length, set to bounding box length 0.05
+Object tree missing width, set to bounding box width 0.05
+Failed to load road object model file: trafficSign.osgb (trafficSign). Creating a bounding box as stand in.
+Object trafficSign missing length, set to bounding box length 0.05
+Object trafficSign missing width, set to bounding box width 0.05
+Failed to load road object model file: trafficSign.osgb (trafficSign). Creating a bounding box as stand in.
+Object trafficSign missing length, set to bounding box length 0.05
+Object trafficSign missing width, set to bounding box width 0.05
+Failed to load road object model file: trafficSign.osgb (trafficSign). Creating a bounding box as stand in.
+Object trafficSign missing length, set to bounding box length 0.05
+Object trafficSign missing width, set to bounding box width 0.05
+Failed to load road object model file: tree.osgb (tree). Creating a bounding box as stand in.
+Object tree missing length, set to bounding box length 0.05
+Object tree missing width, set to bounding box width 0.05
+Failed to load road object model file: streetLamp.osgb (streetLamp). Creating a bounding box as stand in.
+Object streetLamp missing width, set to bounding box width 0.05
+Object pole missing length, set to bounding box length 0.06
+Object pole missing width, set to bounding box width 0.06
+Failed to load road object model file: streetLamp.osgb (streetLamp). Creating a bounding box as stand in.
+Object streetLamp missing width, set to bounding box width 0.05
+Failed to load road object model file: trafficSign.osgb (trafficSign). Creating a bounding box as stand in.
+Object trafficSign missing length, set to bounding box length 0.05
+Object trafficSign missing width, set to bounding box width 0.05
+Failed to load road object model file: tree.osgb (tree). Creating a bounding box as stand in.
+Object tree missing length, set to bounding box length 0.05
+Object tree missing width, set to bounding box width 0.05
+Failed to load road object model file: tree.osgb (tree). Creating a bounding box as stand in.
+Object tree missing length, set to bounding box length 0.05
+Object tree missing width, set to bounding box width 0.05
+Failed to load road object model file: streetLamp.osgb (streetLamp). Creating a bounding box as stand in.
+Object streetLamp missing width, set to bounding box width 0.05
+Failed to load road object model file: trafficSign.osgb (trafficSign). Creating a bounding box as stand in.
+Object trafficSign missing length, set to bounding box length 0.05
+Object trafficSign missing width, set to bounding box width 0.05
+Failed to load road object model file: trafficSign.osgb (trafficSign). Creating a bounding box as stand in.
+Object trafficSign missing length, set to bounding box length 0.05
+Object trafficSign missing width, set to bounding box width 0.05
+Failed to load road object model file: tree.osgb (tree). Creating a bounding box as stand in.
+Object tree missing length, set to bounding box length 0.05
+Object tree missing width, set to bounding box width 0.05
+Failed to load road object model file: tree.osgb (tree). Creating a bounding box as stand in.
+Object tree missing length, set to bounding box length 0.05
+Object tree missing width, set to bounding box width 0.05
+Failed to load road object model file: trafficSign.osgb (trafficSign). Creating a bounding box as stand in.
+Object trafficSign missing length, set to bounding box length 0.05
+Object trafficSign missing width, set to bounding box width 0.05
+Failed to load road object model file: trafficSign.osgb (trafficSign). Creating a bounding box as stand in.
+Object trafficSign missing length, set to bounding box length 0.05
+Object trafficSign missing width, set to bounding box width 0.05
+Failed to load road object model file: trafficSign.osgb (trafficSign). Creating a bounding box as stand in.
+Object trafficSign missing length, set to bounding box length 0.05
+Object trafficSign missing width, set to bounding box width 0.05
+Failed to load road object model file: streetLamp.osgb (streetLamp). Creating a bounding box as stand in.
+Object streetLamp missing width, set to bounding box width 0.05
+Failed to load road object model file: trafficSign.osgb (trafficSign). Creating a bounding box as stand in.
+Object trafficSign missing length, set to bounding box length 0.05
+Object trafficSign missing width, set to bounding box width 0.05
+Failed to load road object model file: trafficSign.osgb (trafficSign). Creating a bounding box as stand in.
+Object trafficSign missing length, set to bounding box length 0.05
+Object trafficSign missing width, set to bounding box width 0.05
+Failed to load road object model file: building.osgb (building). Creating a bounding box as stand in.
+Failed to load road object model file: building.osgb (building). Creating a bounding box as stand in.
+Object building missing length, set to bounding box length 0.05
+Object building missing width, set to bounding box width 0.05
+Failed to load road object model file: building.osgb (building). Creating a bounding box as stand in.
+Object building missing length, set to bounding box length 0.05
+Object building missing width, set to bounding box width 0.05
+Failed to load road object model file: wall.osgb (wall). Creating a bounding box as stand in.
+Object wall missing length, set to bounding box length 0.05
+Object wall missing width, set to bounding box width 0.05
+Failed to load road object model file: building.osgb (building). Creating a bounding box as stand in.
+Object building missing length, set to bounding box length 0.05
+Object building missing width, set to bounding box width 0.05
+Failed to load road object model file: wall.osgb (wall). Creating a bounding box as stand in.
+Object wall missing length, set to bounding box length 0.05
+Object wall missing width, set to bounding box width 0.05
+Failed to load road object model file: wall.osgb (wall). Creating a bounding box as stand in.
+Object wall missing length, set to bounding box length 0.05
+Object wall missing width, set to bounding box width 0.05
+Failed to load road object model file: building.osgb (building). Creating a bounding box as stand in.
+Object building missing length, set to bounding box length 0.05
+Object building missing width, set to bounding box width 0.05
+Failed to load road object model file: wall.osgb (wall). Creating a bounding box as stand in.
+Object wall missing length, set to bounding box length 0.05
+Object wall missing width, set to bounding box width 0.05
+Failed to load road object model file: arrowStraightRight.osgb (arrowStraightRight). Creating a bounding box as stand in.
+Object arrowStraightRight missing length, set to bounding box length 0.05
+Object arrowStraightRight missing width, set to bounding box width 0.05
+Object arrowStraightRight missing height, set to bounding box height 0.05
+Failed to load road object model file: arrowStraightLeft.osgb (arrowStraightLeft). Creating a bounding box as stand in.
+Object arrowStraightLeft missing length, set to bounding box length 0.05
+Object arrowStraightLeft missing width, set to bounding box width 0.05
+Object arrowStraightLeft missing height, set to bounding box height 0.05
+Failed to load road object model file: arrowStraightRight.osgb (arrowStraightRight). Creating a bounding box as stand in.
+Object arrowStraightRight missing length, set to bounding box length 0.05
+Object arrowStraightRight missing width, set to bounding box width 0.05
+Object arrowStraightRight missing height, set to bounding box height 0.05
+Failed to load road object model file: arrowStraightLeft.osgb (arrowStraightLeft). Creating a bounding box as stand in.
+Object arrowStraightLeft missing length, set to bounding box length 0.05
+Object arrowStraightLeft missing width, set to bounding box width 0.05
+Object arrowStraightLeft missing height, set to bounding box height 0.05
+Failed to load road object model file: wall.osgb (wall). Creating a bounding box as stand in.
+Object wall missing length, set to bounding box length 0.05
+Object wall missing width, set to bounding box width 0.05
+Failed to load road object model file: building.osgb (building). Creating a bounding box as stand in.
+Failed to load road object model file: arrowStraightRight.osgb (arrowStraightRight). Creating a bounding box as stand in.
+Object arrowStraightRight missing length, set to bounding box length 0.05
+Object arrowStraightRight missing width, set to bounding box width 0.05
+Object arrowStraightRight missing height, set to bounding box height 0.05
+Failed to load road object model file: arrowLeft.osgb (arrowLeft). Creating a bounding box as stand in.
+Object arrowLeft missing length, set to bounding box length 0.05
+Object arrowLeft missing width, set to bounding box width 0.05
+Object arrowLeft missing height, set to bounding box height 0.05
+Failed to load road object model file: arrowStraight.osgb (arrowStraight). Creating a bounding box as stand in.
+Object arrowStraight missing length, set to bounding box length 0.05
+Object arrowStraight missing width, set to bounding box width 0.05
+Object arrowStraight missing height, set to bounding box height 0.05
+Failed to load road object model file: controllerBox.osgb (controllerBox). Creating a bounding box as stand in.
+Object controllerBox missing height, set to bounding box height 0.05
+Failed to load road object model file: wall.osgb (wall). Creating a bounding box as stand in.
+Object wall missing length, set to bounding box length 0.05
+Object wall missing width, set to bounding box width 0.05
+Failed to load signal deu_432_20--1.osgb / Richtzeichen.osgb - use simple bounding box
+Failed to load signal deu_283_10--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_-1--1.osgb / Privat.osgb - use simple bounding box
+Failed to load signal deu_-1--1.osgb / Privat.osgb - use simple bounding box
+Failed to load signal deu_458--1.osgb / Richtzeichen.osgb - use simple bounding box
+Failed to load signal deu_297--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_297--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_297--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_-1--1.osgb / Privat.osgb - use simple bounding box
+Failed to load signal deu_138_10--1.osgb / Gefahrzeichen.osgb - use simple bounding box
+Failed to load signal deu_1000_20--1.osgb / Zusatzzeichen.osgb - use simple bounding box
+Failed to load signal deu_-1--1.osgb / Privat.osgb - use simple bounding box
+Failed to load signal deu_-1--1.osgb / Privat.osgb - use simple bounding box
+Failed to load signal deu_-1--1.osgb / Privat.osgb - use simple bounding box
+Failed to load signal deu_297--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_297--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_297--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_297--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load road object model file: streetLamp.osgb (streetLamp). Creating a bounding box as stand in.
+Object streetLamp missing width, set to bounding box width 0.05
+Failed to load road object model file: trafficSign.osgb (trafficSign). Creating a bounding box as stand in.
+Object trafficSign missing length, set to bounding box length 0.05
+Object trafficSign missing width, set to bounding box width 0.05
+Failed to load road object model file: trafficSign.osgb (trafficSign). Creating a bounding box as stand in.
+Object trafficSign missing length, set to bounding box length 0.05
+Object trafficSign missing width, set to bounding box width 0.05
+Failed to load road object model file: streetLamp.osgb (streetLamp). Creating a bounding box as stand in.
+Object streetLamp missing width, set to bounding box width 0.05
+Failed to load road object model file: trafficSign.osgb (trafficSign). Creating a bounding box as stand in.
+Object trafficSign missing length, set to bounding box length 0.05
+Object trafficSign missing width, set to bounding box width 0.05
+Failed to load road object model file: trafficSign.osgb (trafficSign). Creating a bounding box as stand in.
+Object trafficSign missing length, set to bounding box length 0.05
+Object trafficSign missing width, set to bounding box width 0.05
+Failed to load road object model file: trafficSign.osgb (trafficSign). Creating a bounding box as stand in.
+Object trafficSign missing length, set to bounding box length 0.05
+Object trafficSign missing width, set to bounding box width 0.05
+Object pole missing length, set to bounding box length 0.06
+Object pole missing width, set to bounding box width 0.06
+Failed to load road object model file: arrowStraightLeft.osgb (arrowStraightLeft). Creating a bounding box as stand in.
+Object arrowStraightLeft missing length, set to bounding box length 0.05
+Object arrowStraightLeft missing width, set to bounding box width 0.05
+Object arrowStraightLeft missing height, set to bounding box height 0.05
+Failed to load road object model file: arrowStraight.osgb (arrowStraight). Creating a bounding box as stand in.
+Object arrowStraight missing length, set to bounding box length 0.05
+Object arrowStraight missing width, set to bounding box width 0.05
+Object arrowStraight missing height, set to bounding box height 0.05
+Failed to load road object model file: arrowRight.osgb (arrowRight). Creating a bounding box as stand in.
+Object arrowRight missing length, set to bounding box length 0.05
+Object arrowRight missing width, set to bounding box width 0.05
+Object arrowRight missing height, set to bounding box height 0.05
+Failed to load road object model file: arrowStraight.osgb (arrowStraight). Creating a bounding box as stand in.
+Object arrowStraight missing length, set to bounding box length 0.05
+Object arrowStraight missing width, set to bounding box width 0.05
+Object arrowStraight missing height, set to bounding box height 0.05
+Failed to load road object model file: arrowStraight.osgb (arrowStraight). Creating a bounding box as stand in.
+Object arrowStraight missing length, set to bounding box length 0.05
+Object arrowStraight missing width, set to bounding box width 0.05
+Object arrowStraight missing height, set to bounding box height 0.05
+Failed to load road object model file: arrowRight.osgb (arrowRight). Creating a bounding box as stand in.
+Object arrowRight missing length, set to bounding box length 0.05
+Object arrowRight missing width, set to bounding box width 0.05
+Object arrowRight missing height, set to bounding box height 0.05
+Failed to load road object model file: arrowLeft.osgb (arrowLeft). Creating a bounding box as stand in.
+Object arrowLeft missing length, set to bounding box length 0.05
+Object arrowLeft missing width, set to bounding box width 0.05
+Object arrowLeft missing height, set to bounding box height 0.05
+Failed to load road object model file: fence.osgb (fence). Creating a bounding box as stand in.
+Failed to load signal deu_224--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_297--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_297--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_-1--1.osgb / Privat.osgb - use simple bounding box
+Failed to load road object model file: trafficSign.osgb (trafficSign). Creating a bounding box as stand in.
+Object trafficSign missing length, set to bounding box length 0.05
+Object trafficSign missing width, set to bounding box width 0.05
+Failed to load road object model file: streetLamp.osgb (streetLamp). Creating a bounding box as stand in.
+Object streetLamp missing width, set to bounding box width 0.05
+Failed to load road object model file: BUS.osgb (BUS). Creating a bounding box as stand in.
+Object BUS missing height, set to bounding box height 0.05
+Failed to load road object model file: building.osgb (building). Creating a bounding box as stand in.
+Object building missing length, set to bounding box length 0.05
+Object building missing width, set to bounding box width 0.05
+Failed to load road object model file: arrowStraightRight.osgb (arrowStraightRight). Creating a bounding box as stand in.
+Object arrowStraightRight missing length, set to bounding box length 0.05
+Object arrowStraightRight missing width, set to bounding box width 0.05
+Object arrowStraightRight missing height, set to bounding box height 0.05
+Failed to load road object model file: arrowStraight.osgb (arrowStraight). Creating a bounding box as stand in.
+Object arrowStraight missing length, set to bounding box length 0.05
+Object arrowStraight missing width, set to bounding box width 0.05
+Object arrowStraight missing height, set to bounding box height 0.05
+Failed to load road object model file: building.osgb (building). Creating a bounding box as stand in.
+Object building missing length, set to bounding box length 0.05
+Object building missing width, set to bounding box width 0.05
+Failed to load road object model file: BUS.osgb (BUS). Creating a bounding box as stand in.
+Object BUS missing length, set to bounding box length 0.05
+Object BUS missing width, set to bounding box width 0.05
+Object BUS missing height, set to bounding box height 0.05
+Failed to load signal deu_297--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_297--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_283_30--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_297--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_297--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_241_30--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_1012--1.osgb / Zusatzzeichen.osgb - use simple bounding box
+Failed to load signal deu_297--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_297--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_297--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_297--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_297--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_297--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load road object model file: tree.osgb (tree). Creating a bounding box as stand in.
+Object tree missing length, set to bounding box length 0.05
+Object tree missing width, set to bounding box width 0.05
+Failed to load road object model file: tree.osgb (tree). Creating a bounding box as stand in.
+Object tree missing length, set to bounding box length 0.05
+Object tree missing width, set to bounding box width 0.05
+Failed to load road object model file: tree.osgb (tree). Creating a bounding box as stand in.
+Object tree missing length, set to bounding box length 0.05
+Object tree missing width, set to bounding box width 0.05
+Failed to load road object model file: streetLamp.osgb (streetLamp). Creating a bounding box as stand in.
+Object streetLamp missing width, set to bounding box width 0.05
+Failed to load road object model file: trafficSign.osgb (trafficSign). Creating a bounding box as stand in.
+Object trafficSign missing length, set to bounding box length 0.05
+Object trafficSign missing width, set to bounding box width 0.05
+Failed to load road object model file: trafficSign.osgb (trafficSign). Creating a bounding box as stand in.
+Object trafficSign missing length, set to bounding box length 0.05
+Object trafficSign missing width, set to bounding box width 0.05
+Failed to load road object model file: streetLamp.osgb (streetLamp). Creating a bounding box as stand in.
+Object streetLamp missing width, set to bounding box width 0.05
+Failed to load road object model file: tree.osgb (tree). Creating a bounding box as stand in.
+Object tree missing length, set to bounding box length 0.05
+Object tree missing width, set to bounding box width 0.05
+Failed to load road object model file: tree.osgb (tree). Creating a bounding box as stand in.
+Object tree missing length, set to bounding box length 0.05
+Object tree missing width, set to bounding box width 0.05
+Failed to load road object model file: streetLamp.osgb (streetLamp). Creating a bounding box as stand in.
+Object streetLamp missing width, set to bounding box width 0.05
+Failed to load road object model file: tree.osgb (tree). Creating a bounding box as stand in.
+Object tree missing length, set to bounding box length 0.05
+Object tree missing width, set to bounding box width 0.05
+Failed to load road object model file: arrowStraight.osgb (arrowStraight). Creating a bounding box as stand in.
+Object arrowStraight missing height, set to bounding box height 0.05
+Failed to load road object model file: arrowLeft.osgb (arrowLeft). Creating a bounding box as stand in.
+Object arrowLeft missing height, set to bounding box height 0.05
+Failed to load road object model file: wall.osgb (wall). Creating a bounding box as stand in.
+Object wall missing length, set to bounding box length 0.05
+Object wall missing width, set to bounding box width 0.05
+Failed to load road object model file: arrowLeft.osgb (arrowLeft). Creating a bounding box as stand in.
+Object arrowLeft missing length, set to bounding box length 0.05
+Object arrowLeft missing width, set to bounding box width 0.05
+Object arrowLeft missing height, set to bounding box height 0.05
+Failed to load road object model file: arrowStraight.osgb (arrowStraight). Creating a bounding box as stand in.
+Object arrowStraight missing length, set to bounding box length 0.05
+Object arrowStraight missing width, set to bounding box width 0.05
+Object arrowStraight missing height, set to bounding box height 0.05
+Failed to load road object model file: arrowLeft.osgb (arrowLeft). Creating a bounding box as stand in.
+Object arrowLeft missing length, set to bounding box length 0.05
+Object arrowLeft missing width, set to bounding box width 0.05
+Object arrowLeft missing height, set to bounding box height 0.05
+Failed to load road object model file: arrowLeft.osgb (arrowLeft). Creating a bounding box as stand in.
+Object arrowLeft missing length, set to bounding box length 0.05
+Object arrowLeft missing width, set to bounding box width 0.05
+Object arrowLeft missing height, set to bounding box height 0.05
+Failed to load road object model file: arrowLeft.osgb (arrowLeft). Creating a bounding box as stand in.
+Object arrowLeft missing length, set to bounding box length 0.05
+Object arrowLeft missing width, set to bounding box width 0.05
+Object arrowLeft missing height, set to bounding box height 0.05
+Failed to load road object model file: arrowStraight.osgb (arrowStraight). Creating a bounding box as stand in.
+Object arrowStraight missing length, set to bounding box length 0.05
+Object arrowStraight missing width, set to bounding box width 0.05
+Object arrowStraight missing height, set to bounding box height 0.05
+Failed to load road object model file: arrowLeft.osgb (arrowLeft). Creating a bounding box as stand in.
+Object arrowLeft missing height, set to bounding box height 0.05
+Failed to load road object model file: arrowLeft.osgb (arrowLeft). Creating a bounding box as stand in.
+Object arrowLeft missing height, set to bounding box height 0.05
+Failed to load road object model file: fence.osgb (fence). Creating a bounding box as stand in.
+Failed to load signal deu_297--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_297--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load road object model file: tree.osgb (tree). Creating a bounding box as stand in.
+Object tree missing length, set to bounding box length 0.05
+Object tree missing width, set to bounding box width 0.05
+Failed to load road object model file: tree.osgb (tree). Creating a bounding box as stand in.
+Object tree missing length, set to bounding box length 0.05
+Object tree missing width, set to bounding box width 0.05
+Failed to load road object model file: streetLamp.osgb (streetLamp). Creating a bounding box as stand in.
+Object streetLamp missing width, set to bounding box width 0.05
+Failed to load road object model file: tree.osgb (tree). Creating a bounding box as stand in.
+Object tree missing length, set to bounding box length 0.05
+Object tree missing width, set to bounding box width 0.05
+Failed to load road object model file: tree.osgb (tree). Creating a bounding box as stand in.
+Object tree missing length, set to bounding box length 0.05
+Object tree missing width, set to bounding box width 0.05
+Failed to load road object model file: trafficSign.osgb (trafficSign). Creating a bounding box as stand in.
+Object trafficSign missing length, set to bounding box length 0.05
+Object trafficSign missing width, set to bounding box width 0.05
+Failed to load road object model file: wall.osgb (wall). Creating a bounding box as stand in.
+Object wall missing length, set to bounding box length 0.05
+Object wall missing width, set to bounding box width 0.05
+Failed to load road object model file: arrowRight.osgb (arrowRight). Creating a bounding box as stand in.
+Object arrowRight missing length, set to bounding box length 0.05
+Object arrowRight missing width, set to bounding box width 0.05
+Object arrowRight missing height, set to bounding box height 0.05
+Failed to load road object model file: arrowStraight.osgb (arrowStraight). Creating a bounding box as stand in.
+Object arrowStraight missing length, set to bounding box length 0.05
+Object arrowStraight missing width, set to bounding box width 0.05
+Object arrowStraight missing height, set to bounding box height 0.05
+Failed to load road object model file: wall.osgb (wall). Creating a bounding box as stand in.
+Object wall missing length, set to bounding box length 0.05
+Object wall missing width, set to bounding box width 0.05
+Failed to load road object model file: 30.osgb (30). Creating a bounding box as stand in.
+Object 30 missing length, set to bounding box length 0.05
+Object 30 missing width, set to bounding box width 0.05
+Object 30 missing height, set to bounding box height 0.05
+Failed to load road object model file: wall.osgb (wall). Creating a bounding box as stand in.
+Object wall missing length, set to bounding box length 0.05
+Object wall missing width, set to bounding box width 0.05
+Failed to load signal deu_297--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_297--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_-1--1.osgb / Privat.osgb - use simple bounding box
+Failed to load signal deu_605_20--1.osgb / Verkehrseinrichtungen.osgb - use simple bounding box
+Failed to load signal deu_222--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_294--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_294--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_1000001--1.osgb / TrafficLight.osgb - use simple bounding box
+Failed to load signal deu_1000007--1.osgb / TrafficLight.osgb - use simple bounding box
+Failed to load signal deu_293--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_1000001--1.osgb / TrafficLight.osgb - use simple bounding box
+Failed to load signal deu_1000001--1.osgb / TrafficLight.osgb - use simple bounding box
+Failed to load signal deu_306--1.osgb / Richtzeichen.osgb - use simple bounding box
+Failed to load signal deu_1000007--1.osgb / TrafficLight.osgb - use simple bounding box
+Failed to load signal deu_293--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_437--1.osgb / Richtzeichen.osgb - use simple bounding box
+Failed to load signal deu_626_20--1.osgb / Verkehrseinrichtungen.osgb - use simple bounding box
+Failed to load signal deu_222--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_293--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_1000007--1.osgb / TrafficLight.osgb - use simple bounding box
+Failed to load signal deu_293--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_1000007--1.osgb / TrafficLight.osgb - use simple bounding box
+Failed to load signal deu_297--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_297--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load road object model file: trafficSign.osgb (trafficSign). Creating a bounding box as stand in.
+Object trafficSign missing length, set to bounding box length 0.05
+Object trafficSign missing width, set to bounding box width 0.05
+Failed to load road object model file: streetLamp.osgb (streetLamp). Creating a bounding box as stand in.
+Object streetLamp missing width, set to bounding box width 0.05
+Failed to load road object model file: trafficLight.osgb (trafficLight). Creating a bounding box as stand in.
+Object trafficLight missing length, set to bounding box length 0.05
+Object trafficLight missing width, set to bounding box width 0.05
+Failed to load road object model file: trafficLight.osgb (trafficLight). Creating a bounding box as stand in.
+Object trafficLight missing width, set to bounding box width 0.05
+Failed to load road object model file: streetLamp.osgb (streetLamp). Creating a bounding box as stand in.
+Object streetLamp missing width, set to bounding box width 0.05
+Failed to load road object model file: tree.osgb (tree). Creating a bounding box as stand in.
+Object tree missing length, set to bounding box length 0.05
+Object tree missing width, set to bounding box width 0.05
+Failed to load road object model file: trafficLight.osgb (trafficLight). Creating a bounding box as stand in.
+Object trafficLight missing length, set to bounding box length 0.05
+Object trafficLight missing width, set to bounding box width 0.05
+Failed to load road object model file: trafficLight.osgb (trafficLight). Creating a bounding box as stand in.
+Object trafficLight missing length, set to bounding box length 0.05
+Object trafficLight missing width, set to bounding box width 0.05
+Failed to load road object model file: streetLamp.osgb (streetLamp). Creating a bounding box as stand in.
+Object streetLamp missing width, set to bounding box width 0.05
+Failed to load road object model file: tree.osgb (tree). Creating a bounding box as stand in.
+Object tree missing length, set to bounding box length 0.05
+Object tree missing width, set to bounding box width 0.05
+Failed to load road object model file: tree.osgb (tree). Creating a bounding box as stand in.
+Object tree missing length, set to bounding box length 0.05
+Object tree missing width, set to bounding box width 0.05
+Failed to load road object model file: arrowStraightRight.osgb (arrowStraightRight). Creating a bounding box as stand in.
+Object arrowStraightRight missing height, set to bounding box height 0.05
+Failed to load road object model file: arrowStraight.osgb (arrowStraight). Creating a bounding box as stand in.
+Object arrowStraight missing height, set to bounding box height 0.05
+Failed to load road object model file: roadMark.osgb (roadMark). Creating a bounding box as stand in.
+Object roadMark missing length, set to bounding box length 0.05
+Object roadMark missing width, set to bounding box width 0.05
+Object roadMark missing height, set to bounding box height 0.05
+Failed to load road object model file: crossWalk.osgb (crossWalk). Creating a bounding box as stand in.
+Object crossWalk missing height, set to bounding box height 0.05
+Failed to load road object model file: roadMark.osgb (roadMark). Creating a bounding box as stand in.
+Object roadMark missing length, set to bounding box length 0.05
+Object roadMark missing width, set to bounding box width 0.05
+Object roadMark missing height, set to bounding box height 0.05
+Failed to load road object model file: roadMark.osgb (roadMark). Creating a bounding box as stand in.
+Object roadMark missing length, set to bounding box length 0.05
+Object roadMark missing width, set to bounding box width 0.05
+Object roadMark missing height, set to bounding box height 0.05
+Failed to load road object model file: crossWalk.osgb (crossWalk). Creating a bounding box as stand in.
+Object crossWalk missing length, set to bounding box length 0.05
+Object crossWalk missing width, set to bounding box width 0.05
+Object crossWalk missing height, set to bounding box height 0.05
+Failed to load road object model file: trafficIsland.osgb (trafficIsland). Creating a bounding box as stand in.
+Object trafficIsland missing length, set to bounding box length 0.05
+Object trafficIsland missing width, set to bounding box width 0.05
+Failed to load road object model file: building.osgb (building). Creating a bounding box as stand in.
+Object building missing length, set to bounding box length 0.05
+Object building missing width, set to bounding box width 0.05
+Failed to load road object model file: roadMark.osgb (roadMark). Creating a bounding box as stand in.
+Object roadMark missing length, set to bounding box length 0.05
+Object roadMark missing width, set to bounding box width 0.05
+Object roadMark missing height, set to bounding box height 0.05
+Failed to load road object model file: roadMark.osgb (roadMark). Creating a bounding box as stand in.
+Object roadMark missing length, set to bounding box length 0.05
+Object roadMark missing width, set to bounding box width 0.05
+Object roadMark missing height, set to bounding box height 0.05
+Failed to load road object model file: controllerBox.osgb (controllerBox). Creating a bounding box as stand in.
+Object controllerBox missing height, set to bounding box height 0.05
+Failed to load road object model file: crossWalk.osgb (crossWalk). Creating a bounding box as stand in.
+Object crossWalk missing length, set to bounding box length 0.05
+Object crossWalk missing width, set to bounding box width 0.05
+Object crossWalk missing height, set to bounding box height 0.05
+Failed to load road object model file: controllerBox.osgb (controllerBox). Creating a bounding box as stand in.
+Object controllerBox missing height, set to bounding box height 0.05
+Failed to load road object model file: roadMark.osgb (roadMark). Creating a bounding box as stand in.
+Object roadMark missing length, set to bounding box length 0.05
+Object roadMark missing width, set to bounding box width 0.05
+Object roadMark missing height, set to bounding box height 0.05
+Failed to load road object model file: crossWalk.osgb (crossWalk). Creating a bounding box as stand in.
+Object crossWalk missing length, set to bounding box length 0.05
+Object crossWalk missing width, set to bounding box width 0.05
+Object crossWalk missing height, set to bounding box height 0.05
+Failed to load road object model file: arrowStraight.osgb (arrowStraight). Creating a bounding box as stand in.
+Object arrowStraight missing length, set to bounding box length 0.05
+Object arrowStraight missing width, set to bounding box width 0.05
+Object arrowStraight missing height, set to bounding box height 0.05
+Failed to load road object model file: arrowStraight.osgb (arrowStraight). Creating a bounding box as stand in.
+Object arrowStraight missing length, set to bounding box length 0.05
+Object arrowStraight missing width, set to bounding box width 0.05
+Object arrowStraight missing height, set to bounding box height 0.05
+Failed to load road object model file: raisedMedian.osgb (raisedMedian). Creating a bounding box as stand in.
+Object raisedMedian missing length, set to bounding box length 0.05
+Object raisedMedian missing width, set to bounding box width 0.05
+Failed to load signal deu_297--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_297--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_294--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_294--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_1000001--1.osgb / TrafficLight.osgb - use simple bounding box
+Failed to load signal deu_1000001--1.osgb / TrafficLight.osgb - use simple bounding box
+Failed to load signal deu_1000001--1.osgb / TrafficLight.osgb - use simple bounding box
+Failed to load signal deu_306--1.osgb / Richtzeichen.osgb - use simple bounding box
+Failed to load signal deu_1000007--1.osgb / TrafficLight.osgb - use simple bounding box
+Failed to load signal deu_293--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_1000007--1.osgb / TrafficLight.osgb - use simple bounding box
+Failed to load signal deu_293--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_437--1.osgb / Richtzeichen.osgb - use simple bounding box
+Failed to load signal deu_222--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_293--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_1000007--1.osgb / TrafficLight.osgb - use simple bounding box
+Failed to load signal deu_293--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_283_10--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_1000007--1.osgb / TrafficLight.osgb - use simple bounding box
+Failed to load road object model file: trafficSign.osgb (trafficSign). Creating a bounding box as stand in.
+Object trafficSign missing length, set to bounding box length 0.05
+Object trafficSign missing width, set to bounding box width 0.05
+Failed to load road object model file: trafficSign.osgb (trafficSign). Creating a bounding box as stand in.
+Object trafficSign missing length, set to bounding box length 0.05
+Object trafficSign missing width, set to bounding box width 0.05
+Failed to load road object model file: trafficSign.osgb (trafficSign). Creating a bounding box as stand in.
+Object trafficSign missing length, set to bounding box length 0.05
+Object trafficSign missing width, set to bounding box width 0.05
+Failed to load road object model file: tree.osgb (tree). Creating a bounding box as stand in.
+Object tree missing length, set to bounding box length 0.05
+Object tree missing width, set to bounding box width 0.05
+Failed to load road object model file: trafficLight.osgb (trafficLight). Creating a bounding box as stand in.
+Object trafficLight missing length, set to bounding box length 0.05
+Object trafficLight missing width, set to bounding box width 0.05
+Failed to load road object model file: trafficLight.osgb (trafficLight). Creating a bounding box as stand in.
+Object trafficLight missing width, set to bounding box width 0.05
+Failed to load road object model file: streetLamp.osgb (streetLamp). Creating a bounding box as stand in.
+Object streetLamp missing width, set to bounding box width 0.05
+Failed to load road object model file: trafficLight.osgb (trafficLight). Creating a bounding box as stand in.
+Object trafficLight missing width, set to bounding box width 0.05
+Failed to load road object model file: tree.osgb (tree). Creating a bounding box as stand in.
+Object tree missing length, set to bounding box length 0.05
+Object tree missing width, set to bounding box width 0.05
+Failed to load road object model file: tree.osgb (tree). Creating a bounding box as stand in.
+Object tree missing length, set to bounding box length 0.05
+Object tree missing width, set to bounding box width 0.05
+Failed to load road object model file: arrowStraight.osgb (arrowStraight). Creating a bounding box as stand in.
+Object arrowStraight missing length, set to bounding box length 0.05
+Object arrowStraight missing width, set to bounding box width 0.05
+Object arrowStraight missing height, set to bounding box height 0.05
+Failed to load road object model file: arrowStraight.osgb (arrowStraight). Creating a bounding box as stand in.
+Object arrowStraight missing length, set to bounding box length 0.05
+Object arrowStraight missing width, set to bounding box width 0.05
+Object arrowStraight missing height, set to bounding box height 0.05
+Failed to load road object model file: trafficIsland.osgb (trafficIsland). Creating a bounding box as stand in.
+Object trafficIsland missing length, set to bounding box length 0.05
+Object trafficIsland missing width, set to bounding box width 0.05
+Failed to load road object model file: roadMark.osgb (roadMark). Creating a bounding box as stand in.
+Object roadMark missing length, set to bounding box length 0.05
+Object roadMark missing width, set to bounding box width 0.05
+Object roadMark missing height, set to bounding box height 0.05
+Failed to load road object model file: crossWalk.osgb (crossWalk). Creating a bounding box as stand in.
+Object crossWalk missing height, set to bounding box height 0.05
+Failed to load road object model file: roadMark.osgb (roadMark). Creating a bounding box as stand in.
+Object roadMark missing length, set to bounding box length 0.05
+Object roadMark missing width, set to bounding box width 0.05
+Object roadMark missing height, set to bounding box height 0.05
+Failed to load road object model file: crossWalk.osgb (crossWalk). Creating a bounding box as stand in.
+Object crossWalk missing length, set to bounding box length 0.05
+Object crossWalk missing width, set to bounding box width 0.05
+Object crossWalk missing height, set to bounding box height 0.05
+Failed to load road object model file: roadMark.osgb (roadMark). Creating a bounding box as stand in.
+Object roadMark missing length, set to bounding box length 0.05
+Object roadMark missing width, set to bounding box width 0.05
+Object roadMark missing height, set to bounding box height 0.05
+Failed to load road object model file: roadMark.osgb (roadMark). Creating a bounding box as stand in.
+Object roadMark missing length, set to bounding box length 0.05
+Object roadMark missing width, set to bounding box width 0.05
+Object roadMark missing height, set to bounding box height 0.05
+Failed to load road object model file: crossWalk.osgb (crossWalk). Creating a bounding box as stand in.
+Object crossWalk missing length, set to bounding box length 0.05
+Object crossWalk missing width, set to bounding box width 0.05
+Object crossWalk missing height, set to bounding box height 0.05
+Failed to load road object model file: roadMark.osgb (roadMark). Creating a bounding box as stand in.
+Object roadMark missing length, set to bounding box length 0.05
+Object roadMark missing width, set to bounding box width 0.05
+Object roadMark missing height, set to bounding box height 0.05
+Failed to load road object model file: roadMark.osgb (roadMark). Creating a bounding box as stand in.
+Object roadMark missing length, set to bounding box length 0.05
+Object roadMark missing width, set to bounding box width 0.05
+Object roadMark missing height, set to bounding box height 0.05
+Failed to load road object model file: crossWalk.osgb (crossWalk). Creating a bounding box as stand in.
+Object crossWalk missing length, set to bounding box length 0.05
+Object crossWalk missing width, set to bounding box width 0.05
+Object crossWalk missing height, set to bounding box height 0.05
+Failed to load road object model file: wall.osgb (wall). Creating a bounding box as stand in.
+Object wall missing length, set to bounding box length 0.05
+Object wall missing width, set to bounding box width 0.05
+Failed to load road object model file: fence.osgb (fence). Creating a bounding box as stand in.
+Failed to load road object model file: wall.osgb (wall). Creating a bounding box as stand in.
+Object wall missing length, set to bounding box length 0.05
+Object wall missing width, set to bounding box width 0.05
+Failed to load road object model file: wall.osgb (wall). Creating a bounding box as stand in.
+Object wall missing length, set to bounding box length 0.05
+Object wall missing width, set to bounding box width 0.05
+Failed to load signal deu_297--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_294--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load road object model file: trafficSign.osgb (trafficSign). Creating a bounding box as stand in.
+Object trafficSign missing length, set to bounding box length 0.05
+Object trafficSign missing width, set to bounding box width 0.05
+Failed to load road object model file: trafficLight.osgb (trafficLight). Creating a bounding box as stand in.
+Object trafficLight missing width, set to bounding box width 0.05
+Failed to load road object model file: arrowLeft.osgb (arrowLeft). Creating a bounding box as stand in.
+Object arrowLeft missing height, set to bounding box height 0.05
+Failed to load signal deu_297--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_294--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_1000008--1.osgb / TrafficLight.osgb - use simple bounding box
+Failed to load road object model file: trafficSign.osgb (trafficSign). Creating a bounding box as stand in.
+Object trafficSign missing length, set to bounding box length 0.05
+Object trafficSign missing width, set to bounding box width 0.05
+Failed to load road object model file: arrowRight.osgb (arrowRight). Creating a bounding box as stand in.
+Object arrowRight missing height, set to bounding box height 0.05
+Failed to load road object model file: stopLine.osgb (stopLine). Creating a bounding box as stand in.
+Object stopLine missing length, set to bounding box length 0.05
+Object stopLine missing width, set to bounding box width 0.05
+Object stopLine missing height, set to bounding box height 0.05
+Failed to load road object model file: building.osgb (building). Creating a bounding box as stand in.
+Failed to load signal deu_297--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_605_20--1.osgb / Verkehrseinrichtungen.osgb - use simple bounding box
+Failed to load signal deu_222--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_294--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_1000001--1.osgb / TrafficLight.osgb - use simple bounding box
+Failed to load signal deu_1000002--1.osgb / TrafficLight.osgb - use simple bounding box
+Failed to load signal deu_293--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_1000001--1.osgb / TrafficLight.osgb - use simple bounding box
+Failed to load signal deu_1000002--1.osgb / TrafficLight.osgb - use simple bounding box
+Failed to load signal deu_293--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_626_20--1.osgb / Verkehrseinrichtungen.osgb - use simple bounding box
+Failed to load signal deu_222--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_293--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_1000002--1.osgb / TrafficLight.osgb - use simple bounding box
+Failed to load signal deu_293--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_1000002--1.osgb / TrafficLight.osgb - use simple bounding box
+Failed to load signal deu_205--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_283_10--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_297--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load road object model file: trafficLight.osgb (trafficLight). Creating a bounding box as stand in.
+Object trafficLight missing length, set to bounding box length 0.05
+Object trafficLight missing width, set to bounding box width 0.05
+Failed to load road object model file: trafficLight.osgb (trafficLight). Creating a bounding box as stand in.
+Object trafficLight missing width, set to bounding box width 0.05
+Failed to load road object model file: trafficLight.osgb (trafficLight). Creating a bounding box as stand in.
+Object trafficLight missing width, set to bounding box width 0.05
+Failed to load road object model file: tree.osgb (tree). Creating a bounding box as stand in.
+Object tree missing length, set to bounding box length 0.05
+Object tree missing width, set to bounding box width 0.05
+Failed to load road object model file: arrowStraight.osgb (arrowStraight). Creating a bounding box as stand in.
+Object arrowStraight missing height, set to bounding box height 0.05
+Failed to load road object model file: trafficIsland.osgb (trafficIsland). Creating a bounding box as stand in.
+Object trafficIsland missing length, set to bounding box length 0.05
+Object trafficIsland missing width, set to bounding box width 0.05
+Failed to load road object model file: stopLine.osgb (stopLine). Creating a bounding box as stand in.
+Object stopLine missing length, set to bounding box length 0.05
+Object stopLine missing width, set to bounding box width 0.05
+Object stopLine missing height, set to bounding box height 0.05
+Failed to load road object model file: roadMark.osgb (roadMark). Creating a bounding box as stand in.
+Object roadMark missing length, set to bounding box length 0.05
+Object roadMark missing width, set to bounding box width 0.05
+Object roadMark missing height, set to bounding box height 0.05
+Failed to load road object model file: roadMark.osgb (roadMark). Creating a bounding box as stand in.
+Object roadMark missing length, set to bounding box length 0.05
+Object roadMark missing width, set to bounding box width 0.05
+Object roadMark missing height, set to bounding box height 0.05
+Failed to load road object model file: crossWalk.osgb (crossWalk). Creating a bounding box as stand in.
+Object crossWalk missing length, set to bounding box length 0.05
+Object crossWalk missing width, set to bounding box width 0.05
+Object crossWalk missing height, set to bounding box height 0.05
+Failed to load road object model file: roadMark.osgb (roadMark). Creating a bounding box as stand in.
+Object roadMark missing length, set to bounding box length 0.05
+Object roadMark missing width, set to bounding box width 0.05
+Object roadMark missing height, set to bounding box height 0.05
+Failed to load road object model file: crossWalk.osgb (crossWalk). Creating a bounding box as stand in.
+Object crossWalk missing length, set to bounding box length 0.05
+Object crossWalk missing width, set to bounding box width 0.05
+Object crossWalk missing height, set to bounding box height 0.05
+Failed to load road object model file: roadMark.osgb (roadMark). Creating a bounding box as stand in.
+Object roadMark missing length, set to bounding box length 0.05
+Object roadMark missing width, set to bounding box width 0.05
+Object roadMark missing height, set to bounding box height 0.05
+Failed to load road object model file: roadMark.osgb (roadMark). Creating a bounding box as stand in.
+Object roadMark missing length, set to bounding box length 0.05
+Object roadMark missing width, set to bounding box width 0.05
+Object roadMark missing height, set to bounding box height 0.05
+Failed to load road object model file: crossWalk.osgb (crossWalk). Creating a bounding box as stand in.
+Object crossWalk missing length, set to bounding box length 0.05
+Object crossWalk missing width, set to bounding box width 0.05
+Object crossWalk missing height, set to bounding box height 0.05
+Failed to load road object model file: roadMark.osgb (roadMark). Creating a bounding box as stand in.
+Object roadMark missing length, set to bounding box length 0.05
+Object roadMark missing width, set to bounding box width 0.05
+Object roadMark missing height, set to bounding box height 0.05
+Failed to load road object model file: crossWalk.osgb (crossWalk). Creating a bounding box as stand in.
+Object crossWalk missing length, set to bounding box length 0.05
+Object crossWalk missing width, set to bounding box width 0.05
+Object crossWalk missing height, set to bounding box height 0.05
+Failed to load road object model file: arrowStraightLeft.osgb (arrowStraightLeft). Creating a bounding box as stand in.
+Object arrowStraightLeft missing height, set to bounding box height 0.05
+Failed to load signal deu_293--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_293--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_293--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load road object model file: streetLamp.osgb (streetLamp). Creating a bounding box as stand in.
+Object streetLamp missing width, set to bounding box width 0.05
+Failed to load road object model file: trafficSign.osgb (trafficSign). Creating a bounding box as stand in.
+Object trafficSign missing length, set to bounding box length 0.05
+Object trafficSign missing width, set to bounding box width 0.05
+Failed to load road object model file: roadMark.osgb (roadMark). Creating a bounding box as stand in.
+Object roadMark missing length, set to bounding box length 0.05
+Object roadMark missing width, set to bounding box width 0.05
+Object roadMark missing height, set to bounding box height 0.05
+Failed to load road object model file: crossWalk.osgb (crossWalk). Creating a bounding box as stand in.
+Object crossWalk missing length, set to bounding box length 0.05
+Object crossWalk missing width, set to bounding box width 0.05
+Object crossWalk missing height, set to bounding box height 0.05
+Failed to load road object model file: roadMark.osgb (roadMark). Creating a bounding box as stand in.
+Object roadMark missing length, set to bounding box length 0.05
+Object roadMark missing width, set to bounding box width 0.05
+Object roadMark missing height, set to bounding box height 0.05
+Failed to load road object model file: crossWalk.osgb (crossWalk). Creating a bounding box as stand in.
+Object crossWalk missing length, set to bounding box length 0.05
+Object crossWalk missing width, set to bounding box width 0.05
+Object crossWalk missing height, set to bounding box height 0.05
+Failed to load road object model file: roadMark.osgb (roadMark). Creating a bounding box as stand in.
+Object roadMark missing length, set to bounding box length 0.05
+Object roadMark missing width, set to bounding box width 0.05
+Object roadMark missing height, set to bounding box height 0.05
+Failed to load road object model file: crossWalk.osgb (crossWalk). Creating a bounding box as stand in.
+Object crossWalk missing length, set to bounding box length 0.05
+Object crossWalk missing width, set to bounding box width 0.05
+Object crossWalk missing height, set to bounding box height 0.05
+Failed to load road object model file: roadMark.osgb (roadMark). Creating a bounding box as stand in.
+Object roadMark missing length, set to bounding box length 0.05
+Object roadMark missing width, set to bounding box width 0.05
+Object roadMark missing height, set to bounding box height 0.05
+Failed to load signal deu_297--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_293--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_293--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load road object model file: arrowLeft.osgb (arrowLeft). Creating a bounding box as stand in.
+Object arrowLeft missing height, set to bounding box height 0.05
+Failed to load road object model file: crossWalk.osgb (crossWalk). Creating a bounding box as stand in.
+Object crossWalk missing length, set to bounding box length 0.05
+Object crossWalk missing width, set to bounding box width 0.05
+Object crossWalk missing height, set to bounding box height 0.05
+Failed to load road object model file: crossWalk.osgb (crossWalk). Creating a bounding box as stand in.
+Object crossWalk missing length, set to bounding box length 0.05
+Object crossWalk missing width, set to bounding box width 0.05
+Object crossWalk missing height, set to bounding box height 0.05
+Object pole missing length, set to bounding box length 0.06
+Object pole missing width, set to bounding box width 0.06
+Object pole missing length, set to bounding box length 0.06
+Object pole missing width, set to bounding box width 0.06
+Failed to load signal deu_222--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_297--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_297--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_294--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_294--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_1000011_10--1.osgb / TrafficLight.osgb - use simple bounding box
+Failed to load signal deu_1000011_10--1.osgb / TrafficLight.osgb - use simple bounding box
+Failed to load road object model file: trafficSign.osgb (trafficSign). Creating a bounding box as stand in.
+Object trafficSign missing length, set to bounding box length 0.05
+Object trafficSign missing width, set to bounding box width 0.05
+Failed to load road object model file: trafficLight.osgb (trafficLight). Creating a bounding box as stand in.
+Object trafficLight missing length, set to bounding box length 0.05
+Object trafficLight missing width, set to bounding box width 0.05
+Failed to load road object model file: trafficIsland.osgb (trafficIsland). Creating a bounding box as stand in.
+Object trafficIsland missing length, set to bounding box length 0.05
+Object trafficIsland missing width, set to bounding box width 0.05
+Failed to load road object model file: arrowLeft.osgb (arrowLeft). Creating a bounding box as stand in.
+Object arrowLeft missing length, set to bounding box length 0.05
+Object arrowLeft missing width, set to bounding box width 0.05
+Object arrowLeft missing height, set to bounding box height 0.05
+Failed to load road object model file: arrowLeft.osgb (arrowLeft). Creating a bounding box as stand in.
+Object arrowLeft missing length, set to bounding box length 0.05
+Object arrowLeft missing width, set to bounding box width 0.05
+Object arrowLeft missing height, set to bounding box height 0.05
+Failed to load road object model file: stopLine.osgb (stopLine). Creating a bounding box as stand in.
+Object stopLine missing length, set to bounding box length 0.05
+Object stopLine missing width, set to bounding box width 0.05
+Object stopLine missing height, set to bounding box height 0.05
+Failed to load road object model file: stopLine.osgb (stopLine). Creating a bounding box as stand in.
+Object stopLine missing length, set to bounding box length 0.05
+Object stopLine missing width, set to bounding box width 0.05
+Object stopLine missing height, set to bounding box height 0.05
+Failed to load signal deu_-1--1.osgb / Privat.osgb - use simple bounding box
+Failed to load signal deu_297--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_294--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_1000002--1.osgb / TrafficLight.osgb - use simple bounding box
+Failed to load signal deu_293--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_1000001--1.osgb / TrafficLight.osgb - use simple bounding box
+Failed to load signal deu_1000001--1.osgb / TrafficLight.osgb - use simple bounding box
+Failed to load signal deu_1000002--1.osgb / TrafficLight.osgb - use simple bounding box
+Failed to load signal deu_293--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_222--1.osgb / Vorschriftzeichen.osgb - use simple bounding box
+Failed to load signal deu_605_20--1.osgb / Verkehrseinrichtungen.osgb - use simple bounding box
+Failed to load signal deu_1000002--1.osgb / TrafficLight.osgb - use simple bounding box
+Failed to load signal deu_1000002--1.osgb / TrafficLight.osgb - use simple bounding box
+Failed to load signal deu_605_20--1.osgb / Verkehrseinrichtungen.osgb - use simple bounding box
+Failed to load road object model file: streetLamp.osgb (streetLamp). Creating a bounding box as stand in.
+Object streetLamp missing width, set to bounding box width 0.05
+Failed to load road object model file: trafficLight.osgb (trafficLight). Creating a bounding box as stand in.
+Object trafficLight missing length, set to bounding box length 0.05
+Object trafficLight missing width, set to bounding box width 0.05
+Failed to load road object model file: trafficLight.osgb (trafficLight). Creating a bounding box as stand in.
+Object trafficLight missing length, set to bounding box length 0.05
+Object trafficLight missing width, set to bounding box width 0.05
+Failed to load road object model file: wall.osgb (wall). Creating a bounding box as stand in.
+Object wall missing length, set to bounding box length 0.05
+Object wall missing width, set to bounding box width 0.05
+Failed to load road object model file: arrowStraightRight.osgb (arrowStraightRight). Creating a bounding box as stand in.
+Object arrowStraightRight missing length, set to bounding box length 0.05
+Object arrowStraightRight missing width, set to bounding box width 0.05
+Object arrowStraightRight missing height, set to bounding box height 0.05
+Failed to load road object model file: stopLine.osgb (stopLine). Creating a bounding box as stand in.
+Object stopLine missing length, set to bounding box length 0.05
+Object stopLine missing width, set to bounding box width 0.05
+Object stopLine missing height, set to bounding box height 0.05
+Failed to load road object model file: roadMark.osgb (roadMark). Creating a bounding box as stand in.
+Object roadMark missing length, set to bounding box length 0.05
+Object roadMark missing width, set to bounding box width 0.05
+Object roadMark missing height, set to bounding box height 0.05
+Failed to load road object model file: crossWalk.osgb (crossWalk). Creating a bounding box as stand in.
+Object crossWalk missing length, set to bounding box length 0.05
+Object crossWalk missing width, set to bounding box width 0.05
+Object crossWalk missing height, set to bounding box height 0.05
+Failed to load road object model file: roadMark.osgb (roadMark). Creating a bounding box as stand in.
+Object roadMark missing length, set to bounding box length 0.05
+Object roadMark missing width, set to bounding box width 0.05
+Object roadMark missing height, set to bounding box height 0.05
+Failed to load road object model file: roadMark.osgb (roadMark). Creating a bounding box as stand in.
+Object roadMark missing length, set to bounding box length 0.05
+Object roadMark missing width, set to bounding box width 0.05
+Object roadMark missing height, set to bounding box height 0.05
+Failed to load road object model file: crossWalk.osgb (crossWalk). Creating a bounding box as stand in.
+Object crossWalk missing length, set to bounding box length 0.05
+Object crossWalk missing width, set to bounding box width 0.05
+Object crossWalk missing height, set to bounding box height 0.05
+Failed to load road object model file: roadMark.osgb (roadMark). Creating a bounding box as stand in.
+Object roadMark missing length, set to bounding box length 0.05
+Object roadMark missing width, set to bounding box width 0.05
+Object roadMark missing height, set to bounding box height 0.05
+Failed to load road object model file: roadMark.osgb (roadMark). Creating a bounding box as stand in.
+Object roadMark missing length, set to bounding box length 0.05
+Object roadMark missing width, set to bounding box width 0.05
+Object roadMark missing height, set to bounding box height 0.05
+Failed to load road object model file: roadMark.osgb (roadMark). Creating a bounding box as stand in.
+Object roadMark missing length, set to bounding box length 0.05
+Object roadMark missing width, set to bounding box width 0.05
+Object roadMark missing height, set to bounding box height 0.05
+osi_features: lines off points off
+41 cars added
+OpenDrive::GetJunctionConnection target lane not driving! from 1111000, -3 to 3121030, -3
+GetLaneInfoByS: No connecting lane (rid: 3121030 s: 58.24 lane_id -3) matching type mask 0xCD8D3638 - looking for closest valid lane
+GetLaneInfoByS: Moved to -1
+OpenDrive::GetJunctionConnection target lane not driving! from 1308000, -2 to 3121027, -2
+GetLaneInfoByS: No connecting lane (rid: 3121027 s: 51.79 lane_id -2) matching type mask 0xCD8D3638 - looking for closest valid lane
+GetLaneInfoByS: Moved to -1
+GetLaneInfoByS: No connecting lane (rid: 1308000 s: 14.43 lane_id -3) matching type mask 0xCD8D3638 - looking for closest valid lane
+GetLaneInfoByS: Moved to -2
+OpenDrive::GetJunctionConnection target lane not driving! from 1308000, -2 to 3121027, -2
+GetLaneInfoByS: No connecting lane (rid: 3121027 s: 51.79 lane_id -2) matching type mask 0xCD8D3638 - looking for closest valid lane
+GetLaneInfoByS: Moved to -1
+OpenDrive::GetJunctionConnection target lane not driving! from 1308000, -2 to 3121027, -2
+GetLaneInfoByS: No connecting lane (rid: 3121027 s: 51.79 lane_id -2) matching type mask 0xCD8D3638 - looking for closest valid lane
+GetLaneInfoByS: Moved to -1
+GetLaneInfoByS: No connecting lane (rid: 1112000 s: 4.37 lane_id -3) matching type mask 0xCD8D3638 - looking for closest valid lane
+GetLaneInfoByS: Moved to -2
+GetLaneInfoByS: No connecting lane (rid: 1112000 s: 4.21 lane_id -3) matching type mask 0xCD8D3638 - looking for closest valid lane
+GetLaneInfoByS: Moved to -2
+OpenDrive::GetJunctionConnection target lane not driving! from 1111000, -3 to 3121030, -3
+GetLaneInfoByS: No connecting lane (rid: 3121030 s: 58.24 lane_id -3) matching type mask 0xCD8D3638 - looking for closest valid lane
+GetLaneInfoByS: Moved to -1
+GetLaneInfoByS: No connecting lane (rid: 1112000 s: 4.28 lane_id -3) matching type mask 0xCD8D3638 - looking for closest valid lane
+GetLaneInfoByS: Moved to -2
+GetLaneInfoByS: No connecting lane (rid: 1112000 s: 4.26 lane_id -3) matching type mask 0xCD8D3638 - looking for closest valid lane
+GetLaneInfoByS: Moved to -2
+GetLaneInfoByS: No connecting lane (rid: 1112000 s: 4.05 lane_id -3) matching type mask 0xCD8D3638 - looking for closest valid lane
+GetLaneInfoByS: Moved to -2
+OpenDrive::GetJunctionConnection target lane not driving! from 1111000, -3 to 3121030, -3
+GetLaneInfoByS: No connecting lane (rid: 3121030 s: 58.24 lane_id -3) matching type mask 0xCD8D3638 - looking for closest valid lane
+GetLaneInfoByS: Moved to -1
+OpenDrive::GetJunctionConnection target lane not driving! from 1308000, -2 to 3121027, -2
+GetLaneInfoByS: No connecting lane (rid: 3121027 s: 51.79 lane_id -2) matching type mask 0xCD8D3638 - looking for closest valid lane
+GetLaneInfoByS: Moved to -1
+OpenDrive::GetJunctionConnection target lane not driving! from 1111000, -3 to 3121030, -3
+GetLaneInfoByS: No connecting lane (rid: 3121030 s: 58.24 lane_id -3) matching type mask 0xCD8D3638 - looking for closest valid lane
+GetLaneInfoByS: Moved to -1
+GetLaneInfoByS: No connecting lane (rid: 1308000 s: 14.40 lane_id -3) matching type mask 0xCD8D3638 - looking for closest valid lane
+GetLaneInfoByS: Moved to -2
+OpenDrive::GetJunctionConnection target lane not driving! from 1308000, -2 to 3121027, -2
+GetLaneInfoByS: No connecting lane (rid: 3121027 s: 51.79 lane_id -2) matching type mask 0xCD8D3638 - looking for closest valid lane
+GetLaneInfoByS: Moved to -1
