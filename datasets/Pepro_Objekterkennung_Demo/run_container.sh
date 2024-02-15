@@ -1,0 +1,1 @@
+docker run -it objekterkennung-app /bin/bash
