@@ -26,14 +26,14 @@ train_datagen = tf.keras.preprocessing.image.ImageDataGenerator(rescale=1./255)
 train_generator = train_datagen.flow_from_directory(
         os.path.join(dataset_path, 'training'),
         target_size=(1280, 720),
-        batch_size=20,
+        batch_size=2,
         class_mode='binary')
 
 test_datagen = tf.keras.preprocessing.image.ImageDataGenerator(rescale=1./255)
 validation_generator = test_datagen.flow_from_directory(
         os.path.join(dataset_path, 'validation'),
         target_size=(1280, 720),
-        batch_size=20,
+        batch_size=2,
         class_mode='binary')
 
 # Modell trainieren
