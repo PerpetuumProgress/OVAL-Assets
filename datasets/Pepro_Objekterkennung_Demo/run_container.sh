@@ -1,1 +1,0 @@
-docker run -it -v ./train_and_predict.py:/app/train_and_predict.py -v ./data:/app/data objekterkennung-app /bin/bash
