@@ -1,4 +1,3 @@
-
 import sys
 import torch
 import torchvision
@@ -15,6 +14,7 @@ if len(sys.argv) < 2:
     sys.exit(1)
 
 local_data_path = sys.argv[1]
+print ("local_data_path:", local_data_path)
 
 # Transformationsdefinition für die Daten
 transform = transforms.Compose([
