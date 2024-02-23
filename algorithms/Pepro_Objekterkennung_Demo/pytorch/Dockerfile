@@ -10,6 +10,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Anwendungscode kopieren
 # COPY . /app/
+COPY ./entrypoint.sh /app/
 # COPY ./train_and_predict.py /app/
 
 # Standardbefehl definieren
