@@ -7,6 +7,6 @@ echo $(dirname $(find /data/inputs/ -type d -name "cifar-10-batches-py"))
 
 echo $ALGO
 
-python $ALGO $(dirname $(find /data/inputs/ -type d -name "cifar-10-batches-py"))
+python /data/transformations/algorithm/train_and_predict.py $(dirname $(find /data/inputs/ -type d -name "cifar-10-batches-py"))
 
 
