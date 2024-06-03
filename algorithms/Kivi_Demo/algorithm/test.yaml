@@ -1,0 +1,14 @@
+names:
+- Car
+- Truck
+- Bus
+- Trailer
+- Pedestrian
+- Cyclist
+- Motorist
+- Ebike
+- Unkonwn1
+- Unkonwn2
+nc: 10
+train: /something_here
+val: /usr/src/custom_data/images # images path
