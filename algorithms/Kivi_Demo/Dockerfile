@@ -5,14 +5,22 @@
 # Start FROM PyTorch image https://hub.docker.com/r/pytorch/pytorch or nvcr.io/nvidia/pytorch:23.03-py3
 FROM ultralytics/yolov5:latest
 
-COPY ./entrypoint.sh /.
+# Copy entrypoint.sh to the root directory
+COPY ./entrypoint.sh /usr/src/app/entrypoint.sh
+
+# Copy additional files
 COPY ./algorithm/trained_network.pt /usr/src/app
 COPY ./algorithm/test.yaml /usr/src/app/data
+COPY ./algorithm/val.py /usr/src/app
 
 RUN mkdir -p /usr/src/app/dataset && mkdir -p /usr/src/custom_data
 #COPY ./data /usr/src/app/dataset
 
-CMD ["entrypoint.sh"]
+# Set the working directory
+WORKDIR /usr/src/app
+
+# Set the entry point
+CMD ["./entrypoint.sh"]
 
 # Usage Examples -------------------------------------------------------------------------------------------------------
 
