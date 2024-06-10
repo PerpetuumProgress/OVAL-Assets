@@ -1,0 +1,11 @@
+Class, Images, Instances, P, R, mAP50, mAP50-95
+                   all        150       1549      0.936      0.919      0.961      0.802
+                   Car        150       1273      0.997      0.919      0.977      0.828
+                 Truck        150         19      0.879      0.947      0.879      0.784
+                   Bus        150         24      0.991          1      0.995      0.947
+               Trailer        150          1      0.795          1      0.995      0.995
+            Pedestrian        150        102      0.978      0.863      0.966      0.667
+               Cyclist        150        110      0.981      0.919      0.988       0.75
+              Motorist        150          9      0.969      0.889      0.968      0.801
+                 EBike        150         11      0.894      0.818      0.916      0.643
+Speed: 0.3ms pre-process, 149.1ms inference, 0.5ms NMS per image at shape (1, 3, 640, 640)

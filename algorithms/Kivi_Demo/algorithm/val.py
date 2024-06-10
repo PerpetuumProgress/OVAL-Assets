@@ -308,6 +308,8 @@ def run(
     if nt.sum() == 0:
         LOGGER.warning(f"WARNING ⚠️ no labels found in {task} set, can not compute metrics without labels")
 
+    #print("workers: ", workers)
+    #print("batch size: ", batch_size)
     with open(save_dir / 'mAP_values.txt', 'w') as f:
         line1 = "Class, Images, Instances, P, R, mAP50, mAP50-95"
         f.write("%s\n" % line1)
@@ -402,6 +404,8 @@ def parse_opt():
     opt.data = check_yaml(opt.data)  # check YAML
     opt.save_json |= opt.data.endswith("coco.yaml")
     opt.save_txt |= opt.save_hybrid
+    opt.batch_size = 1
+    opt.workers = 1
     print_args(vars(opt))
     return opt
 
