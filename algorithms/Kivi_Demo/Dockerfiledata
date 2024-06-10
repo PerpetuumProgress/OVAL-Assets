@@ -14,7 +14,7 @@ COPY ./algorithm/test.yaml /usr/src/app/data
 COPY ./algorithm/val.py /usr/src/app
 
 RUN mkdir -p /usr/src/app/dataset && mkdir -p /usr/src/custom_data
-COPY ./data /usr/src/app/dataset
+COPY ./data /usr/src/custom_data
 
 # Set the working directory
 WORKDIR /usr/src/app
